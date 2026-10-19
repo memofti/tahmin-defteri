@@ -1,0 +1,29 @@
+#  TAHMİN DEFTERİ — API SONDASI
+#
+#  Elle çalıştırılır: GitHub → repo → Actions → "API Sondası" → "Run workflow".
+#  Zamanlanmış DEĞİL; sadece sen başlatınca çalışır, kota yemez.
+#
+#  Ne yapar: API-Football'a dört soru sorar (Süper Lig var mı, fikstür geliyor
+#  mu, oran geliyor mu, kota ne) ve cevabı logda raporlar. Hiçbir şey yazmaz.
+
+name: API Sondası
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu al
+        uses: actions/checkout@v4
+
+      - name: Node kur
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sondayı çalıştır
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: node src/sonda.js
