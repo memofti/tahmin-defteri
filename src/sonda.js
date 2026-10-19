@@ -1,199 +1,169 @@
 /* ============================================================================
-   TAHMİN DEFTERİ — SONDA 2
+   TAHMİN DEFTERİ — SONDA 3: KAZIMA YOLU
    ----------------------------------------------------------------------------
-   SONDA 1 NE ÖĞRETTİ (19 Ekim 2026, memofti/tahmin-defteri koşu #1):
-     · API-Football Süper Lig'i TANIYOR (id 203, aktif sezon 2026) — kapsam iyi.
-     · AMA ücretsiz plan şunu dedi:
-         "Free plans do not have access to this season, try from 2022 to 2024."
-       Yani İÇİNDE BULUNDUĞUMUZ SEZON KAPALI. Fikstür yok, skor yok, oran yok.
-     · Sonuç: API-Football ücretsiz katmanı bu iş için KULLANILAMAZ.
+   ÖNCEKİ SONDALAR NE ÖĞRETTİ:
+     1) API-Football ücretsiz → güncel sezon KAPALI.
+     2) TheSportsDB ücretsiz → veri KIRPIK (15 maç, 5 takım) ve BAYAT (23 Ağustos).
+     → Ücretsiz API yolu kapandı. Ücretli istemiyoruz.
 
-   SONDA 2 NE SORUYOR — iki ayrı sağlayıcı, iki ayrı iş:
-     A) TheSportsDB  → fikstür + skor + puan durumu (GÜNCEL sezon geliyor mu?)
-     B) The Odds API → oran (Türkiye ligi var mı, hangi pazarlar, kota ne?)
+   BU SONDANIN SORUSU:
+     GitHub Actions runner'ı, beş günde elle çalıştığını gördüğümüz kaynaklara
+     ERİŞEBİLİYOR MU? Benim konteynerim erişemiyor (proxy), artifact sayfası
+     hiçbir yere erişemiyor (CSP) — ama runner serbest olabilir.
 
-   Hiçbir şey yazmaz, sadece okur ve rapor eder.
-   ÖNEMLİ: bu kod da çalıştırılmadan yazıldı — konteyner API'lere kapalı.
+   NEDEN ÖNEMLİ: cevap evetse, kazımayı güvenilir bir çalıştırıcıya taşıyıp
+   API'siz, anahtarsız, ücretsiz bir altyapı kurabiliriz. Hayırsa bu yol da
+   kapanır ve bunu KURMADAN önce bilmiş oluruz.
+
+   İKİ ŞEYE BİRDEN BAKIYOR:
+     · ERİŞİM  — sayfa açılıyor mu, yoksa 403/Cloudflare mi?
+     · TAZELİK — sayfada BUGÜNÜN izi var mı? (betshoot 16 Ekim'de dünkü
+                 programı sunmuştu; erişim yetmez, taze olmalı)
+
+   Hiçbir şey yazmaz. Sadece okur ve rapor eder.
    ========================================================================== */
 
 "use strict";
 
-/* TheSportsDB ücretsiz test anahtarı.
-   19 Ekim koşu #2 dersi: eski "3" anahtarı KALICI OLARAK KAPATILMIŞ, sunucu
-   HTTP 403 ile şunu döndürdü: "The old '3' Free Sports API key is permanently
-   disabled, Please use the new test key \"123\"". Yenisi aşağıda. */
-const TSDB_KEY = process.env.TSDB_KEY || "123";
-const TSDB = `https://www.thesportsdb.com/api/v1/json/${TSDB_KEY}`;
-const SUPER_LIG = 4339;            /* thesportsdb.com/season/4339-turkish-super-lig */
+const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+           "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
 
-/* The Odds API: ücretsiz 500 kredi/ay, anahtar şart. Yoksa B bölümü atlanır. */
-const ODDS_KEY = process.env.ODDS_KEY || "";
-
-const rapor = {};
-let istek = 0;
-
-async function al(url, baslik) {
-  istek++;
-  let r;
-  try { r = await fetch(url); }
-  catch (e) { console.log(`    x AĞ HATASI: ${e.message}`); return { hata: e.message }; }
-
-  const kalan = r.headers.get("x-requests-remaining");
-  const kullanilan = r.headers.get("x-requests-used");
-
-  let j = null, metin = "";
-  try { metin = await r.text(); j = JSON.parse(metin); }
-  catch (e) { console.log(`    x JSON değil (HTTP ${r.status}): ${metin.slice(0, 120)}`); return { hata: "json", kod: r.status }; }
-
-  console.log(`    ✓ ${baslik}  (HTTP ${r.status})` +
-    (kalan ? `  · kalan kredi ${kalan}` : ""));
-  return { ok: r.ok, j, kalan, kullanilan, kod: r.status };
+function bugunParcalari() {
+  const d = new Date();
+  const yil = d.getUTCFullYear();
+  const ay = String(d.getUTCMonth() + 1).padStart(2, "0");
+  const gun = String(d.getUTCDate()).padStart(2, "0");
+  const aylar = ["January","February","March","April","May","June",
+                 "July","August","September","October","November","December"];
+  return {
+    iso: `${yil}-${ay}-${gun}`,
+    ayAdi: aylar[d.getUTCMonth()],
+    gunSayi: String(d.getUTCDate()),
+    kisa: `${gun}/${ay}`,
+    kisaTers: `${gun}-${ay}`
+  };
 }
+const B = bugunParcalari();
 
-function gun(ofset) {
-  const d = new Date(Date.now() + ofset * 86400000);
-  return d.toISOString().slice(0, 10);
+/* Her kaynak için: ne işe yarıyor, adresi, ve "taze mi" diye bakılacak izler */
+const KAYNAKLAR = [
+  {
+    ad: "OLBG (kalabalık · İngiltere)",
+    is: "tahminci görüşleri — 1X2 + alt/üst + KG",
+    url: "https://www.olbg.com/betting-tips/Football/1",
+    izler: ["Win Tips", "Tips"],
+    tazelik: ["Today", "today"]
+  },
+  {
+    ad: "OLBG (kalabalık · ABD)",
+    is: "aynı veri, farklı liste — daha zengin çıkıyor",
+    url: "https://www.olbg.com/us/betting-picks/Soccer/1",
+    izler: ["Tips", "Full Time Result"],
+    tazelik: ["Today", "today"]
+  },
+  {
+    ad: "betshoot (toplu oran + fikstür)",
+    is: "günün tüm maçları, 1X2 + alt/üst, tek bahisçi",
+    url: "https://www.betshoot.com/football/",
+    izler: ["odds", "Odds"],
+    tazelik: [B.ayAdi + " " + B.gunSayi, B.gunSayi + " " + B.ayAdi]
+  },
+  {
+    ad: "soccerbase (günlük sonuçlar)",
+    is: "skor kapatma — 17 Ekim'de dört maçı doğru verdi",
+    url: `https://www.soccerbase.com/matches/results.sd?date=${B.iso}`,
+    izler: ["Championship", "matches", "Match"],
+    tazelik: [B.iso, B.gunSayi]
+  },
+  {
+    ad: "tntsports (lig tablosu)",
+    is: "motor girdisi — oynanan / attığı / yediği",
+    url: "https://www.tntsports.co.uk/football/2.-bundesliga/2026-2027/standings.shtml",
+    izler: ["standings", "Standings", "Pts", "Hertha"],
+    tazelik: []   /* tablo her gün değişmez, tazelik aranmaz */
+  }
+];
+
+async function dene(k) {
+  const t0 = Date.now();
+  let r, metin = "";
+  try {
+    r = await fetch(k.url, {
+      headers: {
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-GB,en;q=0.9,tr;q=0.8"
+      },
+      redirect: "follow"
+    });
+    metin = await r.text();
+  } catch (e) {
+    return { erisim: "AĞ HATASI", detay: e.message, ms: Date.now() - t0 };
+  }
+  const ms = Date.now() - t0;
+
+  if (!r.ok) {
+    const ipucu = /cloudflare|just a moment|attention required/i.test(metin)
+      ? " (Cloudflare bot koruması)" : "";
+    return { erisim: `HTTP ${r.status}${ipucu}`, ms, boy: metin.length };
+  }
+
+  /* Bot duvarı 200 ile de gelebiliyor — içeriğe bak */
+  if (/just a moment|enable javascript and cookies|attention required/i.test(metin)) {
+    return { erisim: "ENGELLENDİ (bot duvarı, HTTP 200 ama içerik yok)", ms, boy: metin.length };
+  }
+
+  const izVar = k.izler.some((i) => metin.includes(i));
+  const tazeVar = k.tazelik.length === 0 ? null : k.tazelik.some((i) => metin.includes(i));
+
+  return {
+    erisim: "AÇILDI",
+    ms, boy: metin.length,
+    icerik: izVar ? "beklenen içerik VAR" : "içerik tanınmadı (yapı değişmiş olabilir)",
+    taze: tazeVar === null ? "—" : (tazeVar ? "BUGÜNÜN izi var" : "BUGÜNÜN izi YOK (bayat olabilir)")
+  };
 }
 
 (async () => {
-  console.log("============== SONDA 2 ==============");
-  console.log("zaman:", new Date().toISOString(), "(UTC)\n");
+  console.log("============== SONDA 3 · KAZIMA YOLU ==============");
+  console.log("zaman:", new Date().toISOString(), "(UTC)");
+  console.log("bugün aranan izler:", B.iso, "/", B.ayAdi, B.gunSayi, "\n");
 
-  /* ========== A) THESPORTSDB — FİKSTÜR / SKOR / TABLO ========== */
-  console.log("A) THESPORTSDB  (anahtar: " + (process.env.TSDB_KEY ? "kendi anahtarın" : "ücretsiz test anahtarı 3") + ")");
-
-  console.log("  A1) lig tanınıyor mu?");
-  const lig = await al(`${TSDB}/lookupleague.php?id=${SUPER_LIG}`, "lookupleague");
-  let sezon = null;
-  if (lig.ok && lig.j && lig.j.leagues && lig.j.leagues[0]) {
-    const L = lig.j.leagues[0];
-    console.log(`      ${L.strLeague}  ·  ülke: ${L.strCountry}  ·  güncel sezon: ${L.strCurrentSeason}`);
-    sezon = L.strCurrentSeason;
-    rapor.tsdbLig = `VAR — ${L.strLeague}, güncel sezon ${L.strCurrentSeason}`;
-  } else {
-    rapor.tsdbLig = "YOK veya erişilemedi";
-    console.log("      lig bulunamadı");
+  const sonuc = [];
+  for (const k of KAYNAKLAR) {
+    console.log(`→ ${k.ad}`);
+    console.log(`  iş: ${k.is}`);
+    const s = await dene(k);
+    console.log(`  erişim : ${s.erisim}  (${s.ms} ms${s.boy ? ", " + Math.round(s.boy / 1024) + " KB" : ""})`);
+    if (s.detay) console.log(`  detay  : ${s.detay}`);
+    if (s.icerik) console.log(`  içerik : ${s.icerik}`);
+    if (s.taze) console.log(`  tazelik: ${s.taze}`);
+    console.log("");
+    sonuc.push({ ad: k.ad, ...s });
   }
 
-  console.log("  A2) GÜNCEL SEZON maçları geliyor mu?  (asıl soru bu)");
-  if (sezon) {
-    const ev = await al(`${TSDB}/eventsseason.php?id=${SUPER_LIG}&s=${sezon}`, "eventsseason");
-    const liste = ev.ok && ev.j && ev.j.events;
-    if (liste && liste.length) {
-      console.log(`      ${liste.length} maç geldi.`);
-      const oynanmis = liste.filter((e) => e.intHomeScore !== null && e.intHomeScore !== "");
-      const gelecek = liste.filter((e) => e.intHomeScore === null || e.intHomeScore === "");
-      console.log(`      oynanmış (skorlu): ${oynanmis.length}  ·  gelecek: ${gelecek.length}`);
-      if (oynanmis.length) {
-        const s = oynanmis[oynanmis.length - 1];
-        console.log(`      son skor örneği: ${s.dateEvent}  ${s.strHomeTeam} ${s.intHomeScore}-${s.intAwayScore} ${s.strAwayTeam}`);
-      }
-      if (gelecek.length) {
-        const g = gelecek[0];
-        console.log(`      sıradaki maç : ${g.dateEvent} ${g.strTime || "?"} UTC  ${g.strHomeTeam} - ${g.strAwayTeam}`);
-      }
-      rapor.tsdbMac = `VAR — ${liste.length} maç (${oynanmis.length} skorlu, ${gelecek.length} gelecek)`;
-    } else {
-      rapor.tsdbMac = "BOŞ — güncel sezon maçları gelmedi";
-      console.log("      maç listesi boş");
-    }
-  } else { rapor.tsdbMac = "ATLANDI (sezon bilinmiyor)"; }
-
-  console.log("  A3) bugünün maçları (gün bazlı sorgu çalışıyor mu?)");
-  const bugun = await al(`${TSDB}/eventsday.php?d=${gun(0)}&s=Soccer`, "eventsday");
-  if (bugun.ok && bugun.j && bugun.j.events) {
-    const hepsi = bugun.j.events;
-    const tr = hepsi.filter((e) => /super lig|süper lig/i.test(e.strLeague || ""));
-    console.log(`      bugün toplam ${hepsi.length} futbol maçı · Süper Lig: ${tr.length}`);
-    tr.slice(0, 5).forEach((e) => console.log(`        · ${e.strTime || "?"} UTC  ${e.strHomeTeam} - ${e.strAwayTeam}`));
-    rapor.tsdbGun = `VAR — gün sorgusu ${hepsi.length} maç döndürdü`;
-  } else {
-    rapor.tsdbGun = "BOŞ veya kapalı (bu uç ücretli olabilir)";
-    console.log("      gün sorgusu boş döndü");
-  }
-
-  console.log("  A4) puan durumu (motor için gerekli: n / attığı / yediği)");
-  if (sezon) {
-    const tb = await al(`${TSDB}/lookuptable.php?l=${SUPER_LIG}&s=${sezon}`, "lookuptable");
-    const t = tb.ok && tb.j && (tb.j.table || tb.j.nothing);
-    if (Array.isArray(t) && t.length) {
-      const x = t[0];
-      console.log(`      ${t.length} takım · örnek: ${x.strTeam} — O:${x.intPlayed} A:${x.intGoalsFor} Y:${x.intGoalsAgainst}`);
-      rapor.tsdbTablo = `VAR — ${t.length} takım, gol verileri dolu`;
-    } else {
-      rapor.tsdbTablo = "BOŞ veya kapalı";
-      console.log("      tablo gelmedi");
-    }
-  } else { rapor.tsdbTablo = "ATLANDI"; }
-  console.log("");
-
-  /* ========== B) THE ODDS API — ORAN ========== */
-  console.log("B) THE ODDS API  (oran)");
-  if (!ODDS_KEY) {
-    rapor.oran = "ATLANDI — ODDS_KEY secret'ı yok";
-    console.log("  atlandı: ODDS_KEY tanımlı değil.");
-    console.log("  (the-odds-api.com'dan ücretsiz anahtar al, repoya ODDS_KEY secret'ı ekle,");
-    console.log("   sondayı tekrar çalıştır. Kart istemiyor, 500 kredi/ay.)");
-  } else {
-    console.log("  B1) hangi futbol ligleri var? Türkiye aranıyor");
-    const sp = await al(`https://api.the-odds-api.com/v4/sports/?apiKey=${ODDS_KEY}`, "sports");
-    let trAnahtar = null;
-    if (sp.ok && Array.isArray(sp.j)) {
-      const futbol = sp.j.filter((s) => String(s.key).startsWith("soccer"));
-      console.log(`      ${sp.j.length} spor · ${futbol.length} futbol ligi`);
-      const tr = futbol.filter((s) => /turkey|turkish|super.?lig/i.test(s.key + " " + s.title));
-      if (tr.length) {
-        tr.forEach((s) => console.log(`        · ${s.key}  —  ${s.title}  (aktif: ${s.active})`));
-        trAnahtar = tr[0].key;
-      } else {
-        console.log("        Türkiye ligi BULUNAMADI. Mevcut futbol ligleri (ilk 15):");
-        futbol.slice(0, 15).forEach((s) => console.log(`        · ${s.key}`));
-      }
-      rapor.oranLig = trAnahtar ? `VAR — ${trAnahtar}` : "YOK — Türkiye ligi listede değil";
-    } else { rapor.oranLig = "sorgulanamadı"; }
-
-    if (trAnahtar) {
-      console.log("  B2) oran geliyor mu, hangi pazarlar?");
-      const od = await al(
-        `https://api.the-odds-api.com/v4/sports/${trAnahtar}/odds/?apiKey=${ODDS_KEY}&regions=eu&markets=h2h,totals&oddsFormat=decimal`,
-        "odds");
-      if (od.ok && Array.isArray(od.j) && od.j.length) {
-        const m = od.j[0];
-        console.log(`      ${od.j.length} maç · örnek: ${m.home_team} - ${m.away_team}  (${m.commence_time})`);
-        const bk = m.bookmakers || [];
-        console.log(`      ${bk.length} bahisçi`);
-        if (bk[0]) {
-          console.log(`      örnek bahisçi: ${bk[0].title}`);
-          (bk[0].markets || []).forEach((mk) => {
-            console.log(`        · ${mk.key}: ` +
-              (mk.outcomes || []).map((o) => `${o.name}=${o.price}`).join("  "));
-          });
-        }
-        rapor.oran = `VAR — ${od.j.length} maç, ${bk.length} bahisçi` +
-          (od.kalan ? ` · kalan kredi ${od.kalan}` : "");
-      } else {
-        rapor.oran = "BOŞ — lig var ama oran dönmedi (sezon dışı olabilir)";
-        console.log("      oran listesi boş");
-      }
-    } else if (ODDS_KEY) {
-      rapor.oran = "ATLANDI — Türkiye ligi yok";
-    }
-  }
-  console.log("");
-
-  /* ========== ÖZET ========== */
   console.log("================== ÖZET ==================");
-  Object.entries(rapor).forEach(([k, v]) => console.log(`  ${k.padEnd(11)}: ${v}`));
-  console.log(`\n  toplam istek: ${istek}`);
-
-  const macVar = String(rapor.tsdbMac || "").startsWith("VAR");
-  const tabloVar = String(rapor.tsdbTablo || "").startsWith("VAR");
-  const oranVar = String(rapor.oran || "").startsWith("VAR");
-
+  let acik = 0, engelli = 0;
+  sonuc.forEach((s) => {
+    const iyi = s.erisim === "AÇILDI";
+    if (iyi) acik++; else engelli++;
+    console.log(`  ${iyi ? "✓" : "✗"} ${s.ad.padEnd(34)} ${s.erisim}` +
+      (s.taze && s.taze !== "—" ? `  · ${s.taze}` : ""));
+  });
+  console.log(`\n  açılan: ${acik} / ${sonuc.length}`);
   console.log("");
-  console.log("  FİKSTÜR+SKOR : " + (macVar ? "ÇÖZÜLDÜ (TheSportsDB)" : "ÇÖZÜLMEDİ"));
-  console.log("  PUAN DURUMU  : " + (tabloVar ? "ÇÖZÜLDÜ (motor çalışabilir)" : "ÇÖZÜLMEDİ"));
-  console.log("  ORAN         : " + (oranVar ? "ÇÖZÜLDÜ (The Odds API)" :
-    (ODDS_KEY ? "ÇÖZÜLMEDİ" : "HENÜZ DENENMEDİ — ODDS_KEY gerekiyor")));
+
+  if (acik === sonuc.length) {
+    console.log("  >>> KAZIMA YOLU AÇIK. Runner bütün kaynaklara erişiyor.");
+    console.log("      Kurulum bu yoldan yapılabilir: Actions kazır, repoya JSON yazar,");
+    console.log("      GitHub Pages sayfası kendi verisini okur (aynı origin).");
+  } else if (acik === 0) {
+    console.log("  >>> KAZIMA YOLU KAPALI. Runner hiçbir kaynağa erişemiyor.");
+    console.log("      Bu yol da elenir; geriye artifact içinde kalmak kalır.");
+  } else {
+    console.log("  >>> KISMİ. Yukarıda ✗ olanlara bak — o işler için yedek kaynak gerekir.");
+    console.log("      Hangi işin kaynaksız kaldığı önemli: kalabalık ve oran kritik,");
+    console.log("      skor için alternatif çok.");
+  }
   console.log("==========================================");
 })();
