@@ -18,8 +18,11 @@
 
 "use strict";
 
-/* TheSportsDB: ücretsiz test anahtarı "3". Kendi anahtarın varsa secret ekle. */
-const TSDB_KEY = process.env.TSDB_KEY || "3";
+/* TheSportsDB ücretsiz test anahtarı.
+   19 Ekim koşu #2 dersi: eski "3" anahtarı KALICI OLARAK KAPATILMIŞ, sunucu
+   HTTP 403 ile şunu döndürdü: "The old '3' Free Sports API key is permanently
+   disabled, Please use the new test key \"123\"". Yenisi aşağıda. */
+const TSDB_KEY = process.env.TSDB_KEY || "123";
 const TSDB = `https://www.thesportsdb.com/api/v1/json/${TSDB_KEY}`;
 const SUPER_LIG = 4339;            /* thesportsdb.com/season/4339-turkish-super-lig */
 
