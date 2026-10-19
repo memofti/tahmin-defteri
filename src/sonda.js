@@ -1,188 +1,196 @@
 /* ============================================================================
-   TAHMİN DEFTERİ — API SONDASI
+   TAHMİN DEFTERİ — SONDA 2
    ----------------------------------------------------------------------------
-   Amaç: tek çalıştırmada şu dört soruyu CEVAPLAMAK, tahmin etmemek:
+   SONDA 1 NE ÖĞRETTİ (19 Ekim 2026, memofti/tahmin-defteri koşu #1):
+     · API-Football Süper Lig'i TANIYOR (id 203, aktif sezon 2026) — kapsam iyi.
+     · AMA ücretsiz plan şunu dedi:
+         "Free plans do not have access to this season, try from 2022 to 2024."
+       Yani İÇİNDE BULUNDUĞUMUZ SEZON KAPALI. Fikstür yok, skor yok, oran yok.
+     · Sonuç: API-Football ücretsiz katmanı bu iş için KULLANILAMAZ.
 
-     1. API-Football Süper Lig'i veriyor mu?  (lig id'si ve aktif sezon)
-     2. Fikstür geliyor mu, ve saatler ne biçimde? (TSİ'ye çevrilebiliyor mu)
-     3. ORAN geliyor mu? (ücretsiz katmanda /odds açık mı)
-     4. Günlük kota gerçekten 100 mü, ve bir tarama kaç istek yiyor?
+   SONDA 2 NE SORUYOR — iki ayrı sağlayıcı, iki ayrı iş:
+     A) TheSportsDB  → fikstür + skor + puan durumu (GÜNCEL sezon geliyor mu?)
+     B) The Odds API → oran (Türkiye ligi var mı, hangi pazarlar, kota ne?)
 
-   Bu betik HİÇBİR ŞEY YAZMAZ, sadece okur ve rapor eder. Güvenli.
-
-   ÖNEMLİ DÜRÜSTLÜK NOTU: bu kod hiç çalıştırılmadan yazıldı. Claude'un
-   çalıştığı konteyner bütün API sunucularına kapalı (altı aday da denendi,
-   altısı da proxy tarafından engellendi). Yani ilk gerçek test BU koşu.
-   Bu yüzden betik savunmacı yazıldı: her adım ayrı ayrı raporlanır, biri
-   patlarsa diğerleri yine de çalışır ve log tanı koymaya yeter.
+   Hiçbir şey yazmaz, sadece okur ve rapor eder.
+   ÖNEMLİ: bu kod da çalıştırılmadan yazıldı — konteyner API'lere kapalı.
    ========================================================================== */
 
 "use strict";
 
-const TABAN = "https://v3.football.api-sports.io";
-const ANAHTAR = process.env.API_KEY;
+/* TheSportsDB: ücretsiz test anahtarı "3". Kendi anahtarın varsa secret ekle. */
+const TSDB_KEY = process.env.TSDB_KEY || "3";
+const TSDB = `https://www.thesportsdb.com/api/v1/json/${TSDB_KEY}`;
+const SUPER_LIG = 4339;            /* thesportsdb.com/season/4339-turkish-super-lig */
 
-if (!ANAHTAR) {
-  console.error("HATA: API_KEY secret'ı tanımlı değil.");
-  console.error("GitHub → repo → Settings → Secrets and variables → Actions →");
-  console.error("New repository secret → isim: API_KEY, değer: api-football anahtarın");
-  process.exit(1);
-}
+/* The Odds API: ücretsiz 500 kredi/ay, anahtar şart. Yoksa B bölümü atlanır. */
+const ODDS_KEY = process.env.ODDS_KEY || "";
 
-let istekSayisi = 0;
-const kotaIzi = [];
+const rapor = {};
+let istek = 0;
 
-async function cagir(yol) {
-  istekSayisi++;
-  const url = TABAN + yol;
-  const t0 = Date.now();
+async function al(url, baslik) {
+  istek++;
   let r;
-  try {
-    r = await fetch(url, { headers: { "x-apisports-key": ANAHTAR } });
-  } catch (e) {
-    console.log(`  ✗ AĞ HATASI (${yol}): ${e.message}`);
-    return { hata: e.message };
-  }
-  const ms = Date.now() - t0;
+  try { r = await fetch(url); }
+  catch (e) { console.log(`    x AĞ HATASI: ${e.message}`); return { hata: e.message }; }
 
-  /* Kota başlıkları — kaç istek kaldığını SÖYLÜYORLAR, tahmin etmeye gerek yok */
-  const kalanGun = r.headers.get("x-ratelimit-requests-remaining");
-  const limitGun = r.headers.get("x-ratelimit-requests-limit");
-  const kalanDk = r.headers.get("x-ratelimit-remaining");
-  kotaIzi.push({ yol, kalanGun, limitGun, kalanDk });
+  const kalan = r.headers.get("x-requests-remaining");
+  const kullanilan = r.headers.get("x-requests-used");
 
-  let j;
-  try { j = await r.json(); }
-  catch (e) { console.log(`  ✗ JSON okunamadı (${yol}): ${e.message}`); return { hata: "json" }; }
+  let j = null, metin = "";
+  try { metin = await r.text(); j = JSON.parse(metin); }
+  catch (e) { console.log(`    x JSON değil (HTTP ${r.status}): ${metin.slice(0, 120)}`); return { hata: "json", kod: r.status }; }
 
-  /* API-Football hatalari HTTP 200 ile de gelebiliyor, `errors` alanina bak */
-  const hatalar = j && j.errors;
-  const hataVar = hatalar && (Array.isArray(hatalar) ? hatalar.length : Object.keys(hatalar).length);
-  if (hataVar) {
-    console.log(`  ✗ API HATASI (${yol}): ${JSON.stringify(hatalar)}`);
-    return { hata: hatalar, ham: j };
-  }
-
-  console.log(`  ✓ ${yol}  (${ms} ms · HTTP ${r.status} · sonuç ${j.results})`);
-  return { ok: true, veri: j.response || [], ham: j };
+  console.log(`    ✓ ${baslik}  (HTTP ${r.status})` +
+    (kalan ? `  · kalan kredi ${kalan}` : ""));
+  return { ok: r.ok, j, kalan, kullanilan, kod: r.status };
 }
 
-function tsi(isoVeyaTs) {
-  /* API-Football her fikstürde `timestamp` (saniye, UTC) veriyor.
-     TSİ sabit UTC+3, yaz saati yok — çevirisi tek satır ve hatasız. */
-  const d = new Date((typeof isoVeyaTs === "number" ? isoVeyaTs * 1000 : Date.parse(isoVeyaTs)));
-  const t = new Date(d.getTime() + 3 * 3600 * 1000);
-  const p = (n) => String(n).padStart(2, "0");
-  return `${p(t.getUTCDate())}.${p(t.getUTCMonth() + 1)} ${p(t.getUTCHours())}:${p(t.getUTCMinutes())} TSİ`;
+function gun(ofset) {
+  const d = new Date(Date.now() + ofset * 86400000);
+  return d.toISOString().slice(0, 10);
 }
 
 (async () => {
-  console.log("================ TAHMİN DEFTERİ · API SONDASI ================");
-  console.log("zaman:", new Date().toISOString(), "(UTC)");
-  console.log("");
+  console.log("============== SONDA 2 ==============");
+  console.log("zaman:", new Date().toISOString(), "(UTC)\n");
 
-  const rapor = {};
+  /* ========== A) THESPORTSDB — FİKSTÜR / SKOR / TABLO ========== */
+  console.log("A) THESPORTSDB  (anahtar: " + (process.env.TSDB_KEY ? "kendi anahtarın" : "ücretsiz test anahtarı 3") + ")");
 
-  /* ---------- 1. SORU: SÜPER LİG VAR MI? ---------- */
-  console.log("1) SÜPER LİG ARANIYOR  (/leagues?country=Turkey)");
-  const ligler = await cagir("/leagues?country=Turkey");
-  let ligId = null, sezon = null;
+  console.log("  A1) lig tanınıyor mu?");
+  const lig = await al(`${TSDB}/lookupleague.php?id=${SUPER_LIG}`, "lookupleague");
+  let sezon = null;
+  if (lig.ok && lig.j && lig.j.leagues && lig.j.leagues[0]) {
+    const L = lig.j.leagues[0];
+    console.log(`      ${L.strLeague}  ·  ülke: ${L.strCountry}  ·  güncel sezon: ${L.strCurrentSeason}`);
+    sezon = L.strCurrentSeason;
+    rapor.tsdbLig = `VAR — ${L.strLeague}, güncel sezon ${L.strCurrentSeason}`;
+  } else {
+    rapor.tsdbLig = "YOK veya erişilemedi";
+    console.log("      lig bulunamadı");
+  }
 
-  if (ligler.ok) {
-    console.log(`  Türkiye'de ${ligler.veri.length} lig/kupa bulundu:`);
-    ligler.veri.forEach((x) => {
-      const l = x.league, aktif = (x.seasons || []).find((s) => s.current);
-      console.log(`    · ${String(l.id).padEnd(6)} ${l.name}  (${l.type})` +
-        (aktif ? `  → aktif sezon ${aktif.year}` : "  → aktif sezon YOK"));
-      const ad = (l.name || "").toLowerCase();
-      if (!ligId && (ad.includes("süper") || ad.includes("super")) && l.type === "League") {
-        ligId = l.id; sezon = aktif ? aktif.year : null;
+  console.log("  A2) GÜNCEL SEZON maçları geliyor mu?  (asıl soru bu)");
+  if (sezon) {
+    const ev = await al(`${TSDB}/eventsseason.php?id=${SUPER_LIG}&s=${sezon}`, "eventsseason");
+    const liste = ev.ok && ev.j && ev.j.events;
+    if (liste && liste.length) {
+      console.log(`      ${liste.length} maç geldi.`);
+      const oynanmis = liste.filter((e) => e.intHomeScore !== null && e.intHomeScore !== "");
+      const gelecek = liste.filter((e) => e.intHomeScore === null || e.intHomeScore === "");
+      console.log(`      oynanmış (skorlu): ${oynanmis.length}  ·  gelecek: ${gelecek.length}`);
+      if (oynanmis.length) {
+        const s = oynanmis[oynanmis.length - 1];
+        console.log(`      son skor örneği: ${s.dateEvent}  ${s.strHomeTeam} ${s.intHomeScore}-${s.intAwayScore} ${s.strAwayTeam}`);
       }
-    });
-    rapor.superLig = ligId ? `VAR (id ${ligId}, sezon ${sezon})` : "YOK — listede Süper Lig geçmiyor";
-  } else {
-    rapor.superLig = "SORGULANAMADI";
-  }
-  console.log(`  >>> SONUÇ: ${rapor.superLig}`);
-  console.log("");
-
-  /* ---------- 2. SORU: FİKSTÜR VE SAAT ---------- */
-  console.log("2) FİKSTÜR VE SAAT KONTROLÜ");
-  let ornekFikstur = null;
-  if (ligId && sezon) {
-    const fx = await cagir(`/fixtures?league=${ligId}&season=${sezon}&next=5`);
-    if (fx.ok && fx.veri.length) {
-      console.log("  Sıradaki 5 maç (saatler TSİ'ye çevrildi):");
-      fx.veri.forEach((f) => {
-        console.log(`    · ${tsi(f.fixture.timestamp)}  ${f.teams.home.name} – ${f.teams.away.name}`);
-      });
-      ornekFikstur = fx.veri[0].fixture.id;
-      rapor.fikstur = `VAR (${fx.veri.length} maç, timestamp alanı dolu → TSİ çevrimi güvenli)`;
+      if (gelecek.length) {
+        const g = gelecek[0];
+        console.log(`      sıradaki maç : ${g.dateEvent} ${g.strTime || "?"} UTC  ${g.strHomeTeam} - ${g.strAwayTeam}`);
+      }
+      rapor.tsdbMac = `VAR — ${liste.length} maç (${oynanmis.length} skorlu, ${gelecek.length} gelecek)`;
     } else {
-      rapor.fikstur = "BOŞ — lig bulundu ama fikstür gelmedi";
+      rapor.tsdbMac = "BOŞ — güncel sezon maçları gelmedi";
+      console.log("      maç listesi boş");
     }
+  } else { rapor.tsdbMac = "ATLANDI (sezon bilinmiyor)"; }
+
+  console.log("  A3) bugünün maçları (gün bazlı sorgu çalışıyor mu?)");
+  const bugun = await al(`${TSDB}/eventsday.php?d=${gun(0)}&s=Soccer`, "eventsday");
+  if (bugun.ok && bugun.j && bugun.j.events) {
+    const hepsi = bugun.j.events;
+    const tr = hepsi.filter((e) => /super lig|süper lig/i.test(e.strLeague || ""));
+    console.log(`      bugün toplam ${hepsi.length} futbol maçı · Süper Lig: ${tr.length}`);
+    tr.slice(0, 5).forEach((e) => console.log(`        · ${e.strTime || "?"} UTC  ${e.strHomeTeam} - ${e.strAwayTeam}`));
+    rapor.tsdbGun = `VAR — gün sorgusu ${hepsi.length} maç döndürdü`;
   } else {
-    rapor.fikstur = "ATLANDI (lig id'si yok)";
-    console.log("  atlandı — Süper Lig bulunamadı");
+    rapor.tsdbGun = "BOŞ veya kapalı (bu uç ücretli olabilir)";
+    console.log("      gün sorgusu boş döndü");
   }
-  console.log(`  >>> SONUÇ: ${rapor.fikstur}`);
+
+  console.log("  A4) puan durumu (motor için gerekli: n / attığı / yediği)");
+  if (sezon) {
+    const tb = await al(`${TSDB}/lookuptable.php?l=${SUPER_LIG}&s=${sezon}`, "lookuptable");
+    const t = tb.ok && tb.j && (tb.j.table || tb.j.nothing);
+    if (Array.isArray(t) && t.length) {
+      const x = t[0];
+      console.log(`      ${t.length} takım · örnek: ${x.strTeam} — O:${x.intPlayed} A:${x.intGoalsFor} Y:${x.intGoalsAgainst}`);
+      rapor.tsdbTablo = `VAR — ${t.length} takım, gol verileri dolu`;
+    } else {
+      rapor.tsdbTablo = "BOŞ veya kapalı";
+      console.log("      tablo gelmedi");
+    }
+  } else { rapor.tsdbTablo = "ATLANDI"; }
   console.log("");
 
-  /* ---------- 3. SORU: ORAN GELİYOR MU? ---------- */
-  console.log("3) ORAN KONTROLÜ  (ücretsiz katmanda /odds açık mı)");
-  if (ornekFikstur) {
-    const od = await cagir(`/odds?fixture=${ornekFikstur}`);
-    if (od.ok && od.veri.length) {
-      const b = od.veri[0].bookmakers || [];
-      console.log(`  ${b.length} bahisçi geldi.`);
-      const ilk = b[0];
-      if (ilk) {
-        console.log(`  örnek bahisçi: ${ilk.name}`);
-        (ilk.bets || []).slice(0, 6).forEach((bet) => {
-          console.log(`    · ${bet.name}: ` +
-            (bet.values || []).slice(0, 4).map((v) => `${v.value}=${v.odd}`).join("  "));
-        });
-        const pazarlar = (ilk.bets || []).map((x) => x.name.toLowerCase());
-        rapor.oran = "VAR — " + b.length + " bahisçi" +
-          (pazarlar.some((p) => p.includes("match winner")) ? " · 1X2 ✓" : " · 1X2 ✗") +
-          (pazarlar.some((p) => p.includes("over/under")) ? " · alt/üst ✓" : " · alt/üst ✗") +
-          (pazarlar.some((p) => p.includes("both teams")) ? " · KG ✓" : " · KG ✗");
+  /* ========== B) THE ODDS API — ORAN ========== */
+  console.log("B) THE ODDS API  (oran)");
+  if (!ODDS_KEY) {
+    rapor.oran = "ATLANDI — ODDS_KEY secret'ı yok";
+    console.log("  atlandı: ODDS_KEY tanımlı değil.");
+    console.log("  (the-odds-api.com'dan ücretsiz anahtar al, repoya ODDS_KEY secret'ı ekle,");
+    console.log("   sondayı tekrar çalıştır. Kart istemiyor, 500 kredi/ay.)");
+  } else {
+    console.log("  B1) hangi futbol ligleri var? Türkiye aranıyor");
+    const sp = await al(`https://api.the-odds-api.com/v4/sports/?apiKey=${ODDS_KEY}`, "sports");
+    let trAnahtar = null;
+    if (sp.ok && Array.isArray(sp.j)) {
+      const futbol = sp.j.filter((s) => String(s.key).startsWith("soccer"));
+      console.log(`      ${sp.j.length} spor · ${futbol.length} futbol ligi`);
+      const tr = futbol.filter((s) => /turkey|turkish|super.?lig/i.test(s.key + " " + s.title));
+      if (tr.length) {
+        tr.forEach((s) => console.log(`        · ${s.key}  —  ${s.title}  (aktif: ${s.active})`));
+        trAnahtar = tr[0].key;
       } else {
-        rapor.oran = "BOŞ — /odds cevap verdi ama bahisçi listesi boş (maç çok ileride olabilir)";
+        console.log("        Türkiye ligi BULUNAMADI. Mevcut futbol ligleri (ilk 15):");
+        futbol.slice(0, 15).forEach((s) => console.log(`        · ${s.key}`));
       }
-    } else {
-      rapor.oran = "BOŞ veya KAPALI — /odds sonuç döndürmedi";
+      rapor.oranLig = trAnahtar ? `VAR — ${trAnahtar}` : "YOK — Türkiye ligi listede değil";
+    } else { rapor.oranLig = "sorgulanamadı"; }
+
+    if (trAnahtar) {
+      console.log("  B2) oran geliyor mu, hangi pazarlar?");
+      const od = await al(
+        `https://api.the-odds-api.com/v4/sports/${trAnahtar}/odds/?apiKey=${ODDS_KEY}&regions=eu&markets=h2h,totals&oddsFormat=decimal`,
+        "odds");
+      if (od.ok && Array.isArray(od.j) && od.j.length) {
+        const m = od.j[0];
+        console.log(`      ${od.j.length} maç · örnek: ${m.home_team} - ${m.away_team}  (${m.commence_time})`);
+        const bk = m.bookmakers || [];
+        console.log(`      ${bk.length} bahisçi`);
+        if (bk[0]) {
+          console.log(`      örnek bahisçi: ${bk[0].title}`);
+          (bk[0].markets || []).forEach((mk) => {
+            console.log(`        · ${mk.key}: ` +
+              (mk.outcomes || []).map((o) => `${o.name}=${o.price}`).join("  "));
+          });
+        }
+        rapor.oran = `VAR — ${od.j.length} maç, ${bk.length} bahisçi` +
+          (od.kalan ? ` · kalan kredi ${od.kalan}` : "");
+      } else {
+        rapor.oran = "BOŞ — lig var ama oran dönmedi (sezon dışı olabilir)";
+        console.log("      oran listesi boş");
+      }
+    } else if (ODDS_KEY) {
+      rapor.oran = "ATLANDI — Türkiye ligi yok";
     }
-  } else {
-    rapor.oran = "ATLANDI (örnek fikstür yok)";
-    console.log("  atlandı");
-  }
-  console.log(`  >>> SONUÇ: ${rapor.oran}`);
-  console.log("");
-
-  /* ---------- 4. SORU: KOTA ---------- */
-  console.log("4) KOTA DURUMU");
-  const son = kotaIzi[kotaIzi.length - 1];
-  if (son && son.limitGun) {
-    console.log(`  günlük limit: ${son.limitGun}`);
-    console.log(`  bu koşudan sonra kalan: ${son.kalanGun}`);
-    console.log(`  dakikalık kalan: ${son.kalanDk}`);
-    rapor.kota = `limit ${son.limitGun}/gün · bu sonda ${istekSayisi} istek harcadı`;
-  } else {
-    rapor.kota = "başlıklar okunamadı";
-    console.log("  kota başlıkları gelmedi");
   }
   console.log("");
 
-  /* ---------- ÖZET ---------- */
-  console.log("======================= ÖZET =======================");
-  Object.entries(rapor).forEach(([k, v]) => console.log(`  ${k.padEnd(12)}: ${v}`));
+  /* ========== ÖZET ========== */
+  console.log("================== ÖZET ==================");
+  Object.entries(rapor).forEach(([k, v]) => console.log(`  ${k.padEnd(11)}: ${v}`));
+  console.log(`\n  toplam istek: ${istek}`);
+
+  const macVar = String(rapor.tsdbMac || "").startsWith("VAR");
+  const tabloVar = String(rapor.tsdbTablo || "").startsWith("VAR");
+  const oranVar = String(rapor.oran || "").startsWith("VAR");
+
   console.log("");
-  console.log(`  toplam istek: ${istekSayisi}`);
-  console.log("");
-  const gecti = ligId && rapor.fikstur.startsWith("VAR") && String(rapor.oran).startsWith("VAR");
-  console.log(gecti
-    ? "  >>> SONDA GEÇTİ. Kurulum başlayabilir."
-    : "  >>> SONDA GEÇMEDİ. Yukarıdaki satırlara bak — kurulum başlamadan karar vereceğiz.");
-  console.log("====================================================");
+  console.log("  FİKSTÜR+SKOR : " + (macVar ? "ÇÖZÜLDÜ (TheSportsDB)" : "ÇÖZÜLMEDİ"));
+  console.log("  PUAN DURUMU  : " + (tabloVar ? "ÇÖZÜLDÜ (motor çalışabilir)" : "ÇÖZÜLMEDİ"));
+  console.log("  ORAN         : " + (oranVar ? "ÇÖZÜLDÜ (The Odds API)" :
+    (ODDS_KEY ? "ÇÖZÜLMEDİ" : "HENÜZ DENENMEDİ — ODDS_KEY gerekiyor")));
+  console.log("==========================================");
 })();
