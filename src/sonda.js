@@ -1,169 +1,181 @@
 /* ============================================================================
-   TAHMİN DEFTERİ — SONDA 3: KAZIMA YOLU
+   TAHMİN DEFTERİ — SONDA 4: ORAN KAYNAĞI
    ----------------------------------------------------------------------------
-   ÖNCEKİ SONDALAR NE ÖĞRETTİ:
-     1) API-Football ücretsiz → güncel sezon KAPALI.
-     2) TheSportsDB ücretsiz → veri KIRPIK (15 maç, 5 takım) ve BAYAT (23 Ağustos).
-     → Ücretsiz API yolu kapandı. Ücretli istemiyoruz.
+   SONDA 3 NE BULDU (19 Ekim, runner'dan):
+     ✓ OLBG (iki sayfa)  — kalabalık, taze, 469 KB
+     ✓ soccerbase        — skor, taze
+     ✗ betshoot          — HTTP 403, Cloudflare
+     ✗ tntsports         — HTTP 403
 
-   BU SONDANIN SORUSU:
-     GitHub Actions runner'ı, beş günde elle çalıştığını gördüğümüz kaynaklara
-     ERİŞEBİLİYOR MU? Benim konteynerim erişemiyor (proxy), artifact sayfası
-     hiçbir yere erişemiyor (CSP) — ama runner serbest olabilir.
+   Tablo artık sorun değil: skorları kazıyorsak tabloyu kendimiz hesaplarız.
+   GERİYE TEK KRİTİK BOŞLUK KALDI: ORAN.
+   Oransız başabaş testi yok, değer testi yok, yöntem çöker.
 
-   NEDEN ÖNEMLİ: cevap evetse, kazımayı güvenilir bir çalıştırıcıya taşıyıp
-   API'siz, anahtarsız, ücretsiz bir altyapı kurabiliriz. Hayırsa bu yol da
-   kapanır ve bunu KURMADAN önce bilmiş oluruz.
+   BU SONDA: yedi aday, tek koşu. "Açılıyor mu" yetmez — içinde GERÇEKTEN
+   ondalık oran var mı, ona da bakıyor.
 
-   İKİ ŞEYE BİRDEN BAKIYOR:
-     · ERİŞİM  — sayfa açılıyor mu, yoksa 403/Cloudflare mi?
-     · TAZELİK — sayfada BUGÜNÜN izi var mı? (betshoot 16 Ekim'de dünkü
-                 programı sunmuştu; erişim yetmez, taze olmalı)
-
-   Hiçbir şey yazmaz. Sadece okur ve rapor eder.
+   ODDS_KEY secret'ı varsa The Odds API de test edilir (ücretsiz, 500 kredi/ay).
+   Yoksa o bölüm atlanır, diğerleri yine ölçülür.
    ========================================================================== */
 
 "use strict";
 
 const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
            "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+const ODDS_KEY = process.env.ODDS_KEY || "";
 
-function bugunParcalari() {
-  const d = new Date();
-  const yil = d.getUTCFullYear();
-  const ay = String(d.getUTCMonth() + 1).padStart(2, "0");
-  const gun = String(d.getUTCDate()).padStart(2, "0");
-  const aylar = ["January","February","March","April","May","June",
-                 "July","August","September","October","November","December"];
-  return {
-    iso: `${yil}-${ay}-${gun}`,
-    ayAdi: aylar[d.getUTCMonth()],
-    gunSayi: String(d.getUTCDate()),
-    kisa: `${gun}/${ay}`,
-    kisaTers: `${gun}-${ay}`
-  };
-}
-const B = bugunParcalari();
+const d = new Date();
+const ISO = d.toISOString().slice(0, 10);
 
-/* Her kaynak için: ne işe yarıyor, adresi, ve "taze mi" diye bakılacak izler */
-const KAYNAKLAR = [
-  {
-    ad: "OLBG (kalabalık · İngiltere)",
-    is: "tahminci görüşleri — 1X2 + alt/üst + KG",
-    url: "https://www.olbg.com/betting-tips/Football/1",
-    izler: ["Win Tips", "Tips"],
-    tazelik: ["Today", "today"]
-  },
-  {
-    ad: "OLBG (kalabalık · ABD)",
-    is: "aynı veri, farklı liste — daha zengin çıkıyor",
-    url: "https://www.olbg.com/us/betting-picks/Soccer/1",
-    izler: ["Tips", "Full Time Result"],
-    tazelik: ["Today", "today"]
-  },
-  {
-    ad: "betshoot (toplu oran + fikstür)",
-    is: "günün tüm maçları, 1X2 + alt/üst, tek bahisçi",
-    url: "https://www.betshoot.com/football/",
-    izler: ["odds", "Odds"],
-    tazelik: [B.ayAdi + " " + B.gunSayi, B.gunSayi + " " + B.ayAdi]
-  },
-  {
-    ad: "soccerbase (günlük sonuçlar)",
-    is: "skor kapatma — 17 Ekim'de dört maçı doğru verdi",
-    url: `https://www.soccerbase.com/matches/results.sd?date=${B.iso}`,
-    izler: ["Championship", "matches", "Match"],
-    tazelik: [B.iso, B.gunSayi]
-  },
-  {
-    ad: "tntsports (lig tablosu)",
-    is: "motor girdisi — oynanan / attığı / yediği",
-    url: "https://www.tntsports.co.uk/football/2.-bundesliga/2026-2027/standings.shtml",
-    izler: ["standings", "Standings", "Pts", "Hertha"],
-    tazelik: []   /* tablo her gün değişmez, tazelik aranmaz */
-  }
+/* Ondalık oran deseni: 1.50 · 2,35 gibi. Sayfada kaç tane var, ona bakacağız. */
+const ORAN_DESENI = /\b[1-9]\d?[.,]\d{2}\b/g;
+
+const ADAYLAR = [
+  { ad: "wincomparator (Championship lig sayfası)",
+    not: "14-17 Ekim'de elle kullanıldı; anlık görüntü yayınlıyor ama oran veriyor",
+    url: "https://www.wincomparator.com/predictions/football/england/championship-50/" },
+
+  { ad: "kickoff.co.uk (maç sayfası)",
+    not: "14 Ekim'de Lincoln-West Ham oranını verdi, Bet365 satırı",
+    url: "https://www.kickoff.co.uk/german-bundesliga-2-predictions-stats-odds/holstein-kiel-vs-hertha-berlin/" },
+
+  { ad: "oddslot.com",
+    not: "14 Ekim'de Bodo-Dortmund oranını verdi",
+    url: "https://oddslot.com/football/" },
+
+  { ad: "sportytrader (maç sayfası)",
+    not: "17 Ekim'de Sydney skorunu verdi; oran sayfaları da var",
+    url: "https://www.sportytrader.com/en/betting-tips/" },
+
+  { ad: "gainblers.com",
+    not: "14 Ekim'de Slovan-Stuttgart teyidinde kullanıldı",
+    url: "https://gainblers.com/en/betting/football/" },
+
+  { ad: "footballwebpages.co.uk (fikstür + tablo)",
+    not: "daha önce saat dilimi çapası olarak kullanıldı (BK saati)",
+    url: "https://www.footballwebpages.co.uk/championship" },
+
+  { ad: "football-data.co.uk (Türkiye CSV)",
+    not: "AKADEMİK KAYNAK: sezonluk CSV, B365 dahil oranlar + KAPANIS oranlari. " +
+         "Mac oncesi degil mac sonrasi yayinlanir — CLV ve geriye donuk test icin",
+    url: "https://www.football-data.co.uk/mmz4281/2627/T1.csv",
+    csv: true }
 ];
 
-async function dene(k) {
+async function dene(a) {
   const t0 = Date.now();
   let r, metin = "";
   try {
-    r = await fetch(k.url, {
-      headers: {
-        "User-Agent": UA,
-        "Accept": "text/html,application/xhtml+xml",
-        "Accept-Language": "en-GB,en;q=0.9,tr;q=0.8"
-      },
+    r = await fetch(a.url, {
+      headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
       redirect: "follow"
     });
     metin = await r.text();
   } catch (e) {
-    return { erisim: "AĞ HATASI", detay: e.message, ms: Date.now() - t0 };
+    return { durum: "AĞ HATASI", detay: e.message, ms: Date.now() - t0 };
   }
   const ms = Date.now() - t0;
 
   if (!r.ok) {
-    const ipucu = /cloudflare|just a moment|attention required/i.test(metin)
-      ? " (Cloudflare bot koruması)" : "";
-    return { erisim: `HTTP ${r.status}${ipucu}`, ms, boy: metin.length };
+    const cf = /cloudflare|just a moment|attention required/i.test(metin);
+    return { durum: `HTTP ${r.status}${cf ? " (Cloudflare)" : ""}`, ms, kb: Math.round(metin.length / 1024) };
   }
-
-  /* Bot duvarı 200 ile de gelebiliyor — içeriğe bak */
   if (/just a moment|enable javascript and cookies|attention required/i.test(metin)) {
-    return { erisim: "ENGELLENDİ (bot duvarı, HTTP 200 ama içerik yok)", ms, boy: metin.length };
+    return { durum: "ENGELLENDİ (bot duvarı, 200 ama içerik yok)", ms, kb: Math.round(metin.length / 1024) };
   }
 
-  const izVar = k.izler.some((i) => metin.includes(i));
-  const tazeVar = k.tazelik.length === 0 ? null : k.tazelik.some((i) => metin.includes(i));
+  const bulunan = metin.match(ORAN_DESENI) || [];
+  /* Makul oran aralığındakileri say — 1.01 ile 51.00 arası */
+  const makul = bulunan.filter((x) => {
+    const n = parseFloat(String(x).replace(",", "."));
+    return n >= 1.01 && n <= 51;
+  });
+
+  let ekstra = "";
+  if (a.csv) {
+    const satir = metin.split("\n").filter((s) => s.trim());
+    const baslik = (satir[0] || "").split(",");
+    const b365 = baslik.findIndex((h) => /^B365H$/i.test(h.trim()));
+    ekstra = `${satir.length - 1} satır · sütun ${baslik.length}` +
+      (b365 >= 0 ? ` · B365H sütunu VAR (${b365}. sütun)` : " · B365 sütunu YOK");
+    if (satir.length > 1) ekstra += ` · son satır: ${satir[satir.length - 1].slice(0, 60)}`;
+  }
 
   return {
-    erisim: "AÇILDI",
-    ms, boy: metin.length,
-    icerik: izVar ? "beklenen içerik VAR" : "içerik tanınmadı (yapı değişmiş olabilir)",
-    taze: tazeVar === null ? "—" : (tazeVar ? "BUGÜNÜN izi var" : "BUGÜNÜN izi YOK (bayat olabilir)")
+    durum: "AÇILDI", ms, kb: Math.round(metin.length / 1024),
+    oranSayisi: makul.length,
+    ornek: makul.slice(0, 8).join(" "),
+    bugunIzi: metin.includes(ISO) || metin.includes(String(d.getUTCDate())),
+    ekstra
   };
 }
 
 (async () => {
-  console.log("============== SONDA 3 · KAZIMA YOLU ==============");
-  console.log("zaman:", new Date().toISOString(), "(UTC)");
-  console.log("bugün aranan izler:", B.iso, "/", B.ayAdi, B.gunSayi, "\n");
+  console.log("========== SONDA 4 · ORAN KAYNAĞI ==========");
+  console.log("zaman:", new Date().toISOString(), "(UTC)\n");
 
   const sonuc = [];
-  for (const k of KAYNAKLAR) {
-    console.log(`→ ${k.ad}`);
-    console.log(`  iş: ${k.is}`);
-    const s = await dene(k);
-    console.log(`  erişim : ${s.erisim}  (${s.ms} ms${s.boy ? ", " + Math.round(s.boy / 1024) + " KB" : ""})`);
-    if (s.detay) console.log(`  detay  : ${s.detay}`);
-    if (s.icerik) console.log(`  içerik : ${s.icerik}`);
-    if (s.taze) console.log(`  tazelik: ${s.taze}`);
+  for (const a of ADAYLAR) {
+    console.log(`→ ${a.ad}`);
+    console.log(`  not: ${a.not}`);
+    const s = await dene(a);
+    console.log(`  durum: ${s.durum}  (${s.ms} ms${s.kb !== undefined ? ", " + s.kb + " KB" : ""})`);
+    if (s.detay) console.log(`  detay: ${s.detay}`);
+    if (s.oranSayisi !== undefined) {
+      console.log(`  sayfada ondalık oran görünümü: ${s.oranSayisi} adet`);
+      if (s.ornek) console.log(`  örnek: ${s.ornek}`);
+    }
+    if (s.ekstra) console.log(`  csv: ${s.ekstra}`);
     console.log("");
-    sonuc.push({ ad: k.ad, ...s });
+    sonuc.push({ ad: a.ad, ...s });
+  }
+
+  /* ---------- The Odds API ---------- */
+  let oddsApi = "ATLANDI — ODDS_KEY yok";
+  if (ODDS_KEY) {
+    console.log("→ THE ODDS API (ücretsiz, 500 kredi/ay)");
+    try {
+      const r = await fetch(`https://api.the-odds-api.com/v4/sports/?apiKey=${ODDS_KEY}`);
+      const j = await r.json();
+      const kalan = r.headers.get("x-requests-remaining");
+      if (Array.isArray(j)) {
+        const futbol = j.filter((s) => String(s.key).startsWith("soccer"));
+        const tr = futbol.filter((s) => /turkey|turkish/i.test(s.key + " " + s.title));
+        console.log(`  ${futbol.length} futbol ligi · kalan kredi: ${kalan}`);
+        if (tr.length) {
+          tr.forEach((s) => console.log(`    ✓ ${s.key} — ${s.title} (aktif: ${s.active})`));
+          const k = tr[0].key;
+          const r2 = await fetch(`https://api.the-odds-api.com/v4/sports/${k}/odds/?apiKey=${ODDS_KEY}&regions=eu&markets=h2h&oddsFormat=decimal`);
+          const j2 = await r2.json();
+          if (Array.isArray(j2) && j2.length) {
+            const m = j2[0];
+            console.log(`    ${j2.length} maç · örnek: ${m.home_team} - ${m.away_team}`);
+            const bk = (m.bookmakers || [])[0];
+            if (bk) console.log(`    ${bk.title}: ` +
+              ((bk.markets || [])[0]?.outcomes || []).map((o) => `${o.name}=${o.price}`).join("  "));
+            oddsApi = `VAR — ${tr[0].key}, ${j2.length} maç, kalan kredi ${r2.headers.get("x-requests-remaining")}`;
+          } else oddsApi = `LİG VAR (${k}) ama şu an maç yok`;
+        } else {
+          console.log("    ✗ Türkiye ligi listede YOK. Mevcut futbol ligleri (ilk 20):");
+          futbol.slice(0, 20).forEach((s) => console.log(`      · ${s.key}`));
+          oddsApi = "YOK — Türkiye ligi kapsamda değil";
+        }
+      } else { oddsApi = "cevap beklenen biçimde değil: " + JSON.stringify(j).slice(0, 150); }
+    } catch (e) { oddsApi = "HATA: " + e.message; }
+    console.log("");
+  } else {
+    console.log("→ THE ODDS API: atlandı (ODDS_KEY secret'ı yok)\n");
   }
 
   console.log("================== ÖZET ==================");
-  let acik = 0, engelli = 0;
   sonuc.forEach((s) => {
-    const iyi = s.erisim === "AÇILDI";
-    if (iyi) acik++; else engelli++;
-    console.log(`  ${iyi ? "✓" : "✗"} ${s.ad.padEnd(34)} ${s.erisim}` +
-      (s.taze && s.taze !== "—" ? `  · ${s.taze}` : ""));
+    const ok = s.durum === "AÇILDI";
+    const oranli = ok && s.oranSayisi > 20;
+    console.log(`  ${oranli ? "✓" : ok ? "~" : "✗"} ${s.ad.padEnd(42)} ${s.durum}` +
+      (ok ? `  · ${s.oranSayisi} oran` : ""));
   });
-  console.log(`\n  açılan: ${acik} / ${sonuc.length}`);
+  console.log(`  ${/^VAR/.test(oddsApi) ? "✓" : "✗"} THE ODDS API: ${oddsApi}`);
   console.log("");
-
-  if (acik === sonuc.length) {
-    console.log("  >>> KAZIMA YOLU AÇIK. Runner bütün kaynaklara erişiyor.");
-    console.log("      Kurulum bu yoldan yapılabilir: Actions kazır, repoya JSON yazar,");
-    console.log("      GitHub Pages sayfası kendi verisini okur (aynı origin).");
-  } else if (acik === 0) {
-    console.log("  >>> KAZIMA YOLU KAPALI. Runner hiçbir kaynağa erişemiyor.");
-    console.log("      Bu yol da elenir; geriye artifact içinde kalmak kalır.");
-  } else {
-    console.log("  >>> KISMİ. Yukarıda ✗ olanlara bak — o işler için yedek kaynak gerekir.");
-    console.log("      Hangi işin kaynaksız kaldığı önemli: kalabalık ve oran kritik,");
-    console.log("      skor için alternatif çok.");
-  }
+  console.log("  ✓ = açıldı VE bol oran içeriyor · ~ = açıldı ama oran görünmüyor (JS olabilir)");
   console.log("==========================================");
 })();
