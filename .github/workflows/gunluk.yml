@@ -103,6 +103,32 @@ jobs:
             return new Date(ms + 3 * 3600 * 1000 + kaydir * 86400000).toISOString().slice(0, 10);
           }
           
+          /* Iki site ayni takimi farkli yazabiliyor (20 Ekim: "Wolves" vs "Wolverhampton").
+             Kisa adi uzun ada cevir; benzerlik zaten icerme ile calistigi icin bu yeterli. */
+          const ESANLAM = {
+            "wolves": "wolverhampton", "man city": "manchester city", "man utd": "manchester united",
+            "man united": "manchester united", "spurs": "tottenham", "psg": "paris saint germain",
+            "paris sg": "paris saint germain", "inter": "internazionale", "b munich": "bayern munich",
+            "bayern": "bayern munich", "dortmund": "borussia dortmund", "atletico": "atletico madrid",
+            "ath madrid": "atletico madrid", "atl madrid": "atletico madrid", "leeds": "leeds united",
+            "newcastle": "newcastle united", "forest": "nottingham forest", "nottm forest": "nottingham forest",
+            "west ham": "west ham united", "sheff utd": "sheffield united", "sheff wed": "sheffield wednesday",
+            "west brom": "west bromwich albion", "qpr": "queens park rangers",
+            "stockport": "stockport county", "york": "york city", "accrington": "accrington stanley",
+            "bodo glimt": "bodo glimt", "sociedad": "real sociedad", "betis": "real betis",
+            "leverkusen": "bayer leverkusen", "gladbach": "borussia monchengladbach",
+            "eintracht": "eintracht frankfurt", "olympiacos": "olympiakos"
+          };
+          
+          function adNorm(s) {
+            return String(s || "")
+              .toLocaleLowerCase("tr")
+              .replace(/[çğışöü]/g, (c) => ({ "ç": "c", "ğ": "g", "ı": "i", "ş": "s", "ö": "o", "ü": "u" }[c]))
+              .replace(/\b(fc|sk|ac|as|cf|sc|afc|bk|if|fk)\b/g, " ")
+              .replace(/[^a-z0-9]+/g, " ").trim()
+              .replace(/^.+$/, (x) => ESANLAM[x] || x);
+          }
+          
           /* ========================= olbg.mjs ========================= */
           /* ============================================================================
              OLBG AYRISTIRICI — tahminle degil, 20 Ekim kosusunda GORULEN yapiya gore.
@@ -124,6 +150,8 @@ jobs:
           
              Kural 39 icin gereken ikisi burada: k/n (orneklem) ve yuzde.
              ========================================================================== */
+          
+          
           
           
           
@@ -169,31 +197,6 @@ jobs:
             return null;                                      /* taninmayan pazar: atla */
           }
           
-          /* Iki site ayni takimi farkli yazabiliyor (20 Ekim: "Wolves" vs "Wolverhampton").
-             Kisa adi uzun ada cevir; benzerlik zaten icerme ile calistigi icin bu yeterli. */
-          const ESANLAM = {
-            "wolves": "wolverhampton", "man city": "manchester city", "man utd": "manchester united",
-            "man united": "manchester united", "spurs": "tottenham", "psg": "paris saint germain",
-            "paris sg": "paris saint germain", "inter": "internazionale", "b munich": "bayern munich",
-            "bayern": "bayern munich", "dortmund": "borussia dortmund", "atletico": "atletico madrid",
-            "ath madrid": "atletico madrid", "atl madrid": "atletico madrid", "leeds": "leeds united",
-            "newcastle": "newcastle united", "forest": "nottingham forest", "nottm forest": "nottingham forest",
-            "west ham": "west ham united", "sheff utd": "sheffield united", "sheff wed": "sheffield wednesday",
-            "west brom": "west bromwich albion", "qpr": "queens park rangers",
-            "stockport": "stockport county", "york": "york city", "accrington": "accrington stanley",
-            "bodo glimt": "bodo glimt", "sociedad": "real sociedad", "betis": "real betis",
-            "leverkusen": "bayer leverkusen", "gladbach": "borussia monchengladbach",
-            "eintracht": "eintracht frankfurt", "olympiacos": "olympiakos"
-          };
-          
-          function adNorm(s) {
-            return String(s || "")
-              .toLocaleLowerCase("tr")
-              .replace(/[çğışöü]/g, (c) => ({ "ç": "c", "ğ": "g", "ı": "i", "ş": "s", "ö": "o", "ü": "u" }[c]))
-              .replace(/\b(fc|sk|ac|as|cf|sc|afc|bk|if|fk)\b/g, " ")
-              .replace(/[^a-z0-9]+/g, " ").trim()
-              .replace(/^.+$/, (x) => ESANLAM[x] || x);
-          }
           function esitAd(a, b) {
             const x = adNorm(a), y = adNorm(b);
             if (!x || !y) return false;
@@ -524,6 +527,8 @@ jobs:
           
           
           
+          
+          
           /* --- Az mac oynamis takimi lig ortalamasina dogru cek (asiri uyum onleme) --- */
           function kucult(n, toplam, ligOrt, agirlik = 4) {
             if (!(n >= 0) || !(agirlik > 0)) return ligOrt;
@@ -533,9 +538,12 @@ jobs:
           /* --- Sonuclardan lig tablosu --- */
           function tabloHesapla(sonuclar) {
             const t = new Map();
+            /* ANAHTAR NORMALIZE: ayni takim iki sitede farkli yazilinca maclari
+               bolunuyordu (20 Ekim: Liverpool "1 mac" gorundu). */
             const al = (ad) => {
-              if (!t.has(ad)) t.set(ad, { takim: ad, o: 0, evO: 0, depO: 0, ag: 0, yg: 0, evAg: 0, evYg: 0, depAg: 0, depYg: 0 });
-              return t.get(ad);
+              const k = adNorm(ad);
+              if (!t.has(k)) t.set(k, { anahtar: k, takim: ad, o: 0, evO: 0, depO: 0, ag: 0, yg: 0, evAg: 0, evYg: 0, depAg: 0, depYg: 0 });
+              return t.get(k);
             };
             let toplamGol = 0, macSayisi = 0;
           
@@ -568,7 +576,7 @@ jobs:
                  cikiyordu. Dogrusu: once mac basina oran, sonra lig ortalamasina bol. */
               const hucum = kucult(x.o, x.ag, ligOrt) / ligOrt;
               const savunma = kucult(x.o, x.yg, ligOrt) / ligOrt;
-              g.set(x.takim, {
+              g.set(x.anahtar || adNorm(x.takim), {
                 takim: x.takim, o: x.o,
                 hucum: Number.isFinite(hucum) ? hucum : 1,
                 savunma: Number.isFinite(savunma) ? savunma : 1
@@ -579,7 +587,7 @@ jobs:
           
           function lambdaHesapla(guclerObj, ev, dep) {
             const { guc, ligOrt, evAvantaji } = guclerObj;
-            const E = guc.get(ev), D = guc.get(dep);
+            const E = guc.get(adNorm(ev)), D = guc.get(adNorm(dep));
             if (!E || !D) return null;                        /* takim taninmiyorsa tahmin YOK */
             return {
               ev: Math.max(0.15, ligOrt * E.hucum * D.savunma * evAvantaji),
@@ -739,8 +747,8 @@ jobs:
                bu haftalar alir. Soccerbase gecmis gunleri de veriyor — geriye don.
                Kosu basina en fazla 12 gun cek ki is uzamasin; birkac kosuda tamamlanir. */
             const gunler = [tsiGun(SIMDI, 0), tsiGun(SIMDI, -1)];      /* bugun ve dun HER ZAMAN */
-            let butce = 12;
-            for (let geri = 2; geri <= 45 && butce > 0; geri++) {
+            let butce = 20;
+            for (let geri = 2; geri <= 120 && butce > 0; geri++) {
               const gun = tsiGun(SIMDI, -geri);
               if (tarandi.has(gun)) continue;
               gunler.push(gun);
@@ -803,7 +811,7 @@ jobs:
               const g = guclerHesapla(tb);
               g.kaynak = L;
               kurulanLig++;
-              for (const t of tb.takimlar) takimGuc.set(adNorm(t.takim), g);
+              for (const t of tb.takimlar) takimGuc.set(t.anahtar || adNorm(t.takim), g);
             }
           
             /* genel tablo — kupa maclari ve lig disi eslesmeler icin */
