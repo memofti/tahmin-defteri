@@ -1,0 +1,231 @@
+name: Veri Toplayici
+
+# Elle calistirilir (Actions -> Veri Toplayici -> Run workflow).
+# Zamanlanmis DEGIL; once calistigini gorelim, sonra cron ekleriz.
+#
+# UC ISI BIRDEN YAPAR:
+#   1. fixtures.csv'yi ayristirip veri/fikstur.json olarak REPOYA YAZAR
+#      -> hem veri gelir hem "Actions repoya yazabiliyor mu" sorusu kapanir
+#   2. OLBG ve soccerbase sayfalarinin GERCEK YAPISINI loga doker
+#      -> ayristiriciyi tahminle degil, veriye bakarak yazabilelim
+#   3. fixtures.csv'nin TAZELIGINI olcer (kac gunluk?)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Topla
+        run: |
+          cat > topla.mjs <<'TOPLA_BITIS'
+          import fs from "node:fs";
+
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+          async function al(url) {
+            try {
+              const r = await fetch(url, { headers: { "User-Agent": UA, "Accept": "*/*" },
+                                           redirect: "follow" });
+              const t = await r.text();
+              return { ok: r.ok, kod: r.status, metin: t };
+            } catch (e) { return { ok: false, hata: e.message }; }
+          }
+
+          /* HTML varliklarini COZ, silme. "Fenerbah&ccedil;e" -> "Fenerbahçe".
+             Silersek takim adi bozulur ve sonradan eslestirme tutmaz. */
+          const VARLIK = {
+            nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", "#39": "'",
+            ccedil: "ç", Ccedil: "Ç", uuml: "ü", Uuml: "Ü", ouml: "ö", Ouml: "Ö",
+            auml: "ä", Auml: "Ä", szlig: "ß", ntilde: "ñ", Ntilde: "Ñ",
+            aacute: "á", eacute: "é", iacute: "í", oacute: "ó", uacute: "ú",
+            Aacute: "Á", Eacute: "É", Iacute: "Í", Oacute: "Ó", Uacute: "Ú",
+            agrave: "à", egrave: "è", igrave: "ì", ograve: "ò", ugrave: "ù",
+            acirc: "â", ecirc: "ê", icirc: "î", ocirc: "ô", ucirc: "û",
+            aring: "å", Aring: "Å", oslash: "ø", Oslash: "Ø", aelig: "æ", AElig: "Æ",
+            ccaron: "č", scaron: "š", zcaron: "ž", Scaron: "Š", Zcaron: "Ž",
+            middot: "·", ndash: "–", mdash: "—", rsquo: "’", lsquo: "‘",
+            ldquo: "“", rdquo: "”", hellip: "…", deg: "°", euro: "€", pound: "£"
+          };
+          function varlikCoz(s) {
+            return s.replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (tam, ad) => {
+              if (ad[0] === "#") {
+                const n = ad[1] === "x" || ad[1] === "X"
+                  ? parseInt(ad.slice(2), 16) : parseInt(ad.slice(1), 10);
+                return Number.isFinite(n) && n > 0 && n <= 0x10ffff
+                  ? String.fromCodePoint(n) : tam;
+              }
+              return Object.prototype.hasOwnProperty.call(VARLIK, ad) ? VARLIK[ad] : tam;
+            });
+          }
+
+          /* HTML -> okunabilir satirlar. Script/style atilir, etiketler satir olur. */
+          function metneCevir(html) {
+            return varlikCoz(
+              html
+                .replace(/<script[\s\S]*?<\/script>/gi, " ")
+                .replace(/<style[\s\S]*?<\/style>/gi, " ")
+                .replace(/<[^>]+>/g, "\n")
+            ).split("\n").map(s => s.trim()).filter(Boolean);
+          }
+
+          /* Bir isaretin gectigi yerin etrafindaki satirlari goster */
+          function pencere(satirlar, test, once, sonra, kacOrnek) {
+            const cikti = [];
+            let bulunan = 0;
+            for (let i = 0; i < satirlar.length && bulunan < kacOrnek; i++) {
+              if (!test(satirlar[i])) continue;
+              bulunan++;
+              cikti.push(`--- ornek ${bulunan} (satir ${i}) ---`);
+              for (let j = Math.max(0, i - once); j <= Math.min(satirlar.length - 1, i + sonra); j++) {
+                cikti.push(`  ${j === i ? ">>" : "  "} ${satirlar[j].slice(0, 110)}`);
+              }
+            }
+            return cikti;
+          }
+
+          const bugun = new Date();
+          const isoGun = d => d.toISOString().slice(0, 10);
+          function ddmmyyyyToIso(s) {
+            const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec((s || "").trim());
+            return m ? `${m[3]}-${m[2]}-${m[1]}` : null;
+          }
+
+          fs.mkdirSync("veri", { recursive: true });
+          const ozet = {};
+
+          /* ===================== 1) FIKSTUR + ORAN ===================== */
+          console.log("=== 1) fixtures.csv ===");
+          const fx = await al("https://www.football-data.co.uk/fixtures.csv");
+          if (!fx.ok) {
+            console.log("  ALINAMADI:", fx.hata || ("HTTP " + fx.kod));
+            ozet.fikstur = "ALINAMADI";
+          } else {
+            const sat = fx.metin.split("\n").map(s => s.trim()).filter(Boolean);
+            const bas = sat[0].split(",").map(s => s.trim());
+            const ix = ad => bas.indexOf(ad);
+            const iDiv = ix("Div"), iDate = ix("Date"), iTime = ix("Time");
+            const iH = ix("HomeTeam"), iA = ix("AwayTeam");
+            const iBH = ix("B365H"), iBD = ix("B365D"), iBA = ix("B365A");
+            const i25U = ix("B365>2.5"), i25A = ix("B365<2.5");
+
+            const maclar = [];
+            let enYeni = null;
+            for (let i = 1; i < sat.length; i++) {
+              const p = sat[i].split(",");
+              const iso = ddmmyyyyToIso(p[iDate]);
+              if (!iso) continue;
+              if (!enYeni || iso > enYeni) enYeni = iso;
+              maclar.push({
+                lig: p[iDiv], tarih: iso, saat: p[iTime] || null,
+                ev: p[iH], dep: p[iA],
+                oran: {
+                  ev: parseFloat(p[iBH]) || null,
+                  beraberlik: parseFloat(p[iBD]) || null,
+                  deplasman: parseFloat(p[iBA]) || null,
+                  ust25: i25U >= 0 ? (parseFloat(p[i25U]) || null) : null,
+                  alt25: i25A >= 0 ? (parseFloat(p[i25A]) || null) : null
+                }
+              });
+            }
+
+            const buGun = isoGun(bugun);
+            const bugunku = maclar.filter(m => m.tarih === buGun);
+            const ileri = maclar.filter(m => m.tarih > buGun);
+            const gecmis = maclar.filter(m => m.tarih < buGun);
+            const ligSay = {};
+            maclar.forEach(m => { ligSay[m.lig] = (ligSay[m.lig] || 0) + 1; });
+
+            console.log(`  ${maclar.length} mac · ${bas.length} sutun`);
+            console.log(`  en yeni tarih: ${enYeni}  ·  bugun: ${buGun}`);
+            console.log(`  bugun: ${bugunku.length}  ileri: ${ileri.length}  gecmis: ${gecmis.length}`);
+            console.log(`  alt/ust sutunu: ${i25U >= 0 ? "VAR" : "YOK"}`);
+            console.log(`  ligler: ${Object.keys(ligSay).sort().join(" ")}`);
+            const tr = maclar.filter(m => m.lig === "T1");
+            console.log(`  TURKIYE (T1): ${tr.length} mac`);
+            tr.slice(0, 8).forEach(m => console.log(
+              `    · ${m.tarih} ${m.saat || "?"}  ${m.ev} - ${m.dep}   ` +
+              `${m.oran.ev} / ${m.oran.beraberlik} / ${m.oran.deplasman}`));
+
+            const tazelikGun = enYeni
+              ? Math.round((Date.parse(enYeni) - Date.parse(buGun)) / 86400000) : null;
+            fs.writeFileSync("veri/fikstur.json", JSON.stringify({
+              kaynak: "football-data.co.uk/fixtures.csv",
+              cekildi: new Date().toISOString(),
+              enYeniTarih: enYeni,
+              bugunIleriKapsam: tazelikGun,
+              toplam: maclar.length,
+              ligler: ligSay,
+              maclar
+            }, null, 1));
+            console.log("  -> veri/fikstur.json yazildi");
+            ozet.fikstur = `${maclar.length} mac, bugun ${bugunku.length}, ileri ${ileri.length}`;
+          }
+
+          /* ===================== 2) OLBG YAPISI ===================== */
+          for (const [etiket, url] of [
+            ["OLBG-UK", "https://www.olbg.com/betting-tips/Football/1"],
+            ["OLBG-US", "https://www.olbg.com/us/betting-picks/Soccer/1"]
+          ]) {
+            console.log(`\n=== 2) ${etiket} yapisi ===`);
+            const r = await al(url);
+            if (!r.ok) { console.log("  ALINAMADI:", r.hata || ("HTTP " + r.kod)); continue; }
+            const satirlar = metneCevir(r.metin);
+            console.log(`  ${satirlar.length} metin satiri`);
+
+            const isaret = s => /\d+\s*\/\s*\d+/.test(s) || /\bWin Tips\b/i.test(s);
+            const p = pencere(satirlar, isaret, 6, 10, 3);
+            if (p.length) { console.log("  TAHMIN SATIRI ORNEKLERI:"); p.forEach(x => console.log("  " + x)); }
+            else console.log("  tahmin satiri isareti BULUNAMADI - yapi degismis olabilir");
+
+            const dosya = `veri/${etiket.toLowerCase()}-ornek.txt`;
+            fs.writeFileSync(dosya, satirlar.slice(0, 1200).join("\n"));
+            console.log(`  -> ${dosya} yazildi (ilk 1200 satir)`);
+            ozet[etiket] = `${satirlar.length} satir`;
+          }
+
+          /* ===================== 3) SOCCERBASE YAPISI ===================== */
+          const dun = new Date(Date.now() - 86400000);
+          console.log(`\n=== 3) soccerbase yapisi (${isoGun(dun)}) ===`);
+          const sb = await al(`https://www.soccerbase.com/matches/results.sd?date=${isoGun(dun)}`);
+          if (!sb.ok) { console.log("  ALINAMADI:", sb.hata || ("HTTP " + sb.kod)); }
+          else {
+            const satirlar = metneCevir(sb.metin);
+            console.log(`  ${satirlar.length} metin satiri`);
+            const p = pencere(satirlar, s => /^\d+\s*-\s*\d+$/.test(s), 5, 4, 3);
+            if (p.length) { console.log("  SKOR SATIRI ORNEKLERI:"); p.forEach(x => console.log("  " + x)); }
+            else console.log("  skor deseni bulunamadi");
+            fs.writeFileSync("veri/soccerbase-ornek.txt", satirlar.slice(0, 800).join("\n"));
+            console.log("  -> veri/soccerbase-ornek.txt yazildi");
+            ozet.soccerbase = `${satirlar.length} satir`;
+          }
+
+          fs.writeFileSync("veri/ozet.json", JSON.stringify({
+            calisti: new Date().toISOString(), ozet
+          }, null, 1));
+
+          console.log("\n================== OZET ==================");
+          Object.entries(ozet).forEach(([k, v]) => console.log(`  ${k.padEnd(12)}: ${v}`));
+          console.log("==========================================");
+          TOPLA_BITIS
+          node topla.mjs
+
+      - name: Repoya yaz
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri
+          if git diff --staged --quiet; then
+            echo "degisiklik yok"
+          else
+            git commit -m "veri: toplayici kosusu $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+            echo "repoya yazildi"
+          fi
