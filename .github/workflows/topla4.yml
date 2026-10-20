@@ -1,0 +1,158 @@
+name: Veri Toplayici 4
+
+# ORAN KAYNAGI SECILDI: betexplorer.
+#   366 data-odd · 122 mac · TR + Sampiyonlar Ligi kapsamda · oran ham HTML'de
+# ELENENLER: oddsportal (JS), sportytrader/forebet (Cloudflare), oddslot (404),
+#            fixtures.csv (hafta ici bos)
+#
+# TEK KALAN SORU: HANGI ORAN HANGI MACIN?
+#   3. kosuda pencere tam oranlarin basladigi yerde kesildi.
+#   Bu kosu TEK SAYFA ceker ve o baglantiyi gosterir:
+#     · data-odd cevresini GENIS pencereyle (1200 once / 500 sonra)
+#     · bir mac satirinin (<tr>/<li>) TAMAMINI
+#     · saat ve lig adinin nerede durdugunu
+#     · Turkiye lig sayfasinda skor da var mi (skoru da ayni yerden alabilir miyiz)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Topla
+        run: |
+          cat > topla4.mjs <<'TOPLA_BITIS'
+          import fs from "node:fs";
+
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+          async function al(url, saniye = 15) {
+            const t0 = Date.now();
+            try {
+              const r = await fetch(url, {
+                headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
+                redirect: "follow", signal: AbortSignal.timeout(saniye * 1000)
+              });
+              const metin = await r.text();
+              if (!r.ok) return { durum: `HTTP ${r.status}`, ms: Date.now() - t0, kb: Math.round(metin.length / 1024) };
+              return { ok: true, metin, ms: Date.now() - t0, kb: Math.round(metin.length / 1024), durum: "ACILDI" };
+            } catch (e) {
+              return { durum: /abort|timeout/i.test(e.name + e.message) ? "ZAMAN ASIMI" : "AG HATASI", detay: e.message };
+            }
+          }
+
+          const sade = s => s.replace(/\s+/g, " ").trim();
+
+          function pencere(html, desen, once, sonra, kac, baslik) {
+            console.log(`  --- ${baslik} ---`);
+            const re = new RegExp(desen.source, desen.flags.includes("g") ? desen.flags : desen.flags + "g");
+            let m, n = 0;
+            while ((m = re.exec(html)) !== null && n < kac) {
+              n++;
+              console.log(`  [${n}] konum ${m.index}:`);
+              console.log("  " + sade(html.slice(Math.max(0, m.index - once), m.index + m[0].length + sonra)));
+              if (re.lastIndex === m.index) re.lastIndex++;
+            }
+            if (!n) console.log("  (eslesme yok)");
+          }
+
+          /* Bir etiketin acilisindan kapanisina kadar olan blogu cikar (ic ice sayarak) */
+          function blokCikar(html, basKonum, etiket) {
+            const ac = new RegExp(`<${etiket}\\b`, "gi");
+            const kap = new RegExp(`</${etiket}>`, "gi");
+            let bas = -1;
+            ac.lastIndex = 0;
+            let m;
+            while ((m = ac.exec(html)) !== null) { if (m.index > basKonum) break; bas = m.index; }
+            if (bas < 0) return null;
+            let derinlik = 0, i = bas;
+            while (i < html.length && i < bas + 20000) {
+              ac.lastIndex = i; kap.lastIndex = i;
+              const a = ac.exec(html), k = kap.exec(html);
+              if (!k) break;
+              if (a && a.index < k.index) { derinlik++; i = a.index + 1; }
+              else { derinlik--; i = k.index + 1; if (derinlik <= 0) return html.slice(bas, k.index + etiket.length + 3); }
+            }
+            return html.slice(bas, Math.min(html.length, bas + 4000));
+          }
+
+          fs.mkdirSync("veri", { recursive: true });
+          const ozet = {};
+
+          /* ============ 1) ANA LISTE: oran -> mac baglantisi ============ */
+          console.log("=== betexplorer /next/soccer/ ===");
+          const r = await al("https://www.betexplorer.com/next/soccer/");
+          console.log(`  ${r.durum} (${r.ms} ms, ${r.kb} KB)`);
+          if (r.ok) {
+            const h = r.metin;
+            console.log(`  data-odd sayisi: ${(h.match(/data-odd=/g) || []).length}`);
+
+            pencere(h, /data-odd="/, 1200, 500, 2, "ILK data-odd CEVRESI (genis)");
+
+            /* data-odd iceren ilk <tr> ve ilk <li> bloklarinin tamami */
+            const ilk = h.search(/data-odd="/);
+            for (const et of ["tr", "li"]) {
+              const blok = ilk > 0 ? blokCikar(h, ilk, et) : null;
+              console.log(`  --- data-odd iceren <${et}> BLOGUNUN TAMAMI ---`);
+              console.log("  " + (blok ? sade(blok).slice(0, 2600) : "(bulunamadi)"));
+            }
+
+            /* saat / tarih nitelikleri */
+            const nitelikler = {};
+            (h.match(/\bdata-[a-z-]+=/gi) || []).forEach(x => {
+              const a = x.replace(/=$/, "").toLowerCase();
+              nitelikler[a] = (nitelikler[a] || 0) + 1;
+            });
+            console.log("  --- data-* nitelikleri (en sik 15) ---");
+            Object.entries(nitelikler).sort((a, b) => b[1] - a[1]).slice(0, 15)
+              .forEach(([a, n]) => console.log(`     ${String(n).padStart(4)} x ${a}`));
+
+            pencere(h, /\b\d{1,2}:\d{2}\b/, 400, 200, 2, "SAAT CEVRESI");
+            pencere(h, /Super Lig|Süper Lig|Turkey/i, 300, 500, 2, "TURKIYE LIGI ADI CEVRESI");
+
+            fs.writeFileSync("veri/betexplorer-liste.html", h.slice(0, 400000));
+            ozet.liste = `${(h.match(/data-odd=/g) || []).length} data-odd`;
+          } else ozet.liste = r.durum;
+
+          /* ============ 2) TURKIYE LIG SAYFASI: skor da var mi? ============ */
+          console.log("\n=== betexplorer Turkiye lig sayfasi ===");
+          const t = await al("https://www.betexplorer.com/football/turkey/super-lig/");
+          console.log(`  ${t.durum}` + (t.kb ? ` (${t.ms} ms, ${t.kb} KB)` : ""));
+          if (t.ok) {
+            const h = t.metin;
+            console.log(`  data-odd: ${(h.match(/data-odd=/g) || []).length}`);
+            pencere(h, /\b\d+:\d+\b/, 500, 300, 2, "SKOR/SAAT CEVRESI");
+            pencere(h, /Galatasaray|Fenerbah|Besiktas/i, 300, 900, 1, "TAKIM CEVRESI");
+            fs.writeFileSync("veri/betexplorer-turkiye.html", h.slice(0, 300000));
+            ozet.turkiye = `${(h.match(/data-odd=/g) || []).length} data-odd`;
+          } else ozet.turkiye = t.durum;
+
+          fs.writeFileSync("veri/ozet4.json", JSON.stringify({ calisti: new Date().toISOString(), ozet }, null, 1));
+          console.log("\n================== OZET ==================");
+          Object.entries(ozet).forEach(([k, v]) => console.log(`  ${k.padEnd(10)}: ${v}`));
+          console.log("==========================================");
+          TOPLA_BITIS
+          node topla4.mjs
+
+      - name: Repoya yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri || true
+          if git diff --staged --quiet; then
+            echo "degisiklik yok"
+          else
+            git commit -m "veri: toplayici4 kosusu $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
+            git push
+            echo "repoya yazildi"
+          fi
