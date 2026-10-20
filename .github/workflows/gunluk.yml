@@ -802,7 +802,7 @@ jobs:
               ligler.get(L).push(m);
             }
           
-            const takimGuc = new Map();        /* normalize takim adi -> guc nesnesi */
+            const takimLigleri = new Map();    /* normalize ad -> [{ g, o }] — takim BIRDEN FAZLA tabloda olabilir */
             let kurulanLig = 0;
             for (const [L, ms] of ligler) {
               if (ms.length < 12) continue;
@@ -811,7 +811,11 @@ jobs:
               const g = guclerHesapla(tb);
               g.kaynak = L;
               kurulanLig++;
-              for (const t of tb.takimlar) takimGuc.set(t.anahtar || adNorm(t.takim), g);
+              for (const t of tb.takimlar) {
+                const k = t.anahtar || adNorm(t.takim);
+                if (!takimLigleri.has(k)) takimLigleri.set(k, []);
+                takimLigleri.get(k).push({ g, o: t.o });
+              }
             }
           
             /* genel tablo — kupa maclari ve lig disi eslesmeler icin */
@@ -821,14 +825,27 @@ jobs:
               if (gt.tutarli) { genelGuc = guclerHesapla(gt); genelGuc.kaynak = "genel"; }
             }
             rapor.modelliLig = kurulanLig;
-            rapor.modelliTakim = takimGuc.size;
+            rapor.modelliTakim = takimLigleri.size;
             rapor.genelTablo = genelGuc ? sonucGecmis.maclar.length + " mac" : "yetersiz";
           
-            /* Bir mac icin dogru guc tablosunu sec */
+            /* EN ZENGIN TABLOYU SEC.
+               20 Ekim: Fenerbahce "European Cup" tablosuna baglanmisti (2 mac), oysa
+               genel tabloda cok daha fazla maci var. Takim birden fazla tabloda yer
+               alir (ligi + kupasi); dogrusu, IKI TAKIMIN DA en cok maca sahip oldugu
+               tabloyu secmek. */
             function gucSec(ev, dep) {
-              const a = takimGuc.get(adNorm(ev)), b = takimGuc.get(adNorm(dep));
-              if (a && b && a === b) return a;        /* ikisi de ayni ligde: en saglami */
-              return genelGuc;                        /* kupa / karisik: genel tablo */
+              const ke = adNorm(ev), kd = adNorm(dep);
+              const adaylar = [];
+              for (const x of (takimLigleri.get(ke) || []))
+                for (const y of (takimLigleri.get(kd) || []))
+                  if (x.g === y.g) adaylar.push({ g: x.g, enAz: Math.min(x.o, y.o) });
+              if (genelGuc) {
+                const e = genelGuc.guc.get(ke), d = genelGuc.guc.get(kd);
+                if (e && d) adaylar.push({ g: genelGuc, enAz: Math.min(e.o, d.o) });
+              }
+              if (!adaylar.length) return null;
+              adaylar.sort((a, b) => b.enAz - a.enAz);
+              return adaylar[0].g;
             }
           
             /* ---------- 5) BULTEN: bugunun maclari ---------- */
