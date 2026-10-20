@@ -1,6 +1,6 @@
 {
- "calisti": "2026-10-20T10:11:50.034Z",
- "tsi": "2026-10-20 13:11",
+ "calisti": "2026-10-20T10:16:32.018Z",
+ "tsi": "2026-10-20 13:16",
  "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-19": "ACILDI",
@@ -13,6 +13,8 @@
  "oranMacSayisi": 113,
  "kalabalikSayisi": 20,
  "modelliLig": 0,
+ "modelliTakim": 0,
+ "genelTablo": "yetersiz",
  "bultenSayisi": 110,
  "tahminSayisi": 10,
  "elenenSayisi": 10,
