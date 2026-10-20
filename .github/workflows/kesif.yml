@@ -1,0 +1,102 @@
+name: Kesif - Alt Ust ve KG orani
+
+# AMAC: betexplorer'in ALT/UST (ve varsa KG) oranlari nereden geliyor?
+# Biliyoruz: /next/soccer/ sayfasinda bir sekme listesi var —
+#   data-bet-type="1x2" · data-bet-type="ou" · data-bet-type="dc"
+# Bilmiyoruz: bu sekmeler hangi ADRESE gidiyor.
+# Tahmin etmek yerine sayfanin kendi koduna bakiyoruz.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  kesif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kesif
+        run: |
+          cat > kesif.mjs <<'KESIF_BITIS'
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+          const sade = s => s.replace(/\s+/g, " ").trim();
+
+          async function al(url, saniye = 15) {
+            try {
+              const r = await fetch(url, { headers: { "User-Agent": UA, "Accept": "*/*" },
+                                           redirect: "follow", signal: AbortSignal.timeout(saniye * 1000) });
+              const metin = await r.text();
+              return { kod: r.status, ok: r.ok, metin, kb: Math.round(metin.length / 1024) };
+            } catch (e) { return { hata: e.message }; }
+          }
+
+          function pencere(html, desen, once, sonra, kac, baslik) {
+            console.log(`  --- ${baslik} ---`);
+            const re = new RegExp(desen.source, desen.flags.includes("g") ? desen.flags : desen.flags + "g");
+            let m, n = 0;
+            while ((m = re.exec(html)) !== null && n < kac) {
+              n++;
+              console.log("  [" + n + "] " + sade(html.slice(Math.max(0, m.index - once), m.index + m[0].length + sonra)).slice(0, 700));
+              if (re.lastIndex === m.index) re.lastIndex++;
+            }
+            if (!n) console.log("  (eslesme yok)");
+          }
+
+          /* ---------- 1) SEKME NASIL CALISIYOR? ---------- */
+          console.log("=== 1) /next/soccer/ icinde sekme mantigi ===");
+          const ana = await al("https://www.betexplorer.com/next/soccer/");
+          if (!ana.ok) { console.log("  ALINAMADI:", ana.hata || ("HTTP " + ana.kod)); }
+          else {
+            console.log(`  HTTP ${ana.kod} · ${ana.kb} KB`);
+            pencere(ana.metin, /data-bet-type="ou"/, 300, 400, 1, "ou SEKMESI CEVRESI");
+            /* sekmeye tiklayinca ne oluyor: JS fonksiyonu ya da adres */
+            pencere(ana.metin, /bettype|bet_type|betType/i, 250, 350, 4, "KODDA 'bettype' GECEN YERLER");
+            /* sayfanin cagirdigi ic adresler */
+            const adresler = [...new Set((ana.metin.match(/["'](\/[a-z0-9\-\/_.?=&]{6,80})["']/gi) || [])
+              .map(x => x.slice(1, -1)).filter(x => /next|odds|ajax|bet|ou|dc/i.test(x)))].slice(0, 25);
+            console.log("  --- SAYFADAKI ILGILI IC ADRESLER ---");
+            adresler.forEach(a => console.log("     " + a));
+          }
+
+          /* ---------- 2) ADAY ADRESLER ---------- */
+          console.log("\n=== 2) aday adresler ===");
+          const ADAYLAR = [
+            "https://www.betexplorer.com/next/soccer/?bettype=ou",
+            "https://www.betexplorer.com/next/soccer/?bt=ou",
+            "https://www.betexplorer.com/next/soccer/ou/",
+            "https://www.betexplorer.com/next/soccer/over-under/",
+            "https://www.betexplorer.com/next/soccer/?bettype=dc",
+            "https://www.betexplorer.com/next/soccer/?bettype=bts"
+          ];
+          for (const u of ADAYLAR) {
+            const r = await al(u);
+            if (!r.ok) { console.log(`  x ${u}  ->  ${r.hata || "HTTP " + r.kod}`); continue; }
+            const odd = (r.metin.match(/data-odd="/g) || []).length;
+            const ev = (r.metin.match(/data-event-id="/g) || []).length;
+            const ouIz = /over\/under|Over\/Under|\bO\/U\b|2\.5/.test(r.metin);
+            console.log(`  v ${u}`);
+            console.log(`      ${r.kb} KB · data-odd ${odd} · mac ${ev} · oran/mac ${ev ? (odd / ev).toFixed(2) : "-"} · alt/ust izi: ${ouIz ? "VAR" : "yok"}`);
+          }
+
+          /* ---------- 3) TEK MAC SAYFASI ---------- */
+          console.log("\n=== 3) tek mac sayfasi butun pazarlari veriyor mu? ===");
+          if (ana.ok) {
+            const m = /href="(\/football\/[^"]+\/[^"]+\/)"/.exec(ana.metin);
+            if (m) {
+              const u = "https://www.betexplorer.com" + m[1];
+              console.log("  ornek mac:", u);
+              const r = await al(u);
+              if (r.ok) {
+                console.log(`      HTTP ${r.kod} · ${r.kb} KB · data-odd ${(r.metin.match(/data-odd="/g) || []).length}`);
+                ["over", "under", "both teams", "btts", "1st half", "half time"].forEach(k => {
+                  const v = new RegExp(k, "i").test(r.metin);
+                  console.log(`      "${k}": ${v ? "VAR" : "yok"}`);
+                });
+                pencere(r.metin, /over\/under/i, 200, 500, 1, "ALT/UST BOLUMU");
+              } else console.log("      alinamadi:", r.hata || r.kod);
+            } else console.log("  mac baglantisi bulunamadi");
+          }
+          console.log("\n=== BITTI ===");
+          KESIF_BITIS
+          node kesif.mjs
