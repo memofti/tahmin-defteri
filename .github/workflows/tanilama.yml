@@ -1,0 +1,455 @@
+name: Tanilama
+
+# NEDEN ESLESMIYOR? 20 Ekim kosusunda Fenerbahce-Slavia dahil buyuk maclar
+# "oran bulunamadi" diye elendi, oysa oranlari sayfada VAR.
+# Bu kosu hicbir sey yazmaz, sadece gosterir.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  tani:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tanila
+        run: |
+          cat > tani.mjs <<'TANI_BITIS'
+          "use strict";
+          
+          /* ===== metin.mjs ===== */
+          /* Ortak metin/ag yardimcilari */
+          
+          
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                            "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+          
+          async function al(url, saniye = 15) {
+            const t0 = Date.now();
+            try {
+              const r = await fetch(url, {
+                headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
+                redirect: "follow", signal: AbortSignal.timeout(saniye * 1000)
+              });
+              const metin = await r.text();
+              const ms = Date.now() - t0, kb = Math.round(metin.length / 1024);
+              if (!r.ok) return { durum: `HTTP ${r.status}`, ms, kb };
+              if (/just a moment|enable javascript and cookies|attention required/i.test(metin))
+                return { durum: "ENGELLENDI", ms, kb };
+              return { ok: true, metin, ms, kb, durum: "ACILDI" };
+            } catch (e) {
+              return { durum: /abort|timeout/i.test(e.name + e.message) ? "ZAMAN ASIMI" : "AG HATASI",
+                       detay: e.message, ms: Date.now() - t0 };
+            }
+          }
+          
+          const VARLIK = {
+            nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", "#39": "'",
+            ccedil: "ç", Ccedil: "Ç", uuml: "ü", Uuml: "Ü", ouml: "ö", Ouml: "Ö",
+            auml: "ä", Auml: "Ä", szlig: "ß", ntilde: "ñ", Ntilde: "Ñ",
+            aacute: "á", eacute: "é", iacute: "í", oacute: "ó", uacute: "ú",
+            Aacute: "Á", Eacute: "É", Iacute: "Í", Oacute: "Ó", Uacute: "Ú",
+            agrave: "à", egrave: "è", igrave: "ì", ograve: "ò", ugrave: "ù",
+            acirc: "â", ecirc: "ê", icirc: "î", ocirc: "ô", ucirc: "û",
+            aring: "å", Aring: "Å", oslash: "ø", Oslash: "Ø", aelig: "æ", AElig: "Æ",
+            ccaron: "č", scaron: "š", zcaron: "ž", Scaron: "Š", Zcaron: "Ž",
+            middot: "·", ndash: "–", mdash: "—", rsquo: "’", lsquo: "‘",
+            ldquo: "“", rdquo: "”", hellip: "…", deg: "°", euro: "€", pound: "£"
+          };
+          
+          function varlikCoz(s) {
+            return String(s).replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (tam, ad) => {
+              if (ad[0] === "#") {
+                const n = ad[1] === "x" || ad[1] === "X" ? parseInt(ad.slice(2), 16) : parseInt(ad.slice(1), 10);
+                return Number.isFinite(n) && n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : tam;
+              }
+              return Object.prototype.hasOwnProperty.call(VARLIK, ad) ? VARLIK[ad] : tam;
+            });
+          }
+          
+          function metneCevir(html) {
+            return varlikCoz(
+              String(html).replace(/<script[\s\S]*?<\/script>/gi, " ")
+                          .replace(/<style[\s\S]*?<\/style>/gi, " ")
+                          .replace(/<[^>]+>/g, "\n")
+            ).split("\n").map(s => s.trim()).filter(Boolean);
+          }
+          
+          /* TSI yardimcilari — Turkiye sabit UTC+3 */
+          function tsiSimdi(ms = Date.now()) {
+            const d = new Date(ms + 3 * 3600 * 1000);
+            return { tarih: d.toISOString().slice(0, 10), saat: d.toISOString().slice(11, 16),
+                     saatSayi: d.getUTCHours() + d.getUTCMinutes() / 60 };
+          }
+          function tsiGun(ms = Date.now(), kaydir = 0) {
+            return new Date(ms + 3 * 3600 * 1000 + kaydir * 86400000).toISOString().slice(0, 10);
+          }
+          
+          /* ===== olbg.mjs ===== */
+          /* ============================================================================
+             OLBG AYRISTIRICI — tahminle degil, 20 Ekim kosusunda GORULEN yapiya gore.
+             ----------------------------------------------------------------------------
+             Gozlenen blok (metneCevir cikti satirlari, sirayla):
+          
+                 Fenerbahce v Slavia Prague     <- mac       (" v " ayirici)
+                 Champions League               <- lig
+                 Today                          <- gun
+                 17:45                          <- saat (BK yerel saati)
+                 Fenerbahce                     <- SECIM
+                 Full Time Result               <- PAZAR
+                 [1 expert]                     <- opsiyonel, atlanir
+                 23/26 Win Tips                 <- ISARET: k/n
+                 88%                            <- kalabalik yuzdesi
+                 4 comments                     <- opsiyonel
+                 [1 expert]                     <- opsiyonel
+                 Add
+          
+             Kural 39 icin gereken ikisi burada: k/n (orneklem) ve yuzde.
+             ========================================================================== */
+          
+          
+          
+          const ISARET = /^(\d+)\s*\/\s*(\d+)\s+Win Tips$/i;
+          const YUZDE   = /^(\d{1,3})\s*%$/;
+          const SAAT    = /^(\d{1,2}):(\d{2})$/;
+          const GUN     = /^(Today|Tomorrow|Yesterday|\d{1,2}\s+\w+|\w+\s+\d{1,2})$/i;
+          const GURULTU = /^(\d+\s+(expert|experts|comment|comments|tip|tips)|Add|Follow|New)$/i;
+          
+          /* OLBG pazar adi -> defterdeki makine-okunur kural (etiketKural ile ayni dil) */
+          function pazarKural(pazar, secim, mac) {
+            const p = String(pazar || "").trim().toLowerCase();
+            const s = String(secim || "").trim();
+          
+            if (/^full time result$/.test(p) || /^match result$/.test(p) || /^1x2$/.test(p)) {
+              if (!mac) return null;
+              if (/^draw$/i.test(s)) return { tip: "ms", secim: "X" };
+              if (esitAd(s, mac.ev))  return { tip: "ms", secim: "1" };
+              if (esitAd(s, mac.dep)) return { tip: "ms", secim: "2" };
+              return null;                                    /* takim eslesmedi: atla */
+            }
+            if (/double chance/.test(p)) {
+              if (!mac) return null;
+              if (/or draw/i.test(s)) {
+                if (esitAd(s.replace(/or draw/i, ""), mac.ev))  return { tip: "cs", secim: "1X" };
+                if (esitAd(s.replace(/or draw/i, ""), mac.dep)) return { tip: "cs", secim: "X2" };
+              }
+              return null;
+            }
+            if (/both teams to score|btts/.test(p)) {
+              if (/^yes$/i.test(s)) return { tip: "kg", secim: "var" };
+              if (/^no$/i.test(s))  return { tip: "kg", secim: "yok" };
+              return null;
+            }
+            /* "Over/Under 2.5 Goals" + secim "Over 2.5" / "Under 2.5 Goals" */
+            if (/over|under|total goals/.test(p + " " + s)) {
+              const esik = (p + " " + s).match(/(\d+)[.,](\d+)/);
+              const yon = /\bover\b/i.test(s) ? "ust" : (/\bunder\b/i.test(s) ? "alt" : null);
+              if (yon && esik) return { tip: "au", secim: yon, esik: Number(esik[1] + "." + esik[2]) };
+              return null;
+            }
+            return null;                                      /* taninmayan pazar: atla */
+          }
+          
+          function adNorm(s) {
+            return String(s || "")
+              .toLocaleLowerCase("tr")
+              .replace(/[çğışöü]/g, (c) => ({ "ç": "c", "ğ": "g", "ı": "i", "ş": "s", "ö": "o", "ü": "u" }[c]))
+              .replace(/\b(fc|sk|ac|as|cf|sc|afc|bk|if|fk)\b/g, " ")
+              .replace(/[^a-z0-9]+/g, " ").trim();
+          }
+          function esitAd(a, b) {
+            const x = adNorm(a), y = adNorm(b);
+            if (!x || !y) return false;
+            return x === y || x.includes(y) || y.includes(x);
+          }
+          
+          /* --- BK yerel saati -> TSI.  Yaz saati elle degil, Intl ile cozulur. --- */
+          function saatDilimiOfseti(bolge, utcMs) {
+            const f = new Intl.DateTimeFormat("en-GB", {
+              timeZone: bolge, hour12: false,
+              year: "numeric", month: "2-digit", day: "2-digit",
+              hour: "2-digit", minute: "2-digit", second: "2-digit"
+            });
+            const p = {};
+            for (const x of f.formatToParts(new Date(utcMs))) if (x.type !== "literal") p[x.type] = x.value;
+            const yerelMs = Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour % 24, +p.minute, +p.second);
+            return yerelMs - utcMs;                            /* ms cinsinden ofset */
+          }
+          
+          function ukSaatiniTsiye(isoGun, hhmm) {
+            const m = SAAT.exec(String(hhmm || "").trim());
+            if (!m || !/^\d{4}-\d{2}-\d{2}$/.test(isoGun || "")) return null;
+            const varsay = Date.parse(`${isoGun}T${m[1].padStart(2, "0")}:${m[2]}:00Z`);
+            if (!Number.isFinite(varsay)) return null;
+            /* iki tur: ofset gecis gununde bile oturur */
+            let utc = varsay - saatDilimiOfseti("Europe/London", varsay);
+            utc = varsay - saatDilimiOfseti("Europe/London", utc);
+            const tsi = new Date(utc + saatDilimiOfseti("Europe/Istanbul", utc));
+            return {
+              utcIso: new Date(utc).toISOString(),
+              tsiGun: tsi.toISOString().slice(0, 10),
+              tsiSaat: tsi.toISOString().slice(11, 16)
+            };
+          }
+          
+          function gunuCoz(gunMetni, bugunIso) {
+            const g = String(gunMetni || "").trim().toLowerCase();
+            const d = new Date(bugunIso + "T12:00:00Z");
+            if (g === "today") return bugunIso;
+            if (g === "tomorrow") { d.setUTCDate(d.getUTCDate() + 1); return d.toISOString().slice(0, 10); }
+            if (g === "yesterday") { d.setUTCDate(d.getUTCDate() - 1); return d.toISOString().slice(0, 10); }
+            return null;                                       /* taninmadi: tarih yazilmaz */
+          }
+          
+          /* ============================ ANA AYRISTIRICI ============================ */
+          function olbgAyristir(satirlar, bugunIso) {
+            const tahminler = [];
+            const atlanan = [];
+          
+            for (let i = 0; i < satirlar.length; i++) {
+              const im = ISARET.exec(satirlar[i]);
+              if (!im) continue;
+              const k = Number(im[1]), n = Number(im[2]);
+              if (!(n > 0) || k > n) { atlanan.push({ satir: i, neden: "k/n tutarsiz", ham: satirlar[i] }); continue; }
+          
+              /* ileri: yuzde */
+              let yuzde = null;
+              for (let j = i + 1; j <= Math.min(satirlar.length - 1, i + 3); j++) {
+                const y = YUZDE.exec(satirlar[j]); if (y) { yuzde = Number(y[1]); break; }
+              }
+          
+              /* geri: gurultuyu atla, sonra pazar / secim / saat / gun / lig / mac */
+              let j = i - 1;
+              while (j >= 0 && GURULTU.test(satirlar[j])) j--;
+              const pazar  = j >= 0 ? satirlar[j--] : null;
+              const secim  = j >= 0 ? satirlar[j--] : null;
+              const saatHm = j >= 0 && SAAT.test(satirlar[j]) ? satirlar[j--] : null;
+              const gunHm  = j >= 0 && GUN.test(satirlar[j]) ? satirlar[j--] : null;
+              const lig    = j >= 0 ? satirlar[j--] : null;
+              const macHm  = j >= 0 ? satirlar[j--] : null;
+          
+              const vm = /^(.+?)\s+v(?:s\.?)?\s+(.+)$/i.exec(String(macHm || "").trim());
+              if (!vm) { atlanan.push({ satir: i, neden: "mac satiri bulunamadi", ham: String(macHm).slice(0, 60) }); continue; }
+              const mac = { ev: vm[1].trim(), dep: vm[2].trim() };
+          
+              const gunIso = gunuCoz(gunHm, bugunIso);
+              const z = gunIso && saatHm ? ukSaatiniTsiye(gunIso, saatHm) : null;
+              const kural = pazarKural(pazar, secim, mac);
+          
+              tahminler.push({
+                ev: mac.ev, deplasman: mac.dep, lig: lig || null,
+                bkGun: gunHm || null, bkSaat: saatHm || null,
+                tarih: z ? z.tsiGun : null, saatTsi: z ? z.tsiSaat : null, utc: z ? z.utcIso : null,
+                pazar: pazar || null, secim: secim || null, kural,
+                k, n, yuzde,
+                etiket: kural ? kuralEtiket(kural, mac) : null
+              });
+            }
+            return { tahminler, atlanan };
+          }
+          
+          /* Defterde gosterilecek Turkce etiket */
+          function kuralEtiket(kural, mac) {
+            if (!kural) return null;
+            if (kural.tip === "ms") return "MS " + kural.secim;
+            if (kural.tip === "cs") return "Çifte şans " + kural.secim;
+            if (kural.tip === "kg") return "KG " + (kural.secim === "var" ? "VAR" : "YOK");
+            if (kural.tip === "au") return String(kural.esik).replace(".", ",") +
+              " " + (kural.secim === "ust" ? "ÜST" : "ALT");
+            return null;
+          }
+          
+          /* ===== betexplorer.mjs ===== */
+          /* ============================================================================
+             BETEXPLORER AYRISTIRICISI  (v2 — 5. kosudaki yapiya gore yeniden yazildi)
+          
+             v1'DE BULUNAN HATA: takim adlarini "table-main__truncate" sinifindan
+             aliyordum, ama LIG ADI da ayni sinifi kullaniyor:
+                 <p class="table-main__truncate table-main__leaguesNames">Europe: Champions League</p>
+             Boyle birakilsaydi lig adi takim sanilabilirdi. Artik mac blogu
+             data-event-id ile sinirlaniyor ve leaguesNames disarida birakiliyor.
+          
+             GORULEN YAPI:
+               <li ... data-league-name="Champions League" data-country-name="Europe" ...>
+               <li ... data-ts="1792514700" data-event-id="2yMLTDQr">
+                 <ul data-live="2yMLTDQr" data-dt="20,10,2026,17,45">
+                   <p class="... table-main__truncate ">Fenerbahce</p>  <img alt="Fenerbahce SK">
+                   <p class="... table-main__truncate ">Slavia Prague</p>
+                   <button onclick="...matchid=2yMLTDQr..." data-odd="1.57" data-odd-max="1.57">
+                   ... (1-X-2 sirasiyla uc tane)
+          
+             SAAT: data-ts Unix zaman damgasi — kesin. data-dt yerel saat, yedek.
+             ========================================================================== */
+          
+          
+          
+          const MAC    = /data-ts="(\d+)"\s+data-event-id="([A-Za-z0-9]+)"/g;
+          const LIG    = /data-league-name="([^"]*)"[^>]*?data-sport-name="[^"]*"[^>]*?data-country-name="([^"]*)"/g;
+          const DUGME  = /matchid=([A-Za-z0-9]+)&outcomeid=([^&"']+)[\s\S]{0,500}?data-odd="([0-9.]+)"(?:\s+data-odd-max="([0-9.]+)")?/g;
+          /* takim <p>'si: truncate VAR, leaguesNames YOK */
+          const TAKIM  = /<p class="([^"]*table-main__truncate[^"]*)"\s*>([^<]+)<\/p>/g;
+          
+          function sayi(x) { const n = parseFloat(x); return Number.isFinite(n) ? n : null; }
+          
+          /* Unix damgasi -> TSI gun/saat (sabit +3, Turkiye yaz saati uygulamiyor) */
+          function tsToTsi(ts) {
+            const d = new Date(Number(ts) * 1000 + 3 * 3600 * 1000);
+            if (!Number.isFinite(d.getTime())) return null;
+            return {
+              utcIso: new Date(Number(ts) * 1000).toISOString(),
+              tarih: d.toISOString().slice(0, 10),
+              saat: d.toISOString().slice(11, 16)
+            };
+          }
+          
+          function betexplorerAyristir(html) {
+            let m;
+          
+            /* 1) lig isaretleri (konumlariyla) */
+            const ligler = [];
+            LIG.lastIndex = 0;
+            while ((m = LIG.exec(html)) !== null) ligler.push({ k: m.index, lig: m[1].trim(), ulke: m[2].trim() });
+          
+            /* 2) mac isaretleri */
+            const macIsaret = [];
+            MAC.lastIndex = 0;
+            while ((m = MAC.exec(html)) !== null) macIsaret.push({ k: m.index, ts: Number(m[1]), id: m[2] });
+          
+            /* 3) takim adlari (lig adlari HARIC) */
+            const takimlar = [];
+            TAKIM.lastIndex = 0;
+            while ((m = TAKIM.exec(html)) !== null) {
+              if (/leaguesNames/i.test(m[1])) continue;            /* <- v1'deki hata buydu */
+              takimlar.push({ k: m.index, ad: m[2].trim() });
+            }
+          
+            /* 4) oranlar, matchid'ye gore */
+            const oranGrup = new Map();
+            DUGME.lastIndex = 0;
+            while ((m = DUGME.exec(html)) !== null) {
+              const id = m[1];
+              if (!oranGrup.has(id)) oranGrup.set(id, []);
+              oranGrup.get(id).push({ oran: sayi(m[3]), enYuksek: sayi(m[4]) ?? sayi(m[3]) });
+            }
+          
+            const maclar = [], atlanan = [];
+          
+            for (let i = 0; i < macIsaret.length; i++) {
+              const mi = macIsaret[i];
+              const son = i + 1 < macIsaret.length ? macIsaret[i + 1].k : html.length;
+          
+              const o = oranGrup.get(mi.id);
+              if (!o || o.length !== 3) { atlanan.push({ macId: mi.id, neden: `oran ${o ? o.length : 0}/3` }); continue; }
+          
+              /* bu macin blogundaki takim adlari */
+              const icerde = takimlar.filter(t => t.k > mi.k && t.k < son);
+              if (icerde.length < 2) { atlanan.push({ macId: mi.id, neden: "takim adi bulunamadi" }); continue; }
+          
+              const ligK = ligler.filter(l => l.k < mi.k).pop() || null;
+              const z = tsToTsi(mi.ts);
+              const [o1, oX, o2] = o;
+              if (!(o1.oran > 1 && oX.oran > 1 && o2.oran > 1)) {
+                atlanan.push({ macId: mi.id, neden: "oran degeri gecersiz" }); continue;
+              }
+          
+              maclar.push({
+                macId: mi.id, ts: mi.ts,
+                tarih: z && z.tarih, saatTsi: z && z.saat, utc: z && z.utcIso,
+                lig: ligK ? ligK.lig : null, ulke: ligK ? ligK.ulke : null,
+                ev: icerde[0].ad, deplasman: icerde[1].ad,
+                oran: { ev: o1.oran, beraberlik: oX.oran, deplasman: o2.oran },
+                enYuksek: { ev: o1.enYuksek, beraberlik: oX.enYuksek, deplasman: o2.enYuksek },
+                marj: Number((100 * (1 / o1.oran + 1 / oX.oran + 1 / o2.oran) - 100).toFixed(2))
+              });
+            }
+            return { maclar, atlanan };
+          }
+          
+          function imaEdilen(oranlar) {
+            const ham = [1 / oranlar.ev, 1 / oranlar.beraberlik, 1 / oranlar.deplasman];
+            const t = ham.reduce((a, b) => a + b, 0);
+            return { ev: ham[0] / t, beraberlik: ham[1] / t, deplasman: ham[2] / t };
+          }
+          
+          /* Mac basladi mi? Kural: baslamis maca tahmin YAZILMAZ. */
+          function basladiMi(mac, simdiMs = Date.now()) {
+            return typeof mac.ts === "number" ? mac.ts * 1000 <= simdiMs : true;  /* bilinmiyorsa guvenli taraf */
+          }
+          
+          /* ===== tani.mjs ===== */
+          /* TANILAMA: neden eslesmedi? Tahmin etme, goster. */
+          
+          
+          
+          
+          
+          const SIMDI = Date.now();
+          const T = tsiSimdi(SIMDI);
+          
+          function benzerlik(a, b) {
+            if (!a || !b) return 0;
+            if (a === b) return 1;
+            if (a.includes(b) || b.includes(a)) return 0.9;
+            const ak = new Set(a.split(" ").filter(Boolean)), bk = new Set(b.split(" ").filter(Boolean));
+            let ortak = 0; for (const k of ak) if (bk.has(k)) ortak++;
+            const en = Math.max(ak.size, bk.size) || 1;
+            return ortak / en >= 0.5 ? 0.8 * (ortak / en) : 0;
+          }
+          
+          async function taniCalistir() {
+            const be = await al("https://www.betexplorer.com/next/soccer/");
+            const ol = await al("https://www.olbg.com/betting-tips/Football/1");
+            console.log(`betexplorer: ${be.durum} ${be.kb || ""}KB · olbg: ${ol.durum} ${ol.kb || ""}KB`);
+            if (!be.ok || !ol.ok) return;
+          
+            const ham = be.metin;
+            console.log(`\n--- SAYFA SAYIMLARI ---`);
+            console.log(`  data-event-id: ${(ham.match(/data-event-id="/g) || []).length}`);
+            console.log(`  data-ts+event-id yan yana: ${(ham.match(/data-ts="\d+"\s+data-event-id="/g) || []).length}`);
+            console.log(`  data-odd: ${(ham.match(/data-odd="/g) || []).length}  (3'e bolunce ${(ham.match(/data-odd="/g) || []).length / 3} mac)`);
+            console.log(`  matchid gecen dugme: ${(ham.match(/matchid=/g) || []).length}`);
+          
+            const o = betexplorerAyristir(ham);
+            console.log(`  AYRISTIRILAN: ${o.maclar.length} mac · ATLANAN: ${o.atlanan.length}`);
+            const nedenler = {};
+            o.atlanan.forEach(a => { nedenler[a.neden] = (nedenler[a.neden] || 0) + 1; });
+            Object.entries(nedenler).forEach(([n, s]) => console.log(`     atlanma: ${n} -> ${s} mac`));
+          
+            const bugun = tsiGun(SIMDI, 0);
+            const bugunku = o.maclar.filter(m => m.tarih === bugun);
+            console.log(`  bugun (${bugun}): ${bugunku.length} mac`);
+            const tarihDagilim = {};
+            o.maclar.forEach(m => { tarihDagilim[m.tarih] = (tarihDagilim[m.tarih] || 0) + 1; });
+            console.log(`  tarih dagilimi: ${JSON.stringify(tarihDagilim)}`);
+          
+            /* ARANAN TAKIMLAR sayfada GERCEKTEN var mi? (ham metinde) */
+            console.log(`\n--- ARANAN TAKIMLAR HAM SAYFADA VAR MI? ---`);
+            for (const ad of ["Fenerbah", "Slavia", "Barcelona", "Chelsea", "Arsenal", "Huddersfield"]) {
+              const hamVar = ham.includes(ad);
+              const ayristiVar = o.maclar.some(m => (m.ev + m.deplasman).includes(ad));
+              console.log(`  ${ad.padEnd(14)} ham: ${hamVar ? "VAR" : "yok"} · ayristirilmis: ${ayristiVar ? "VAR" : "YOK"}`);
+            }
+          
+            const k = olbgAyristir(metneCevir(ol.metin), T.tarih);
+            console.log(`\n--- ESLESTIRME DENEMELERI (${k.tahminler.length} tahmin) ---`);
+            for (const t of k.tahminler) {
+              const e = adNorm(t.ev), d = adNorm(t.deplasman);
+              const puanli = o.maclar.map(m => ({
+                m, puan: benzerlik(e, adNorm(m.ev)) + benzerlik(d, adNorm(m.deplasman))
+              })).sort((a, b) => b.puan - a.puan).slice(0, 2);
+              const en = puanli[0];
+              const sonuc = en && en.puan >= 1.6 ? "ESLESTI" : "ESLESMEDI";
+              console.log(`\n  ${t.ev} - ${t.deplasman}  [${t.tarih} ${t.saatTsi}]  -> ${sonuc}`);
+              console.log(`     normalize: "${e}" / "${d}"`);
+              puanli.forEach(p => console.log(
+                `     aday ${p.puan.toFixed(2)}: ${p.m.ev} - ${p.m.deplasman} [${p.m.tarih} ${p.m.saatTsi}] ` +
+                `norm "${adNorm(p.m.ev)}" / "${adNorm(p.m.deplasman)}"` +
+                (p.m.tarih !== t.tarih ? "  <<< TARIH FARKLI" : "")));
+            }
+          }
+          
+          try { await taniCalistir(); } catch (e) { console.log("HATA:", e && e.stack ? e.stack : e); }
+          
+          TANI_BITIS
+          node tani.mjs
