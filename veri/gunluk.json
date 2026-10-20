@@ -1,6 +1,6 @@
 {
- "calisti": "2026-10-20T10:46:14.450Z",
- "tsi": "2026-10-20 13:46",
+ "calisti": "2026-10-20T10:51:20.217Z",
+ "tsi": "2026-10-20 13:51",
  "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-20": "ACILDI",
@@ -8,17 +8,17 @@
   "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "taranmisGun": 43,
- "yeniSkor": 1802,
- "toplamSkor": 3617,
+ "taranmisGun": 63,
+ "yeniSkor": 2167,
+ "toplamSkor": 5784,
  "oranMacSayisi": 113,
  "kalabalikSayisi": 20,
- "modelliLig": 80,
- "modelliTakim": 1606,
- "genelTablo": "3617 mac",
+ "modelliLig": 84,
+ "modelliTakim": 1731,
+ "genelTablo": "5784 mac",
  "bultenSayisi": 110,
- "tahminSayisi": 12,
- "elenenSayisi": 8,
+ "tahminSayisi": 11,
+ "elenenSayisi": 9,
  "bulten": [
   {
    "macId": "GG7ooewg",
@@ -2242,13 +2242,15 @@
    "fark": 25.6,
    "esik": 5.6,
    "model": {
-    "yetersiz": true,
-    "kaynak": "European Cup",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 2,
-     "deplasman": 2
+     "ev": 11,
+     "deplasman": 10
     },
-    "gerekli": 6
+    "yuzde": 42.4,
+    "fark": -20.8,
+    "beklenenDeger": -0.329,
+    "beklenenGol": 3.1
    },
    "durum": "bekliyor"
   },
@@ -2263,14 +2265,14 @@
     "tip": "ms",
     "secim": "2"
    },
-   "k": 24,
-   "n": 28,
+   "k": 25,
+   "n": 29,
    "yuzde": 86,
    "oran": 1.29,
    "macId": "b9lv0Tme",
    "basabas": 77.5,
-   "fark": 8.2,
-   "esik": 7,
+   "fark": 8.7,
+   "esik": 6.8,
    "durum": "bekliyor"
   },
   {
@@ -2293,13 +2295,15 @@
    "fark": 30.1,
    "esik": 5.9,
    "model": {
-    "yetersiz": true,
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 7,
-     "deplasman": 9
+     "ev": 11,
+     "deplasman": 14
     },
-    "gerekli": 8
+    "yuzde": 69.6,
+    "fark": 4.3,
+    "beklenenDeger": 0.065,
+    "beklenenGol": 3.77
    },
    "durum": "bekliyor"
   },
@@ -2314,22 +2318,24 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 20,
-   "n": 22,
+   "k": 21,
+   "n": 23,
    "yuzde": 91,
    "oran": 1.48,
    "macId": "2swdQAqA",
    "basabas": 67.6,
-   "fark": 23.3,
-   "esik": 7.1,
+   "fark": 23.7,
+   "esik": 6.8,
    "model": {
-    "yetersiz": true,
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 14,
-     "deplasman": 7
+     "ev": 19,
+     "deplasman": 10
     },
-    "gerekli": 8
+    "yuzde": 57.1,
+    "fark": -10.5,
+    "beklenenDeger": -0.155,
+    "beklenenGol": 3.04
    },
    "durum": "bekliyor"
   },
@@ -2353,13 +2359,15 @@
    "fark": 25.8,
    "esik": 8,
    "model": {
-    "yetersiz": true,
-    "kaynak": "genel",
+    "kaynak": "Football League Championship",
     "macSayisi": {
-     "ev": 6,
-     "deplasman": 5
+     "ev": 9,
+     "deplasman": 9
     },
-    "gerekli": 8
+    "yuzde": 45.6,
+    "fark": -18.1,
+    "beklenenDeger": -0.284,
+    "beklenenGol": 2.8
    },
    "durum": "bekliyor"
   },
@@ -2383,13 +2391,15 @@
    "fark": 33.4,
    "esik": 9.3,
    "model": {
-    "yetersiz": true,
-    "kaynak": "Football League Trophy",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 2,
-     "deplasman": 1
+     "ev": 11,
+     "deplasman": 11
     },
-    "gerekli": 6
+    "yuzde": 52.4,
+    "fark": -1.7,
+    "beklenenDeger": -0.031,
+    "beklenenGol": 2.91
    },
    "durum": "bekliyor"
   },
@@ -2413,35 +2423,16 @@
    "fark": 16.1,
    "esik": 9.9,
    "model": {
-    "yetersiz": true,
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 6,
-     "deplasman": 7
+     "ev": 11,
+     "deplasman": 12
     },
-    "gerekli": 8
+    "yuzde": 66.6,
+    "fark": 0.4,
+    "beklenenDeger": 0.006,
+    "beklenenGol": 4.25
    },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "FC Porto",
-   "deplasman": "PSV",
-   "lig": "Champions League",
-   "tarih": "2026-10-20",
-   "saat": "22:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 14,
-   "n": 18,
-   "yuzde": 78,
-   "oran": 1.51,
-   "macId": "jP6EvMLH",
-   "basabas": 66.2,
-   "fark": 11.6,
-   "esik": 10.2,
    "durum": "bekliyor"
   },
   {
@@ -2477,21 +2468,23 @@
     "secim": "2"
    },
    "k": 10,
-   "n": 13,
-   "yuzde": 77,
+   "n": 14,
+   "yuzde": 71,
    "oran": 2.04,
    "macId": "8ODjcCFN",
    "basabas": 49,
-   "fark": 27.9,
-   "esik": 12.3,
+   "fark": 22.4,
+   "esik": 12.4,
    "model": {
-    "yetersiz": true,
-    "kaynak": "European Cup",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 2,
-     "deplasman": 2
+     "ev": 9,
+     "deplasman": 11
     },
-    "gerekli": 6
+    "yuzde": 37.3,
+    "fark": -11.8,
+    "beklenenDeger": -0.24,
+    "beklenenGol": 2.92
    },
    "durum": "bekliyor"
   },
@@ -2515,13 +2508,15 @@
    "fark": 14.2,
    "esik": 13.9,
    "model": {
-    "yetersiz": true,
-    "kaynak": "Football League Trophy",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 2,
-     "deplasman": 2
+     "ev": 11,
+     "deplasman": 12
     },
-    "gerekli": 6
+    "yuzde": 48,
+    "fark": -10.5,
+    "beklenenDeger": -0.18,
+    "beklenenGol": 2.83
    },
    "durum": "bekliyor"
   },
@@ -2559,22 +2554,24 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 22,
-   "n": 24,
+   "k": 23,
+   "n": 25,
    "yuzde": 92,
    "oran": 1.12,
    "macId": "djVwRmZR",
    "basabas": 89.3,
-   "fark": 2.4,
-   "esik": 6.5,
+   "fark": 2.7,
+   "esik": 6.3,
    "model": {
-    "yetersiz": true,
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 6,
-     "deplasman": 5
+     "ev": 10,
+     "deplasman": 12
     },
-    "gerekli": 8
+    "yuzde": 33.2,
+    "fark": -56.1,
+    "beklenenDeger": -0.628,
+    "beklenenGol": 3.18
    },
    "neden": "gurultu esigini gecemedi"
   },
@@ -2589,14 +2586,35 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 19,
-   "n": 24,
-   "yuzde": 79,
+   "k": 20,
+   "n": 25,
+   "yuzde": 80,
    "oran": 1.11,
    "macId": "CjoYQdhB",
    "basabas": 90.1,
-   "fark": -10.9,
-   "esik": 8.6,
+   "fark": -10.1,
+   "esik": 8.3,
+   "neden": "gurultu esigini gecemedi"
+  },
+  {
+   "ev": "FC Porto",
+   "deplasman": "PSV",
+   "lig": "Champions League",
+   "tarih": "2026-10-20",
+   "saat": "22:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 14,
+   "n": 19,
+   "yuzde": 74,
+   "oran": 1.51,
+   "macId": "jP6EvMLH",
+   "basabas": 66.2,
+   "fark": 7.5,
+   "esik": 10.4,
    "neden": "gurultu esigini gecemedi"
   },
   {
@@ -2619,13 +2637,15 @@
    "fark": 11,
    "esik": 11.6,
    "model": {
-    "yetersiz": true,
-    "kaynak": "Football League Trophy",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 1,
-     "deplasman": 2
+     "ev": 10,
+     "deplasman": 12
     },
-    "gerekli": 6
+    "yuzde": 74.1,
+    "fark": 6.5,
+    "beklenenDeger": 0.096,
+    "beklenenGol": 3.31
    },
    "neden": "gurultu esigini gecemedi"
   },
