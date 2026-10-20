@@ -873,12 +873,24 @@ jobs:
               const g = gucSec(mac.ev, mac.deplasman);
               if (g) {
                 const lam = lambdaHesapla(g, mac.ev, mac.deplasman);
-                if (lam) {
+                /* YETERLI MAC YOKSA MODEL SUSAR.
+                   20 Ekim: 13 gunluk veride takim basina 2-4 mac vardi; kucultme
+                   guclerı 1.0'e yapistirdi ve model her maca "ortalama ev sahibi"
+                   muamelesi yapip %35-45 dedi. Bu bilgi degil, bilgisizligin sayiya
+                   cevrilmis hali — ve kullanicı onu bilgi sanir. Esik:
+                   ayni lig icin takim basina >=6 mac, genel tablo icin >=8. */
+                const enAz = lam ? Math.min(lam.nEv, lam.nDep) : 0;
+                const gerekli = g.kaynak === "genel" ? 8 : 6;
+                if (lam && enAz < gerekli) {
+                  kayit.model = { yetersiz: true, kaynak: g.kaynak,
+                                  macSayisi: { ev: lam.nEv, deplasman: lam.nDep }, gerekli };
+                } else if (lam) {
                   const o = olasiliklar(lam);
                   const p = t.kural.tip === "ms" ? o.ms[t.kural.secim] : null;
                   if (p !== null && p !== undefined) {
                     const md = modelDeger(p, oran);
                     kayit.model = { kaynak: g.kaynak,
+                                    macSayisi: { ev: lam.nEv, deplasman: lam.nDep },
                                     yuzde: Number((p * 100).toFixed(1)),
                                     fark: Number(md.fark.toFixed(1)),
                                     beklenenDeger: Number(md.beklenenDeger.toFixed(3)),
@@ -921,7 +933,9 @@ jobs:
             g.tahminler.forEach(t => console.log(
               `    ${t.saat} TSİ  ${t.ev} - ${t.deplasman}  ${t.etiket} @${t.oran}  ` +
               `kalabalik ${t.k}/${t.n} (%${t.yuzde})  fark ${t.fark} > esik ${t.esik}` +
-              (t.model ? `  model %${t.model.yuzde} BD ${t.model.beklenenDeger}` : "  model yok")));
+              (!t.model ? "  model yok" : t.model.yetersiz
+                ? `  model SUSTU (mac: ${t.model.macSayisi.ev}/${t.model.macSayisi.deplasman}, gereken ${t.model.gerekli})`
+                : `  model %${t.model.yuzde} BD ${t.model.beklenenDeger} [${t.model.kaynak}, mac ${t.model.macSayisi.ev}/${t.model.macSayisi.deplasman}]`)));
             console.log("  --- ELENENLER ---");
             g.elenenler.forEach(e => console.log(`    ${e.ev} - ${e.deplasman}  ->  ${e.neden}`));
             console.log("==========================================");
