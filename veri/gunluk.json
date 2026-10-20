@@ -1,6 +1,6 @@
 {
- "calisti": "2026-10-20T10:29:22.152Z",
- "tsi": "2026-10-20 13:29",
+ "calisti": "2026-10-20T10:34:44.066Z",
+ "tsi": "2026-10-20 13:34",
  "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-20": "ACILDI",
@@ -8,14 +8,14 @@
   "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "taranmisGun": 13,
- "yeniSkor": 1324,
- "toplamSkor": 1359,
+ "taranmisGun": 24,
+ "yeniSkor": 456,
+ "toplamSkor": 1815,
  "oranMacSayisi": 113,
  "kalabalikSayisi": 20,
- "modelliLig": 58,
- "modelliTakim": 1249,
- "genelTablo": "1359 mac",
+ "modelliLig": 69,
+ "modelliTakim": 1390,
+ "genelTablo": "1815 mac",
  "bultenSayisi": 110,
  "tahminSayisi": 11,
  "elenenSayisi": 9,
@@ -2233,20 +2233,22 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 31,
-   "n": 34,
-   "yuzde": 91,
+   "k": 32,
+   "n": 36,
+   "yuzde": 89,
    "oran": 1.58,
    "macId": "2yMLTDQr",
    "basabas": 63.3,
-   "fark": 27.9,
-   "esik": 5.4,
+   "fark": 25.6,
+   "esik": 5.6,
    "model": {
+    "yetersiz": true,
     "kaynak": "European Cup",
-    "yuzde": 36.2,
-    "fark": -27.1,
-    "beklenenDeger": -0.429,
-    "beklenenGol": 4.01
+    "macSayisi": {
+     "ev": 1,
+     "deplasman": 1
+    },
+    "gerekli": 6
    },
    "durum": "bekliyor"
   },
@@ -2262,13 +2264,13 @@
     "secim": "2"
    },
    "k": 24,
-   "n": 27,
-   "yuzde": 89,
+   "n": 28,
+   "yuzde": 86,
    "oran": 1.29,
    "macId": "b9lv0Tme",
    "basabas": 77.5,
-   "fark": 11.4,
-   "esik": 6.6,
+   "fark": 8.2,
+   "esik": 7,
    "durum": "bekliyor"
   },
   {
@@ -2282,20 +2284,22 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 20,
-   "n": 21,
+   "k": 21,
+   "n": 22,
    "yuzde": 95,
    "oran": 1.53,
    "macId": "jgWjSQDO",
    "basabas": 65.4,
-   "fark": 29.9,
-   "esik": 6.1,
+   "fark": 30.1,
+   "esik": 5.9,
    "model": {
+    "yetersiz": true,
     "kaynak": "genel",
-    "yuzde": 47.4,
-    "fark": -18,
-    "beklenenDeger": -0.275,
-    "beklenenGol": 3.33
+    "macSayisi": {
+     "ev": 4,
+     "deplasman": 3
+    },
+    "gerekli": 8
    },
    "durum": "bekliyor"
   },
@@ -2310,20 +2314,22 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 19,
-   "n": 21,
-   "yuzde": 90,
+   "k": 20,
+   "n": 22,
+   "yuzde": 91,
    "oran": 1.48,
    "macId": "2swdQAqA",
    "basabas": 67.6,
-   "fark": 22.9,
-   "esik": 7.3,
+   "fark": 23.3,
+   "esik": 7.1,
    "model": {
+    "yetersiz": true,
     "kaynak": "European Cup",
-    "yuzde": 53,
-    "fark": -14.6,
-    "beklenenDeger": -0.216,
-    "beklenenGol": 5.18
+    "macSayisi": {
+     "ev": 1,
+     "deplasman": 1
+    },
+    "gerekli": 6
    },
    "durum": "bekliyor"
   },
@@ -2347,11 +2353,13 @@
    "fark": 25.8,
    "esik": 8,
    "model": {
+    "yetersiz": true,
     "kaynak": "Football League Championship",
-    "yuzde": 33.9,
-    "fark": -29.8,
-    "beklenenDeger": -0.468,
-    "beklenenGol": 2.53
+    "macSayisi": {
+     "ev": 3,
+     "deplasman": 3
+    },
+    "gerekli": 6
    },
    "durum": "bekliyor"
   },
@@ -2375,11 +2383,13 @@
    "fark": 16.1,
    "esik": 9.9,
    "model": {
-    "kaynak": "Football League One",
-    "yuzde": 66.8,
-    "fark": 0.6,
-    "beklenenDeger": 0.009,
-    "beklenenGol": 3.64
+    "yetersiz": true,
+    "kaynak": "Football League Trophy",
+    "macSayisi": {
+     "ev": 1,
+     "deplasman": 1
+    },
+    "gerekli": 6
    },
    "durum": "bekliyor"
   },
@@ -2543,14 +2553,14 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 12,
-   "n": 16,
-   "yuzde": 75,
+   "k": 13,
+   "n": 17,
+   "yuzde": 76,
    "oran": 1.51,
    "macId": "jP6EvMLH",
    "basabas": 66.2,
-   "fark": 8.8,
-   "esik": 11.2,
+   "fark": 10.2,
+   "esik": 10.7,
    "neden": "gurultu esigini gecemedi"
   },
   {
@@ -2605,11 +2615,13 @@
    "fark": 9.4,
    "esik": 12.3,
    "model": {
-    "kaynak": "Football League Two",
-    "yuzde": 59.2,
-    "fark": -8.3,
-    "beklenenDeger": -0.123,
-    "beklenenGol": 2.51
+    "yetersiz": true,
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 3,
+     "deplasman": 3
+    },
+    "gerekli": 8
    },
    "neden": "gurultu esigini gecemedi"
   },
