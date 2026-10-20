@@ -731,10 +731,25 @@ jobs:
             const gorulen = new Set(sonucGecmis.maclar.map(anahtar));
             let yeniSkor = 0;
           
-            for (const kaydir of [-1, 0]) {
-              const gun = tsiGun(SIMDI, kaydir);
+            /* Hangi gunler tarandi? Ayni gunu bos yere tekrar cekme. */
+            sonucGecmis.taranan = Array.isArray(sonucGecmis.taranan) ? sonucGecmis.taranan : [];
+            const tarandi = new Set(sonucGecmis.taranan);
+          
+            /* ILK DOLUM: model icin lig basina 12 mac lazim. Gunde iki gun tarayarak
+               bu haftalar alir. Soccerbase gecmis gunleri de veriyor — geriye don.
+               Kosu basina en fazla 12 gun cek ki is uzamasin; birkac kosuda tamamlanir. */
+            const gunler = [tsiGun(SIMDI, 0), tsiGun(SIMDI, -1)];      /* bugun ve dun HER ZAMAN */
+            let butce = 12;
+            for (let geri = 2; geri <= 45 && butce > 0; geri++) {
+              const gun = tsiGun(SIMDI, -geri);
+              if (tarandi.has(gun)) continue;
+              gunler.push(gun);
+              butce--;
+            }
+          
+            for (const gun of gunler) {
               const r = await al(`https://www.soccerbase.com/matches/results.sd?date=${gun}`);
-              rapor.kaynaklar[`soccerbase ${gun}`] = r.durum;
+              if (gunler.indexOf(gun) < 2) rapor.kaynaklar[`soccerbase ${gun}`] = r.durum;
               if (!r.ok) continue;
               const { maclar } = soccerbaseAyristir(metneCevir(r.metin));
               for (const m of maclar) {
@@ -743,7 +758,12 @@ jobs:
                 sonucGecmis.maclar.push(m);
                 yeniSkor++;
               }
+              /* Bugunu "tarandi" sayma — gun bitmeden maclar oynaniyor */
+              if (gun !== tsiGun(SIMDI, 0) && !tarandi.has(gun)) { tarandi.add(gun); }
             }
+            sonucGecmis.taranan = [...tarandi].sort();
+            rapor.taranmisGun = sonucGecmis.taranan.length;
+          
             sonucGecmis.guncellendi = new Date().toISOString();
             jsonYaz("veri/sonuclar.json", sonucGecmis);
             rapor.yeniSkor = yeniSkor;
@@ -893,7 +913,8 @@ jobs:
             console.log(`  TSİ ${g.tsi}${g.erkenOrneklem ? "  (ERKEN ORNEKLEM)" : ""}`);
             Object.entries(g.kaynaklar).forEach(([k, v]) => console.log(`  kaynak ${k.padEnd(26)}: ${v}`));
             console.log(`  skor: ${g.toplamSkor} (yeni ${g.yeniSkor})  ·  oranli mac: ${g.oranMacSayisi}`);
-            console.log(`  kalabalik: ${g.kalabalikSayisi}  ·  modelli lig: ${g.modelliLig}`);
+            console.log(`  kalabalik: ${g.kalabalikSayisi}  ·  taranmis gun: ${g.taranmisGun}`);
+            console.log(`  MODEL: ${g.modelliLig} lig · ${g.modelliTakim} takim · genel tablo: ${g.genelTablo}`);
             console.log(`  BULTEN: ${g.bultenSayisi} mac  ·  TAHMIN: ${g.tahminSayisi}  ·  elenen: ${g.elenenSayisi}`);
             console.log("  --- TAHMINLER ---");
             if (!g.tahminler.length) console.log("    (deger esigini gecen bahis yok - bu normaldir)");
