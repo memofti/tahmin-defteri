@@ -1,0 +1,151 @@
+name: Veri Toplayici 3
+
+# 20 Ekim 2. kosusu ne ogretti:
+#   ✓ OLBG-US = OLBG-UK (ayni 816 satir). Tek sayfa yeter.
+#   ✗ sportytrader / forebet: Cloudflare.  oddslot: 404.  Elendi.
+#   ~ betexplorer / kickoff / oddsportal: ACILIYOR, TR+SL kapsamda,
+#     ama "tek basina oran satiri" 0 ciktI.
+#     >>> ARAMA DESENI FAZLA KATIYDI. Oran metin satiri degil, ETIKET ICINDE olabilir.
+#   ? soccerbase: 293 satir geldi ama "2-1" deseni yok.
+#
+# BU KOSU METNE DEGIL HAM HTML'E BAKAR. Hicbir sey saymaz, GOSTERIR.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Topla
+        run: |
+          cat > topla3.mjs <<'TOPLA_BITIS'
+          import fs from "node:fs";
+
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+          async function al(url, saniye = 12) {
+            const t0 = Date.now();
+            try {
+              const r = await fetch(url, {
+                headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
+                redirect: "follow", signal: AbortSignal.timeout(saniye * 1000)
+              });
+              const metin = await r.text();
+              const ms = Date.now() - t0, kb = Math.round(metin.length / 1024);
+              if (!r.ok) return { durum: `HTTP ${r.status}`, ms, kb };
+              return { ok: true, ms, kb, metin, durum: "ACILDI" };
+            } catch (e) {
+              return { durum: /abort|timeout/i.test(e.name + e.message) ? "ZAMAN ASIMI" : "AG HATASI",
+                       detay: e.message, ms: Date.now() - t0 };
+            }
+          }
+
+          /* HAM HTML'de bir desenin etrafini goster. Bosluklar sadelestirilir. */
+          function hamPencere(html, desen, once, sonra, kac) {
+            const cikti = [];
+            const re = new RegExp(desen.source, desen.flags.includes("g") ? desen.flags : desen.flags + "g");
+            let m, bulunan = 0;
+            while ((m = re.exec(html)) !== null && bulunan < kac) {
+              bulunan++;
+              const bas = Math.max(0, m.index - once);
+              const son = Math.min(html.length, m.index + m[0].length + sonra);
+              cikti.push(`--- ornek ${bulunan} (konum ${m.index}, eslesen: ${JSON.stringify(m[0].slice(0, 40))}) ---`);
+              cikti.push(html.slice(bas, son).replace(/\s+/g, " ").trim());
+              if (re.lastIndex === m.index) re.lastIndex++;
+            }
+            return cikti;
+          }
+
+          /* Hangi class/attribute adlarinda "odd" geciyor? */
+          function oranIzleri(html) {
+            const say = {};
+            const ekle = (a) => { if (a) say[a] = (say[a] || 0) + 1; };
+            (html.match(/\b(data-[a-z-]*odd[a-z-]*)\s*=/gi) || []).forEach(x => ekle(x.replace(/\s*=$/, "").toLowerCase()));
+            (html.match(/class="[^"]*"/gi) || []).forEach(c => {
+              c.slice(7, -1).split(/\s+/).forEach(k => { if (/odd/i.test(k)) ekle("class:" + k.toLowerCase()); });
+            });
+            return Object.entries(say).sort((a, b) => b[1] - a[1]).slice(0, 12);
+          }
+
+          const GEVSEK_ORAN = /\b[1-9]\d?[.,]\d{2}\b/g;
+          fs.mkdirSync("veri", { recursive: true });
+          const ozet = {};
+
+          /* ================= 1) SOCCERBASE: skor nerede? ================= */
+          const dun = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+          console.log(`=== soccerbase (${dun}) ===`);
+          const sb = await al(`https://www.soccerbase.com/matches/results.sd?date=${dun}`);
+          console.log(`  ${sb.durum} (${sb.ms} ms${sb.kb ? ", " + sb.kb + " KB" : ""})`);
+          if (sb.ok) {
+            const satirlar = sb.metin.replace(/<script[\s\S]*?<\/script>/gi, " ")
+              .replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, "\n")
+              .split("\n").map(s => s.trim()).filter(Boolean);
+            console.log(`  --- ILK 70 METIN SATIRI (ham gorunum) ---`);
+            satirlar.slice(0, 70).forEach((s, i) => console.log(`   ${String(i).padStart(3)} ${s.slice(0, 95)}`));
+            console.log(`  --- HAM HTML: "vs" veya skor cevresi ---`);
+            hamPencere(sb.metin, /\b\d\s*-\s*\d\b/, 350, 250, 2).forEach(x => console.log("  " + x));
+            fs.writeFileSync("veri/soccerbase-ham.txt", sb.metin.slice(0, 60000));
+            ozet.soccerbase = `${satirlar.length} satir, ham kaydedildi`;
+          } else ozet.soccerbase = sb.durum;
+
+          /* ================= 2) ORAN ADAYLARI: ham HTML ================= */
+          const ADAYLAR = [
+            ["betexplorer", "https://www.betexplorer.com/next/soccer/", /Galatasaray|Fenerbah|Real Madrid|Arsenal/],
+            ["kickoff",     "https://www.kickoff.co.uk/football-predictions/", /Galatasaray|Fenerbah|Arsenal|Chelsea/],
+            ["oddsportal",  "https://www.oddsportal.com/matches/soccer/", /Galatasaray|Fenerbah|Arsenal|Chelsea/]
+          ];
+
+          for (const [etiket, url, takimDeseni] of ADAYLAR) {
+            console.log(`\n=== ${etiket} ===`);
+            const r = await al(url);
+            console.log(`  ${r.durum} (${r.ms} ms${r.kb ? ", " + r.kb + " KB" : ""})`);
+            if (!r.ok) { ozet[etiket] = r.durum; continue; }
+
+            const hepsi = (r.metin.match(GEVSEK_ORAN) || [])
+              .map(x => parseFloat(String(x).replace(",", ".")))
+              .filter(n => n >= 1.01 && n <= 51);
+            console.log(`  GEVSEK oran gorunumu (ham HTML): ${hepsi.length} adet`);
+            if (hepsi.length) console.log(`  ornek: ${hepsi.slice(0, 12).join(" ")}`);
+
+            const izler = oranIzleri(r.metin);
+            console.log(`  "odd" gecen class/attribute adlari:`);
+            if (izler.length) izler.forEach(([a, n]) => console.log(`     ${n.toString().padStart(4)} x  ${a}`));
+            else console.log("     YOK - oran JS ile sonradan yukleniyor olabilir");
+
+            console.log(`  --- HAM HTML: takim adi cevresi ---`);
+            hamPencere(r.metin, takimDeseni, 200, 900, 2).forEach(x => console.log("  " + x));
+
+            fs.writeFileSync(`veri/${etiket}-ham.txt`, r.metin.slice(0, 120000));
+            console.log(`  -> veri/${etiket}-ham.txt yazildi`);
+            ozet[etiket] = `${hepsi.length} gevsek oran, ${izler.length} "odd" adi`;
+          }
+
+          fs.writeFileSync("veri/ozet3.json", JSON.stringify({ calisti: new Date().toISOString(), ozet }, null, 1));
+          console.log("\n================== OZET ==================");
+          Object.entries(ozet).forEach(([k, v]) => console.log(`  ${k.padEnd(14)}: ${v}`));
+          console.log("==========================================");
+          TOPLA_BITIS
+          node topla3.mjs
+
+      - name: Repoya yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri || true
+          if git diff --staged --quiet; then
+            echo "degisiklik yok"
+          else
+            git commit -m "veri: toplayici3 kosusu $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
+            git push
+            echo "repoya yazildi"
+          fi
