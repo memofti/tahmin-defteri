@@ -442,10 +442,19 @@ jobs:
             LIG.lastIndex = 0;
             while ((m = LIG.exec(html)) !== null) ligler.push({ k: m.index, lig: m[1].trim(), ulke: m[2].trim() });
           
-            /* 2) mac isaretleri */
+            /* 2) mac isaretleri — AYNI MAC IKI KEZ BASILABILIR.
+               20 Ekim: betexplorer ust ligleri hem "popüler ligler" blogunda hem de
+               ulke listesinde basiyor; bulten 110 satir gorunurken 90 benzersiz mac
+               vardi, Fenerbahce-Slavia iki kez listeleniyordu. event-id'ye gore
+               tekillestir, ILK gorulen kalsin. */
             const macIsaret = [];
+            const gorulenMac = new Set();
             MAC.lastIndex = 0;
-            while ((m = MAC.exec(html)) !== null) macIsaret.push({ k: m.index, ts: Number(m[1]), id: m[2] });
+            while ((m = MAC.exec(html)) !== null) {
+              if (gorulenMac.has(m[2])) continue;
+              gorulenMac.add(m[2]);
+              macIsaret.push({ k: m.index, ts: Number(m[1]), id: m[2] });
+            }
           
             /* 3) takim adlari (lig adlari HARIC) */
             const takimlar = [];
