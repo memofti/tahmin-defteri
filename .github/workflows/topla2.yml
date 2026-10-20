@@ -1,0 +1,187 @@
+name: Veri Toplayici 2
+
+# TEK SORU: GUNLUK ORAN LISTESI NEREDEN GELECEK?
+#
+# 20 Ekim kosusu ne ogretti:
+#   ✓ OLBG-UK yapisi cozuldu, ayristirici yazildi
+#   ✗ fixtures.csv BUGUN BOS (en yeni 19 Ekim) - gunluk oran kaynagi OLAMAZ
+#   ? OLBG-US ve soccerbase bolumu kesildi - tekrar bakiyoruz
+#
+# ILK SURUMUN EKSIGI: fetch'te zaman asimi yoktu, kosu asili kaldi.
+# Bu surumde her istek 12 saniyede kesilir.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Topla
+        run: |
+          cat > topla2.mjs <<'TOPLA_BITIS'
+          import fs from "node:fs";
+
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+          /* ZAMAN ASIMI: ilk surumde yoktu, kosu asili kaldi. Artik 12 sn. */
+          async function al(url, saniye = 12) {
+            const t0 = Date.now();
+            try {
+              const r = await fetch(url, {
+                headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
+                redirect: "follow",
+                signal: AbortSignal.timeout(saniye * 1000)
+              });
+              const metin = await r.text();
+              const ms = Date.now() - t0;
+              const kb = Math.round(metin.length / 1024);
+              if (!r.ok) {
+                const cf = /cloudflare|just a moment|attention required/i.test(metin);
+                return { kod: r.status, cf, ms, kb, durum: `HTTP ${r.status}${cf ? " (Cloudflare)" : ""}` };
+              }
+              if (/just a moment|enable javascript and cookies|attention required/i.test(metin)) {
+                return { kod: 200, ms, kb, durum: "ENGELLENDI (bot duvari)" };
+              }
+              return { ok: true, ms, kb, metin, durum: "ACILDI" };
+            } catch (e) {
+              const ms = Date.now() - t0;
+              return { durum: /abort|timeout/i.test(e.name + e.message) ? `ZAMAN ASIMI (${saniye}sn)` : "AG HATASI",
+                       detay: e.message, ms };
+            }
+          }
+
+          const VARLIK = {
+            nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", "#39": "'",
+            ccedil: "ç", Ccedil: "Ç", uuml: "ü", Uuml: "Ü", ouml: "ö", Ouml: "Ö",
+            auml: "ä", Auml: "Ä", szlig: "ß", ntilde: "ñ", Ntilde: "Ñ",
+            aacute: "á", eacute: "é", iacute: "í", oacute: "ó", uacute: "ú",
+            Aacute: "Á", Eacute: "É", Iacute: "Í", Oacute: "Ó", Uacute: "Ú",
+            agrave: "à", egrave: "è", igrave: "ì", ograve: "ò", ugrave: "ù",
+            acirc: "â", ecirc: "ê", icirc: "î", ocirc: "ô", ucirc: "û",
+            aring: "å", Aring: "Å", oslash: "ø", Oslash: "Ø", aelig: "æ", AElig: "Æ",
+            ccaron: "č", scaron: "š", zcaron: "ž", Scaron: "Š", Zcaron: "Ž",
+            middot: "·", ndash: "–", mdash: "—", rsquo: "’", lsquo: "‘",
+            ldquo: "“", rdquo: "”", hellip: "…", deg: "°", euro: "€", pound: "£"
+          };
+          function varlikCoz(s) {
+            return s.replace(/&(#x?[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]*);/g, (tam, ad) => {
+              if (ad[0] === "#") {
+                const n = ad[1] === "x" || ad[1] === "X"
+                  ? parseInt(ad.slice(2), 16) : parseInt(ad.slice(1), 10);
+                return Number.isFinite(n) && n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : tam;
+              }
+              return Object.prototype.hasOwnProperty.call(VARLIK, ad) ? VARLIK[ad] : tam;
+            });
+          }
+          function metneCevir(html) {
+            return varlikCoz(
+              html.replace(/<script[\s\S]*?<\/script>/gi, " ")
+                  .replace(/<style[\s\S]*?<\/style>/gi, " ")
+                  .replace(/<[^>]+>/g, "\n")
+            ).split("\n").map(s => s.trim()).filter(Boolean);
+          }
+          function pencere(satirlar, test, once, sonra, kacOrnek) {
+            const cikti = []; let bulunan = 0;
+            for (let i = 0; i < satirlar.length && bulunan < kacOrnek; i++) {
+              if (!test(satirlar[i])) continue;
+              bulunan++;
+              cikti.push(`--- ornek ${bulunan} (satir ${i}) ---`);
+              for (let j = Math.max(0, i - once); j <= Math.min(satirlar.length - 1, i + sonra); j++) {
+                cikti.push(`  ${j === i ? ">>" : "  "} ${satirlar[j].slice(0, 100)}`);
+              }
+            }
+            return cikti;
+          }
+
+          const ORAN = /^[1-9]\d?[.,]\d{2}$/;              /* tek basina bir oran satiri */
+          const bugun = new Date();
+          const iso = d => d.toISOString().slice(0, 10);
+          const dun = new Date(Date.now() - 86400000);
+
+          fs.mkdirSync("veri", { recursive: true });
+          const ozet = {};
+
+          /* ========== A) GECEN SEFER KESILEN IKI KAYNAK ========== */
+          for (const [etiket, url, test, once, sonra] of [
+            ["olbg-us", "https://www.olbg.com/us/betting-picks/Soccer/1",
+             s => /\d+\s*\/\s*\d+/.test(s) || /\bWin Tips\b/i.test(s), 6, 8],
+            ["soccerbase", `https://www.soccerbase.com/matches/results.sd?date=${iso(dun)}`,
+             s => /^\d+\s*-\s*\d+$/.test(s), 5, 4]
+          ]) {
+            console.log(`\n=== ${etiket} ===`);
+            const r = await al(url);
+            console.log(`  ${r.durum}  (${r.ms} ms${r.kb !== undefined ? ", " + r.kb + " KB" : ""})`);
+            if (!r.ok) { ozet[etiket] = r.durum; continue; }
+            const satirlar = metneCevir(r.metin);
+            console.log(`  ${satirlar.length} metin satiri`);
+            const p = pencere(satirlar, test, once, sonra, 3);
+            if (p.length) p.forEach(x => console.log("  " + x));
+            else console.log("  beklenen desen BULUNAMADI");
+            fs.writeFileSync(`veri/${etiket}-ornek.txt`, satirlar.slice(0, 1000).join("\n"));
+            console.log(`  -> veri/${etiket}-ornek.txt yazildi`);
+            ozet[etiket] = `${satirlar.length} satir, ${p.length ? "desen VAR" : "desen YOK"}`;
+          }
+
+          /* ========== B) GUNLUK ORAN LISTESI ADAYLARI ========== */
+          const ADAYLAR = [
+            ["betexplorer", "https://www.betexplorer.com/next/soccer/"],
+            ["oddslot",     "https://oddslot.com/football/"],
+            ["kickoff",     "https://www.kickoff.co.uk/football-predictions/"],
+            ["sportytrader","https://www.sportytrader.com/en/odds/football/"],
+            ["oddsportal",  "https://www.oddsportal.com/matches/soccer/"],
+            ["forebet",     "https://www.forebet.com/en/football-tips-and-predictions-for-today"]
+          ];
+
+          for (const [etiket, url] of ADAYLAR) {
+            console.log(`\n=== oran adayi: ${etiket} ===`);
+            console.log(`  ${url}`);
+            const r = await al(url);
+            console.log(`  ${r.durum}  (${r.ms} ms${r.kb !== undefined ? ", " + r.kb + " KB" : ""})`);
+            if (!r.ok) { ozet["oran:" + etiket] = r.durum; continue; }
+
+            const satirlar = metneCevir(r.metin);
+            const oranSatir = satirlar.filter(s => ORAN.test(s));
+            const trIzi = /süper lig|super lig|galatasaray|fenerbah|besiktas|beşiktaş|trabzon/i.test(r.metin);
+            const clIzi = /champions league/i.test(r.metin);
+            console.log(`  ${satirlar.length} satir · TEK BASINA oran satiri: ${oranSatir.length}`);
+            console.log(`  Turkiye izi: ${trIzi ? "VAR" : "yok"} · Sampiyonlar Ligi izi: ${clIzi ? "VAR" : "yok"}`);
+            if (oranSatir.length) console.log(`  ornek oranlar: ${oranSatir.slice(0, 10).join(" ")}`);
+
+            const p = pencere(satirlar, s => ORAN.test(s), 7, 3, 2);
+            if (p.length) { console.log("  ORAN SATIRI CEVRESI:"); p.forEach(x => console.log("  " + x)); }
+
+            fs.writeFileSync(`veri/oran-${etiket}-ornek.txt`, satirlar.slice(0, 900).join("\n"));
+            console.log(`  -> veri/oran-${etiket}-ornek.txt yazildi`);
+            ozet["oran:" + etiket] =
+              `${oranSatir.length} oran satiri, TR:${trIzi ? "var" : "yok"}, SL:${clIzi ? "var" : "yok"}`;
+          }
+
+          fs.writeFileSync("veri/ozet2.json", JSON.stringify({ calisti: new Date().toISOString(), ozet }, null, 1));
+          console.log("\n================== OZET ==================");
+          Object.entries(ozet).forEach(([k, v]) => console.log(`  ${k.padEnd(18)}: ${v}`));
+          console.log("==========================================");
+          TOPLA_BITIS
+          node topla2.mjs
+
+      - name: Repoya yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri || true
+          if git diff --staged --quiet; then
+            echo "degisiklik yok"
+          else
+            git commit -m "veri: toplayici2 kosusu $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
+            git push
+            echo "repoya yazildi"
+          fi
