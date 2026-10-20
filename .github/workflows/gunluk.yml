@@ -130,7 +130,8 @@ jobs:
           const ISARET = /^(\d+)\s*\/\s*(\d+)\s+Win Tips$/i;
           const YUZDE   = /^(\d{1,3})\s*%$/;
           const SAAT    = /^(\d{1,2}):(\d{2})$/;
-          const GUN     = /^(Today|Tomorrow|Yesterday|\d{1,2}\s+\w+|\w+\s+\d{1,2})$/i;
+          const GUN     = /^(Today|Tomorrow|Yesterday|(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+)?\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]{3,}$|^(Today|Tomorrow|Yesterday)$|^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+\d{1,2}(?:st|nd|rd|th)?\s+[A-Za-z]{3,}$|^[A-Za-z]{3,}\s+\d{1,2}(?:st|nd|rd|th)?$/i;
+          const AY3 = { jan:1, feb:2, mar:3, apr:4, may:5, jun:6, jul:7, aug:8, sep:9, oct:10, nov:11, dec:12 };
           const GURULTU = /^(\d+\s+(expert|experts|comment|comments|tip|tips)|Add|Follow|New)$/i;
           
           /* OLBG pazar adi -> defterdeki makine-okunur kural (etiketKural ile ayni dil) */
@@ -168,12 +169,30 @@ jobs:
             return null;                                      /* taninmayan pazar: atla */
           }
           
+          /* Iki site ayni takimi farkli yazabiliyor (20 Ekim: "Wolves" vs "Wolverhampton").
+             Kisa adi uzun ada cevir; benzerlik zaten icerme ile calistigi icin bu yeterli. */
+          const ESANLAM = {
+            "wolves": "wolverhampton", "man city": "manchester city", "man utd": "manchester united",
+            "man united": "manchester united", "spurs": "tottenham", "psg": "paris saint germain",
+            "paris sg": "paris saint germain", "inter": "internazionale", "b munich": "bayern munich",
+            "bayern": "bayern munich", "dortmund": "borussia dortmund", "atletico": "atletico madrid",
+            "ath madrid": "atletico madrid", "atl madrid": "atletico madrid", "leeds": "leeds united",
+            "newcastle": "newcastle united", "forest": "nottingham forest", "nottm forest": "nottingham forest",
+            "west ham": "west ham united", "sheff utd": "sheffield united", "sheff wed": "sheffield wednesday",
+            "west brom": "west bromwich albion", "qpr": "queens park rangers",
+            "stockport": "stockport county", "york": "york city", "accrington": "accrington stanley",
+            "bodo glimt": "bodo glimt", "sociedad": "real sociedad", "betis": "real betis",
+            "leverkusen": "bayer leverkusen", "gladbach": "borussia monchengladbach",
+            "eintracht": "eintracht frankfurt", "olympiacos": "olympiakos"
+          };
+          
           function adNorm(s) {
             return String(s || "")
               .toLocaleLowerCase("tr")
               .replace(/[çğışöü]/g, (c) => ({ "ç": "c", "ğ": "g", "ı": "i", "ş": "s", "ö": "o", "ü": "u" }[c]))
               .replace(/\b(fc|sk|ac|as|cf|sc|afc|bk|if|fk)\b/g, " ")
-              .replace(/[^a-z0-9]+/g, " ").trim();
+              .replace(/[^a-z0-9]+/g, " ").trim()
+              .replace(/^.+$/, (x) => ESANLAM[x] || x);
           }
           function esitAd(a, b) {
             const x = adNorm(a), y = adNorm(b);
@@ -216,7 +235,23 @@ jobs:
             if (g === "today") return bugunIso;
             if (g === "tomorrow") { d.setUTCDate(d.getUTCDate() + 1); return d.toISOString().slice(0, 10); }
             if (g === "yesterday") { d.setUTCDate(d.getUTCDate() - 1); return d.toISOString().slice(0, 10); }
-            return null;                                       /* taninmadi: tarih yazilmaz */
+          
+            /* "Sat 24th Oct" · "24 Oct" · "Oct 24" — OLBG ileri tarihli maclarda boyle yaziyor */
+            let gun = null, ay = null;
+            let m = /(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,})/.exec(g);
+            if (m) { gun = Number(m[1]); ay = AY3[m[2].slice(0, 3).toLowerCase()]; }
+            else {
+              m = /([A-Za-z]{3,})\s+(\d{1,2})(?:st|nd|rd|th)?/.exec(g);
+              if (m) { ay = AY3[m[1].slice(0, 3).toLowerCase()]; gun = Number(m[2]); }
+            }
+            if (!ay || !(gun >= 1 && gun <= 31)) return null;
+          
+            const yil = Number(bugunIso.slice(0, 4));
+            const aday = `${yil}-${String(ay).padStart(2, "0")}-${String(gun).padStart(2, "0")}`;
+            /* yil sinirini as: Aralik'ta "3 Jan" gorulurse gelecek yil demektir */
+            if (Date.parse(aday) < Date.parse(bugunIso) - 60 * 86400000)
+              return `${yil + 1}-${String(ay).padStart(2, "0")}-${String(gun).padStart(2, "0")}`;
+            return aday;
           }
           
           /* ============================ ANA AYRISTIRICI ============================ */
@@ -418,12 +453,19 @@ jobs:
             }
           
             /* 4) oranlar, matchid'ye gore */
+            /* DIKKAT (20 Ekim tanilamasi): betexplorer ust lig satirlarini HEM masaustu
+               HEM mobil olarak basiyor, yani ayni mac icin 6 dugme cikiyor. Eskiden
+               "3 degilse atla" diyordum ve Fenerbahce/PSG/Porto dahil 40 mac eleniyordu.
+               Cozum: outcomeid benzersiz — ona gore tekillestir. */
             const oranGrup = new Map();
             DUGME.lastIndex = 0;
             while ((m = DUGME.exec(html)) !== null) {
-              const id = m[1];
-              if (!oranGrup.has(id)) oranGrup.set(id, []);
-              oranGrup.get(id).push({ oran: sayi(m[3]), enYuksek: sayi(m[4]) ?? sayi(m[3]) });
+              const id = m[1], sonucId = m[2];
+              if (!oranGrup.has(id)) oranGrup.set(id, { gorulen: new Set(), liste: [] });
+              const grup = oranGrup.get(id);
+              if (grup.gorulen.has(sonucId)) continue;          /* ayni sonuc tekrar basilmis */
+              grup.gorulen.add(sonucId);
+              grup.liste.push({ oran: sayi(m[3]), enYuksek: sayi(m[4]) ?? sayi(m[3]) });
             }
           
             const maclar = [], atlanan = [];
@@ -432,7 +474,8 @@ jobs:
               const mi = macIsaret[i];
               const son = i + 1 < macIsaret.length ? macIsaret[i + 1].k : html.length;
           
-              const o = oranGrup.get(mi.id);
+              const grup = oranGrup.get(mi.id);
+              const o = grup ? grup.liste : null;
               if (!o || o.length !== 3) { atlanan.push({ macId: mi.id, neden: `oran ${o ? o.length : 0}/3` }); continue; }
           
               /* bu macin blogundaki takim adlari */
@@ -759,7 +802,15 @@ jobs:
               if (!t.kural) { elenenler.push({ ...kayit, neden: "pazar taninmadi" }); continue; }
           
               const mac = macEslestir(oranlar.maclar, t.ev, t.deplasman, t.tarih);
-              if (!mac) { elenenler.push({ ...kayit, neden: "oran bulunamadi" }); continue; }
+              if (!mac) {
+                /* Ileri tarihli mac oran sayfasinda henuz yok — bu bir arıza degil,
+                   maci o gune yakin tararız. Gerekcesi ayri yazilsin ki karismasin. */
+                const neden = !t.tarih ? "tarih okunamadi"
+                            : t.tarih > bugun ? "ileri tarihli (oran sayfasinda henuz yok)"
+                            : "oran bulunamadi";
+                elenenler.push({ ...kayit, neden });
+                continue;
+              }
           
               if (basladiMi(mac, SIMDI)) { elenenler.push({ ...kayit, neden: "mac basladi" }); continue; }
           
