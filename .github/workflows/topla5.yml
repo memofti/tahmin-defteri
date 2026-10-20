@@ -1,0 +1,81 @@
+name: Veri Toplayici 5
+
+# SON EKSIK: MACIN SAATI VE LIGI.
+# Oran cozuldu (betexplorer, matchid ile baglaniyor, ayristirici yazildi + test edildi).
+# Takim adlari cozuldu. Skor cozuldu (soccerbase). Kalabalik cozuldu (OLBG).
+#
+# Bu kosu KISA cikti verir - tek ekrana sigsin diye. Baska hicbir seye bakmaz.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  topla:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Topla
+        run: |
+          cat > topla5.mjs <<'TOPLA_BITIS'
+          import fs from "node:fs";
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+
+          const r = await fetch("https://www.betexplorer.com/next/soccer/", {
+            headers: { "User-Agent": UA, "Accept": "*/*" },
+            signal: AbortSignal.timeout(15000)
+          });
+          const h = await r.text();
+          const sade = s => s.replace(/\s+/g, " ").trim();
+          console.log(`HTTP ${r.status} · ${Math.round(h.length / 1024)} KB · data-odd: ${(h.match(/data-odd=/g) || []).length}`);
+
+          /* 1) Hangi data-* nitelikleri var? Saat/tarih orada olabilir. */
+          const nit = {};
+          (h.match(/\bdata-[a-z-]+=/gi) || []).forEach(x => { const a = x.slice(0, -1).toLowerCase(); nit[a] = (nit[a] || 0) + 1; });
+          console.log("\n--- 1. data-* NITELIKLERI (en sik 12) ---");
+          Object.entries(nit).sort((a, b) => b[1] - a[1]).slice(0, 12)
+            .forEach(([a, n]) => console.log(`  ${String(n).padStart(4)} x ${a}`));
+
+          /* 2) Fenerbahce macinin matchid'si etrafinda GERIYE dogru genis pencere:
+                saat ve lig adi oranlardan ONCE gelir. */
+          const k = h.indexOf("2yMLTDQr") >= 0 ? h.indexOf("2yMLTDQr") : h.search(/data-odd="/);
+          console.log("\n--- 2. MACIN ONCESI (3000 karakter geriye) ---");
+          console.log(sade(h.slice(Math.max(0, k - 3000), k + 100)).slice(-2900));
+
+          /* 3) Saat deseni nerede geciyor? */
+          console.log("\n--- 3. SAAT DESENI (ilk 3) ---");
+          const re = /\b([01]?\d|2[0-3]):[0-5]\d\b/g;
+          let m, n = 0;
+          while ((m = re.exec(h)) !== null && n < 3) {
+            n++;
+            console.log(`  [${n}] ${sade(h.slice(Math.max(0, m.index - 260), m.index + 120))}`);
+          }
+          if (!n) console.log("  SAAT DESENI YOK - saat JS ile yaziliyor olabilir");
+
+          /* 4) Lig adi nerede? */
+          console.log("\n--- 4. LIG ADI (Champions League cevresi) ---");
+          const l = h.search(/Champions League/i);
+          console.log(l >= 0 ? "  " + sade(h.slice(Math.max(0, l - 500), l + 300)) : "  bulunamadi");
+
+          fs.mkdirSync("veri", { recursive: true });
+          fs.writeFileSync("veri/betexplorer-liste.html", h.slice(0, 400000));
+          console.log("\n-> veri/betexplorer-liste.html yazildi");
+          TOPLA_BITIS
+          node topla5.mjs
+
+      - name: Repoya yaz
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veri || true
+          if git diff --staged --quiet; then echo "degisiklik yok"; else
+            git commit -m "veri: toplayici5 kosusu $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash || true
+            git push; echo "repoya yazildi"
+          fi
