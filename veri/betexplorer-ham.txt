@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+
+<script>
+// Remove no-js class and append js class if javascript is enabled
+document.documentElement.classList.remove("no-js");
+document.documentElement.classList.add("js");
+var desktopMode = localStorage.getItem("mode") || undefined;
+// Migration: delete old lang cookie (renamed to be_lang)
+document.cookie = 'lang=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';
+</script>
+
+<link rel="alternate" data-lang="en" hreflang="en" href="https://www.betexplorer.com/"/>
+<link rel="alternate" data-lang="it" hreflang="it-IT" href="https://www.betexplorer.com/it/"/>
+<link rel="alternate" data-lang="br" hreflang="pt-BR" href="https://www.betexplorer.com/br/"/>
+
+<script type="text/javascript">
+  const currentGeoLocation = 'us';
+  const currentLang = 'en';
+  const defaultLanguage = 'en';
+  const geoLangExist = false;
+</script>
+
+<link rel="preconnect" href="https://content.livesportmedia.eu">
+<link rel="preconnect" href="https://content.livesportmedia.eu" crossorigin>
+<link rel="preconnect" href="https://cci.betexplorer.com">
+<link rel="preconnect" href="https://cdn.cookielaw.org">
+<link rel="preconnect" href="https://cdn.cookielaw.org" crossorigin>
+<link rel="preload" href="/res/styles/img/betexplorer.svg?serial=2610150918" as="image" fetchpriority="high">
+	<link rel="canonical" href="https://www.betexplorer.com/">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" id="viewportmeta" content="width=device-width, initial-scale=1.0">
+
+<script>
+	const viewPortMeta = document.getElementById("viewportmeta");
+	// edge case for opera mini extreme mode
+	if((navigator.userAgent.indexOf("Opera Mini/") > -1) &&
+		(navigator.userAgent.indexOf("Presto/") > -1)) {
+			viewPortMeta.setAttribute("content", "width=1020, initial-scale=1.0, user-scalable=1");
+	}
+
+	if(desktopMode === "desktop") {
+		viewPortMeta.setAttribute("content", "width=1020, initial-scale=auto");
+	}
+</script>
+
+	<meta http-equiv="expires" content="86400">
+	<meta name="robots" content="all,follow">
+	<meta name="keywords" content="bet, football, hockey, stats, statistics, odds comparison, sports betting, sports statistics, tables, results, fixtures, live scores, bet help, livescore, betting, basketball, handball, picks, tips">
+	<meta name="description" content="Betexplorer offers football / soccer stats, results, tables, odds &amp; live football data for 1000+ leagues. Stay on top of the game with BetExplorer.">
+	<title>Football Stats, Results, Tables &amp; H2H stats | BetExplorer</title>
+<meta name="google-site-verification" content="anJD1mJuHp6ohINolrhOa1sPRGwdj2eomUyrlApr3Tg" />
+	<script type="text/javascript">
+		_use_timezones = true;
+		_page_proxy = true;
+		_init_get_message = 0;
+		_default_sport_id = 1;
+		_default_sport_url = 'football';
+		_id_sport_hockey = 4;
+		_id_sport_soccer = 1;
+		_id_sport_tennis = 2;
+		_id_sport_volleyball = 12;
+		_id_sport_baseball = 6;
+		_active_sport_url = 'football';
+		_active_sport_id = 1;
+		_odds_format_eu = 1;
+		_odds_format_uk = 2;
+		_odds_format_us = 3;
+		_bet365_url = 'http://www.bet365.com/olp/open-account?affiliate=365_021894';
+		_localized_strings = {
+			'user': 'user',
+			'next': 'next',
+			'results': 'results',
+			'There are no matches for your leagues selection.%sClick %shere%s to add more leagues to your \'My leagues\' feature.': 'There are no matches for your leagues selection.<br>Click <a href=\"/user/settings/my-leagues/\">here</a> to add more leagues to your \'My leagues\' feature.',
+			'\'My bookmakers\' feature is only available to registered users. Please %slogin%s or %sregister%s new account.' : '\'My bookmakers\' feature is only available to registered users. Please login or register new account.',
+			'Added to My Leagues.': 'Added to My Leagues.',
+			'Removed from My Leagues.': 'Removed from My Leagues.',
+			'Error while saving data!': 'Error while saving data!',
+			'I agree': 'I agree',
+			'I don\'t agree': 'I don\'t agree',
+			'Do you really want to permanently delete your account?': 'Do you really want to permanently delete your account?',
+			'Re-send activation email': 'Re-send activation email',
+			'passwords must be the same': 'passwords must be the same',
+			'code is required':	'code is required',
+			'nickname is required': 'nickname is required',
+			'password is required': 'password is required',
+			'Delete user account': 'Delete user account',
+			'email is required': 'email is required',
+			'Are you sure you want to log out?': 'Are you sure you want to log out?',
+			'Click to add league to \'My Leagues\' ': 'Click to add league to \'My Leagues\'',
+			'Click to remove league from \'My Leagues\' ': 'Click to remove league from \'My Leagues\'',
+			'Show less matches': 'Show less matches',
+			'Show more matches': 'Show more matches',
+			'Less H2H matches': 'Less H2H matches',
+			'More H2H matches': 'More H2H matches',
+			'Closing odds': 'Closing odds',
+			'Archive odds': 'Archive odds',
+			'Current odds': 'Current odds',
+			'No current odds found.': 'No current odds found.',
+			'cancel': 'cancel',
+			'transfer to your profile': 'transfer to your profile',
+			'sel. will be deleted': 'sel. will be deleted',
+			'clear selection': 'clear selection',
+			'sel. will be transferred': 'sel. will be transferred',
+			'Can\'t transfer that selection to your profile. You can only have a maximum of three active selections. If you want to transfer this selection to your registered profile, you need to clear one of the saved selections.': 'Can\'t transfer that selection to your profile. You can only have a maximum of three active selections. If you want to transfer this selection to your registered profile, you need to clear one of the saved selections.',
+			'No matches found': 'No matches found',
+			'Name is required.': 'Name is required.',
+			'E-mail is a required item.': 'E-mail is a required item.',
+			'E-mail is not valid.': 'E-mail is not valid.',
+			'Text is required.': 'Text is required.',
+			'You must agree with the processing of personal data.': 'You must agree with the processing of personal data.',
+			'Invalid odds range. The first value should not be higher than the second.': 'Invalid odds range. The first value should not be higher than the second.',
+			'matches': 'matches',
+			'Show less': 'Show less',
+			'Show full table': 'Show full table',
+			'Select tournament type': 'Select tournament type',
+			'All countries': 'All countries',
+			'Click to remove league from \'My Leagues\'': 'Click to remove league from \'My Leagues\'',
+			'One or more matches are on schedule today.': 'One or more matches are on schedule today.',
+			'One or more matches are on schedule tomorrow.': 'One or more matches are on schedule tomorrow.',
+			'One or more matches are on schedule on the day after tomorrow.': 'One or more matches are on schedule on the day after tomorrow.',
+			'No upcoming events found': 'No upcoming events found',
+			'No matches found': 'No matches found',
+			'Show more Odds': 'Show more Odds',
+			'Unfortunately there aren\'t any active bookmakers offering odds for this match at the moment': 'Unfortunately there aren\'t any active bookmakers offering odds for this match at the moment.',
+			'Show inactive Odds': 'Show inactive Odds',
+			'\'My bookmakers\' feature is only available to registered users. Please login or register new account.': '\'My bookmakers\' feature is only available to registered users. Please login or register new account.',
+			'Bookmakers that are not selected in "My bookmakers" offer the best odds for this event.': '\'Bookmakers that are not selected in \"My bookmakers\" offer the best odds for this event.',
+			'\'My bookmakers\' feature is only available to registered users. Please %slogin%s or %sregister%s new account.': '\'My bookmakers\' feature is only available to registered users. Please <br>login<a href=\"#login\"> or </a>register<br> new account.',
+			'\'My bookmakers\' feature is only available to registered users. Please login or register new account.': '\'My bookmakers\' feature is only available to registered users. Please login or register new account.',
+			'No odds from selected bookmakers are available. Click to see all available odds.': 'No odds from selected bookmakers are available. Click to see all available odds.',
+			'Stats': 'Stats',
+			'No matches found': 'No matches found',
+			'FRO': 'FRO',
+			'FIN': 'FIN',
+			'minute': 'minute',
+			'Bet on this match now LIVE!': 'Bet on this match now LIVE!',
+			'Show full table': 'Show full table',
+			'<b>No bets selected</b> yet. To add a bet click the odds while browsing through BetExplorer!': '<b>No bets selected</b> yet. To add a bet click the odds while browsing through BetExplorer!',
+			'My Selections': 'My Selections',
+			'Added to My Selection': 'Added to My Selection',
+			'Remove from My Selections': 'Remove from My Selections',
+			'Add to My Selections': 'Add to My Selections',
+			'Show all Odds': 'Show all Odds',
+			'Hide all Odds': 'Hide all Odds',
+			'January': 'January',
+			'February': 'February',
+			'March': 'March',
+			'April': 'April',
+			'May': 'May',
+			'June': 'June',
+			'July': 'July',
+			'August': 'August',
+			'September': 'September',
+			'October': 'October',
+			'November': 'November',
+			'December': 'December',
+			'Opening odds': 'Opening odds',
+			'draw': 'draw',
+			'draws': 'draws',
+			'win': 'win',
+			'wins': 'wins',
+			'Show more': 'Show more',
+		};
+		_languages = {
+'0': 'en',
+'1': 'it',
+'2': 'br',
+		};
+		dataLayer = [];
+	</script>
+<link rel="stylesheet" type="text/css" media="screen" href="/res/styles/css/betexplorer.css?serial=2610150918">	<link rel="stylesheet" type="text/css" href="/gres/styles/css/bookmakerlogosbonusoffers.css?serial=2610150918US" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/gres/styles/css/advert.css?serial=2610150918" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/gres/styles/css/stats-be.css.php?serial=2610150918" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/gres/styles/css/tooltip.css?serial=2610150918" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/gres/styles/css/bookmakerlogos.css?serial=2610150918US" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/gres/styles/css/bookmakerlogos75x25.css?serial=2610150918US" media="screen" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">	
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BetExplorer.com",
+    "url": "https://www.betexplorer.com/",
+    "logo": "https://www.betexplorer.com/res/styles/img/betexplorer.svg?serial=2610150918"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BetExplorer.com",
+    "url": "https://www.betexplorer.com/",
+    "publisher": {
+        "@type": "Organization",
+        "name": "BetExplorer.com",
+        "url": "https://www.betexplorer.com/"
+    }
+}
+</script>
+
+
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M5QNL7"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M5QNL7');</script>
+	<!-- End Google Tag Manager -->
+
+</head>
+<body id="0">
+
+<div id="ageOverlay" class="age__overlay" role="dialog" aria-modal="true" aria-labelledby="ageTitle" data-age-wall-enabled="0">
+		<div id="ageModal" class="age__modal" tabindex="-1">
+		<div class="age__modal-logo-wrap">
+			<a href="/" class="header__logo">
+				<i class="icon icon__logo"></i>
+				<span class="header__logo__text">Betexplorer</span>
+			</a>
+		</div>
+		<h1 id="ageTitle">Verificação de idade obrigatória</h1>
+		<div class="age__footer">
+			Você deve ter pelo menos 18 anos para acessar este site. Por favor, confirme sua idade para continuar.
+		</div>
+		<div class="age__buttons" role="group" aria-label="Opções de idade">
+			<button id="ageYes" class="age__btn age__btn--yes">
+				Sim, confirmo que tenho 18 anos ou mais
+			</button>
+			<button id="ageNo" class="age__btn age__btn--no">
+				Não, tenho menos de 18 anos
+			</button>
+		</div>
+		<div class="age__footer">18+ | Jogue com responsabilidade | Ministério da Fazenda adverte: Aposta não é investimento | Aplicam-se T&C</div>
+
+	</div>
+	</div>
+
+<div id="overHeader" class="banner-zones__topZoneMobile">
+<div onclick="bannerClickAnalytics('top_desktop', event)" class="js-banner  h-display-none" id="top_desktop" style="height: 0px;"><div class="adsenvelope adstextpad banx-top_desktop" id="lsadvert-zid-2708" style="width:970px;"><div style="height:90px"><div class="adscontent" id="lsadvert-top_desktop"><iframe id="lsadvert-zid-2708-iframe" name="banx-top_desktop" frameborder="0" scrolling="no" style="allowTransparency: true; visibility: hidden; width:970px; height:90px"></iframe></div><div class="adsgraphhori"><div class="adsghori ath-it"></div></div></div></div></div>
+</div>
+
+<!-- OneTrust Cookies Consent Notice start for betexplorer.com --> 
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="ad137748-97a8-4870-b68c-c4c0b3299544" ></script>
+<script type="text/javascript">
+	function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for betexplorer.com -->
+<div id="stickyBannerFooter" class="banner-zones__stickyBottom">
+<div onclick="bannerClickAnalytics('top_mobile', event)" class="js-banner  h-display-none" id="top_mobile" style="height: 0px;"><div class="adsenvelope adstextpad banx-top_mobile" id="lsadvert-zid-2710" style="width:320px;"><div style="height:50px"><div class="adscontent" id="lsadvert-top_mobile"><iframe id="lsadvert-zid-2710-iframe" name="banx-top_mobile" frameborder="0" scrolling="no" style="allowTransparency: true; visibility: hidden; width:320px; height:50px"></iframe></div><div class="adsgraphhori"><div class="adsghori ath-br"></div></div></div></div></div>
+</div>
+		<a href="#0" id="scroll-to-top" style="display: none;"></a> 
+		<!-- header -->
+		<header class="header" id="js-header">
+		<!-- header-top -->
+	   <div class="header__top">
+				<div class="container">
+					<a href="/" class="header__logo">
+						<i class="icon icon__logo"></i>
+						<span class="header__logo__text">Betexplorer</span>
+					</a>
+
+										<ul class="mobile-menu" id="js-mobile-menu">
+						<li class="mobile-menu__item">
+							<a href="#search" class="mobile-menu__item__in" aria-label="search">
+								<i class="icon icon__search2"></i>
+							</a>
+						</li>
+												<li class="mobile-menu__item">
+							<a href="#selections" class="mobile-menu__item__in" aria-label="My Selections">
+								<svg class="mobile-menu__svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"> 
+									<rect x="4" y="3" width="16" height="18" rx="2.5" ry="2.5" fill="none" stroke="currentColor" stroke-width="2"></rect> 
+									<rect x="8" y="2" width="8" height="3" rx="1" ry="1" fill="none" stroke="currentColor" stroke-width="2"></rect> 
+									<circle cx="8" cy="10" r="1" fill="currentColor"></circle> 
+									<circle cx="8" cy="14" r="1" fill="currentColor"></circle>
+									<circle cx="8" cy="18" r="1" fill="currentColor"></circle>
+									<line x1="11" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+									<line x1="11" y1="14" x2="17" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+									<line x1="11" y1="18" x2="17" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
+								</svg>
+								<span class="mobile-menu__badge" id="js-mobile-selections-badge" hidden></span>
+							</a>
+						</li>
+												<li class="mobile-menu__item mobile-menu__item--hamburger">
+							<button type="button" class="mobile-menu__hamburger" id="js-hamburger" aria-label="Menu" aria-expanded="false" aria-controls="js-hamburger-panel">
+								<span class="mobile-menu__hamburger__bar"></span>
+								<span class="mobile-menu__hamburger__bar"></span>
+								<span class="mobile-menu__hamburger__bar"></span>
+							</button>
+						</li>
+					</ul>
+										<div class="hamburger-menu" id="js-hamburger-panel" hidden>
+						<div class="hamburger-menu__section hamburger-menu__section--account">
+															<div class="hamburger-menu__account" id="js-hamburger-user" style="display: none;">
+									<div class="hamburger-menu__user">
+										<span class="hamburger-menu__user__name"></span>
+									</div>
+									<a class="hamburger-menu__link" href="/user/settings/">
+										<i class="icon icon__settings"></i>Settings									</a>
+									<button type="button" class="hamburger-menu__link" id="js-hamburger-logout">
+										<i class="icon icon__log-out"></i>Logout									</button>
+								</div>
+																						<div class="hamburger-menu__account" id="js-hamburger-guest" style="display: none;">
+									<a class="hamburger-menu__link hamburger-menu__link--login js-window-trigger" href="#login">Login</a>
+									<a class="hamburger-menu__link hamburger-menu__link--register js-window-trigger" href="#registration">Register</a>
+								</div>
+													</div>
+
+						<div class="hamburger-menu__section hamburger-menu__section--language">
+							<div class="hamburger-menu__section__title">Language</div>
+							<div class="language">
+								<ul class="language__list">
+																			<li><button onclick="changeLanguageClickAnalytics('', 'English')" class="current">English</button></li>
+																			<li><button onclick="changeLanguageClickAnalytics('it', 'Italian')">Italian</button></li>
+																			<li><button onclick="changeLanguageClickAnalytics('br', 'Portuguese (Brazil)')">Portuguese (Brazil)</button></li>
+																	</ul>
+							</div>
+						</div>
+					</div>
+                
+					<div class="header__top__right">
+						<div class="search">
+							<div class="search__in">
+								<input type="text" class="search__input js-search-input" placeholder=search autocomplete="off">
+								<div class="search__button">
+									<i class="icon icon__search"></i>
+								</div>
+								<div class="search__results">
+									<div class="wrap-header">
+										<span class="search__results__close js-search-results-close"><i class="icon icon__close-small"></i></span>
+										<ul class="wrap-header__list">
+											<li class="wrap-header__list__item semilong">
+												<select onchange="do_search(this);">
+													<option value="0" selected>all sports</option>
+<option value="1">Football</option>
+<option value="3">Basketball</option>
+<option value="4">Hockey</option>
+<option value="2">Tennis</option>
+<option value="6">Baseball</option>
+<option value="12">Volleyball</option>
+<option value="7">Handball</option>
+												</select>
+											</li>
+									</ul>
+									</div>
+									<div class="search__results__in"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="language" id="js-language">
+							<span class="language__current">EN</span>
+<ul class="language__list">
+<li><button onclick="changeLanguageClickAnalytics('', 'English')"  class="current">English</button></li>
+<li><button onclick="changeLanguageClickAnalytics('it', 'Italian')" >Italian</button></li>
+<li><button onclick="changeLanguageClickAnalytics('br', 'Portuguese (Brazil)')" >Portuguese (Brazil)</button></li>
+</ul>
+						</div>
+
+						<div class="user" id="js-user" style="display: none;"><span class="user__name"></span><ul class="user__list"><li><a href="/user/settings/"><i class="icon icon__settings"></i>Settings</a></li><li><button type="button" id="js-window-action-logout"><i class="icon icon__log-out"></i>Logout</button></li></ul></div><ul class="clientmenu" style="display: none;"><li class="clientmenu__item"><a href="#login" class="clientmenu__item__in js-window-trigger">Login</a></li><li class="clientmenu__item clientmenu__item--registration"><a href="#registration" class="clientmenu__item__in js-window-trigger">Register</a></li></ul>						
+					</div>
+
+					<nav class="header__navigation">
+						<ul class="menu">
+							<li class="menu__item"><a href="/" class="menu__item__in menu__item__in--current" onclick="sportMenuClickAnalytics(event, 'Football')"><i class="icon icon__soccer"></i>Football</a>
+</li>
+<li class="menu__item"><a href="/basketball/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Basketball')"><i class="icon icon__basketball"></i>Basketball</a>
+</li>
+<li class="menu__item"><a href="/hockey/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Hockey')"><i class="icon icon__hockey"></i>Hockey</a>
+</li>
+<li class="menu__item"><a href="/tennis/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Tennis')"><i class="icon icon__tennis"></i>Tennis</a>
+</li>
+<li class="menu__item"><a href="/baseball/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Baseball')"><i class="icon icon__baseball"></i>Baseball</a>
+</li>
+<li class="menu__item"><a href="/volleyball/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Volleyball')"><i class="icon icon__volleyball"></i>Volleyball</a>
+</li>
+<li class="menu__item"><a href="/handball/" class="menu__item__in" onclick="sportMenuClickAnalytics(event, 'Handball')"><i class="icon icon__handball"></i>Handball</a>
+</li>
+<li class="menu__item"><a href="https://www.betexplorer.com/reviews/" target="_blank" class="menu__item__in h-display-none" id="gl_link" onclick="sportMenuClickAnalytics(event, 'Betting')"><i class="betting-icon"></i>Betting</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- header-bottom -->
+			<div class="header__bottom">
+				<div class="container">
+					<ul class="submenu" id="js-submenu">
+						<li class="submenu__item submenu__test"><a href="/football/" class="submenu__item__in submenu__item__in--current js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Summary')">Summary</a></li><li class="submenu__item submenu__test"><a href="/" class="submenu__item__in submenu__item__in--current js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Matches')">Matches</a></li><li class="submenu__item submenu__test"><a href="/football/odds-filter/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Match Filter')">Match Filter</a></li><li class="submenu__item submenu__test"><a href="/football/streaks/wins/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Streaks')">Streaks</a></li><li class="submenu__item submenu__test"><a href="/football/popular-bets/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Popular Bets')">Popular Bets</a></li><li class="submenu__item submenu__test"><a href="/football/results/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Results')">Results</a></li><li class="submenu__item submenu__test"><a href="/football/dropping-odds/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'Dropping Odds')">Dropping Odds</a></li><li class="submenu__item submenu__test"><a href="/my/" class="submenu__item__in js-sportlink" onclick="subMenuHeaderClickAnalytics(event, 'My Selections')">My Selections</a></li>					</ul>
+				</div>
+			</div>
+		</header>
+		
+				
+		<!-- page -->
+		<div class="wrap-page wrap-page--forcebg">
+		
+      <link rel="preload" as="image" href="/res/images/backgrounds/1.jpg" fetchpriority="high" />
+			<!-- page-content -->
+			<div class="wrap-page__in ">
+						    <div class="container ">
+				
+										<div class="columns">
+						<!-- left column -->
+						<div id="home-page-left-column" class=" columns__item columns__item--68 columns__item--tab-100">
+														<div id="bonus_offers" class="bonusOffers__sticky has-legal">
+  <div class="bonusOffers__flex bonusOffers__w bonusOffers__gap4">
+        <div class="bonusOffers__flexColumn bonusOffers__content" style="overflow: hidden;">
+      <div class="bonusOffers__flex bonusOffers__mobile bonusOffers__gap10 bonusOffers__alignItems">
+        <div class="bonusOffers__flexLogo">
+          <a href="https://wlfanduelus.adsrv.eacdn.com/C.ashx?btag=a_42630b_96c_&affid=21094&siteid=42630&adid=96&c=" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(1133)" class="bonusOffers__link" style="display: block; text-decoration: none; color: inherit;">
+            <div class="bonusOffers__bookieLogo">
+              <div class="hidden lazyLoadCountryFlags in-bookmaker-logo-bonus-offers in-bookmaker-logo-bonus-offers-link b1133"></div>
+              <div class="in-bookmaker-logo-75x25 in-bookmaker-logo-75x25-link m1133"></div>
+            </div>
+          </a>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton" style="display: block;">
+              <svg width="12" height="12" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <a href="https://wlfanduelus.adsrv.eacdn.com/C.ashx?btag=a_42630b_96c_&affid=21094&siteid=42630&adid=96&c=" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(1133)" class="bonusOffers__link bonusOffers__link--main" style="text-decoration: none; color: inherit; flex: 1;">
+          <div class="bonusOffers__text">
+            <div class="bonusOffers__text__offer">
+              Bet $5 Get $150 If Your Bet Wins!            </div>
+            <div class="bonusOffers__flex bonusOffers__alignItems bonusOffers__gap10 bonusOffers__mt">
+              <div class="bonusOffers__button">
+                <div class="bonusOffers__button__div">
+                  <div class="bonusOffers__button__a">
+                    Get!                  </div>
+                </div>
+              </div>
+              <div class="bonusOffers__text__bookieName hide-on-mobile">
+                Fanduel              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+              <div class="bonusOffers__legalContainer">
+          <div id="bonusOffersLegalText" class="bonusOffers__legalText bonusOffers__truncate">
+            To claim, new users need to register, make a first-time deposit of $5 or more, and then simply place their first real-money wager on any FanDuel Sportsbook market (no odds limits) that is live on platform. All users will receive their $150 in Bonus Bets If Your Bet Wins within 72 hours of the bet settlement.          </div>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton">
+              <svg width="10" height="10" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+          </div>
+        <div class="bonusOffers__flexColumn bonusOffers__content" style="overflow: hidden;">
+      <div class="bonusOffers__flex bonusOffers__mobile bonusOffers__gap10 bonusOffers__alignItems">
+        <div class="bonusOffers__flexLogo">
+          <a href="https://www.bet365.com/hub/aff/open-account?affiliate=365_03996933" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(549)" class="bonusOffers__link" style="display: block; text-decoration: none; color: inherit;">
+            <div class="bonusOffers__bookieLogo">
+              <div class="hidden lazyLoadCountryFlags in-bookmaker-logo-bonus-offers in-bookmaker-logo-bonus-offers-link b549"></div>
+              <div class="in-bookmaker-logo-75x25 in-bookmaker-logo-75x25-link m549"></div>
+            </div>
+          </a>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton" style="display: block;">
+              <svg width="12" height="12" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <a href="https://www.bet365.com/hub/aff/open-account?affiliate=365_03996933" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(549)" class="bonusOffers__link bonusOffers__link--main" style="text-decoration: none; color: inherit; flex: 1;">
+          <div class="bonusOffers__text">
+            <div class="bonusOffers__text__offer">
+              Bet $10 Get $200 Win or Lose            </div>
+            <div class="bonusOffers__flex bonusOffers__alignItems bonusOffers__gap10 bonusOffers__mt">
+              <div class="bonusOffers__button">
+                <div class="bonusOffers__button__div">
+                  <div class="bonusOffers__button__a">
+                    Get!                  </div>
+                </div>
+              </div>
+              <div class="bonusOffers__text__bookieName hide-on-mobile">
+                bet365.us              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+              <div class="bonusOffers__legalContainer">
+          <div id="bonusOffersLegalText" class="bonusOffers__legalText bonusOffers__truncate">
+            Whatever the moment. It's Never Ordinary at bet365. That's why if you sign up now you will receive $200 in Bonus Bets Win or Lose when you bet $5! Minimum $10 deposit required. Minimum odds -500 or greater. Bonus Bets wager excluded from returns. New customers only. T&CS, time limits and exclusions apply.          </div>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton">
+              <svg width="10" height="10" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+          </div>
+        <div class="bonusOffers__flexColumn bonusOffers__content" style="overflow: hidden;">
+      <div class="bonusOffers__flex bonusOffers__mobile bonusOffers__gap10 bonusOffers__alignItems">
+        <div class="bonusOffers__flexLogo">
+          <a href="https://coinsaffs.com/dfd2ace5b" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(797)" class="bonusOffers__link" style="display: block; text-decoration: none; color: inherit;">
+            <div class="bonusOffers__bookieLogo">
+              <div class="hidden lazyLoadCountryFlags in-bookmaker-logo-bonus-offers in-bookmaker-logo-bonus-offers-link b797"></div>
+              <div class="in-bookmaker-logo-75x25 in-bookmaker-logo-75x25-link m797"></div>
+            </div>
+          </a>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton" style="display: block;">
+              <svg width="12" height="12" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <a href="https://coinsaffs.com/dfd2ace5b" target="_blank" onclick="bonusOffersBookmakerClickAnalytics(797)" class="bonusOffers__link bonusOffers__link--main" style="text-decoration: none; color: inherit; flex: 1;">
+          <div class="bonusOffers__text">
+            <div class="bonusOffers__text__offer">
+              $1000 First Deposit Bonus            </div>
+            <div class="bonusOffers__flex bonusOffers__alignItems bonusOffers__gap10 bonusOffers__mt">
+              <div class="bonusOffers__button">
+                <div class="bonusOffers__button__div">
+                  <div class="bonusOffers__button__a">
+                    Get!                  </div>
+                </div>
+              </div>
+              <div class="bonusOffers__text__bookieName hide-on-mobile">
+                Coins.game              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+              <div class="bonusOffers__legalContainer">
+          <div id="bonusOffersLegalText" class="bonusOffers__legalText bonusOffers__truncate">
+            If you make a deposit but don't select the bonus, you can still activate it later. However, the next stage will not open until the current bonus is used. The bonus is available to new users for the first 8 days after registration only. Full T&Cs at coins.game          </div>
+          <div class="showMoreText">
+            <a href="javascript:void(0);" class="wrap-section__header__link h2h legalText showLessButton">
+              <svg width="10" height="10" viewBox="0 0 512 512" style="transition: transform 0.3s;">
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" fill="#5B737F" style="transform: translate(2.63px, 4.13px);"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+          </div>
+      </div>
+  </div>
+
+<section class="wrap-section">
+<header class="wrap-section__header">
+<span class="wrap-section__header__title">Today's Football Matches</span>
+</header>
+<div id="nr-preloader" class="wrap-section__preloader wrap-section__preloader--home"></div><input type="hidden" value="1" id="isHomePage"/><div id="nr-all" style="position: relative;">
+<input type="hidden" id="settingsOddsDisplayed" value="1"/>
+<div class="box-overflow">
+<div class="box-overflow__in">
+<div class="headerColumn list-tabs list-tabs__spaceBetween">
+<div class="list-tabs__item borderMobile">
+<ul class="list-tabs__item__ul" id="parent-list" style="cursor: pointer;">
+<li class="tabsLiMobile list-tabs__item" id="allMatches" value="0"><a href="/" id="allMatchesCurrent" class="listTabsItemInMobile list-tabs__item__newIn current active-tab">All matches</a></li>
+<li class="tabsLiMobile list-tabs__item__counterLi " value="1" id="fOption" ><a href="/" id="fCurrent" class="listTabsItemInMobile list-tabs__item__newIn">Live<div class="list-tabs__item__counterBox counterBoxDesktop counterBoxMobile"><span class="list-tabs__item__counter">0</span></div></a></li>
+<li value="2" id="sOption" class="tabsLiMobile"><a href="/" id="sCurrent" class="listTabsItemInMobile list-tabs__item__newIn">Upcoming</a></li></div>
+</ul>
+<div class="BreakpointCalendarDesktop list-tabs__item__navRightSide justifyStart">
+<div class="list-tams-item__responsiveBetCal">
+<div class=" list-tabs__item__navRightSide justifyStart">
+<div class="orderCalendarBettypes list-tabs__item__bettype dropdown" id="NewBettype">
+<div class="list-tabs__item__bettingType list-tabs__item__borderRadiusAll dropdown-toggle"><span class="list-tabs__item__bettingTypeSpan betTypeHeader"></span><img width="6" height="3" src="/res/styles/img/redesign/bettypeArrow.png" alt="Show/Hide Betting Types"/></div>
+<ul class="list-tabs__item__bettingTypeList bettypes-dropdown" id="bettype_menu"> 
+<li class="list-tabs__item__bettypeLI list-tabs__item__bettingTypeSpan" title="1X2" data-bet-type="1x2">1X2</li><li class="list-tabs__item__bettypeLI list-tabs__item__bettingTypeSpan" title="Over/Under" data-bet-type="ou">Over/Under</li><li class="list-tabs__item__bettypeLI list-tabs__item__bettingTypeSpan" title="Double Chance" data-bet-type="dc">Double Chance</li></ul>
+</div>
+<div class="list-tabs__item__calendar" id="lcmenu">
+<a href="/?year=2026&amp;month=10&amp;day=19" class="list-tabs__item__calendarArrowLeft" ><img width="5" height="8" src="/res/styles/img/redesign/arrowLeft.png" alt="calendar arrow previous day"/></a>
+<a href="#calendar" class="js-window-trigger list-tabs__item__calendarDays" >Today<div style="display:flex;"><img width="14" height="15" src="/res/styles/img/redesign/calendarIcon.png" alt="calendar icon"/></div></a>
+<a href="/?year=2026&amp;month=10&amp;day=21" class="list-tabs__item__calendarArrowRight" ><img width="5" height="8" src="/res/styles/img/redesign/arrowRight.png" alt="calendar arrow next day"/></a>
+</div></div>
+</div></div></div>
+</div>
+<input type="hidden" value="" id="bt"/>
+<div id="nr-ko-all" class="mt-15">
+<div class="table-main__bettingTypeHeader bettingTypeHeaderMobile"></div>
+<ul class="leagues-list topleague" style="margin-bottom: 5px;" data-key="6-105803" data-country="europe">
+<li class="table-main__tournamentNavLi js-tournament" data-ttid="117">
+<div class="table-main__tournamentDivLeft">
+<a href="javascript:void(0);" class="myleague table-main__FavouriteStarGray"
+							data-ttid="117"
+							data-league-name="Champions League"
+							data-sport-name="Football"
+							data-country-name="Europe"
+							title="Click to add league to 'My Leagues'">&nbsp;</a><a href="/football/europe/champions-league/" class="leaguesName500 leaguesName400 leaguesName350" title="Europe Champions League" onclick="linkHandler(event);"><img data-src="https://cci.betexplorer.com/6.svg" alt="Europe Champions League " class="table-main__countryFlags lazyLoadCountryFlags">
+<p class="table-main__truncate table-main__leaguesNames leaguesNames">Europe: Champions League
+</p></a>
+</div>
+<div class="arrowUp table-main__arrowUpContainer" onclick="toggleList(this);" data-tid="117"> <img width="8" height="5" src="/res/styles/img/redesign/arrowUp.png" alt="Show/Hide all matches of this league!"/>
+</div>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792514700" data-event-id="2yMLTDQr">
+<ul class="table-main__matchInfo" data-live="2yMLTDQr" data-dt="20,10,2026,17,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">17:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/fenerbahce-slavia-prague/2yMLTDQr/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Fenerbahce</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/UTrAzx83-llnQ8REs.png" alt="Fenerbahce SK" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/rkGqGFQt-WOk5KTF6.png" alt="SK Slavia Prague" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Slavia Prague</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfefxv464x0xtl4on"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2yMLTDQr&outcomeid=atfefxv464x0xtl4on&otheroutcomes=atfefxv498x0x0,atfefxv464x0xtl4op', 1.57, 'en');" title="Add to My Selections" data-odd="1.57" data-odd-max="1.57"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfefxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2yMLTDQr&outcomeid=atfefxv498x0x0&otheroutcomes=atfefxv464x0xtl4on,atfefxv464x0xtl4op', 4.43, 'en');" title="Add to My Selections" data-odd="4.43" data-odd-max="4.60"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfefxv464x0xtl4op"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2yMLTDQr&outcomeid=atfefxv464x0xtl4op&otheroutcomes=atfefxv464x0xtl4on,atfefxv498x0x0', 5.29, 'en');" title="Add to My Selections" data-odd="5.29" data-odd-max="5.50"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792514700" data-event-id="b9lv0Tme">
+<ul class="table-main__matchInfo" data-live="b9lv0Tme" data-dt="20,10,2026,17,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">17:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/sabah-baku-dortmund/b9lv0Tme/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Sabah Baku</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/juyBWmoh-O8TAkqbq.png" alt="Sabah Baku" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/vLvl0uRc-WrjrBuU2.png" alt="Ballspielverein Borussia 09 Dortmund" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Dortmund</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfapxv464x0xtl4hb"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=b9lv0Tme&outcomeid=atfapxv464x0xtl4hb&otheroutcomes=atfapxv498x0x0,atfapxv464x0xtl4hd', 9.23, 'en');" title="Add to My Selections" data-odd="9.23" data-odd-max="10.00"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfapxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=b9lv0Tme&outcomeid=atfapxv498x0x0&otheroutcomes=atfapxv464x0xtl4hb,atfapxv464x0xtl4hd', 5.99, 'en');" title="Add to My Selections" data-odd="5.99" data-odd-max="6.20"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfapxv464x0xtl4hd"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=b9lv0Tme&outcomeid=atfapxv464x0xtl4hd&otheroutcomes=atfapxv464x0xtl4hb,atfapxv498x0x0', 1.29, 'en');" title="Add to My Selections" data-odd="1.29" data-odd-max="1.29"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="CjoYQdhB">
+<ul class="table-main__matchInfo" data-live="CjoYQdhB" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/as-roma-slovan-bratislava/CjoYQdhB/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">AS Roma</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/lxEko15n-GtNb9h2q.png" alt="Associazione Sportiva Roma" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/WfVCQL93-pEAU6ugI.png" alt="SK Slovan Bratislava" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Slovan Bratislava</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfblxv464x0xtl4j3"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CjoYQdhB&outcomeid=atfblxv464x0xtl4j3&otheroutcomes=atfblxv498x0x0,atfblxv464x0xtl4j5', 1.11, 'en');" title="Add to My Selections" data-odd="1.11" data-odd-max="1.12"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfblxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CjoYQdhB&outcomeid=atfblxv498x0x0&otheroutcomes=atfblxv464x0xtl4j3,atfblxv464x0xtl4j5', 9.69, 'en');" title="Add to My Selections" data-odd="9.69" data-odd-max="10.00"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfblxv464x0xtl4j5"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CjoYQdhB&outcomeid=atfblxv464x0xtl4j5&otheroutcomes=atfblxv464x0xtl4j3,atfblxv498x0x0', 20.00, 'en');" title="Add to My Selections" data-odd="20.00" data-odd-max="22.00"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="jP6EvMLH">
+<ul class="table-main__matchInfo" data-live="jP6EvMLH" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/fc-porto-psv/jP6EvMLH/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">FC Porto</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/8v4JU3m9-Kth3Rz1C.png" alt="Futebol Clube do Porto" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/Sprkvd6n-j5zA1baQ.png" alt="PSV Eindhoven" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">PSV</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf9rxv464x0xtl4ff"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=jP6EvMLH&outcomeid=atf9rxv464x0xtl4ff&otheroutcomes=atf9rxv498x0x0,atf9rxv464x0xtl4fh', 1.52, 'en');" title="Add to My Selections" data-odd="1.52" data-odd-max="1.53"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf9rxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=jP6EvMLH&outcomeid=atf9rxv498x0x0&otheroutcomes=atf9rxv464x0xtl4ff,atf9rxv464x0xtl4fh', 4.58, 'en');" title="Add to My Selections" data-odd="4.58" data-odd-max="4.70"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf9rxv464x0xtl4fh"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=jP6EvMLH&outcomeid=atf9rxv464x0xtl4fh&otheroutcomes=atf9rxv464x0xtl4ff,atf9rxv498x0x0', 5.64, 'en');" title="Add to My Selections" data-odd="5.64" data-odd-max="5.75"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="2swdQAqA">
+<ul class="table-main__matchInfo" data-live="2swdQAqA" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/liverpool-villarreal/2swdQAqA/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Liverpool</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/K00665Rc-KCp4zq5F.png" alt="Liverpool Football Club" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/QZZkCuAK-GSuwY3p9.png" alt="Villarreal Club de Futbol" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Villarreal</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf8fxv464x0xtl4cn"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2swdQAqA&outcomeid=atf8fxv464x0xtl4cn&otheroutcomes=atf8fxv498x0x0,atf8fxv464x0xtl4cp', 1.48, 'en');" title="Add to My Selections" data-odd="1.48" data-odd-max="1.50"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf8fxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2swdQAqA&outcomeid=atf8fxv498x0x0&otheroutcomes=atf8fxv464x0xtl4cn,atf8fxv464x0xtl4cp', 4.68, 'en');" title="Add to My Selections" data-odd="4.68" data-odd-max="4.80"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf8fxv464x0xtl4cp"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2swdQAqA&outcomeid=atf8fxv464x0xtl4cp&otheroutcomes=atf8fxv464x0xtl4cn,atf8fxv498x0x0', 6.00, 'en');" title="Add to My Selections" data-odd="6.00" data-odd-max="6.25"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="djVwRmZR">
+<ul class="table-main__matchInfo" data-live="djVwRmZR" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/manchester-city-aek/djVwRmZR/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Manchester City</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/bD5ctWmh-lQuhqN8N.png" alt="Manchester City Football Club" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/dG5kBy6n-6iRkbdOB.png" alt="AEK Athens FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">AEK Athens</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf6lxv464x0xtl493"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=djVwRmZR&outcomeid=atf6lxv464x0xtl493&otheroutcomes=atf6lxv498x0x0,atf6lxv464x0xtl495', 1.12, 'en');" title="Add to My Selections" data-odd="1.12" data-odd-max="1.13"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf6lxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=djVwRmZR&outcomeid=atf6lxv498x0x0&otheroutcomes=atf6lxv464x0xtl493,atf6lxv464x0xtl495', 9.64, 'en');" title="Add to My Selections" data-odd="9.64" data-odd-max="10.50"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf6lxv464x0xtl495"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=djVwRmZR&outcomeid=atf6lxv464x0xtl495&otheroutcomes=atf6lxv464x0xtl493,atf6lxv498x0x0', 19.13, 'en');" title="Add to My Selections" data-odd="19.13" data-odd-max="20.00"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="QiGrsUa6">
+<ul class="table-main__matchInfo" data-live="QiGrsUa6" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/napoli-bodo-glimt/QiGrsUa6/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Napoli</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/zJKIqrAK-Stb48WaO.png" alt="Sportiva Calcio Napoli" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pbzyFq83-G4RlYr20.png" alt="FK Bodo/Glimt" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Bodo/Glimt</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfcvxv464x0xtl4ln"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=QiGrsUa6&outcomeid=atfcvxv464x0xtl4ln&otheroutcomes=atfcvxv498x0x0,atfcvxv464x0xtl4lp', 1.74, 'en');" title="Add to My Selections" data-odd="1.74" data-odd-max="1.77"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfcvxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=QiGrsUa6&outcomeid=atfcvxv498x0x0&otheroutcomes=atfcvxv464x0xtl4ln,atfcvxv464x0xtl4lp', 4.00, 'en');" title="Add to My Selections" data-odd="4.00" data-odd-max="4.00"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atfcvxv464x0xtl4lp"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=QiGrsUa6&outcomeid=atfcvxv464x0xtl4lp&otheroutcomes=atfcvxv464x0xtl4ln,atfcvxv498x0x0', 4.30, 'en');" title="Add to My Selections" data-odd="4.30" data-odd-max="4.50"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="6u963YJ6">
+<ul class="table-main__matchInfo" data-live="6u963YJ6" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/psg-barcelona/6u963YJ6/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">PSG</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/S4BWVIPt-A7UDDuOO.png" alt="Paris Saint-Germain Football Club" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/hxEqh383-fcDVLdrL.png" alt="Futbol Club Barcelona" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Barcelona</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf5fxv464x0xtl46n"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6u963YJ6&outcomeid=atf5fxv464x0xtl46n&otheroutcomes=atf5fxv498x0x0,atf5fxv464x0xtl46p', 2.48, 'en');" title="Add to My Selections" data-odd="2.48" data-odd-max="2.50"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf5fxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6u963YJ6&outcomeid=atf5fxv498x0x0&otheroutcomes=atf5fxv464x0xtl46n,atf5fxv464x0xtl46p', 4.31, 'en');" title="Add to My Selections" data-odd="4.31" data-odd-max="4.40"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf5fxv464x0xtl46p"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6u963YJ6&outcomeid=atf5fxv464x0xtl46p&otheroutcomes=atf5fxv464x0xtl46n,atf5fxv498x0x0', 2.39, 'en');" title="Add to My Selections" data-odd="2.39" data-odd-max="2.45"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="117" data-ts="1792522800" data-event-id="8ODjcCFN">
+<ul class="table-main__matchInfo" data-live="8ODjcCFN" data-dt="20,10,2026,20,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">20:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/europe/champions-league/vfb-stuttgart-atl-madrid/8ODjcCFN/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Stuttgart</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/OreU53Rc-f1Z3XxZa.png" alt="VfB Stuttgart" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/IDEtC6BK-GhHiNvXF.png" alt="Club Atletico de Madrid" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Atl. Madrid</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf7vxv464x0xtl4bn"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=8ODjcCFN&outcomeid=atf7vxv464x0xtl4bn&otheroutcomes=atf7vxv498x0x0,atf7vxv464x0xtl4bp', 3.25, 'en');" title="Add to My Selections" data-odd="3.25" data-odd-max="3.30"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf7vxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=8ODjcCFN&outcomeid=atf7vxv498x0x0&otheroutcomes=atf7vxv464x0xtl4bn,atf7vxv464x0xtl4bp', 3.85, 'en');" title="Add to My Selections" data-odd="3.85" data-odd-max="3.90"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="atf7vxv464x0xtl4bp"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=8ODjcCFN&outcomeid=atf7vxv464x0xtl4bp&otheroutcomes=atf7vxv464x0xtl4bn,atf7vxv498x0x0', 2.05, 'en');" title="Add to My Selections" data-odd="2.05" data-odd-max="2.10"></button></div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="leagues-list topleague" style="margin-bottom: 5px;" data-key="198-113029" data-country="england">
+<li class="table-main__tournamentNavLi js-tournament" data-ttid="103">
+<div class="table-main__tournamentDivLeft">
+<a href="javascript:void(0);" class="myleague table-main__FavouriteStarGray"
+							data-ttid="103"
+							data-league-name="FA Cup"
+							data-sport-name="Football"
+							data-country-name="England"
+							title="Click to add league to 'My Leagues'">&nbsp;</a><a href="/football/england/fa-cup/" class="leaguesName500 leaguesName400 leaguesName350" title="England FA Cup" onclick="linkHandler(event);"><img data-src="https://cci.betexplorer.com/198.svg" alt="England FA Cup " class="table-main__countryFlags lazyLoadCountryFlags">
+<p class="table-main__truncate table-main__leaguesNames leaguesNames">England: FA Cup
+</p></a>
+</div>
+<div class="arrowUp table-main__arrowUpContainer" onclick="toggleList(this);" data-tid="103"> <img width="8" height="5" src="/res/styles/img/redesign/arrowUp.png" alt="Show/Hide all matches of this league!"/>
+</div>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="j7XGGDPO">
+<ul class="table-main__matchInfo" data-live="j7XGGDPO" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/alvechurch-spalding-united/j7XGGDPO/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Alvechurch</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/2wPN1pA3-vPkEjFG4.png" alt="Alvechurch Football Club" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/Ew6y9lVE-fmQpHMP4.png" alt="Spalding United F.C." loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Spalding United</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8rxv464x0xu3o9t"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=j7XGGDPO&outcomeid=b1s8rxv464x0xu3o9t&otheroutcomes=b1s8rxv498x0x0,b1s8rxv464x0xu3o9r', 2.90, 'en');" title="Add to My Selections" data-odd="2.90" data-odd-max="2.95"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8rxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=j7XGGDPO&outcomeid=b1s8rxv498x0x0&otheroutcomes=b1s8rxv464x0xu3o9t,b1s8rxv464x0xu3o9r', 3.43, 'en');" title="Add to My Selections" data-odd="3.43" data-odd-max="3.55"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8rxv464x0xu3o9r"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=j7XGGDPO&outcomeid=b1s8rxv464x0xu3o9r&otheroutcomes=b1s8rxv464x0xu3o9t,b1s8rxv498x0x0', 2.18, 'en');" title="Add to My Selections" data-odd="2.18" data-odd-max="2.20"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="6J7QzHAt">
+<ul class="table-main__matchInfo" data-live="6J7QzHAt" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/anstey-nomads-macclesfield/6J7QzHAt/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Anstey Nomads</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/Wh5CjxRc-xGmQGsls.png" alt="Anstey Nomads" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pnhsUSAK-rZPjZPfl.png" alt="Macclesfield FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Macclesfield</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8txv464x0xu3oa1"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6J7QzHAt&outcomeid=b1s8txv464x0xu3oa1&otheroutcomes=b1s8txv498x0x0,b1s8txv464x0xu3o9v', 3.30, 'en');" title="Add to My Selections" data-odd="3.30" data-odd-max="3.30"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8txv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6J7QzHAt&outcomeid=b1s8txv498x0x0&otheroutcomes=b1s8txv464x0xu3oa1,b1s8txv464x0xu3o9v', 3.70, 'en');" title="Add to My Selections" data-odd="3.70" data-odd-max="3.70"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s8txv464x0xu3o9v"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6J7QzHAt&outcomeid=b1s8txv464x0xu3o9v&otheroutcomes=b1s8txv464x0xu3oa1,b1s8txv498x0x0', 1.92, 'en');" title="Add to My Selections" data-odd="1.92" data-odd-max="1.95"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="IJ0enBEG">
+<ul class="table-main__matchInfo" data-live="IJ0enBEG" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/cray-wanderers-bedford/IJ0enBEG/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Cray Wanderers</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/MFgMvSRc-lrak8mcO.png" alt="Cray Wanderers FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pYFMrI6n-2eETkRai.png" alt="Bedford Town FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Bedford</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7fxv464x0xu3o75"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=IJ0enBEG&outcomeid=b1s7fxv464x0xu3o75&otheroutcomes=b1s7fxv498x0x0,b1s7fxv464x0xu3o73', 2.53, 'en');" title="Add to My Selections" data-odd="2.53" data-odd-max="2.55"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7fxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=IJ0enBEG&outcomeid=b1s7fxv498x0x0&otheroutcomes=b1s7fxv464x0xu3o75,b1s7fxv464x0xu3o73', 3.83, 'en');" title="Add to My Selections" data-odd="3.83" data-odd-max="3.90"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7fxv464x0xu3o73"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=IJ0enBEG&outcomeid=b1s7fxv464x0xu3o73&otheroutcomes=b1s7fxv464x0xu3o75,b1s7fxv498x0x0', 2.28, 'en');" title="Add to My Selections" data-odd="2.28" data-odd-max="2.30"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="CvktjgFi">
+<ul class="table-main__matchInfo" data-live="CvktjgFi" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/united-of-manchester-altrincham/CvktjgFi/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">FC United</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/YsvQ7093-jFFA0URI.png" alt="FC United of Manchester" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/SOx1SS7n-ply5k7hm.png" alt="Altrincham FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Altrincham</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7bxv464x0xu3o6t"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CvktjgFi&outcomeid=b1s7bxv464x0xu3o6t&otheroutcomes=b1s7bxv498x0x0,b1s7bxv464x0xu3o6r', 3.18, 'en');" title="Add to My Selections" data-odd="3.18" data-odd-max="3.20"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7bxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CvktjgFi&outcomeid=b1s7bxv498x0x0&otheroutcomes=b1s7bxv464x0xu3o6t,b1s7bxv464x0xu3o6r', 3.73, 'en');" title="Add to My Selections" data-odd="3.73" data-odd-max="3.75"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7bxv464x0xu3o6r"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=CvktjgFi&outcomeid=b1s7bxv464x0xu3o6r&otheroutcomes=b1s7bxv464x0xu3o6t,b1s7bxv498x0x0', 1.95, 'en');" title="Add to My Selections" data-odd="1.95" data-odd-max="1.95"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="MFkZvT6j">
+<ul class="table-main__matchInfo" data-live="MFkZvT6j" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/forest-green-chesham/MFkZvT6j/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Forest Green</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/883VL2mh-pOBjicgq.png" alt="Forest Green Rovers FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/fu9P7Loh-8fbeO6eB.png" alt="Chesham United FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Chesham</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7jxv464x0xu3o7d"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=MFkZvT6j&outcomeid=b1s7jxv464x0xu3o7d&otheroutcomes=b1s7jxv498x0x0,b1s7jxv464x0xu3o7b', 1.23, 'en');" title="Add to My Selections" data-odd="1.23" data-odd-max="1.24"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7jxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=MFkZvT6j&outcomeid=b1s7jxv498x0x0&otheroutcomes=b1s7jxv464x0xu3o7d,b1s7jxv464x0xu3o7b', 5.68, 'en');" title="Add to My Selections" data-odd="5.68" data-odd-max="5.75"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7jxv464x0xu3o7b"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=MFkZvT6j&outcomeid=b1s7jxv464x0xu3o7b&otheroutcomes=b1s7jxv464x0xu3o7d,b1s7jxv498x0x0', 10.15, 'en');" title="Add to My Selections" data-odd="10.15" data-odd-max="10.50"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="EuyoEZLG">
+<ul class="table-main__matchInfo" data-live="EuyoEZLG" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/gloucester-city-barrow/EuyoEZLG/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Gloucester</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/CdCyYfBK-0OcgdlLh.png" alt="Gloucester City Association FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pEyHg4BK-WjzAkm83.png" alt="Barrow AFC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Barrow</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb7xv464x0xu3oel"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=EuyoEZLG&outcomeid=b1sb7xv464x0xu3oel&otheroutcomes=b1sb7xv498x0x0,b1sb7xv464x0xu3oej', 3.55, 'en');" title="Add to My Selections" data-odd="3.55" data-odd-max="3.60"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb7xv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=EuyoEZLG&outcomeid=b1sb7xv498x0x0&otheroutcomes=b1sb7xv464x0xu3oel,b1sb7xv464x0xu3oej', 3.88, 'en');" title="Add to My Selections" data-odd="3.88" data-odd-max="3.95"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb7xv464x0xu3oej"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=EuyoEZLG&outcomeid=b1sb7xv464x0xu3oej&otheroutcomes=b1sb7xv464x0xu3oel,b1sb7xv498x0x0', 1.79, 'en');" title="Add to My Selections" data-odd="1.79" data-odd-max="1.80"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="2cDndFj2">
+<ul class="table-main__matchInfo" data-live="2cDndFj2" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/harrogate-bury-fc/2cDndFj2/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Harrogate</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/tbTF1Pm9-tj3NKjPm.png" alt="Harrogate Town FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/2J8yMHPt-r5vM8D7P.png" alt="Bury FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Bury</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s03xv464x0xu3nj5"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2cDndFj2&outcomeid=b1s03xv464x0xu3nj5&otheroutcomes=b1s03xv498x0x0,b1s03xv464x0xu3nj3', 1.68, 'en');" title="Add to My Selections" data-odd="1.68" data-odd-max="1.68"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s03xv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2cDndFj2&outcomeid=b1s03xv498x0x0&otheroutcomes=b1s03xv464x0xu3nj5,b1s03xv464x0xu3nj3', 4.05, 'en');" title="Add to My Selections" data-odd="4.05" data-odd-max="4.10"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s03xv464x0xu3nj3"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=2cDndFj2&outcomeid=b1s03xv464x0xu3nj3&otheroutcomes=b1s03xv464x0xu3nj5,b1s03xv498x0x0', 4.00, 'en');" title="Add to My Selections" data-odd="4.00" data-odd-max="4.10"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="Qq43pkqT">
+<ul class="table-main__matchInfo" data-live="Qq43pkqT" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/stafford-gateshead/Qq43pkqT/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Stafford</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/tYDZ0Em9-dIJNwHiA.png" alt="Stafford Rangers FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/n7Cl9o73-8EYc4Vv7.png" alt="Gateshead FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Gateshead</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7hxv464x0xu3o79"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=Qq43pkqT&outcomeid=b1s7hxv464x0xu3o79&otheroutcomes=b1s7hxv498x0x0,b1s7hxv464x0xu3o77', 2.25, 'en');" title="Add to My Selections" data-odd="2.25" data-odd-max="2.30"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7hxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=Qq43pkqT&outcomeid=b1s7hxv498x0x0&otheroutcomes=b1s7hxv464x0xu3o79,b1s7hxv464x0xu3o77', 3.48, 'en');" title="Add to My Selections" data-odd="3.48" data-odd-max="3.55"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7hxv464x0xu3o77"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=Qq43pkqT&outcomeid=b1s7hxv464x0xu3o77&otheroutcomes=b1s7hxv464x0xu3o79,b1s7hxv498x0x0', 2.78, 'en');" title="Add to My Selections" data-odd="2.78" data-odd-max="2.80"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="fJpT0AT9">
+<ul class="table-main__matchInfo" data-live="fJpT0AT9" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/tadley-calleva-aldershot/fJpT0AT9/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Tadley</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/2yBWTpQt-4AV42DcC.png" alt="Tadley Calleva Football Club" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/YDHcSD93-p2vE9w85.png" alt="Aldershot Town FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Aldershot</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7nxv464x0xu3o7l"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=fJpT0AT9&outcomeid=b1s7nxv464x0xu3o7l&otheroutcomes=b1s7nxv498x0x0,b1s7nxv464x0xu3o7j', 4.65, 'en');" title="Add to My Selections" data-odd="4.65" data-odd-max="4.70"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7nxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=fJpT0AT9&outcomeid=b1s7nxv498x0x0&otheroutcomes=b1s7nxv464x0xu3o7l,b1s7nxv464x0xu3o7j', 4.45, 'en');" title="Add to My Selections" data-odd="4.45" data-odd-max="4.50"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7nxv464x0xu3o7j"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=fJpT0AT9&outcomeid=b1s7nxv464x0xu3o7j&otheroutcomes=b1s7nxv464x0xu3o7l,b1s7nxv498x0x0', 1.51, 'en');" title="Add to My Selections" data-odd="1.51" data-odd-max="1.52"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="phmllXq4">
+<ul class="table-main__matchInfo" data-live="phmllXq4" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/worcester-chorley/phmllXq4/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Worcester</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pWJrZjlh-2a4JLW9s.png" alt="Worcester City FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/0QXFvQl9-E37LLtbn.png" alt="Chorley Football Club" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Chorley</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7dxv464x0xu3o71"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=phmllXq4&outcomeid=b1s7dxv464x0xu3o71&otheroutcomes=b1s7dxv498x0x0,b1s7dxv464x0xu3o6v', 2.60, 'en');" title="Add to My Selections" data-odd="2.60" data-odd-max="2.60"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7dxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=phmllXq4&outcomeid=b1s7dxv498x0x0&otheroutcomes=b1s7dxv464x0xu3o71,b1s7dxv464x0xu3o6v', 3.58, 'en');" title="Add to My Selections" data-odd="3.58" data-odd-max="3.65"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1s7dxv464x0xu3o6v"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=phmllXq4&outcomeid=b1s7dxv464x0xu3o6v&otheroutcomes=b1s7dxv464x0xu3o71,b1s7dxv498x0x0', 2.33, 'en');" title="Add to My Selections" data-odd="2.33" data-odd-max="2.37"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="103" data-ts="1792521900" data-event-id="6FXxGei4">
+<ul class="table-main__matchInfo" data-live="6FXxGei4" data-dt="20,10,2026,19,45" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:45
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/england/fa-cup/yeovil-leatherhead/6FXxGei4/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Yeovil</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/2wAtLT5n-rLpR8qjO.png" alt="Yeovil Town FC" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/8EJEqxA3-A7dHJstO.png" alt="Leatherhead FC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Leatherhead</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb5xv464x0xu3oeh"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6FXxGei4&outcomeid=b1sb5xv464x0xu3oeh&otheroutcomes=b1sb5xv498x0x0,b1sb5xv464x0xu3oef', 1.44, 'en');" title="Add to My Selections" data-odd="1.44" data-odd-max="1.49"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb5xv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6FXxGei4&outcomeid=b1sb5xv498x0x0&otheroutcomes=b1sb5xv464x0xu3oeh,b1sb5xv464x0xu3oef', 4.95, 'en');" title="Add to My Selections" data-odd="4.95" data-odd-max="5.00"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b1sb5xv464x0xu3oef"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=6FXxGei4&outcomeid=b1sb5xv464x0xu3oef&otheroutcomes=b1sb5xv464x0xu3oeh,b1sb5xv498x0x0', 5.18, 'en');" title="Add to My Selections" data-odd="5.18" data-odd-max="5.60"></button></div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+<input type="hidden" value="all" id="active-tab"/>
+<input type="hidden" value="104" class="start-count"/>
+<input type="hidden" value="156" class="all-count"/>
+</ul>
+<ul class="leagues-list" style="margin-bottom: 5px;" data-key="1-110157" data-country="africa">
+<li class="table-main__tournamentNavLi js-tournament" data-ttid="7">
+<div class="table-main__tournamentDivLeft">
+<a href="javascript:void(0);" class="myleague table-main__FavouriteStarGray"
+							data-ttid="7"
+							data-league-name="CAF Champions League"
+							data-sport-name="Football"
+							data-country-name="Africa"
+							title="Click to add league to 'My Leagues'">&nbsp;</a><a href="/football/africa/caf-champions-league/" class="leaguesName500 leaguesName400 leaguesName350" title="Africa CAF Champions League" onclick="linkHandler(event);"><img data-src="https://cci.betexplorer.com/1.svg" alt="Africa CAF Champions League " class="table-main__countryFlags lazyLoadCountryFlags">
+<p class="table-main__truncate table-main__leaguesNames leaguesNames">Africa: CAF Champions League
+</p></a>
+</div>
+<div class="arrowUp table-main__arrowUpContainer" onclick="toggleList(this);" data-tid="7"> <img width="8" height="5" src="/res/styles/img/redesign/arrowUp.png" alt="Show/Hide all matches of this league!"/>
+</div>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="7" data-ts="1792501200" data-event-id="dpbCICrH">
+<ul class="table-main__matchInfo" data-live="dpbCICrH" data-dt="20,10,2026,14,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">14:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/africa/caf-champions-league/15-de-agosto-simba/dpbCICrH/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">15 de Agosto</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/lWbWfHWE-zmJd7cVA.png" alt="15 de Agosto" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/dIXRfhnh-6auKd00m.png" alt="Simba SC" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Simba</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b12drxv464x0xu0gij"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=dpbCICrH&outcomeid=b12drxv464x0xu0gij&otheroutcomes=b12drxv498x0x0,b12drxv464x0xu0gil', 18.00, 'en');" title="Add to My Selections" data-odd="18.00" data-odd-max="18.00"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b12drxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=dpbCICrH&outcomeid=b12drxv498x0x0&otheroutcomes=b12drxv464x0xu0gij,b12drxv464x0xu0gil', 6.60, 'en');" title="Add to My Selections" data-odd="6.60" data-odd-max="6.60"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="b12drxv464x0xu0gil"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=dpbCICrH&outcomeid=b12drxv464x0xu0gil&otheroutcomes=b12drxv464x0xu0gij,b12drxv498x0x0', 1.12, 'en');" title="Add to My Selections" data-odd="1.12" data-odd-max="1.12"></button></div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="leagues-list" style="margin-bottom: 5px;" data-key="22-117921" data-country="argentina">
+<li class="table-main__tournamentNavLi js-tournament" data-ttid="14">
+<div class="table-main__tournamentDivLeft">
+<a href="javascript:void(0);" class="myleague table-main__FavouriteStarGray"
+							data-ttid="14"
+							data-league-name="Liga Profesional"
+							data-sport-name="Football"
+							data-country-name="Argentina"
+							title="Click to add league to 'My Leagues'">&nbsp;</a><a href="/football/argentina/liga-profesional/" class="leaguesName500 leaguesName400 leaguesName350" title="Argentina Liga Profesional" onclick="linkHandler(event);"><img data-src="https://cci.betexplorer.com/ar.svg" alt="Argentina Liga Profesional " class="table-main__countryFlags lazyLoadCountryFlags">
+<p class="table-main__truncate table-main__leaguesNames leaguesNames">Argentina: Liga Profesional
+</p></a>
+</div>
+<div class="arrowUp table-main__arrowUpContainer" onclick="toggleList(this);" data-tid="14"> <img width="8" height="5" src="/res/styles/img/redesign/arrowUp.png" alt="Show/Hide all matches of this league!"/>
+</div>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="14" data-ts="1792455300" data-event-id="QPzeFf4k">
+<ul class="table-main__matchInfo" data-live="QPzeFf4k" data-dt="20,10,2026,1,15" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchStatus matchDateStatus" data-live-cell="time">FIN
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/argentina/liga-profesional/deportivo-riestra-union-de-santa-fe/QPzeFf4k/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Dep. Riestra</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/nicKdgAK-rRNfwvij.png" alt="Deportivo Riestra" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults">1</div>
+<div class="table-main__finishedResults">:</div>
+<div class="table-main__finishedResults">1</div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/OnLQvWTE-OS9FbeGg.png" alt="Club Atletico Union de Santa Fe" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Union de Santa Fe</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults">1</div>
+<div class="table-main__finishedResults">1</div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="99l3vxv464x0xpjv4d"><p title="Add to My Selections" data-odd="2.12" data-odd-max="2.15"></p></div>
+<div class="table-main__odds table-main__odd oddMobile table-main__OddsWinner winner" data-oid="99l3vxv498x0x0"><p title="Add to My Selections" data-odd="2.96" data-odd-max="3.00"></p></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="99l3vxv464x0xpjv4f"><p title="Add to My Selections" data-odd="3.72" data-odd-max="3.90"></p></div>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="leagues-list" style="margin-bottom: 5px;" data-key="22-91337" data-country="argentina">
+<li class="table-main__tournamentNavLi js-tournament" data-ttid="16933">
+<div class="table-main__tournamentDivLeft">
+<a href="javascript:void(0);" class="myleague table-main__FavouriteStarGray"
+							data-ttid="16933"
+							data-league-name="Reserve League"
+							data-sport-name="Football"
+							data-country-name="Argentina"
+							title="Click to add league to 'My Leagues'">&nbsp;</a><a href="/football/argentina/reserve-league/" class="leaguesName500 leaguesName400 leaguesName350" title="Argentina Reserve League" onclick="linkHandler(event);"><img data-src="https://cci.betexplorer.com/ar.svg" alt="Argentina Reserve League " class="table-main__countryFlags lazyLoadCountryFlags">
+<p class="table-main__truncate table-main__leaguesNames leaguesNames">Argentina: Reserve League
+</p></a>
+</div>
+<div class="arrowUp table-main__arrowUpContainer" onclick="toggleList(this);" data-tid="16933"> <img width="8" height="5" src="/res/styles/img/redesign/arrowUp.png" alt="Show/Hide all matches of this league!"/>
+</div>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="16933" data-ts="1792519200" data-event-id="n5Z7ajm3">
+<ul class="table-main__matchInfo" data-live="n5Z7ajm3" data-dt="20,10,2026,19,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/argentina/reserve-league/aldosivi-banfield/n5Z7ajm3/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Aldosivi 2</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/2D2F2mVE-vw1fi48G.png" alt="Club Atletico Aldosivi" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/SCN3RRkQ-Iu42kpAJ.png" alt="Banfield" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Banfield 2</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b9xv464x0xta7ep"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=n5Z7ajm3&outcomeid=ap5b9xv464x0xta7ep&otheroutcomes=ap5b9xv498x0x0,ap5b9xv464x0xta7er', 2.11, 'en');" title="Add to My Selections" data-odd="2.11" data-odd-max="2.11"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b9xv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=n5Z7ajm3&outcomeid=ap5b9xv498x0x0&otheroutcomes=ap5b9xv464x0xta7ep,ap5b9xv464x0xta7er', 3.15, 'en');" title="Add to My Selections" data-odd="3.15" data-odd-max="3.15"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b9xv464x0xta7er"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=n5Z7ajm3&outcomeid=ap5b9xv464x0xta7er&otheroutcomes=ap5b9xv464x0xta7ep,ap5b9xv498x0x0', 3.25, 'en');" title="Add to My Selections" data-odd="3.25" data-odd-max="3.25"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="16933" data-ts="1792519200" data-event-id="KbsMymed">
+<ul class="table-main__matchInfo" data-live="KbsMymed" data-dt="20,10,2026,19,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/argentina/reserve-league/argentinos-jrs-rosario-central/KbsMymed/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Argentinos Jrs 2</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/25QBiMRc-27vW42zI.png" alt="Asociacion Atletica Argentinos Juniors" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/hEGFA2WE-vuxu02Jt.png" alt="Rosario Central" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Rosario Central 2</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b7xv464x0xta7el"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=KbsMymed&outcomeid=ap5b7xv464x0xta7el&otheroutcomes=ap5b7xv498x0x0,ap5b7xv464x0xta7en', 2.60, 'en');" title="Add to My Selections" data-odd="2.60" data-odd-max="2.60"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b7xv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=KbsMymed&outcomeid=ap5b7xv498x0x0&otheroutcomes=ap5b7xv464x0xta7el,ap5b7xv464x0xta7en', 3.05, 'en');" title="Add to My Selections" data-odd="3.05" data-odd-max="3.05"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5b7xv464x0xta7en"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=KbsMymed&outcomeid=ap5b7xv464x0xta7en&otheroutcomes=ap5b7xv464x0xta7el,ap5b7xv498x0x0', 2.55, 'en');" title="Add to My Selections" data-odd="2.55" data-odd-max="2.55"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="16933" data-ts="1792519200" data-event-id="S4vUUvrC">
+<ul class="table-main__matchInfo" data-live="S4vUUvrC" data-dt="20,10,2026,19,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:00
+</span>
+</li>
+<li class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" style="width: 100%;">
+<div style="display: flex; width: 100%; justify-content: center;">
+<a href="/football/argentina/reserve-league/defensa-y-justicia-atl-rafaela/S4vUUvrC/" data-live-cell="matchlink" class="table-main__participants participantsMobile participantsHomeAwayMobileWidth" >
+<div class="participantsHomeAwayMobileWidth table-main__participantHome participantHomeOrder"><p class="particiantWidthMobile table-main__truncate ">Defensa y Justicia 2</p>
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/pMc8rEk9-hO996oiS.png" alt="Club Social y Deportivo Defensa y Justicia" loading="lazy"/></div>
+<div class="mainResult table-main__Bold mobileHidden" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div></div>
+<div>-</div>
+<div></div>
+</div>
+<div class="participantsHomeAwayMobileWidth table-main__participantAway">
+<img class="table-main__participantLogo lazyLoadCountryFlags" data-src="/res/images/team-logo/4YqOckj9-S2uGfAlK.png" alt="Atl. Rafaela" loading="lazy"/><p class="particiantWidthMobile table-main__truncate ">Atl. Rafaela 2</p></div>
+</a>
+</div>
+</li>
+<li class="table-main__oddsLi mobileGap">
+<div class="mainResult table-main__Bold table-main__oddColumn desktopHidden oddsMobileSize" style="justify-content: center; width: 35px;"  data-live-cell="score">
+<div class="table-main__finishedResults"></div>
+<div class="table-main__finishedResults"></div>
+</div>
+<div class="table-main__oddsLi mobileGap oddsColumn">
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5ahxv464x0xta7d9"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=S4vUUvrC&outcomeid=ap5ahxv464x0xta7d9&otheroutcomes=ap5ahxv498x0x0,ap5ahxv464x0xta7db', 1.55, 'en');" title="Add to My Selections" data-odd="1.55" data-odd-max="1.55"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5ahxv498x0x0"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=S4vUUvrC&outcomeid=ap5ahxv498x0x0&otheroutcomes=ap5ahxv464x0xta7d9,ap5ahxv464x0xta7db', 3.85, 'en');" title="Add to My Selections" data-odd="3.85" data-odd-max="3.85"></button></div>
+<div class="table-main__odds table-main__odd oddMobile " data-oid="ap5ahxv464x0xta7db"><button onclick="my_selections_click('default', 'football', 'action=3&matchid=S4vUUvrC&outcomeid=ap5ahxv464x0xta7db&otheroutcomes=ap5ahxv464x0xta7d9,ap5ahxv498x0x0', 5.20, 'en');" title="Add to My Selections" data-odd="5.20" data-odd-max="5.20"></button></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="showHide table-main__tournamentLiContent tournamentLiContentMobile" data-fro="0" data-tid="16933" data-ts="1792519200" data-event-id="xIMgjnAk">
+<ul class="table-main__matchInfo" data-live="xIMgjnAk" data-dt="20,10,2026,19,00" data-def="1" data-dt-now="20,10,2026,9,53">
+<li class="table-main__matchDateStatus matchDateStatus">
+<span class="table-main__matchHour matchDateStatus" data-live-cell="time">19:00
+</span>
+</li>
+<li class="table-main__participants par

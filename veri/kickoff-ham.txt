@@ -1,0 +1,2471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>KickOff UK | Football Betting Tips | Smart Betting Made Simple</title>
+
+	<link rel="pingback" href="https://www.kickoff.co.uk/xmlrpc.php" />
+
+
+        
+        
+        <meta name='robots' content='max-image-preview:large, index, follow' />
+<link rel="alternate" type="application/rss+xml" title="KickOff &raquo; Feed" href="https://www.kickoff.co.uk/feed/" />
+<link rel="preconnect" href="https://images.dmca.com"><link rel="preconnect" href="https://www.googletagmanager.com"><link rel="preconnect" href="https://stats.g.doubleclick.net"><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.kickoff.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kickoff.co.uk%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.kickoff.co.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kickoff.co.uk%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='ko_as_tools_css-css' href='https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/js/EasyAutocomplete-1.3.5/easy-autocomplete.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='ko_as_tools_theme_css-css' href='https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/js/EasyAutocomplete-1.3.5/easy-autocomplete.themes.min.css?ver=7.1.3' media='all' />
+<link rel='stylesheet' id='lrm-modal-css' href='https://www.kickoff.co.uk/wp-content/plugins/ajax-login-and-registration-modal-popup/assets/lrm-core-compiled.css?ver=56' media='all' />
+<link rel='stylesheet' id='lrm-modal-skin-css' href='https://www.kickoff.co.uk/wp-content/plugins/ajax-login-and-registration-modal-popup/skins/default/skin.css?ver=56' media='all' />
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cookie-notice-front-css' href='https://www.kickoff.co.uk/wp-content/plugins/cookie-notice/css/front.min.css?ver=3.1.17' media='all' />
+<link rel='stylesheet' id='style_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style.css?ver=1759487291' media='all' />
+<link rel='stylesheet' id='frontpage_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-front-page.css?ver=1740757838' media='all' />
+<link rel='stylesheet' id='tipster_home_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-tipsters-home.css?ver=1646901978' media='all' />
+<link rel='stylesheet' id='wp_core_bits_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-wp-core-bits.css?ver=1661867225' media='all' />
+<link rel='stylesheet' id='mmenu_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/mmenu-light.css?ver=1645184489' media='all' />
+<link rel='stylesheet' id='komenu_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-ko-menu.css?ver=1705659099' media='all' />
+<link rel='stylesheet' id='ko_betslip_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-betslip.css?ver=1660575088' media='all' />
+<link rel='stylesheet' id='style_info_header_panel_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/dist/style-info-header-panel.css?ver=1670941665' media='all' />
+<link rel='stylesheet' id='ko_fancybox_css-css' href='https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/assets/js/fancybox/jquery.fancybox.css?ver=1465569331' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css' href='//www.kickoff.co.uk/wp-content/uploads/pum/pum-site-styles.css?generated=1779811980&#038;ver=1.25.0' media='all' />
+<link rel='stylesheet' id='a3a3_lazy_load-css' href='//www.kickoff.co.uk/wp-content/uploads/sass/a3_lazy_load.min.css?ver=1732526367' media='all' />
+<script type="text/javascript">
+            window._nslDOMReady = (function () {
+                const executedCallbacks = new Set();
+            
+                return function (callback) {
+                    /**
+                    * Third parties might dispatch DOMContentLoaded events, so we need to ensure that we only run our callback once!
+                    */
+                    if (executedCallbacks.has(callback)) return;
+            
+                    const wrappedCallback = function () {
+                        if (executedCallbacks.has(callback)) return;
+                        executedCallbacks.add(callback);
+                        callback();
+                    };
+            
+                    if (document.readyState === "complete" || document.readyState === "interactive") {
+                        wrappedCallback();
+                    } else {
+                        document.addEventListener("DOMContentLoaded", wrappedCallback);
+                    }
+                };
+            })();
+        </script><script id="jquery-js" src="https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/assets/js/jquery-3.6.0.min.js?ver=1639473756"></script>
+<script id="ko_as_tools-js" src="https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/js/EasyAutocomplete-1.3.5/jquery.easy-autocomplete.min.js?ver=7.1.3"></script>
+<script id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/www.kickoff.co.uk\/wp-admin\/admin-ajax.php","nonce":"e93891753b","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":true,"revokeCookies":true,"revokeCookiesOpt":"manual"};
+
+//# sourceURL=cookie-notice-front-js-before
+</script>
+<script id="cookie-notice-front-js" src="https://www.kickoff.co.uk/wp-content/plugins/cookie-notice/js/front.min.js?ver=3.1.17"></script>
+<link rel="https://api.w.org/" href="https://www.kickoff.co.uk/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.kickoff.co.uk/wp-json/wp/v2/pages/9" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.kickoff.co.uk/xmlrpc.php?rsd" />
+
+<link rel="canonical" href="https://www.kickoff.co.uk/" />
+            <!-- Start Acca Store -->
+            <link type="text/css" rel="stylesheet" href="https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/css/acca-store-style.css?kv=11133311732713287"/>
+
+			
+            <link rel="stylesheet" type="text/css" href="https://www.kickoff.co.uk/ko-includes/ko-widgets/assets-class/css/ko-widget-acca-style.css?kv=1111733267791"/>
+
+			
+            <link rel="stylesheet" type="text/css" href="https://www.kickoff.co.uk/ko-includes/css/style.css?ver=1.0.1"/>
+
+			
+	<script type="text/javascript">var ajaxurl = 'https://www.kickoff.co.uk/wp-admin/admin-ajax.php';</script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/fbrfg/apple-touch-icon.png?v=pgdx4mNaxw">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/fbrfg/favicon-32x32.png?v=pgdx4mNaxw">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/fbrfg/favicon-16x16.png?v=pgdx4mNaxw">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/site.webmanifest?v=pgdx4mNaxw">
+<link rel="mask-icon" href="/wp-content/uploads/fbrfg/safari-pinned-tab.svg?v=pgdx4mNaxw" color="#2f3e50">
+<link rel="shortcut icon" href="/wp-content/uploads/fbrfg/favicon.ico?v=pgdx4mNaxw">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml?v=pgdx4mNaxw">
+<meta name="theme-color" content="#ffffff">
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:3888235,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		
+    <meta name="keywords" content="" />
+    <link href="https://plus.google.com/u/1/b/105901218385856651706/105901218385856651706" rel="publisher" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-itunes-app" content="app-id=883161735">
+
+    <link rel="preload" href="/wp-content/themes/KickOff_V4/images/KickOff-logo-129x34.svg" as="image">
+
+    <meta name="expiry-year" content="Expiry Year">
+    <meta name="expiry-month" content="Expiry Month">
+
+    <meta name="ko-membership-registration" content="">
+    <meta name="ko-membership-type-stripe" content="">
+    <meta name="ko-membership-type-stripe-apple" content="">
+    <meta name="ko-membership-type-stripe-google" content="">
+    <meta name="ko-membership-type-stripe-paypal" content="">
+
+    <style>
+
+        #mobile-menu:not( .mm-menu ) {
+            display: none;
+        }
+
+        .ko-acca-date-panel-table tr td.accaTLTExpand,
+        .ko-acca-date-panel-table tr td.membership-pro-trigger {
+            cursor: pointer !important;
+        }
+        /* .ko-acca-date-panel-table tr td.accaTLTExpand:hover, */
+        .ko-acca-date-panel-table tr td.membership-pro-trigger:hover {
+            /* background-color: #eeeded !important; */
+            background-color: rgba(240, 196, 0, 0.5) !important;
+        }
+
+        .ko-betslip-tint {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(52, 54, 66, 0.9);
+            z-index: 999999;
+            overflow-y: auto;
+            cursor: pointer;
+            visibility: hidden;
+            opacity: 0;
+            -webkit-transition: opacity 0.3s, visibility 0.3s;
+            -moz-transition: opacity 0.3s, visibility 0.3s;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+        .ko-betslip-tint.is-visible {
+            visibility: visible !important;
+            opacity: 1;
+        }
+        #my-floating-bet-slip tr {
+            border-bottom: none !important;
+        }
+
+        .sidebar {
+            --offset: 2rem;
+            flex-grow: 1;
+            flex-basis: 300px;
+            align-self: start;
+            position: sticky;
+            top: var(--offset);
+        }
+
+        .component {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        #access .entry-content {
+            display: none;
+            padding: 0 !important;
+        }
+        #betslip-container-mobile-buttons {
+            display: none;
+        }
+        .restrict-overflow {
+            overflow: hidden !important;
+        }
+
+        .my-bet-slip-free-offers-button {
+            font: 13px/29px Helvetica, sans-serif !important;
+            font-weight: 600 !important;
+        }
+
+        .prediction-data-row section section {
+            font: 12px/18px Inter, Helvetica, sans-serif;
+            color: #fff;
+            font-weight: 400;
+            display: inline-block;
+            background: #009cda;
+            top: -9px;
+            position: relative;
+            border-radius: 20px;
+            padding: 3px 10px 3px 20px;
+            margin-left: -16px;
+        }
+
+        .prediction-data-row section section:after {
+            border: 2px solid white;
+            border-left: 0;
+            border-top: 0;
+            content: " ";
+            display: inline-block;
+            height: 5px;
+            left: 2px;
+            position: relative;
+            top: -1px;
+            transform: rotate(-45deg);
+            width: 5px;
+        }
+        .prediction-data-row section section a {
+            color: #fff !important;
+        }
+        .prediction-data-row a {
+            text-decoration: none !important;
+        }
+
+        .entry-content .prediction-data-row a:hover {
+            background: none !important;
+        }
+
+        .entry-content .prediction-data-row a, .entry-content .prediction-data-row a:visited {
+            border: none !important;
+        }
+
+        @media only screen and (max-width: 640px) {
+            body.page-template-page-acca-smacker-3 .prediction-data-row .iconAccaPredSelectTextWrapper {
+                margin-top: 0 !important;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .ko-acca-date-panel-table tr.ko-awp-row-data, .prediction-data-row {
+                max-height: 65px;
+                height: 65px;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .ko-acca-date-panel-table tr.ko-awp-row-data, .prediction-data-row {
+                max-height: 100px;
+                height: 100px;
+            }
+
+            #access #ko-bet-slip-container-wrapper #my-bet-slip-bookies-panel {
+                padding-bottom: 10px;
+            }
+
+            .my-bet-slip-free-offers-button {
+                padding-top: 2px;
+                padding-bottom: 1px;
+            }
+
+            #access .entry-content {
+                display: block !important;
+            }
+            #betslip-container-mobile-buttons {
+                display: block !important;
+            }
+
+            #my-floating-bet-slip-wrapper {
+                height: auto;
+            }
+
+            #ko-bet-slip-container-wrapper {
+                display: block;
+                position: fixed;
+                left: 10px;
+                right: 0;
+                bottom: 50px;
+                width: calc(100% - 20px);
+                height: auto;
+                max-height: calc(100% - 80px);
+                z-index: 999999;
+                background: #FFFFFF;
+                overflow-y: scroll;
+            }
+
+            #betslip-container-mobile-buttons {
+                width: 100%;
+                height: 50px;
+                position: fixed;
+                bottom: 0;
+                color: #FFF;
+                font: 14px/30px Helvetica,sans-serif;
+                font-weight: 700;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                z-index: 9999999;
+                cursor: pointer;
+                background: #354e66;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button.active {
+                color: #1c1c1c !important;
+                background: #ffd000 !important;
+            }
+            #betslip-container-mobile-buttons .betslip-nav-button {
+                background: #354e66;
+                width: calc(50% - 21px);
+                height: 50px;
+                padding: 10px;
+                font: 14px/30px Helvetica,sans-serif;
+                font-weight: 700;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-left span {
+                color: #1c1c1c;
+                background: #ffd000;
+                border-radius: 10px;
+                width: 10px;
+                height: 10px;
+                padding: 2px 6px;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-left.active span {
+                color: #ffd000 !important;
+                background: #354e66 !important;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-left {
+                float: left;
+                border-right: 1px solid #42617c;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-right {
+                float: right;
+                border-left: 1px solid #42617c;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-right .mobile-menu-betslip-link-num-bets-digit {
+                color: #1c1c1c;
+                background: #ffd000;
+                border-radius: 10px;
+                width: 10px;
+                height: 10px;
+                padding: 2px 6px;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-right.active .mobile-menu-betslip-link-num-bets-digit {
+                color: #ffd000 !important;
+                background: #354e66 !important;
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-right .ko-mobile-betslip-icon-svg {
+                background-image: url('/wp-content/themes/KickOff_V4/images/betslip-unselected.svg');
+            }
+
+            #betslip-container-mobile-buttons .betslip-nav-button-right.active .ko-mobile-betslip-icon-svg {
+                background-image: url('/wp-content/themes/KickOff_V4/images/betslip-selected.svg');
+            }
+
+            .hidden {
+                display: none !important;
+            }
+
+            #mobile-free-bets {
+                display: block;
+                position: fixed;
+                left: 10px;
+                right: 0;
+                bottom: 50px;
+                width: calc(100% - 40px);
+                height: auto;
+                max-height: calc(100% - 80px);
+                z-index: 9999999;
+                background: #FFF;
+                padding: 10px;
+                overflow-y: scroll;
+            }
+
+            #mobile-free-bets img {
+                margin-bottom: -70px;
+                max-width: 60px;
+                float: left;
+            }
+
+            .entry-content #mobile-free-bets a.active,
+            .entry-content #mobile-free-bets a:focus,
+            .entry-content #mobile-free-bets a:active,
+            .entry-content #mobile-free-bets a:hover {
+                background-color: #f5f7f8 !important;
+                color: #30425d !important;
+            }
+        }
+    </style>
+
+    <script>
+        let gKOSignedIn;
+        let gKORole;
+        let gKOThem = '/wp-content/themes/KickOff_V4';
+        let openingMobile = false;
+
+        // ==================================================================================================================
+        // jQuery Ported Functions
+        // ==================================================================================================================
+
+        function isVisible(e) {
+            return !!( e.offsetWidth || e.offsetHeight || e.getClientRects().length );
+        }
+
+        // ==================================================================================================================
+        // IF Mobile State
+        // ==================================================================================================================
+
+        function KOIsMobile() {
+            let isMobile = false;
+            if (!!document.getElementById('ko-mobile-flag')) {
+                if (isVisible(document.getElementById('ko-mobile-flag'))) {
+                    isMobile = true;
+                }
+            }
+            return isMobile;
+        }
+
+        // ==================================================================================================================
+        // KO Cookie Functions
+        // ==================================================================================================================
+
+        function KOcreateCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            }
+            document.cookie = name + "=" + value + expires + "; path=/; sameSite=Lax;";
+        }
+
+        function KOreadCookie(name) {
+            let nameEQ = name + "=";
+            let ca = document.cookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function KOeraseCookie(name) {
+            KOcreateCookie(name, "", -1);
+        }
+
+        // External Dependencies: KickoffCore
+        // TODO: clean
+
+        function KOJSResultRollover() {
+
+            //block tooltips
+            jQuery('.ko-afplt-result-show-tooltip[title]').tooltip({
+                predelay: 300,
+                tipClass: 'team-page-panel-tooltip',
+                events: {tooltip: 'click, mouseleave click'},
+                position: 'bottom left', offset: [5, 375],
+
+                onBeforeShow: function () {
+                    const koResultBoxTip = this;
+                    const koResultBox = this.getTrigger();
+
+                    koResultBoxTip.getTip().css({
+                        'margin-top' : koResultBox.css('margin-top'),
+                        'margin-left' : koResultBox.css('margin-left')
+                    });
+
+                     if ( koResultBox.hasClass('ko-afplt-result-show-tooltip-right') ) {
+                        koResultBoxTip.getTip().css('margin-left', '-329px');
+                    }
+
+                    if ( /iPad/i.test(navigator.userAgent))
+                    {
+                        const relScrollTop = document.documentElement.scrollTop;
+                        //const relOffsetTop = koResultBox.offset().top;
+
+                        //console.log(relOffsetTop + ' scrollTop'+relScrollTop+' top:'+ koResultBoxTip.getTip().position.top );
+
+                        koResultBoxTip.getTip().css('margin-top', relScrollTop+'px');
+                    }
+
+                    jQuery.ajax({
+                        dataType: 'html',
+                        cache: true,
+                        url: "/ko-includes/ko-widgets/assets-class/proxy2/rollover-proxy.php?fid=" + koResultBox.attr('data-mid') + "&foutcome=" + koResultBox.attr('data-bid'),
+                        success: function (rollDataObj) {
+
+                            koResultBoxTip.getTip()[0].innerHTML = rollDataObj;
+
+                        }
+                    }); // ajax
+                } // show
+
+            });
+
+        }
+
+        function KOStatusCookie(status_data_login, status_data_role, status_data_uid) {
+            let status_data_str = status_data_login + '|' + status_data_role + '|' + status_data_uid;
+
+            KOcreateCookie('ko_status', status_data_str, (1 / (24 * 60)) * 30); // mins
+
+            return status_data_str;
+        }
+
+        function KO_RoleCheckJS() {
+
+            let jsRole = false;
+
+            jsRole = KOStatusRole();
+
+            return jsRole;
+
+        }
+
+        function KO_BrowserIsProJS() {
+
+            return KO_RoleCheckJS() == '2' ? true : false;
+
+        }
+
+        function KOStatusUpdate() {
+
+            // Set state cookie
+            let status_data_str;
+
+            jQuery.ajax({
+                url: gKOThem + "/login/AJAX/ko-status.php",
+                cache: false,
+                async: false
+            }).done(function (data) {
+                const status_data = JSON.parse(data);
+                status_data_str = KOStatusCookie(status_data['login'], status_data['role'], status_data['uid']);
+            });
+
+            return status_data_str;
+        }
+
+        function KOStatusChecker() {
+            let koStatus = '';
+            let koStatusStr = (KOreadCookie('ko_status'));
+
+            if (koStatusStr) {
+                koStatus = koStatusStr.split("|");
+            } else {
+
+                koStatusStr = KOStatusUpdate();
+
+                if (koStatusStr) {
+                    koStatus = koStatusStr.split("|");
+                }
+
+            }
+
+            return koStatus; // status
+        }
+
+        function KOStatusRole() {
+
+            let koRole = '';
+
+            const koStatus = KOStatusChecker();
+
+            if (koStatus) {
+                koRole = koStatus[1];//status
+            }
+
+            return koRole;
+        }
+    </script>
+
+    <meta name="description" content="Data driven football betting tips and predictions for every major game across Europe. Follow & copy winning bettors." />
+    
+<!--Plugin WP Missed Schedule Active - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 -->
+
+<style type="text/css">div.nsl-container[data-align="left"] {
+    text-align: left;
+}
+
+div.nsl-container[data-align="center"] {
+    text-align: center;
+}
+
+div.nsl-container[data-align="right"] {
+    text-align: right;
+}
+
+
+div.nsl-container div.nsl-container-buttons a[data-plugin="nsl"] {
+    text-decoration: none;
+    box-shadow: none;
+    border: 0;
+}
+
+div.nsl-container .nsl-container-buttons {
+    display: flex;
+    padding: 5px 0;
+}
+
+div.nsl-container.nsl-container-block .nsl-container-buttons {
+    display: inline-grid;
+    grid-template-columns: minmax(145px, auto);
+}
+
+div.nsl-container-block-fullwidth .nsl-container-buttons {
+    flex-flow: column;
+    align-items: center;
+}
+
+div.nsl-container-block-fullwidth .nsl-container-buttons a,
+div.nsl-container-block .nsl-container-buttons a {
+    flex: 1 1 auto;
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+}
+
+div.nsl-container-inline {
+    margin: -5px;
+    text-align: left;
+}
+
+div.nsl-container-inline .nsl-container-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.nsl-container-inline .nsl-container-buttons a {
+    margin: 5px;
+    display: inline-block;
+}
+
+div.nsl-container-grid .nsl-container-buttons {
+    flex-flow: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.nsl-container-grid .nsl-container-buttons a {
+    flex: 1 1 auto;
+    display: block;
+    margin: 5px;
+    max-width: 280px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+    div.nsl-container-grid .nsl-container-buttons a {
+        width: auto;
+    }
+}
+
+div.nsl-container .nsl-button {
+    cursor: pointer;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+div.nsl-container .nsl-button-default {
+    color: #fff;
+    display: flex;
+}
+
+div.nsl-container .nsl-button-icon {
+    display: inline-block;
+}
+
+div.nsl-container .nsl-button-svg-container {
+    flex: 0 0 auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+div.nsl-container svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: top;
+}
+
+div.nsl-container .nsl-button-default div.nsl-button-label-container {
+    margin: 0 24px 0 12px;
+    padding: 10px 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .25px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: clip;
+    white-space: nowrap;
+    flex: 1 1 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: none;
+    display: inline-block;
+}
+
+div.nsl-container .nsl-button-google[data-skin="light"] {
+    box-shadow: inset 0 0 0 1px #747775;
+    color: #1f1f1f;
+}
+
+div.nsl-container .nsl-button-google[data-skin="dark"] {
+    box-shadow: inset 0 0 0 1px #8E918F;
+    color: #E3E3E3;
+}
+
+div.nsl-container .nsl-button-google[data-skin="neutral"] {
+    color: #1F1F1F;
+}
+
+div.nsl-container .nsl-button-google div.nsl-button-label-container {
+    font-family: "Roboto Medium", Roboto, Helvetica, Arial, sans-serif;
+}
+
+div.nsl-container .nsl-button-apple .nsl-button-svg-container {
+    padding: 0 6px;
+}
+
+div.nsl-container .nsl-button-apple .nsl-button-svg-container svg {
+    height: 40px;
+    width: auto;
+}
+
+div.nsl-container .nsl-button-apple[data-skin="light"] {
+    color: #000;
+    box-shadow: 0 0 0 1px #000;
+}
+
+div.nsl-container .nsl-button-facebook[data-skin="white"] {
+    color: #000;
+    box-shadow: inset 0 0 0 1px #000;
+}
+
+div.nsl-container .nsl-button-facebook[data-skin="light"] {
+    color: #1877F2;
+    box-shadow: inset 0 0 0 1px #1877F2;
+}
+
+div.nsl-container .nsl-button-spotify[data-skin="white"] {
+    color: #191414;
+    box-shadow: inset 0 0 0 1px #191414;
+}
+
+div.nsl-container .nsl-button-apple div.nsl-button-label-container {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.nsl-container .nsl-button-slack div.nsl-button-label-container {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+div.nsl-container .nsl-button-slack[data-skin="light"] {
+    color: #000000;
+    box-shadow: inset 0 0 0 1px #DDDDDD;
+}
+
+div.nsl-container .nsl-button-tiktok[data-skin="light"] {
+    color: #161823;
+    box-shadow: 0 0 0 1px rgba(22, 24, 35, 0.12);
+}
+
+
+div.nsl-container .nsl-button-kakao {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.nsl-clear {
+    clear: both;
+}
+
+.nsl-container {
+    clear: both;
+}
+
+.nsl-disabled-provider .nsl-button {
+    filter: grayscale(1);
+    opacity: 0.8;
+}
+
+/*Button align start*/
+
+div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
+    justify-content: flex-start;
+}
+
+div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
+    justify-content: center;
+}
+
+div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
+    justify-content: flex-end;
+}
+
+
+div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
+    justify-content: flex-start;
+}
+
+div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
+    justify-content: center;
+}
+
+div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
+    justify-content: flex-end;
+}
+
+div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
+    justify-content: space-around;
+}
+
+div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
+    justify-content: space-between;
+}
+
+/* Button align end*/
+
+/* Redirect */
+
+#nsl-redirect-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(1px);
+    background-color: RGBA(0, 0, 0, .32);;
+}
+
+#nsl-redirect-overlay-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#nsl-redirect-overlay-spinner {
+    content: '';
+    display: block;
+    margin: 20px;
+    border: 9px solid RGBA(0, 0, 0, .6);
+    border-top: 9px solid #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1px RGBA(0, 0, 0, .6), 0 0 0 1px RGBA(0, 0, 0, .6);
+    width: 40px;
+    height: 40px;
+    animation: nsl-loader-spin 2s linear infinite;
+}
+
+@keyframes nsl-loader-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+#nsl-redirect-overlay-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C434A;
+}
+
+#nsl-redirect-overlay-text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: #3C434A;
+}
+
+/* Redirect END*/</style><style type="text/css">/* Notice fallback */
+#nsl-notices-fallback {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 10000;
+}
+
+.admin-bar #nsl-notices-fallback {
+    top: 42px;
+}
+
+#nsl-notices-fallback > div {
+    position: relative;
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 5px 15px 2px;
+    padding: 1px 20px;
+}
+
+#nsl-notices-fallback > div.error {
+    display: block;
+    border-left-color: #dc3232;
+}
+
+#nsl-notices-fallback > div.updated {
+    display: block;
+    border-left-color: #46b450;
+}
+
+#nsl-notices-fallback p {
+    margin: .5em 0;
+    padding: 2px;
+}
+
+#nsl-notices-fallback > div:after {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    content: '\00d7';
+    display: block;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}</style><meta name="wot-verification" content="aed26227d3bdde536c63"/>
+
+
+
+
+</head>
+
+<body class="home-page bp-legacy home wp-singular page-template page-template-page-front page-template-page-front-php page page-id-9 wp-theme-thematic wp-child-theme-KickOff_V4 cookies-not-set unknown-os chrome ch116 no-js">
+
+<div id="wrapper" class="hfeed">
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PH46XB"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            let f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PH46XB');</script>
+    <!-- End Google Tag Manager -->
+
+    <div id="screen-back"></div>
+
+    <div id="sub-header-full-width-band" class="ko-mobile-hide"></div>
+<div id="content-wrapper">
+
+    
+    <div id="header">
+
+        
+        <style>
+            .ko-banner-email-veri {
+                display: inline-block;
+                width: 100%;
+                height: 30px;
+                box-sizing: border-box;
+                background: #ffd100;
+                color: #353e50;
+                text-align: center;
+                font: 13px/30px Helvetica, sans-serif;
+                font-weight: bold;
+                text-decoration: none;
+                cursor: pointer;
+                position: relative;
+                z-index: 120;
+            }
+
+            .ko-banner-email-veri:hover {
+                color: #353e50;
+                opacity: 0.8;
+            }
+
+            .ko-banner-email-veri-low {
+                display: inline-block;
+                margin-left: 20px;
+                color: #353e50;
+                opacity: 0.65;
+            }
+
+            @media only screen and (max-width: 640px) {
+
+                .ko-banner-email-veri {
+                    height: auto;
+                    line-height: 16px;
+                    padding: 4px 0;
+                }
+
+                .ko-banner-email-veri-low {
+                    display: block;
+                    margin-left: 0;
+                }
+            }
+        </style>
+
+        <script>
+            window.KO_MSG_POP_EMAIL_VERIFICATION_SEND = '101195';
+        </script>
+
+        <span id="ko-banner-email-veri-trigger" class="ko-banner-email-veri" style="display:none;" title="">PLEASE VERIFY
+            YOUR EMAIL ADDRESS <span class="ko-banner-email-veri-low">Resend verification email ></span></span>
+
+        
+    
+    <div id="branding">
+
+        <div class="ko-mobile-hideum" id="header-right-wrapper">
+        <div style="display: none;">
+            <div id="ko-alert-form-sub-cancel-pop">
+                <div class="ko-default-alert-pop-wrapper ko-default-alert-pop-wrapper-no-pad">
+                    <div class="ko-alert-form-streaks-acca2-icon"></div>
+                    <div class="ko_dialog_alert_upper_msg">
+                        <div class="ko_dialog_alert_upper_msg_sub_title ko_dialog_alert_upper_msg_sub_title_small"><div style="height:6px;">COMING SOON</div><br>. Live in-play tips<br>. More markets<br>. More leagues<br><br></div>
+                        <a class="ko_create_pro_account_button" style="margin-bottom: 10px;"
+                           id="ko_dialog_button_dismiss" href="#" rel="nofollow">I want to stay</a>
+                        <a class="ko_create_pro_account_button ko_create_pro_account_button_drop_back"
+                           id="ko_dialog_button_signin_cancel" href="#" rel="nofollow" onClick="koPopCancelSubFunc();return false;">I
+                            want to cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div> <!-- branding -->
+
+    <div id="access" class="accessclass">
+
+        
+        <div style="display: none;">
+            <div class="" title="Sign in to my account">
+                <a id="ko-account-login-button-link" class="lrm-login" href="/wp-login.php?redirect_to=/predictions/" rel="nofollow"></a>
+            </div>
+        </div>
+
+        
+            <div id="mobile-menu-link-wrapper">
+
+                <div id="mobile-branding">
+
+                    <div class="mobile-menu-header-row">
+
+                        <div class="mobile-menu-header-icon-burger">
+                            <a id="mobile-menu-link" href="#mobile-menu" title="Menu" rel="nofollow"></a>
+                        </div>
+
+                        <div class="c_logo_wrapper">
+                            <a class="c_logo_link" title="Home" href="/">
+                                <div class="c_logo"></div>
+                            </a>
+                        </div>
+
+                        <div id="mobile-menu-header-icon-profile-button-wrapper"
+                             class="mobile-menu-header-icon-profile-button-wrapper">
+
+                            <div class="mobile-menu-header-profile-button mobile-menu-header-icon-profile-button mobile-menu-header-icon-profile-button-signed-out">
+                                <a id="mobile-menu-profile-turn-pro-subscribe"
+                                   class="mobile-menu-profile-ghost-button mobile-menu-profile-filleddk-button"
+                                   href="/membership-checkout/?s2p-option=3#s2p-form" rel="nofollow">SUBSCRIBE</a>
+                            </div>
+
+                            <div class="mobile-menu-header-profile-button mobile-menu-header-icon-profile-button mobile-menu-header-icon-profile-button-signed-out">
+                                <a id="mobile-menu-profile-sign-in" class="mobile-menu-profile-ghost-button lrm-login"
+                                   href="/wp-login.php" rel="nofollow">SIGN IN</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="ko-main-menu-nav-wrapper">
+                        <nav id="ko-main-menu-nav" class="ko-main-menu-nav"><ul><li id="menu-item-110077" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110077"><a href="https://www.kickoff.co.uk/live-scores/">In-Play</a></li>
+<li id="menu-item-103666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103666"><a href="https://www.kickoff.co.uk/tipsters/">Tipsters</a></li>
+<li id="menu-item-115817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115817"><a href="https://www.kickoff.co.uk/predictions/">Predictions</a></li>
+<li id="menu-item-103722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103722"><a href="https://www.kickoff.co.uk/competitions/">Leagues</a></li>
+<li id="menu-item-106535" class="ko-mobile-hide menu-item menu-item-type-post_type menu-item-object-page menu-item-106535"><a href="https://www.kickoff.co.uk/free-bets/">Free bets</a></li>
+</ul></nav>                    </div>
+                </div> <!-- mobile branding -->
+                            </div>
+
+            <nav id="mobile-menu" class="menu-side-menu-1-container"><ul><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/live-scores/">In-Play</a></li><li><span class="mobile-slide-menu-blog mobile-menu-slide-no-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">Free Bets and Bonuses</span>
+<ul class="sub-menu">
+<li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/free-bets/">Free bets</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/enhanced-odds/">Enhanced Odds</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/accumulator-insurance/">Accumulator Insurance</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/betting-sites/">Best Betting Sites Guide</a></li></ul>
+</li><li><span class="mobile-slide-menu-blog mobile-menu-slide-no-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">Bookmakers</span>
+<ul class="sub-menu">
+<li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/bet365/">Bet365</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/coral/">Coral</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/ladbrokes/">Ladbrokes</a></li></ul>
+</li><li><span class="mobile-slide-menu-blog mobile-menu-slide-no-link menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">Betting Guide</span>
+<ul class="sub-menu">
+<li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/betting-strategies-101/">Football Betting Strategies to Help You Win</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/advanced-betting-strategies/">Advanced Betting Strategies</a></li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/bankroll-management/">Betting Bankroll Management</a></li></ul>
+</li><li><a class=" menu-item menu-item-type-post_type menu-item-object-page" href="https://www.kickoff.co.uk/blog/">Blog</a></li><li><span class="mobile-menu-slide-no-link mobile-menu-slide-label menu-item menu-item-type-custom menu-item-object-custom">Follow Us<a class="ko-in-menu-link-twitter" target="_blank" href="http://www.twitter.com/KickOff" rel="noopener noreferrer"></a><a class="ko-in-menu-link-facebook" target="_blank" href="http://www.facebook.com/KickOff.co.uk" rel="noopener noreferrer"></a></span></li></ul></nav>            <nav id="mobile-menu-right">
+                <ul class="mobile-slide-menu-membership-wrapper"></ul>
+            </nav>
+
+            
+            <div id="betslip-container-mobile-buttons" class="ko-mobile-show">
+                <div class="betslip-nav-button betslip-nav-button-left">
+                    <span>8</span>
+                    FREE BETS
+                </div>
+                <div class="betslip-nav-button betslip-nav-button-right">
+                    <span class="ko-mobile-betslip-icon-svg" style="width: 16px; height: 17px; float: left; margin-right: -5px; margin-top: 7px;"></span>
+                    <span class="betslip-count">
+                        <span class="mobile-menu-betslip-link-num-bets mobile-menu-betslip-link-num-bets-added-to-slip">
+                            <span class="mobile-menu-betslip-link-num-bets-digit" style="">0</span>
+                        </span>
+                    </span>
+                    BETSLIP
+                </div>
+            </div>
+
+            <div class="entry-content">
+                <div id="mobile-free-bets" class="ko-mobile-show hidden">
+                    <a class="ko-advert-bookie-banner" href="https://www.bet365.com/hub/aff/open-account?affiliate=365_047408" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2022/01/New-ads-Bet365-logo.svg" alt="Bet365 logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£30</div><div class="ko-advert-bb-main-text-header ">Bet £10 &amp; Get £30 in Free Bets!</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>For new customers. Min deposit requirement. Free Bets are paid as Bet Credits and are available for use upon settlement of qualifying bets. Min odds, bet and payment method exclusions apply. Returns exclude Bet Credits stake. Time limits and T&amp;Cs apply.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<a class="ko-advert-bookie-banner" href="https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2008689" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2022/01/New-ads-Coral-logo.svg" alt="Coral logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£30</div><div class="ko-advert-bb-main-text-header ">Bet £5, Get £30 in Free Bets</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>18+ New UK + ROI customers only. Certain deposit methods & bet types excl. Min first £/€5 bet within 14 days of account reg at min odds 1/2 to get 6 x £/€5 free bets (selected sportsbook markets only, valid 7 days, stakes not returned). Restrictions + T&Cs apply.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<a class="ko-advert-bookie-banner" href="https://betway.com/bwp/ubereats-football/en-gb/?s=bfp47625&a=bfpadid212744&mid=104128" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2025/06/New-ads-Betway-logo.png" alt="Betway logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£30</div><div class="ko-advert-bb-main-text-header ">Up to £30 Matched Free Bet + £30 Uber Eats Voucher</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>New UK customers only. Min Stake: £5. Maximum Free Bet: £30. First bet on a Football, Horse Racing, Tennis, Cricket or Basketball multiple with 3+ selections. Overall odds: 3.00 (2/1) or higher. Free Bets available upon settlement of the qualifying bet. 100 Free Spins on More Unusual Suspects (£0.10 per spin) credited on settlement of qualifying Acca bet. No wagering requirements on free spin winnings. Earn a £30 Uber Eats Voucher on successful Acca qualification. Debit Card deposit only (exclusions apply). This offer is valid 7 days from the new account being registered. 18+ GambleAware.org. Bet the Responsible Way. Full Terms apply</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<a class="ko-advert-bookie-banner" href="https://spreadex.com/?tid=837753" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2025/10/Spreadex-logo.png" alt="Spreadex logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£60</div><div class="ko-advert-bb-main-text-header ">Bet £10 &amp; Get £60 in Free Bets<br />
+</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>Place a £10 fixed odds single or £10 each-way bet at minimum odds of 1/2 and get 3 x £10 free fixed odds bets, 3 x £5 Total Goals football spread bets and 3 x £5 Winning Favourites spread bets and a £1 racing Race Index spread bet. 18+ www.gambleaware.org. Spread betting losses can exceed deposit.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<p><a target="_blank" href="https://track.10bet.com/C.ashx?btag=a_61575b_6465c_&#038;affid=1682268&#038;siteid=61575&#038;adid=6465&#038;c="><img decoding="async" src="https://publisher.confidonetwork.com/getBanner.php?ad=3578&#038;i=1456" width="100%" style="max-width:100%; margin:20px 0;" /></a></p>
+<a class="ko-advert-bookie-banner" href="https://media.starsports.bet/C.ashx?btag=a_890b_327c_&affid=298&siteid=890&adid=327&c=" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2025/07/New-ads-Starsports-logo.png" alt="Starsports logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£25</div><div class="ko-advert-bb-main-text-header ">Bet £50 and get a £25 free bet</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>Place a real cash bet of £50 (or more) to qualify for a Free £25 Bet.<br />
+Offer available to new customers only signing up with Promo Code BET50GET25 only.<br />
+Promotion valid from 5th June 2025 to 31st July 2025. Qualifying bet must be placed at odds of Evens (2.0) or greater. Single Bets only. Applies to first bet placed.  Available on bets placed online. Free Bet will be credited within 24 hours of qualifying bet. Free Bet will expire after seven days. Void bets do not qualify. Cashed out bets do not qualify. Free Bet awards can be used online only. Star Sports decision is final.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<a class="ko-advert-bookie-banner" href="https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2008688" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2022/01/New-ads-Ladbrokes-logo.svg" alt="Ladbrokes logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text"><span>£</span>30</div><div class="ko-advert-bb-main-text-header ">Bet £5, Get £30 in Free Bets!</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>18+ New UK+ROI Customers only. Certain deposit methods & bet types excl. Min first £5 bet within 14 days of account reg at min odds 1/2 to get 6 x £5 free bets (selected sportsbook markets only, valid 7 days, stake not returned). Restrictions + T&Cs apply.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+<a class="ko-advert-bookie-banner" href="http://bit.ly/2uWyP0s" target="_blank" rel="nofollow noopener noreferrer "><img loading="lazy" decoding="async" class="ko-advert-bb-logo" src="/wp-content/uploads/2022/01/New-ads-888Sport-logo.svg" alt="888Sport logo" width="60" height="60" /><div class="ko-advert-bb-main-text"><div class="ko-advert-bb-big-text">£5</div><div class="ko-advert-bb-main-text-header ">SCORE A £5 FREE BET TO USE ON FOOTBALL ACCAS WHEN YOU BET £20 ON FOOTBALL ACCAS WITH ACCA CLUB</div><div class="ko-advert-bb-call ko-advert-bb-call-mobile">Claim</div><div>UK/IE 888sport account holders only. Runs weekly until 24/05/26. Min £20 cash stake on Football acca (3+ legs, min combined odds 3/1 (4.0)) placed Mon–Sun. Max One £5 Free Bet per Qualifying Bet. Boosts excl. Free Bet credited within 72 hours of settlement, valid for 7 days, must be used in one stake on any Football Acca, with 3+ legs (excl. virtuals), and cannot be used on system/combination/part-paid bets. Full T&Cs apply.</div></div><div class="ko-advert-bb-call ko-advert-bb-call-desk" style="padding-right: 20px;">Claim</div></a>
+                </div>
+            </div>
+
+            <div class="ko-betslip-tint" style="visibility: hidden;">
+            </div>
+
+                        <div id ="ko-bet-slip-container-wrapper" class="hidden">
+        <div id="my-floating-bet-slip-wrapper">
+            
+            
+            <div id="my-bet-slip-floating-message">MSG</div>
+
+                                    
+            
+            
+            
+                        
+                        
+            
+            
+                        
+                        
+                        
+                        
+            
+            <div style="display:none" id="acca_store_track_your_bet_form_wrapper">
+                <form id="acca_store_track_your_bet_form" method="post">
+                    <div class="acca_store_name_and_save_form_title">
+                        SIGN IN/REGISTER
+                    </div>
+                    <div class="acca_store_form_mid_message">
+                        <span class="acca_store_form_r_u_sure" style="display:none;">
+                            Registration lets you track your bets in real time with live in play stats and and predictions
+                        </span>
+                        <span class="acca_store_form_first_msg">
+                            Track your bet with live predictions<br/>and in play statistics
+                        </span>
+                    </div>
+                    <div class="acca_store_button" id="acca_store_signin_button_input">SIGN IN</div>
+                    <div class="acca_store_button" id="acca_store_register_button_input">REGISTER</div>
+                                        <div id="acca_store_blink"></div>
+                </form>
+            </div>
+
+            <a id="kohiddenlink" href="#" target="_blank" rel="nofollow"></a>
+
+            <div id="my-bet-slip-tag" class="my-bet-slip-tag-close my-bet-slip-tag-mobile">
+                BETSLIP
+                <div class="ko-close-fixed-menu" title="Click to shrink"></div>
+                            </div><!-- my-bet-slip-tag -->
+
+            <div id="my-bet-slip-bookie-header">
+                <a title="Right click to copy and share the Betslip" id="my-bet-slip-share-link" target="_blank"
+                   href="/predictions/?date=&bid=" rel="nofollow">
+                </a>
+            </div>
+
+            <div id="my-floating-bet-slip">
+
+                <div id="my-bet-slip-header-msg">No matches selected</div>
+
+                <div class="" style="min-height: 0px; margin-bottom: 0px; width:100%;">
+                                        <table id="my-bet-slip-table">
+                    </table>
+                </div>
+
+                <div id="my-bet-slip-best-bet-panel-value-and-bet-now">
+                    <div id="my-bet-slip-best-bet-panel-value-and-bet-now-stake-bet"></div>
+                    <div id="my-bet-slip-best-bet-panel-value-and-bet-now-msg"></div>
+                </div>
+
+                <div id="my-bet-slip-best-bet-panel" style="width:100%;">
+
+                    <table>
+                        <tr>
+                            <td class="ufd-wrapper-cell">
+                                <div class="ufd-wrapper">
+                                                                        <div class="ufd-my-bet-slip-stake-combo-wrapper">
+                                        <select id="ufd-my-bet-slip-stake-combo" name="ufd-my-bet-slip-stake-combo">
+                                            <option value="1.00">£1.00</option><option value="2.00">£2.00</option><option value="5.00">£5.00</option><option value="10.00">£10.00</option><option value="15.00">£15.00</option><option value="20.00">£20.00</option><option value="25.00">£25.00</option><option value="50.00">£50.00</option><option value="75.00">£75.00</option><option value="100.00">£100.00</option>                                        </select>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="my-bet-slip_best_bet_returns_text">WINS</td>
+                            <td><span id="my-bet-slip-best-bet-panel-best-bet-logo"></span></td>
+                        </tr>
+                    </table>
+
+                </div> <!-- my-bet-slip-best-bet-panel -->
+
+                <div id="my-bet-slip-bookies-panel-msg">
+
+                    <div class="ko-bet-slip-table-sub-header ko-bet-slip-table-sub-header-top">SAVE TIP ON KICKOFF</div>
+
+                    <table id="my-bet-slip-save-panel-table-init"
+                           class="ko-bet-slip-just-save-panel-table-init ko-bet-slip-just-save-panel-table">
+                        <tr id="ko-save-tip-betslip-row-init"
+                            class="ko-save-tip-betslip-row my-bet-slip-bookies-panel-table-odds-value-row "
+                            data-thelinkbookie="" data-thetbookie="" data-theodds="">
+                            <td class="ko-bet-slip-kickoff-icon ko_width30"></td>
+                            <td class="ko_width28"></td>
+                            <td class="ko_width28"></td>
+                            <td class="my-bet-slip-bookies-panel-table-button-mobile">
+                                <span data-bpl="" title="Click to save the bet to your profile"></span>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="ko-bet-slip-table-sub-header">SAVE TIP AND BET WITH BOOKMAKER</div>
+
+                    <table id="my-bet-slip-bookies-panel-table-init">
+
+                                                <tr>
+                            <th class="ko_width30">FREE BETS</th>
+                            <th class="ko_width28">ODDS</th>
+                            <th class="ko_width28">RETURNS</th>
+                            <th class="">BET</th>
+                        </tr>
+
+                        
+                                                        <tr class="my-bet-slip-bookies-panel-table-odds-value-row">
+
+                                
+                                <td class="border_left my-bet-slip-bookies-panel-bookie-icon-sw my-bet-slip-bookies-panel-bookie-icon-trig-ajax"
+                                    title="" data-bookie="bet365">
+                                    <a class="my-bet-slip-free-offers-button" href="#" data-sensiblelink="https://www.bet365.com/olp/soccer/?affiliate=365_047408" target="_blank" rel="noindex, nofollow">
+                                        <div class="ko-betslip-icon-bookie ko-betslip-icon-bet365" title='bet365' style="width:40px; height:20px;"></div>
+                                                                            </a>
+                                </td>
+
+                                <td class="ko_width28">-</td>
+                                <td class="ko_width28">-</td>
+                                <td class="my-bet-slip-bookies-panel-table-button-mobile">
+                                    <span>
+                                                                            </span>
+                                </td>
+                            </tr>
+
+                            
+                                                        <tr class="my-bet-slip-bookies-panel-table-odds-value-row">
+
+                                
+                                <td class="border_left my-bet-slip-bookies-panel-bookie-icon-sw my-bet-slip-bookies-panel-bookie-icon-trig-ajax"
+                                    title="" data-bookie="coral">
+                                    <a class="my-bet-slip-free-offers-button" href="#" data-sensiblelink="https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2008689" target="_blank" rel="noindex, nofollow">
+                                        <div class="ko-betslip-icon-bookie ko-betslip-icon-coral" title='coral' style="width:40px; height:20px;"></div>
+                                                                            </a>
+                                </td>
+
+                                <td class="ko_width28">-</td>
+                                <td class="ko_width28">-</td>
+                                <td class="my-bet-slip-bookies-panel-table-button-mobile">
+                                    <span>
+                                                                            </span>
+                                </td>
+                            </tr>
+
+                                                </table>
+
+                </div> <!-- my-bet-slip-bookies-panel-msg -->
+
+                
+                <div id="my-bet-slip-bookies-panel">
+                    <table id="my-bet-slip-bookies-panel-table">
+                    </table><!-- my-bet-slip-bookies-panel-table -->
+                </div>
+
+                <div style="width: 100%; text-align: center" class="ko-advert-desktop-remote ko-mobile-hide">
+
+                    <iframe src="https://banner.bet365partners.com/365_075670-965-189-7-149-1-30356.aspx" width="300" height="600" frameborder="0" scrolling="no" rel="sponsored" click="${CLICKURL}"></iframe>
+
+                    
+
+                                                        </div>
+
+
+            </div> <!-- my-floating-bet-slip -->
+
+        </div> <!-- floating-bet-slip-wrapper -->
+
+        
+        <script>
+            window["kofbBookiearray"] = [];window["kofbBookieLinkArray"] = [];window["kofbBookieRollArray"] = [];kofbBookiearray['bet365'] = '';kofbBookieLinkArray['bet365'] = 'https://www.bet365.com/olp/soccer/?affiliate=365_047408';kofbBookieRollArray['bet365'] = '';kofbBookiearray['coral'] = '£20';kofbBookieLinkArray['coral'] = 'https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2008689';kofbBookieRollArray['coral'] = '';kofbBookiearray['betfairfixed'] = '£30';kofbBookieLinkArray['betfairfixed'] = 'http://bit.ly/2d2zS6d';kofbBookieRollArray['betfairfixed'] = '';kofbBookiearray['bwin'] = '£20';kofbBookieLinkArray['bwin'] = 'http://bit.ly/2ddFjRH';kofbBookieRollArray['bwin'] = '';kofbBookiearray['skybet'] = '£20';kofbBookieLinkArray['skybet'] = 'http://bit.ly/2fZzgAm';kofbBookieRollArray['skybet'] = '';kofbBookiearray['titanbet'] = '£20';kofbBookieLinkArray['titanbet'] = 'http://bit.ly/2cowNJl';kofbBookieRollArray['titanbet'] = '';kofbBookiearray['paddypower'] = '£20';kofbBookieLinkArray['paddypower'] = 'http://bit.ly/2xWNcna';kofbBookieRollArray['paddypower'] = '';kofbBookiearray['betvictor'] = '£30';kofbBookieLinkArray['betvictor'] = 'http://bit.ly/30JEjrr';kofbBookieRollArray['betvictor'] = '';kofbBookiearray['sport888'] = '£30';kofbBookieLinkArray['sport888'] = 'http://bit.ly/2kqimO4';kofbBookieRollArray['sport888'] = '';kofbBookiearray['betfred'] = '£60';kofbBookieLinkArray['betfred'] = 'https://activewins.link/o/L5q08h?site_id=9457';kofbBookieRollArray['betfred'] = '';kofbBookiearray['williamhill'] = '£20';kofbBookieLinkArray['williamhill'] = 'http://bit.ly/2d3SVeE';kofbBookieRollArray['williamhill'] = '';kofbBookiearray['ladbrokes'] = '£50';kofbBookieLinkArray['ladbrokes'] = 'https://mediaserver.entainpartners.com/renderBanner.do?zoneId=2008688';kofbBookieRollArray['ladbrokes'] = '';kofbBookiearray['bet188'] = '£75';kofbBookieLinkArray['bet188'] = 'http://bit.ly/2d6TmYF';kofbBookieRollArray['bet188'] = '';kofbBookiearray['betway'] = '£40';kofbBookieLinkArray['betway'] = 'http://bit.ly/2cUkx5K';kofbBookieRollArray['betway'] = '';kofbBookiearray['winner'] = '£200';kofbBookieLinkArray['winner'] = 'http://bit.ly/2cow2Qk';kofbBookieRollArray['winner'] = '';
+            document.addEventListener("DOMContentLoaded", function () {
+                // Early binding
+                // Set stake input bind
+                // Check if there is a session var
+                let stakeVarSession = 50;
+                let stakeVarSessionCookie = KOreadCookie("ko_c_stake");
+                stakeVarSession = stakeVarSessionCookie ? stakeVarSessionCookie : stakeVarSession;
+
+                // Update condition
+                let stakeCombo = document.getElementById("ufd-my-bet-slip-stake-combo");
+                if (!!stakeCombo) {
+                    stakeCombo.value = parseFloat(stakeVarSession).toFixed(2);
+                    //stakeCombo.change();
+                }
+
+                // Initialize
+                var bsinitopen = false;
+
+                // Open tab at page load
+                
+                
+                let betSlipTable = document.getElementById('my-bet-slip-table');
+                let betSlipTableRow = betSlipTable.getElementsByTagName('tr')[0];
+                if (
+                    !!betSlipTable &&
+                    !!betSlipTableRow &&
+                    betSlipTableRow.length > 0 &&
+                    bsinitopen === false
+                ) {
+                    document.getElementById('my-bet-slip-header-msg').style.display = "none";
+                    document.getElementById('my-bet-slip-tag').click();
+                } else {
+                    if (!!document.getElementById('my-bet-slip-header-msg')) {
+                        document.getElementById('my-bet-slip-header-msg').style.display = "block";
+                    }
+                }
+            });
+        </script>
+
+        </div>
+            
+            <div id="ko-profile-login-ajax-wrapper" style="display: none;"></div>
+
+            <div id="ko-mobile-flag" class="ko-mobile-show"></div>
+
+        
+    </div>
+
+    <div id="ko-msg-pop-wrap" style="display: none;">
+        <div id="ko-msg-pop"></div>
+    </div>
+    <div id="mobile-menu-betslip-header-banner-pop-msg-wrapper" style="display: none;">
+        <div id="mobile-menu-betslip-header-banner-pop-msg">
+            <div class="mobile-menu-betslip-header-banner-pop-msg-tri"></div>
+            Click 'BETSLIP' for odds from multiple bookmakers
+        </div>
+    </div>
+
+        <div id="sub-header"></div>
+
+    
+    </div><!-- #header-->
+        <div id="headerSlid"></div>
+
+    
+        <!--<div id="mobile-menu-betslip-header-banner-logo" class="ko-mobile-show">
+            <div class='mobile-menu-betslip-link-num-bets'>
+                <div class="mobile-menu-betslip-link-num-bets-add-msg">Bet added! ></div>
+                <div class='mobile-menu-betslip-link-num-bets-digit'></div>
+            </div>
+        </div>-->
+
+    
+    
+    <div id="ko-mobile-rollover-content-wrapper" class="ko-mobile-show">
+            </div>
+
+    
+
+    <div id="main" class="mainWide">
+    
+<div class="landingf front-page-contentf" id="containerf" style="text-align:center;">
+
+    
+    
+    <div class="ko-fp-panel ko-fp-panel-full-width ko-fp-panel ko-fp-panel-full-width-hero">
+        <div class="ko-fp-panel-content ko-fp-panel-content-totals-wrapper">
+
+            <div class="ko-fp-panel-content-centre-block">
+                <div class="ko-fp-panel-column-strap">Welcome to KickOff: Smart betting made simple</div>
+            </div>
+
+            <div class="ko-fp-panel-content-totals-block">
+                <a href="/tipsters/by-competition/">
+                <div id="ko-fp-panel-content-totals-block-number-num-winning-punters"
+                     class="ko-fp-panel-content-totals-block-item">
+                    <div class="ko-fp-panel-content-totals-block-item-img-wrapper"><img
+                                src="https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/images/ko-five-competitions-icon2b.png"
+                                width="170" height="39" style="margin-top:5px; margin-bottom:7px;" alt="Winning bettors icon"/></div>
+                                        <div>Copy the top tipsters by league</div>
+                </div></a>
+
+                <a href="/tipsters/live-bets/">
+                <div id="ko-fp-panel-content-totals-block-number-num-wins-total"
+                     class="ko-fp-panel-content-totals-block-item">
+                    <div class="ko-fp-panel-content-totals-block-item-img-wrapper"><img
+                                src="https://www.kickoff.co.uk/wp-content/themes/KickOff_V4/images/KickOff-user-icons.png"
+                                width="176" height="50" style="margin-top:0px; margin-bottom:0px;" alt="Winning bettors icon"/></div>
+                                        <div>Copy the top tipsters live accumulators</div>
+                </div>
+                </a>
+
+                <a href="/tipsters/by-market/">
+                <div id="ko-fp-panel-content-totals-block-number-total-wins-value"
+                     class="ko-fp-panel-content-totals-block-item">
+                                        <span style="display:block; margin-bottom:25px; margin-top:15px">WDW BTTS OVER/UNDER</span>
+                                        <div>Copy the top tipsters by market</div>
+                </div>
+                </a>
+
+            </div>
+                    </div>
+
+    </div>
+
+    <div class="ko-number-disc-icon-wrapper">
+        <div class="ko-number-disc-icon-inner-block">
+            <a href="/predictions/">
+            <div class="ko-number-disc-icon-inner-block-item">
+                <div class="ko-number-disc-icon">1</div>
+                <div class="ko-number-disc-icon-inner-block-item-text">
+                    Smart predictions and Pro stats for every market
+                </div>
+            </div>
+            </a>
+            <a href="/tipsters/live-bets/">
+            <div class="ko-number-disc-icon-inner-block-item">
+                <div class="ko-number-disc-icon">2</div>
+                <div class="ko-number-disc-icon-inner-block-item-text">
+                    Follow and copy the biggest winning tipsters
+                </div>
+            </div>
+            </a>
+            <a href="/membership-checkout/?s2p-option=3#s2p-form">
+            <div class="ko-number-disc-icon-inner-block-item">
+                <div class="ko-number-disc-icon">3</div>
+                <div class="ko-number-disc-icon-inner-block-item-text">
+                    Become a Pro member to access all areas
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <style>
+
+        .ko-fp-panel-content-centre-block-bottom-lg span.ko-button-rect-round {
+            margin-top:17px;
+            margin-bottom:10px
+
+        }
+
+        .ko-fp-panel-angle-highlight {
+
+            position: absolute;
+            left: 250px;
+            top: 31px;
+            font-size: 12px;
+            font-weight:900;
+            background-color: #fff;
+            color: #000;
+            padding: 1px 4px;
+        }
+
+        @media only screen and (max-width: 640px) {
+
+            .ko-fp-panel-content-centre-block-bottom-lg span.ko-button-rect-round {
+                margin-bottom: 0px !important;
+            }
+
+            .ko-fp-panel-angle-highlight {
+                top: 5px;
+                left: 5px;
+            }
+
+        }
+
+
+    </style>
+
+    <div class="ko-fp-panel" style=""><a style="color:#fff;" href="/predictions/match-predictor-pro/" title="Click to try Match Predictor Pro"><div class="ko-fp-panel-content" style="position: relative; padding-bottom:24px; text-align: center;background-color: #bbb; color: #fff; margin: 15px auto;   background: url('wp-content/themes/KickOff_V4/images/ko-match-predictor-pro-back-dk.png') no-repeat; background-size: cover;"><div class="ko-fp-panel-row-header" style="text-align: center; color: #fff;">Match Predictor Pro</div><span style="font-weight: 900;">Your ultimate AI betting assistant</span></div></a></div><style>.ko-fp-panel-mpp {width:632px; margin:0 auto;}.ko-fp-panel-mpp .bet-builder-header-wrapper-strap { text-align:left;}.ko-fp-panel-mpp .ko-acca-store-tipster-board-item-sub-menu-panel-items { text-align:left;}.ko-fp-panel-mpp .ko-acca-store-tipster-board-item-sub-menu-panel-for-stake { bottom: 145px;}.ko-fp-panel-mpp .ko-as-clear-betslip{    float: right; color: #fff; font-size: 14px;
+    font-weight: 400;
+    padding: 0px 10px;
+    border: none;
+    cursor: pointer;}.ko-fp-panel-mpp .ko-as-clear-betslip .ko-remove-row-light {
+        opacity: 1.0;
+    }.ko-fp-panel-mpp .ko-as-clear-betslip:hover{
+    background-color: #ffd000 !important;
+    color: #446891 !important;}.ko-fp-panel-mpp .ko-as-clear-betslip:hover .ko-remove-row-light {
+    background: url(/wp-content/plugins/acca-store/assets/css/images/delete-can.svg) 50% 50% no-repeat !important;
+    background-size: 16px 16px !important;
+    opacity: 0.8;}@media only screen and (max-width: 640px) {  .ko-fp-panel-mpp {width:100%; margin:0 auto;box-sizing:border-box; padding-left:4px; padding-right:4px;}}</style><div class="ko-fp-panel ko-fp-panel-mpp">
+    <link type="text/css" rel="stylesheet" href="https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/css/acca-store-tipster-board-style.css?kv=31738144594"/>
+
+        <style>
+
+            .bet-builder-container {
+                display: block;
+                position: relative;
+            }
+
+            .bet-builder-header-wrapper-strap {
+                font-size: 15px;
+                line-height: 18px;
+            }
+
+            .bet-builder-spinner {
+                background: url(/ko-includes/ko-widgets/assets-class/css/assets/images/rolling-spinner-50.svg) no-repeat scroll 50% 45% transparent;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                /* z-index: 99999999; */
+                top: 10%;
+                left: Calc(50% - 50px);
+            }
+
+            .bet-builder-spinner-after:after {
+                content: ' ';
+                background: url(/ko-includes/ko-widgets/assets-class/css/assets/images/rolling-spinner-50.svg) no-repeat scroll 50% 45% transparent;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                /* z-index: 99999999; */
+                top: -30px;
+                left: Calc(50% - 50px);
+            }
+
+            .entry-content table.ko-status-table.generic-page-table tr:hover,
+            .entry-content table.ko-status-table.generic-page-table a:hover,
+            #content .acca-store-slip-wrapper table tr:hover,
+            #content .acca-store-slip-wrapper table a:hover {
+                color: inherit !important;
+            }
+
+
+            .ko-acca-store-tipster-board-fixed-container-menu-wrapper {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: transparent;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-header {
+                height: 30px;
+                line-height: 27px;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                top: 30px;
+            }
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-legs .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                width: 130px;
+                left: 0px;
+            }
+
+            /*
+                .ko-acca-store-tipster-board-item-sub-menu-panel-item-ns {
+                    background-color: #e6e6e6 !important;
+                    cursor: initial !important;
+                    color: #999;
+                }
+                */
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-markets .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                width: 600px;
+                /* column-count: 3; */
+                min-height: 182px;
+                left: -140px;
+            }
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-leagues .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                width: 600px;
+                column-count: 3;
+                left: -160px;
+                min-height: 300px;
+            }
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-risklevel .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                right: -138px;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-dates {
+                width: 150px;
+                margin-right: 20px;
+                margin-top: -10px;
+                z-index: 3;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-markets, .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-leagues {
+                width: 28%;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-risklevel {
+                width: 20%;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-legs {
+                width: 14%;
+            }
+
+            /*
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-apply {
+                    width: initial;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-apply .ko-acca-store-tipster-board-item-sub-menu-panel-header:after {
+                    content: '';
+                } */
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-apply .ko-acca-store-tipster-board-item-sub-menu-panel-header {
+                background-color: #7abb32;
+                color: #fff;
+                border-radius: 6px;
+                padding: 2px 20px;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-apply .ko-acca-store-tipster-board-item-sub-menu-panel-header:hover {
+                background-color: #5f9227;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-legs .ko-acca-store-tipster-board-item-sub-menu-panel-items .ko-acca-store-tipster-board-item-sub-menu-panel-item {
+                padding-left: 12px;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-item-lock {
+                opacity: 0.85;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-item-lock:after {
+                /* content: 'PRO';
+                position: absolute;
+                display: inline-block;
+                margin-left: 10px;
+                color: #c99f2a;
+                font-weight: bold; */
+
+                content: 'PRO';
+                position: absolute;
+                top: 8px;
+                right: 6px;
+                background-color: #d5ad29;
+                color: #fff;
+                border-radius: 10px;
+                font: 10px / 10px Helvetica, sans-serif;
+                font-weight: bold;
+                padding: 3px 6px;
+
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-item-lock-reg {
+                opacity: 0.4;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-item-lock-reg:after {
+                content: 'Login';
+                position: absolute;
+                right: 4%;
+                display: inline-block;
+                margin-left: 10px;
+                color: #227fac;
+                font-weight: bold;
+            }
+
+            .ko-acca-store-bet-builder-analysis-blocks-wrapper {
+                display: flex;
+                width: 96%;
+                margin-top: 15px;
+            }
+
+            .ko-acca-store-bet-builder-analysis-block {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            .ko-acca-store-bet-builder-analysis-block span:first-child {
+                color: #666;
+                font-family: Helvetica, sans-serif;
+                font-size: 37px;
+                font-weight: 300;
+                line-height: 40px;
+            }
+
+            .ko-acca-store-bet-builder-analysis-block span:last-child {
+                color: #949ba5;
+                text-transform: uppercase;
+            }
+
+            .acca-store-slip-wrapper table {
+                color: #227fac;
+            }
+
+            .acca-store-slip-wrapper span.ags-home,
+            .acca-store-slip-wrapper span.ags-away {
+                color: #227fac;
+            }
+
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:hover,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:hover {
+                width: 75px !important;
+                content: '';
+            }
+
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:before,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:before {
+                left: 26px;
+                content: '';
+            }
+
+            .bet-builder-header-wrapper {
+                display: inline-block;
+                position: relative;
+                z-index: 199;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-header:after {
+                right: 10px;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-header-open, .ko-acca-store-tipster-board-item-sub-menu-panel-header:hover {
+                color: #fff;
+                background-color: #3c6aa7;
+            }
+
+            .ko-acca-store-top-wins-wrapper.ko-acca-store-top-wins-wrapper-widget-ajax {
+                min-height: 150px;
+                position: relative;
+            }
+
+            .acca-store-slip-wrapper.acca-store-slip-settled-wrapper {
+                background-color: #F0F0F0;
+            }
+
+            .ko-acca-store-top-wins-wrapper-widget-ajax .acca-store-slip-wrapper .ko-status-table .ko-acca-store-status-team-details .game-state-fixture-ko-time div {
+                display: inline;
+                font-size: 12px;
+            }
+
+            .acca-store-slip-warning {
+                display: inline-block;
+                /* width: 100%; */
+                padding: 15px 10px;
+                background-color: #fff;
+                color: #FF0000;
+                width: 100%;
+                box-sizing: border-box;
+                text-align: center;
+            }
+
+            .acca-store-return-bar {
+                padding-bottom: 35px;
+                display: inline-flex;
+                justify-content: space-between;
+            }
+
+            .acca-store-return-bar .acca-store-return-bar-item {
+                width: 15%;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-for-stake {
+                display: inline;
+                position: absolute;
+                left: 5px;
+                bottom: 145px;
+            }
+
+            .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td .replace-row-wrapper,
+            .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td .remove-row-wrapper {
+                position: relative;
+                z-index: 10;
+                top: 1px;
+                left: -5px;
+            }
+
+
+            .ko-replace-row {
+                display: inline-block;
+                background: url(https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/css/images/replace-circle-with-two-arrows-100.svg) 50% 50% no-repeat;
+                background-size: 16px 16px;
+                width: 28px;
+                height: 28px;
+                border-radius: 28px;
+                cursor: pointer;
+            }
+
+            .ko-replace-row:hover {
+                background-color: #ddd;
+            }
+
+            .ko-remove-row {
+                display: inline-block;
+                background: url(/wp-content/plugins/acca-store/assets/css/images/delete-can.svg) 50% 50% no-repeat;
+                background-size: 16px 16px;
+                width: 28px;
+                height: 28px;
+                border-radius: 28px;
+                cursor: pointer;
+            }
+
+            .ko-remove-row:hover {
+                background-color: #ddd;
+            }
+
+            .ko-remove-row-light {
+                display: inline-block;
+                background: url(/wp-content/plugins/acca-store/assets/css/images/delete-can-white.svg) 50% 50% no-repeat;
+                background-size: 16px 16px;
+                width: 28px;
+                height: 28px;
+                border-radius: 28px;
+                cursor: pointer;
+                opacity: 1.0 !important;
+            }
+
+            .ko-remove-row-light:hover {
+                background-color: #ddd;
+            }
+
+            .entry-content a.ko-as-clear-betslip {
+                float: right;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 0px 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+            div.ko-as-clear-betslip:hover,
+            .entry-content a.ko-as-clear-betslip:hover {
+                background-color: #ffd000 !important;
+                color: #446891 !important;
+            }
+
+            div.ko-as-clear-betslip:hover .ko-remove-row-light,
+            .entry-content a.ko-as-clear-betslip:hover .ko-remove-row-light {
+                background: url(/wp-content/plugins/acca-store/assets/css/images/delete-can.svg) 50% 50% no-repeat;
+                background-size: 16px 16px !important;
+                opacity: 0.8;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items #ko-as-clear-betslip-menu.ko-acca-store-tipster-board-item-sub-menu-panel-item.ko-acca-store-tipster-board-item-sub-menu-panel-item-selected:after {
+                content: '' !important;
+            }
+
+            .ko-hold-row {
+                display: inline-block;
+                background: #fff;
+                width: 25px;
+                height: 14px;
+                border-radius: 18px;
+                cursor: pointer;
+                margin-right: 10px;
+                margin-top: -3px;
+            }
+
+            .ko-hold-row:after {
+            / / content: url(https://www.kickoff.co.uk/wp-content/plugins/acca-store /assets/css/images/ko-grey-disc-white-tick-icon-b.svg) !important;
+                content: '+';
+                display: inline-block;
+                background: #ccc;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 900;
+                border-radius: 32px;
+                line-height: 16px;
+                width: 18px !important;
+                height: 18px !important;
+                left: auto !important;
+                position: relative !important;
+            }
+
+            .ko-hold-row:hover {
+                opacity: 0.7;
+            }
+
+            .ko-hold-row.ko-on-hold {
+                border: none;
+            }
+
+            .ko-hold-row.ko-on-hold:after {
+                content: url(https://www.kickoff.co.uk/wp-content/plugins/acca-store/assets/css/images/ko-green-disc-white-tick-icon-b.svg) !important;
+                display: inline-block;
+                background: transparent;
+                width: 18px !important;
+                height: 18px !important;
+                left: auto !important;
+                top: 2px;
+                position: relative !important;
+            }
+
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:before,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:before,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:after,
+            .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:after {
+                display: none;
+                content: '';
+            }
+
+            .ko-bb-tip-info {
+                position: relative;
+                box-sizing: border-box;
+                width: 62px;
+                background: #009cdd;
+                padding: 2px 18px 2px 6px;
+                border-radius: 12px;
+                top: 0px;
+                left: 3px;
+                color: #fff;
+                font-size: 11px;
+                font-weight: 800;
+            }
+
+            .ko-bb-tip-info:after {
+                border: 2px solid #fff;
+                border-left: 0;
+                border-top: 0;
+                content: " ";
+                display: inline-block;
+                height: 5px;
+                right: 6px;
+                position: absolute;
+                top: 3px;
+                transform: rotate(45deg);
+                width: 4.75px;
+            }
+
+            .ko-bb-tip-info:hover {
+                background-color: #0185bb; /* ddd */
+            }
+
+            .iconExpandOpen .ko-bb-tip-info:after {
+                border: 2px solid #fff;
+                border-left: 0;
+                border-top: 0;
+                content: " ";
+                display: inline-block;
+                height: 5px;
+                right: 6px;
+                position: absolute;
+                top: 7px;
+                transform: rotate(225deg);
+                width: 4.75px;
+            }
+
+            .ko-bb-hide {
+                display: none;
+            }
+
+            .ko-subscribe-messaging {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+                color: #fff;
+                background: rgb(0, 127, 175);
+                background: linear-gradient(90deg, rgba(242, 31, 12, 1) 0%, rgba(65, 173, 224, 1) 0%, rgba(0, 127, 175, 1) 100%);
+                position: absolute;
+                left: 0;
+                bottom: -50px;
+                min-height: 100px;
+            }
+
+            .ko-subscribe-messaging-wrapper-rel {
+                display: block;
+                position: relative;
+                top: -30px;
+            }
+
+            .ko-subscribe-messaging-wrapper-rel .ko-subscribe-messaging {
+                position: relative;
+                bottom: 0;
+            }
+
+            .ko-subscribe-messaging .ko-acca-view-more-wrapper .ko-acca-view-more-strap-pro-sub-header-mid {
+                margin: 0;
+                max-width: initial;
+            }
+
+            .ko-subscribe-messaging .ko-acca-view-more-pro {
+                text-align: left;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-header:after {
+                width: 12px;
+                top: 1px;
+            }
+
+            .acca-store-slip-wrapper .generic-page-table tr.newItem .ko-bb-tip-info {
+                background-color: #7abb32 !important;
+                /* background: rgba(23, 206, 98, 0.2) !important; */
+            }
+
+            .ko-sw .ko-smctrl {
+                display: none !important;
+            }
+
+            .ko-smctrl-on {
+                display: none;
+            }
+
+            .ko-sw .ko-smctrl-on {
+                display: table-cell !important;
+                font-size: 20px !important;
+            }
+
+            .ko-sw .ko-acca-store-prediction-button {
+                top: -7px !important;
+            }
+
+            .ko-acca-store-top-wins-wrapper-widget-ajax .ko-acca-store-prediction-button {
+                left: -4px !important;
+            }
+
+            .ko-sw .ko-copy-iconAccaSelectTextWrapper-no {
+                position: relative;
+                top: -10px !important;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper {
+                display: inline-block;
+                width: 33%;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper-sm {
+                display: inline-block;
+                width: 66%;
+                float: right;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper-sm-grid {
+                column-count: 2;
+            }
+
+            .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-header {
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 5px;
+            }
+
+            
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-leagues {
+                /* display: none; */
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-risklevel {
+                display: none;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-dates {
+                margin: 0;
+
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-wrapper {
+                justify-content: space-between;
+                margin-left: 0px;
+                width: 100%;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-legs {
+                width: 16%;
+            }
+
+            .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-markets, .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-leagues {
+                width: 26%;
+            }
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-markets .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                left: -335px;
+            }
+
+            #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-legs .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                left: -30px; /* 32px; */
+            }
+
+            .legInActive {
+                color: #ccc;
+            }
+
+            .ko-acca-view-more-wrapper {
+                padding: 0;
+            }
+
+            
+
+            @media only screen and (max-width: 640px) {
+
+                .entry-content {
+                    padding: 10px 0 0;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-wrapper {
+                    padding-right: 2px;
+                    padding-left: 2px;
+                    background-color: transparent;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen,
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:hover,
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose {
+                    width: 75px !important;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:before,
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:before {
+                    left: 6px;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td .replace-row-wrapper {
+                    left: -4px;
+                    top: -1px;
+                }
+
+
+                .acca-store-slip-wrapper span.ags-home,
+                .acca-store-slip-wrapper span.ags-away {
+                    font-weight: 600;
+                }
+
+                .bet-builder-header-wrapper {
+                    padding-left: 3px;
+                    padding-right: 3px;
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-header:after {
+                    right: 7px;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-dates {
+                    margin-right: 4px;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-markets {
+                    width: 27%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-leagues {
+                    width: 27%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-risklevel {
+                    width: 18%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-legs {
+                    width: 21%;
+                }
+
+                #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-legs .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                    left: -50px; /*-27 -54px; */
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper {
+                    display: inline-block;
+                    width: 50%;
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper-sm {
+                    display: inline-block;
+                    width: 50%;
+                    float: right;
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-wrapper-sm-grid {
+                    column-count: 1;
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-items-cols-header {
+                    padding: 5px 10px;
+                }
+
+            
+                .ko-acca-store-tipster-board-fixed-container-menu-wrapper {
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-dates {
+                    width: 100%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-date-mppm {
+                    width: initial; /* 36%; */
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-markets {
+                    width: 28%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-legs {
+                    width: 20%;
+                }
+
+                .ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-apply .ko-acca-store-tipster-board-item-sub-menu-panel-header {
+                    padding: 2px 8px;
+                }
+
+                #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-markets .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                    right: -44vw !important;
+                }
+
+            
+                #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-markets .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                    width: 96vw;
+                    /* column-count: 2; */
+                    min-height: 242px;
+                    left: -49vw; /* -209px; */
+                    /* right: -51vw; */
+                }
+
+                #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-leagues .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                    width: 95vw;
+                    box-sizing: border-box;
+                    column-count: 2;
+                    /* right: -18vw;  Calc(-24vw - 10px); */
+                    left: -80px;
+                    min-height: 422px;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax .acca-store-slip-wrapper .ko-status-table .ko-acca-store-status-team-details span {
+                    float: initial;
+                    clear: initial;
+                    display: block;
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding: 0 !important;
+                    color: #7ab3cf !important; /*227fac*/
+                }
+
+                #ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-risklevel .ko-acca-store-tipster-board-item-sub-menu-panel-items {
+                    right: initial;
+                    left: 0;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax .acca-store-slip-wrapper .ko-status-table .ko-acca-store-status-team-details span span {
+                    top: -17px !important; /* 2px  */
+                    left: 5px; /*-61px;  43px; */
+                    font-size: 12.5px !important;
+                    width: max-content;
+                    color: #888 !important;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax .acca-store-slip-wrapper .ko-status-table .ko-acca-store-status-team-details .game-state-fixture-ko-time div {
+                    font-size: 12.5px;
+                    display: inline-block;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:before, .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:before {
+                    top: 38px;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandClose:after {
+                    top: 42px;
+                }
+
+                .ko-acca-store-top-wins-wrapper-widget-ajax #ko-live-table .iconExpandOpen:after {
+                    top: 45px;
+                }
+
+                .ko-acca-store-top-wins-wrapper .ko-acca-store-exapnd-prediction-market-name {
+                    max-width: initial !important;
+                    width: 100% !important;
+                    margin-top: -54px;
+                    font-size: 15px;
+                    line-height: 20px;
+
+                    text-align: center;
+                }
+
+                .ko-copy-iconAccaSelectTextWrapper {
+                    font-size: 15px;
+                    min-width: 40px;
+                }
+
+                .ko-acca-store-tipster-board-item-sub-menu-panel-for-stake {
+                    left: 5px;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr.betlinesummaryline {
+                    position: relative;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td {
+                    height: 100px;
+                    min-width: 6px;
+                    width: auto !important;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td.ko-acca-store-status-team-details {
+                    width: 25% !important;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td.ko-game-prediction-icon {
+                    min-width: 50px !important;
+                    font-size: 15px !important;
+                }
+
+                .ko-acca-store-top-wins-wrapper .acca-store-slip-wrapper #ko-live-table .ko-status-table.generic-page-table > tbody > tr > td. replace-row-wrapper {
+                    z-index: 10;
+                }
+
+                .ko-hold-row:after {
+                    width: 30px !important;
+                    height: 30px !important;
+                    font-size: 30px;
+                !important;
+                    line-height: 24px;
+                }
+
+                .ko-hold-row.ko-on-hold:after {
+                    width: 30px !important;
+                    height: 30px !important;
+                }
+
+                .ko-replace-row {
+                    position: relative;
+                    left: 4px;
+                    top: 4px;
+                    font-size: 20px;
+                    width: 36px;
+                    height: 32px;
+                    background-size: 24px 24px;
+                }
+
+                .ko-remove-row {
+                    position: relative;
+                    left: 1px;
+                    top: 2px;
+                    font-size: 20px;
+                    width: 32px;
+                    height: 32px;
+                    background-size: 24px 24px;
+                }
+
+                .ko-bb-tip-info {
+                    position: absolute;
+                    z-index: 1;
+                    width: 66px;
+                    top: 73px;
+                    left: 10px;
+                }
+
+                .ko-bb-tip-info:after {
+                    right: 7px;
+                    top: 4.5px;
+                }
+
+                .iconExpandOpen .ko-bb-tip-info:after {
+                    right: 7px;
+                    top: 8px;
+                }
+
+
+            }
+
+        </style>
+
+        <div class="bet-builder-container">
+
+            <div class="bet-builder-header-wrapper">
+
+				
+				<div style="font-size: 14px;"><div class="ko-acca-store-bet-builder-analysis-blocks-wrapper"><div id="ko-acca-store-bet-builder-analysis-block-fixtures" class="ko-acca-store-bet-builder-analysis-block"><span>83</span><span>Fixtures</span></div><div id="ko-acca-store-bet-builder-analysis-block-markets" class="ko-acca-store-bet-builder-analysis-block"><span>13</span><span>Markets</span></div><div id="ko-acca-store-bet-builder-analysis-block-predictions" class="ko-acca-store-bet-builder-analysis-block"><span>6110</span><span>Predictions</span></div></div></div>            </div>
+
+
+            <div class="ko-acca-store-tipster-board-fixed-container-menu-wrapper">
+
+				<div class="ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-date-mppm">            <div style="display: inline; position: relative; left: 0;">
+                <div class="ko-acca-store-tipster-board-fixed-container-menu-item-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-timescale-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-dates ">
+                    <div id="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-dates"
+                         class="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper">
+                        <div id="ko-acca-store-tipster-board-item-sub-menu-panel-header-dates"
+                             class="ko-acca-store-tipster-board-item-sub-menu-panel-header ko-acca-store-tipster-board-item-sub-menu-panel-header-timescale">
+                        </div>
+                        <div class="ko-acca-store-tipster-board-item-sub-menu-panel-items ko-acca-store-tipster-board-item-sub-menu-panel-items-wide-timescale"
+                             style="display:none;">
+							<div data-mval="20-10-2026" data-da="0" tlabel="Today" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item ">Today 34 matches</div><div data-mval="22-10-2026" data-da="2" tlabel="Next 3 days" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item ko-acca-store-tipster-board-item-sub-menu-panel-item-selected" title="Now to end of Thu 22 Oct 2026">Next 3 days 83 matches</div><div data-mval="27-10-2026" data-da="7" tlabel="Next 7 days" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item " title="Now to end of Tue 27 Oct 2026">Next 7 days 320 matches</div>                        </div>
+                    </div>
+                </div>
+            </div>
+
+			</div>
+                <div class="ko-acca-store-tipster-board-fixed-container-menu-item-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-filter-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-risklevel">
+                    <div id="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-risklevel"
+                         class="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper">
+                        <div id="ko-acca-store-tipster-board-item-sub-menu-panel-header-risklevel"
+                             class="ko-acca-store-tipster-board-item-sub-menu-panel-header ko-acca-store-tipster-board-item-sub-menu-panel-header-timescale">
+                            Risk
+                        </div>
+                        <div class="ko-acca-store-tipster-board-item-sub-menu-panel-items ko-acca-store-tipster-board-item-sub-menu-panel-items-wide-timescale"
+                             style="display:none;">
+							<div data-mval="null" tlabel="Most Likely Outcome" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item ko-acca-store-tipster-board-item-sub-menu-panel-item-selected">Most Likely Outcome</div>                        </div>
+                    </div>
+                </div>
+
+
+				
+                <div class="ko-acca-store-tipster-board-fixed-container-menu-item-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-timescale-wrapper ko-acca-store-tipster-board-fixed-container-menu-item-wrapper-leagues">
+                    <div id="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper-leagues"
+                         class="ko-acca-store-tipster-board-item-sub-menu-panel-wrapper">
+                        <div id="ko-acca-store-tipster-board-item-sub-menu-panel-header-leagues"
+                             class="ko-acca-store-tipster-board-item-sub-menu-panel-header ko-acca-store-tipster-board-item-sub-menu-panel-header-timescale">
+                            Matches
+                        </div>
+                        <div class="ko-acca-store-tipster-board-item-sub-menu-panel-items ko-acca-store-tipster-board-item-sub-menu-panel-items-wide-timescale"
+                             style="display:none;">
+							<div data-mval="null" data-avail="83" tlabel="All matches" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item  ko-acca-store-tipster-board-item-sub-menu-panel-item-lock"><span></span>All Matches (83)</div>							<div data-mval="EN_PR,ES_PL,FR_L1,IT_SA,DE_BL,EU_CL" data-avail="19" tlabel="Top&nbsp;European" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item ko-acca-store-tipster-board-item-sub-menu-panel-item-selected "><span></span>Top European (19)</div><div data-mval="EN_PR,EN_D1,EN_D2,EN_D3,EN_LC" data-avail="25" tlabel="English&nbsp;Matches" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item"><span></span>English Matches (25)</div><div data-mval="EN_PR" data-avail="" tlabel="Premier&nbsp;League" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item ko-bb-hide"><span>ENG</span>Premier League ()</div><div data-mval="EN_D1" data-avail="1" tlabel="Championship" class="koOrderOne ko-acca-store-tipster-board-item-sub-menu-panel-item"><span>ENG</span>Championship (1)</div><div data-mval="EN_D2" data-avail="12" tlabel="League&nbsp;One" class="koOrderOne ko-acca-store-tipst
