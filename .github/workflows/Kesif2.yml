@@ -1,0 +1,117 @@
+name: Kesif 2 - Alt Ust orani
+
+# 1. KESIF NE OGRETTI:
+#   ?bettype=ou / ?bt=ou / ?bettype=dc / ?bettype=bts  ->  HEPSI AYNI SAYFA
+#   (571 KB, 369 oran, 123 mac, mac basina tam 3.00 oran = sadece 1X2)
+#   Yani sorgu parametresi YOK SAYILIYOR; sekmeler tarayici tarafinda calisiyor.
+#   Ana sayfa cagrisi "fetch failed" ile dustu, o yuzden sekmenin nasil
+#   calistigini ve tek mac sayfasini GOREMEDIK. Asil cevap orada.
+#
+# BU KOSU: tekrar denemeli, iki soruya odakli.
+#   A) Sekme hangi adresi cagiriyor? (sayfanin kendi kodu)
+#   B) Tek mac sayfasi alt/ust veriyor mu? (en olasi yedek yol)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  kesif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kesif
+        run: |
+          cat > kesif2.mjs <<'KESIF_BITIS'
+          const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
+                     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
+          const sade = s => s.replace(/\s+/g, " ").trim();
+          const bekle = ms => new Promise(r => setTimeout(r, ms));
+
+          /* 1. kesifte ana sayfa bir kez denendi ve dustu. Artik UC DENEME. */
+          async function al(url, deneme = 3) {
+            for (let i = 1; i <= deneme; i++) {
+              try {
+                const r = await fetch(url, {
+                  headers: { "User-Agent": UA, "Accept": "text/html,*/*",
+                             "Accept-Language": "en-GB,en;q=0.9" },
+                  redirect: "follow", signal: AbortSignal.timeout(20000)
+                });
+                const metin = await r.text();
+                return { kod: r.status, ok: r.ok, metin, kb: Math.round(metin.length / 1024), deneme: i };
+              } catch (e) {
+                console.log(`      (deneme ${i} basarisiz: ${e.message})`);
+                if (i < deneme) await bekle(3000 * i);
+              }
+            }
+            return { hata: "uc denemede de alinamadi" };
+          }
+
+          function pencere(html, desen, once, sonra, kac, baslik) {
+            console.log(`  --- ${baslik} ---`);
+            const re = new RegExp(desen.source, desen.flags.includes("g") ? desen.flags : desen.flags + "g");
+            let m, n = 0;
+            while ((m = re.exec(html)) !== null && n < kac) {
+              n++;
+              console.log("  [" + n + "] " + sade(html.slice(Math.max(0, m.index - once), m.index + m[0].length + sonra)).slice(0, 650));
+              if (re.lastIndex === m.index) re.lastIndex++;
+            }
+            if (!n) console.log("  (eslesme yok)");
+          }
+
+          /* ================= A) SEKME NASIL CALISIYOR ================= */
+          console.log("=== A) sekme mantigi ===");
+          const ana = await al("https://www.betexplorer.com/next/soccer/");
+          let macUrl = null;
+          if (!ana.ok) {
+            console.log("  ALINAMADI:", ana.hata || ("HTTP " + ana.kod));
+          } else {
+            console.log(`  HTTP ${ana.kod} · ${ana.kb} KB · ${ana.deneme}. denemede`);
+            pencere(ana.metin, /data-bet-type="ou"/, 400, 500, 1, "ou SEKMESI");
+            pencere(ana.metin, /function\s+\w*[Bb]et[Tt]ype|changeBetType|setBetType|bettype/i, 200, 450, 5, "KODDA bettype");
+            pencere(ana.metin, /\$\.(get|post|ajax)|fetch\(/i, 150, 400, 5, "AJAX CAGRILARI");
+
+            /* mac baglantisi: /football/<ulke>/<lig>/<ev>-<dep>/<id>/ gibi */
+            const linkler = [...new Set((ana.metin.match(/href="(\/football\/[^"]{10,120})"/g) || [])
+              .map(x => x.slice(6, -1)))].filter(u => (u.match(/\//g) || []).length >= 4);
+            console.log(`  --- MAC BAGLANTISI ADAYLARI (${linkler.length}) ---`);
+            linkler.slice(0, 6).forEach(u => console.log("     " + u));
+            if (linkler.length) macUrl = "https://www.betexplorer.com" + linkler[0];
+          }
+
+          /* ================= B) TEK MAC SAYFASI ================= */
+          console.log("\n=== B) tek mac sayfasi ===");
+          if (!macUrl) {
+            console.log("  ana sayfadan mac baglantisi cikmadi; lig sayfasindan deneniyor");
+            const lig = await al("https://www.betexplorer.com/football/england/premier-league/");
+            if (lig.ok) {
+              const l = [...new Set((lig.metin.match(/href="(\/football\/england\/premier-league\/[^"]{8,100})"/g) || [])
+                .map(x => x.slice(6, -1)))].filter(u => (u.match(/\//g) || []).length >= 5);
+              console.log(`  lig sayfasi HTTP ${lig.kod} · ${l.length} aday`);
+              l.slice(0, 4).forEach(u => console.log("     " + u));
+              if (l.length) macUrl = "https://www.betexplorer.com" + l[0];
+            } else console.log("  lig sayfasi da alinamadi:", lig.hata || lig.kod);
+          }
+
+          if (macUrl) {
+            console.log("  mac:", macUrl);
+            const r = await al(macUrl);
+            if (!r.ok) console.log("  alinamadi:", r.hata || ("HTTP " + r.kod));
+            else {
+              console.log(`  HTTP ${r.kod} · ${r.kb} KB · data-odd ${(r.metin.match(/data-odd="/g) || []).length}`);
+              [["over/under", /over\/under/i], ["ou-2.5", /\bO\/U\b|Over 2\.5|under 2\.5/i],
+               ["both teams", /both teams to score/i], ["1st half", /1st half|half time/i],
+               ["data-bettype", /data-bettype|bettype/i]].forEach(([ad, d]) =>
+                console.log(`      "${ad}": ${d.test(r.metin) ? "VAR" : "yok"}`));
+              pencere(r.metin, /over\/under/i, 250, 900, 2, "ALT/UST BOLUMU (ham)");
+              pencere(r.metin, /data-odd="/, 600, 200, 1, "ILK ORAN CEVRESI");
+              /* bu sayfadaki pazar adlarini listele */
+              const pazarlar = [...new Set((r.metin.match(/data-bettype="([^"]+)"/g) || [])
+                .map(x => x.slice(14, -1)))];
+              console.log("  --- SAYFADAKI PAZAR KODLARI ---");
+              console.log("     " + (pazarlar.length ? pazarlar.join(" · ") : "(yok)"));
+            }
+          }
+          console.log("\n=== BITTI ===");
+          KESIF_BITIS
+          node kesif2.mjs
