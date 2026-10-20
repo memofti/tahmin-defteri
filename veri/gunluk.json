@@ -1,6 +1,6 @@
 {
- "calisti": "2026-10-20T10:34:44.066Z",
- "tsi": "2026-10-20 13:34",
+ "calisti": "2026-10-20T10:46:14.450Z",
+ "tsi": "2026-10-20 13:46",
  "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-20": "ACILDI",
@@ -8,17 +8,17 @@
   "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "taranmisGun": 24,
- "yeniSkor": 456,
- "toplamSkor": 1815,
+ "taranmisGun": 43,
+ "yeniSkor": 1802,
+ "toplamSkor": 3617,
  "oranMacSayisi": 113,
  "kalabalikSayisi": 20,
- "modelliLig": 69,
- "modelliTakim": 1390,
- "genelTablo": "1815 mac",
+ "modelliLig": 80,
+ "modelliTakim": 1606,
+ "genelTablo": "3617 mac",
  "bultenSayisi": 110,
- "tahminSayisi": 11,
- "elenenSayisi": 9,
+ "tahminSayisi": 12,
+ "elenenSayisi": 8,
  "bulten": [
   {
    "macId": "GG7ooewg",
@@ -2245,8 +2245,8 @@
     "yetersiz": true,
     "kaynak": "European Cup",
     "macSayisi": {
-     "ev": 1,
-     "deplasman": 1
+     "ev": 2,
+     "deplasman": 2
     },
     "gerekli": 6
    },
@@ -2296,8 +2296,8 @@
     "yetersiz": true,
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 4,
-     "deplasman": 3
+     "ev": 7,
+     "deplasman": 9
     },
     "gerekli": 8
    },
@@ -2324,12 +2324,12 @@
    "esik": 7.1,
    "model": {
     "yetersiz": true,
-    "kaynak": "European Cup",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 1,
-     "deplasman": 1
+     "ev": 14,
+     "deplasman": 7
     },
-    "gerekli": 6
+    "gerekli": 8
    },
    "durum": "bekliyor"
   },
@@ -2354,10 +2354,40 @@
    "esik": 8,
    "model": {
     "yetersiz": true,
-    "kaynak": "Football League Championship",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 3,
-     "deplasman": 3
+     "ev": 6,
+     "deplasman": 5
+    },
+    "gerekli": 8
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Doncaster",
+   "deplasman": "Stockport",
+   "lig": "England League One",
+   "tarih": "2026-10-20",
+   "saat": "21:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 14,
+   "n": 16,
+   "yuzde": 88,
+   "oran": 1.85,
+   "macId": "rTSrUnqC",
+   "basabas": 54.1,
+   "fark": 33.4,
+   "esik": 9.3,
+   "model": {
+    "yetersiz": true,
+    "kaynak": "Football League Trophy",
+    "macSayisi": {
+     "ev": 2,
+     "deplasman": 1
     },
     "gerekli": 6
    },
@@ -2384,34 +2414,34 @@
    "esik": 9.9,
    "model": {
     "yetersiz": true,
-    "kaynak": "Football League Trophy",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 1,
-     "deplasman": 1
+     "ev": 6,
+     "deplasman": 7
     },
-    "gerekli": 6
+    "gerekli": 8
    },
    "durum": "bekliyor"
   },
   {
-   "ev": "Doncaster",
-   "deplasman": "Stockport",
-   "lig": "England League One",
+   "ev": "FC Porto",
+   "deplasman": "PSV",
+   "lig": "Champions League",
    "tarih": "2026-10-20",
-   "saat": "21:45",
-   "etiket": "MS 2",
+   "saat": "22:00",
+   "etiket": "MS 1",
    "kural": {
     "tip": "ms",
-    "secim": "2"
+    "secim": "1"
    },
-   "k": 13,
-   "n": 15,
-   "yuzde": 87,
-   "oran": 1.85,
-   "macId": "rTSrUnqC",
-   "basabas": 54.1,
-   "fark": 32.6,
-   "esik": 9.8,
+   "k": 14,
+   "n": 18,
+   "yuzde": 78,
+   "oran": 1.51,
+   "macId": "jP6EvMLH",
+   "basabas": 66.2,
+   "fark": 11.6,
+   "esik": 10.2,
    "durum": "bekliyor"
   },
   {
@@ -2425,14 +2455,14 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 12,
-   "n": 12,
+   "k": 13,
+   "n": 13,
    "yuzde": 100,
    "oran": 1.96,
    "macId": "6wSFrnb5",
    "basabas": 51,
    "fark": 49,
-   "esik": 7.4,
+   "esik": 6.9,
    "durum": "bekliyor"
   },
   {
@@ -2454,6 +2484,15 @@
    "basabas": 49,
    "fark": 27.9,
    "esik": 12.3,
+   "model": {
+    "yetersiz": true,
+    "kaynak": "European Cup",
+    "macSayisi": {
+     "ev": 2,
+     "deplasman": 2
+    },
+    "gerekli": 6
+   },
    "durum": "bekliyor"
   },
   {
@@ -2475,6 +2514,15 @@
    "basabas": 58.5,
    "fark": 14.2,
    "esik": 13.9,
+   "model": {
+    "yetersiz": true,
+    "kaynak": "Football League Trophy",
+    "macSayisi": {
+     "ev": 2,
+     "deplasman": 2
+    },
+    "gerekli": 6
+   },
    "durum": "bekliyor"
   },
   {
@@ -2511,14 +2559,23 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 21,
-   "n": 23,
-   "yuzde": 91,
+   "k": 22,
+   "n": 24,
+   "yuzde": 92,
    "oran": 1.12,
    "macId": "djVwRmZR",
    "basabas": 89.3,
-   "fark": 2,
-   "esik": 6.8,
+   "fark": 2.4,
+   "esik": 6.5,
+   "model": {
+    "yetersiz": true,
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 6,
+     "deplasman": 5
+    },
+    "gerekli": 8
+   },
    "neden": "gurultu esigini gecemedi"
   },
   {
@@ -2543,24 +2600,33 @@
    "neden": "gurultu esigini gecemedi"
   },
   {
-   "ev": "FC Porto",
-   "deplasman": "PSV",
-   "lig": "Champions League",
+   "ev": "Barnet",
+   "deplasman": "Swindon",
+   "lig": "England League Two",
    "tarih": "2026-10-20",
-   "saat": "22:00",
+   "saat": "21:45",
    "etiket": "MS 1",
    "kural": {
     "tip": "ms",
     "secim": "1"
    },
-   "k": 13,
-   "n": 17,
-   "yuzde": 76,
-   "oran": 1.51,
-   "macId": "jP6EvMLH",
-   "basabas": 66.2,
-   "fark": 10.2,
-   "esik": 10.7,
+   "k": 11,
+   "n": 14,
+   "yuzde": 79,
+   "oran": 1.48,
+   "macId": "WSuyybTa",
+   "basabas": 67.6,
+   "fark": 11,
+   "esik": 11.6,
+   "model": {
+    "yetersiz": true,
+    "kaynak": "Football League Trophy",
+    "macSayisi": {
+     "ev": 1,
+     "deplasman": 2
+    },
+    "gerekli": 6
+   },
    "neden": "gurultu esigini gecemedi"
   },
   {
@@ -2594,36 +2660,6 @@
    "n": 10,
    "yuzde": 100,
    "neden": "oran bulunamadi"
-  },
-  {
-   "ev": "Barnet",
-   "deplasman": "Swindon",
-   "lig": "England League Two",
-   "tarih": "2026-10-20",
-   "saat": "21:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 10,
-   "n": 13,
-   "yuzde": 77,
-   "oran": 1.48,
-   "macId": "WSuyybTa",
-   "basabas": 67.6,
-   "fark": 9.4,
-   "esik": 12.3,
-   "model": {
-    "yetersiz": true,
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 3,
-     "deplasman": 3
-    },
-    "gerekli": 8
-   },
-   "neden": "gurultu esigini gecemedi"
   },
   {
    "ev": "Chelsea",
