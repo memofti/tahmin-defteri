@@ -1,6 +1,6 @@
 {
- "calisti": "2026-10-20T11:42:30.002Z",
- "tsi": "2026-10-20 14:42",
+ "calisti": "2026-10-20T11:52:58.242Z",
+ "tsi": "2026-10-20 14:52",
  "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-20": "ACILDI",
@@ -8,14 +8,14 @@
   "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "taranmisGun": 79,
- "yeniSkor": 931,
- "toplamSkor": 6715,
+ "taranmisGun": 99,
+ "yeniSkor": 1281,
+ "toplamSkor": 7996,
  "oranMacSayisi": 93,
  "kalabalikSayisi": 20,
- "modelliLig": 85,
- "modelliTakim": 1804,
- "genelTablo": "6715 mac",
+ "modelliLig": 87,
+ "modelliTakim": 1837,
+ "genelTablo": "7996 mac",
  "bultenSayisi": 90,
  "tahminSayisi": 11,
  "elenenSayisi": 9,
@@ -1748,16 +1748,16 @@
    "ev": "Gillingham",
    "deplasman": "Port Vale",
    "oran": {
-    "ev": 3.18,
+    "ev": 3.15,
     "beraberlik": 3.17,
-    "deplasman": 2.21
+    "deplasman": 2.24
    },
-   "marj": 8.24,
+   "marj": 7.93,
    "basladi": false,
    "ima": {
-    "ev": 0.2905229720371069,
-    "beraberlik": 0.2914394482895899,
-    "deplasman": 0.4180375796733032
+    "ev": 0.2941227637797558,
+    "beraberlik": 0.29226709965496245,
+    "deplasman": 0.41361013656528167
    }
   },
   {
@@ -1844,13 +1844,13 @@
    "model": {
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 15,
-     "deplasman": 11
+     "ev": 16,
+     "deplasman": 14
     },
-    "yuzde": 37.2,
-    "fark": -26,
-    "beklenenDeger": -0.412,
-    "beklenenGol": 2.84
+    "yuzde": 36.5,
+    "fark": -26.8,
+    "beklenenDeger": -0.423,
+    "beklenenGol": 2.82
    },
    "durum": "bekliyor"
   },
@@ -1876,6 +1876,38 @@
    "durum": "bekliyor"
   },
   {
+   "ev": "Liverpool",
+   "deplasman": "Villarreal",
+   "lig": "Champions League",
+   "tarih": "2026-10-20",
+   "saat": "22:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 23,
+   "n": 25,
+   "yuzde": 92,
+   "oran": 1.48,
+   "macId": "2swdQAqA",
+   "basabas": 67.6,
+   "fark": 24.4,
+   "esik": 6.3,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 23,
+     "deplasman": 11
+    },
+    "yuzde": 60.9,
+    "fark": -6.7,
+    "beklenenDeger": -0.099,
+    "beklenenGol": 3
+   },
+   "durum": "bekliyor"
+  },
+  {
    "ev": "Huddersfield",
    "deplasman": "Peterborough",
    "lig": "England League One",
@@ -1897,45 +1929,13 @@
    "model": {
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 12,
-     "deplasman": 15
+     "ev": 13,
+     "deplasman": 16
     },
-    "yuzde": 74,
-    "fark": 8.2,
-    "beklenenDeger": 0.125,
-    "beklenenGol": 3.76
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Liverpool",
-   "deplasman": "Villarreal",
-   "lig": "Champions League",
-   "tarih": "2026-10-20",
-   "saat": "22:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 22,
-   "n": 24,
-   "yuzde": 92,
-   "oran": 1.48,
-   "macId": "2swdQAqA",
-   "basabas": 67.6,
-   "fark": 24.1,
-   "esik": 6.5,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 10
-    },
-    "yuzde": 57.1,
-    "fark": -10.4,
-    "beklenenDeger": -0.154,
-    "beklenenGol": 3.05
+    "yuzde": 71.3,
+    "fark": 5.5,
+    "beklenenDeger": 0.083,
+    "beklenenGol": 3.55
    },
    "durum": "bekliyor"
   },
@@ -1959,15 +1959,15 @@
    "fark": 22,
    "esik": 8.3,
    "model": {
-    "kaynak": "Football League Championship",
+    "kaynak": "genel",
     "macSayisi": {
-     "ev": 10,
-     "deplasman": 10
+     "ev": 13,
+     "deplasman": 11
     },
-    "yuzde": 50,
-    "fark": -13.7,
-    "beklenenDeger": -0.215,
-    "beklenenGol": 3
+    "yuzde": 57.2,
+    "fark": -6.5,
+    "beklenenDeger": -0.102,
+    "beklenenGol": 2.91
    },
    "durum": "bekliyor"
   },
@@ -1993,13 +1993,13 @@
    "model": {
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 12,
-     "deplasman": 12
+     "ev": 13,
+     "deplasman": 13
     },
-    "yuzde": 55.2,
-    "fark": 1.2,
-    "beklenenDeger": 0.022,
-    "beklenenGol": 2.98
+    "yuzde": 53.8,
+    "fark": -0.2,
+    "beklenenDeger": -0.005,
+    "beklenenGol": 2.88
    },
    "durum": "bekliyor"
   },
@@ -2025,13 +2025,13 @@
    "model": {
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 12,
-     "deplasman": 13
+     "ev": 13,
+     "deplasman": 14
     },
-    "yuzde": 68.9,
-    "fark": 2.7,
-    "beklenenDeger": 0.04,
-    "beklenenGol": 4.39
+    "yuzde": 71.4,
+    "fark": 5.1,
+    "beklenenDeger": 0.077,
+    "beklenenGol": 4.33
    },
    "durum": "bekliyor"
   },
@@ -2067,14 +2067,14 @@
     "tip": "ms",
     "secim": "2"
    },
-   "k": 11,
-   "n": 15,
-   "yuzde": 73,
+   "k": 12,
+   "n": 16,
+   "yuzde": 75,
    "oran": 2.04,
    "macId": "8ODjcCFN",
    "basabas": 49,
-   "fark": 24.3,
-   "esik": 11.8,
+   "fark": 26,
+   "esik": 11.2,
    "model": {
     "kaynak": "genel",
     "macSayisi": {
@@ -2083,8 +2083,8 @@
     },
     "yuzde": 37.3,
     "fark": -11.7,
-    "beklenenDeger": -0.239,
-    "beklenenGol": 2.93
+    "beklenenDeger": -0.238,
+    "beklenenGol": 2.94
    },
    "durum": "bekliyor"
   },
@@ -2111,12 +2111,12 @@
     "kaynak": "genel",
     "macSayisi": {
      "ev": 13,
-     "deplasman": 13
+     "deplasman": 14
     },
-    "yuzde": 46.7,
-    "fark": -11.8,
-    "beklenenDeger": -0.202,
-    "beklenenGol": 2.97
+    "yuzde": 48.1,
+    "fark": -10.3,
+    "beklenenDeger": -0.177,
+    "beklenenGol": 2.99
    },
    "durum": "bekliyor"
   },
@@ -2168,10 +2168,10 @@
      "ev": 10,
      "deplasman": 12
     },
-    "yuzde": 33.2,
-    "fark": -56.1,
+    "yuzde": 33.1,
+    "fark": -56.2,
     "beklenenDeger": -0.629,
-    "beklenenGol": 3.19
+    "beklenenGol": 3.21
    },
    "neden": "gurultu esigini gecemedi"
   },
@@ -2255,13 +2255,13 @@
    "model": {
     "kaynak": "genel",
     "macSayisi": {
-     "ev": 11,
-     "deplasman": 13
+     "ev": 12,
+     "deplasman": 14
     },
-    "yuzde": 74.2,
-    "fark": 6.6,
-    "beklenenDeger": 0.098,
-    "beklenenGol": 3.17
+    "yuzde": 73.6,
+    "fark": 6,
+    "beklenenDeger": 0.089,
+    "beklenenGol": 3.32
    },
    "neden": "gurultu esigini gecemedi"
   },
