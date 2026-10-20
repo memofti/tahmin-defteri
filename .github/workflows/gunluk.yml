@@ -762,21 +762,46 @@ jobs:
                                     : { tahminler: [], atlanan: [] };
             rapor.kalabalikSayisi = kalabalik.tahminler.length;
           
-            /* ---------- 4) LIG TABLOLARI (kazinmis sonuclardan) ---------- */
+            /* ---------- 4) GUC TABLOLARI (kazinmis sonuclardan) ----------
+               DIKKAT: lig adlari iki sitede FARKLI ("Italian Serie A" vs "Italy: Serie A"),
+               ustelik kupa macinda iki takim iki ayri ligden gelir. Bu yuzden model
+               LIG adiyla degil TAKIM adiyla aranir. Ayrica genel bir tablo tutulur:
+               iki takim ayni ligde degilse (kupa) genel tablo kullanilir. */
             const ligler = new Map();
             for (const m of sonucGecmis.maclar) {
               const L = m.lig || "bilinmiyor";
               if (!ligler.has(L)) ligler.set(L, []);
               ligler.get(L).push(m);
             }
-            const gucler = new Map();
+          
+            const takimGuc = new Map();        /* normalize takim adi -> guc nesnesi */
+            let kurulanLig = 0;
             for (const [L, ms] of ligler) {
-              if (ms.length < 12) continue;                 /* az veriyle model kurma */
+              if (ms.length < 12) continue;
               const tb = tabloHesapla(ms);
-              if (!tb.tutarli) continue;                    /* atilan != yenen: kullanma */
-              gucler.set(L, guclerHesapla(tb));
+              if (!tb.tutarli) continue;
+              const g = guclerHesapla(tb);
+              g.kaynak = L;
+              kurulanLig++;
+              for (const t of tb.takimlar) takimGuc.set(adNorm(t.takim), g);
             }
-            rapor.modelliLig = gucler.size;
+          
+            /* genel tablo — kupa maclari ve lig disi eslesmeler icin */
+            let genelGuc = null;
+            if (sonucGecmis.maclar.length >= 40) {
+              const gt = tabloHesapla(sonucGecmis.maclar);
+              if (gt.tutarli) { genelGuc = guclerHesapla(gt); genelGuc.kaynak = "genel"; }
+            }
+            rapor.modelliLig = kurulanLig;
+            rapor.modelliTakim = takimGuc.size;
+            rapor.genelTablo = genelGuc ? sonucGecmis.maclar.length + " mac" : "yetersiz";
+          
+            /* Bir mac icin dogru guc tablosunu sec */
+            function gucSec(ev, dep) {
+              const a = takimGuc.get(adNorm(ev)), b = takimGuc.get(adNorm(dep));
+              if (a && b && a === b) return a;        /* ikisi de ayni ligde: en saglami */
+              return genelGuc;                        /* kupa / karisik: genel tablo */
+            }
           
             /* ---------- 5) BULTEN: bugunun maclari ---------- */
             const bugun = tsiGun(SIMDI, 0);
@@ -825,7 +850,7 @@ jobs:
               kayit.esik = Number(d.esik.toFixed(1));
           
               /* model tarafi — lig taniniyorsa */
-              const g = gucler.get(mac.lig) || gucler.get(t.lig);
+              const g = gucSec(mac.ev, mac.deplasman);
               if (g) {
                 const lam = lambdaHesapla(g, mac.ev, mac.deplasman);
                 if (lam) {
@@ -833,7 +858,8 @@ jobs:
                   const p = t.kural.tip === "ms" ? o.ms[t.kural.secim] : null;
                   if (p !== null && p !== undefined) {
                     const md = modelDeger(p, oran);
-                    kayit.model = { yuzde: Number((p * 100).toFixed(1)),
+                    kayit.model = { kaynak: g.kaynak,
+                                    yuzde: Number((p * 100).toFixed(1)),
                                     fark: Number(md.fark.toFixed(1)),
                                     beklenenDeger: Number(md.beklenenDeger.toFixed(3)),
                                     beklenenGol: Number(o.beklenenGol.toFixed(2)) };
