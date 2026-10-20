@@ -1,0 +1,320 @@
+{
+ "maclar": [
+  {
+   "tarih": "2026-10-19",
+   "lig": "Premier League",
+   "ev": "Tottenham",
+   "deplasman": "Coventry",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Italian Serie A",
+   "ev": "Monza",
+   "deplasman": "Cagliari",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Italian Serie A",
+   "ev": "Parma",
+   "deplasman": "Torino",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Spanish La Liga",
+   "ev": "Getafe",
+   "deplasman": "Rayo Vallecano",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Romanian Liga 1",
+   "ev": "Uni Cluj",
+   "deplasman": "Arges Pitesti",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Romanian Liga 1",
+   "ev": "Voluntari",
+   "deplasman": "FCSB",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Russian Premier",
+   "ev": "Rodina Moscow",
+   "deplasman": "Gazovik Orenburg",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Degerfors",
+   "deplasman": "Kalmar",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Viborg",
+   "deplasman": "Midtjylland",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Turkish Super Lig",
+   "ev": "Trabzonspor",
+   "deplasman": "Besiktas",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Wisla Plock",
+   "deplasman": "Radomiak Radom",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Spanish Segunda",
+   "ev": "Celta de Vigo B",
+   "deplasman": "Tenerife",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Portuguese Liga",
+   "ev": "Braga",
+   "deplasman": "Gil Vicente",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Ukrainian League",
+   "ev": "Metalist 1925 Kharkiv",
+   "deplasman": "Livyi Bereh",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Belarus League",
+   "ev": "Belshina",
+   "deplasman": "Slavia Mozyr",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Belarus League",
+   "ev": "Torpedo Zh",
+   "deplasman": "FC Naftan",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Belarus League",
+   "ev": "Dinamo Minsk",
+   "deplasman": "Arsenal Dzyarzhynsk",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Israeli League",
+   "ev": "Beitar J'salem",
+   "deplasman": "M Tel Aviv",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "League of Ireland",
+   "ev": "Waterford",
+   "deplasman": "Galway FC",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "League of Ireland",
+   "ev": "Derry City",
+   "deplasman": "St Patrick's",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Ryman Premier",
+   "ev": "Aveley",
+   "deplasman": "Maldon & T",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Llaneros",
+   "deplasman": "Santa Fe",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Cali",
+   "deplasman": "Atletico Junior",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Belgrano",
+   "deplasman": "River Plate",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Newell's OB",
+   "deplasman": "Central Cordoba SDE",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Sarmiento",
+   "deplasman": "Barracas Central",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Cienciano",
+   "deplasman": "UTC Cajamarca",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Monterrey",
+   "deplasman": "Pachuca",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Swedish Superettan",
+   "ev": "Varbergs Bois",
+   "deplasman": "Helsingborgs",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Argentina Primera Nacional",
+   "ev": "San Telmo",
+   "deplasman": "Defensores de Belgrano",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-19",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Mushuc Runa",
+   "deplasman": "Orense",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-20",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Nacional Montevideo",
+   "deplasman": "Deportivo Maldonado",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-20",
+   "lig": "Brazilian Serie A",
+   "ev": "Corinthians",
+   "deplasman": "Vitoria",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-20",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Deportivo Riestra",
+   "deplasman": "Union Santa Fe",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-20",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Pasto",
+   "deplasman": "Alianza Petrolera",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  }
+ ],
+ "guncellendi": "2026-10-20T10:00:38.833Z"
+}
