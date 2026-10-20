@@ -1,23 +1,24 @@
 {
- "calisti": "2026-10-20T10:16:32.018Z",
- "tsi": "2026-10-20 13:16",
+ "calisti": "2026-10-20T10:29:22.152Z",
+ "tsi": "2026-10-20 13:29",
  "erkenOrneklem": false,
  "kaynaklar": {
-  "soccerbase 2026-10-19": "ACILDI",
   "soccerbase 2026-10-20": "ACILDI",
+  "soccerbase 2026-10-19": "ACILDI",
   "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "yeniSkor": 0,
- "toplamSkor": 35,
+ "taranmisGun": 13,
+ "yeniSkor": 1324,
+ "toplamSkor": 1359,
  "oranMacSayisi": 113,
  "kalabalikSayisi": 20,
- "modelliLig": 0,
- "modelliTakim": 0,
- "genelTablo": "yetersiz",
+ "modelliLig": 58,
+ "modelliTakim": 1249,
+ "genelTablo": "1359 mac",
  "bultenSayisi": 110,
- "tahminSayisi": 10,
- "elenenSayisi": 10,
+ "tahminSayisi": 11,
+ "elenenSayisi": 9,
  "bulten": [
   {
    "macId": "GG7ooewg",
@@ -2232,14 +2233,21 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 29,
-   "n": 32,
+   "k": 31,
+   "n": 34,
    "yuzde": 91,
    "oran": 1.58,
    "macId": "2yMLTDQr",
    "basabas": 63.3,
-   "fark": 27.3,
-   "esik": 5.7,
+   "fark": 27.9,
+   "esik": 5.4,
+   "model": {
+    "kaynak": "European Cup",
+    "yuzde": 36.2,
+    "fark": -27.1,
+    "beklenenDeger": -0.429,
+    "beklenenGol": 4.01
+   },
    "durum": "bekliyor"
   },
   {
@@ -2253,14 +2261,14 @@
     "tip": "ms",
     "secim": "2"
    },
-   "k": 23,
-   "n": 26,
-   "yuzde": 88,
+   "k": 24,
+   "n": 27,
+   "yuzde": 89,
    "oran": 1.29,
    "macId": "b9lv0Tme",
    "basabas": 77.5,
-   "fark": 10.9,
-   "esik": 6.9,
+   "fark": 11.4,
+   "esik": 6.6,
    "durum": "bekliyor"
   },
   {
@@ -2282,6 +2290,13 @@
    "basabas": 65.4,
    "fark": 29.9,
    "esik": 6.1,
+   "model": {
+    "kaynak": "genel",
+    "yuzde": 47.4,
+    "fark": -18,
+    "beklenenDeger": -0.275,
+    "beklenenGol": 3.33
+   },
    "durum": "bekliyor"
   },
   {
@@ -2303,6 +2318,13 @@
    "basabas": 67.6,
    "fark": 22.9,
    "esik": 7.3,
+   "model": {
+    "kaynak": "European Cup",
+    "yuzde": 53,
+    "fark": -14.6,
+    "beklenenDeger": -0.216,
+    "beklenenGol": 5.18
+   },
    "durum": "bekliyor"
   },
   {
@@ -2317,13 +2339,20 @@
     "secim": "1"
    },
    "k": 17,
-   "n": 18,
-   "yuzde": 94,
+   "n": 19,
+   "yuzde": 89,
    "oran": 1.57,
    "macId": "GSV0lfJj",
    "basabas": 63.7,
-   "fark": 30.8,
-   "esik": 7.1,
+   "fark": 25.8,
+   "esik": 8,
+   "model": {
+    "kaynak": "Football League Championship",
+    "yuzde": 33.9,
+    "fark": -29.8,
+    "beklenenDeger": -0.468,
+    "beklenenGol": 2.53
+   },
    "durum": "bekliyor"
   },
   {
@@ -2345,6 +2374,13 @@
    "basabas": 66.2,
    "fark": 16.1,
    "esik": 9.9,
+   "model": {
+    "kaynak": "Football League One",
+    "yuzde": 66.8,
+    "fark": 0.6,
+    "beklenenDeger": 0.009,
+    "beklenenGol": 3.64
+   },
    "durum": "bekliyor"
   },
   {
@@ -2358,14 +2394,14 @@
     "tip": "ms",
     "secim": "2"
    },
-   "k": 12,
-   "n": 14,
-   "yuzde": 86,
+   "k": 13,
+   "n": 15,
+   "yuzde": 87,
    "oran": 1.85,
    "macId": "rTSrUnqC",
    "basabas": 54.1,
-   "fark": 31.7,
-   "esik": 10.4,
+   "fark": 32.6,
+   "esik": 9.8,
    "durum": "bekliyor"
   },
   {
@@ -2422,13 +2458,34 @@
     "secim": "1"
    },
    "k": 8,
-   "n": 10,
-   "yuzde": 80,
+   "n": 11,
+   "yuzde": 73,
    "oran": 1.71,
    "macId": "hvhcmSIM",
    "basabas": 58.5,
-   "fark": 21.5,
-   "esik": 13.7,
+   "fark": 14.2,
+   "esik": 13.9,
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Notts County",
+   "deplasman": "Sheff Wed",
+   "lig": "England League One",
+   "tarih": "2026-10-20",
+   "saat": "21:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 7,
+   "n": 8,
+   "yuzde": 88,
+   "oran": 2.12,
+   "macId": "EV98p8Th",
+   "basabas": 47.2,
+   "fark": 40.3,
+   "esik": 14.1,
    "durum": "bekliyor"
   }
  ],
@@ -2513,6 +2570,22 @@
    "neden": "bu pazarin orani yok"
   },
   {
+   "ev": "Al Nassr Riyadh",
+   "deplasman": "Neom SC",
+   "lig": "Saudi Arabia Premier League",
+   "tarih": "2026-10-20",
+   "saat": "21:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 10,
+   "yuzde": 100,
+   "neden": "oran bulunamadi"
+  },
+  {
    "ev": "Barnet",
    "deplasman": "Swindon",
    "lig": "England League Two",
@@ -2531,23 +2604,14 @@
    "basabas": 67.6,
    "fark": 9.4,
    "esik": 12.3,
-   "neden": "gurultu esigini gecemedi"
-  },
-  {
-   "ev": "Al Nassr Riyadh",
-   "deplasman": "Neom SC",
-   "lig": "Saudi Arabia Premier League",
-   "tarih": "2026-10-20",
-   "saat": "21:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
+   "model": {
+    "kaynak": "Football League Two",
+    "yuzde": 59.2,
+    "fark": -8.3,
+    "beklenenDeger": -0.123,
+    "beklenenGol": 2.51
    },
-   "k": 9,
-   "n": 9,
-   "yuzde": 100,
-   "neden": "oran bulunamadi"
+   "neden": "gurultu esigini gecemedi"
   },
   {
    "ev": "Chelsea",
@@ -2593,22 +2657,6 @@
    "n": 9,
    "yuzde": 78,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "IFK Norrkoping",
-   "deplasman": "Orebro SK",
-   "lig": "Sweden Superettan",
-   "tarih": "2026-10-20",
-   "saat": "20:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 6,
-   "n": 7,
-   "yuzde": 86,
-   "neden": "oran bulunamadi"
   }
  ]
 }
