@@ -1,0 +1,2397 @@
+{
+ "kaynak": "football-data.co.uk/fixtures.csv",
+ "cekildi": "2026-10-20T08:31:47.815Z",
+ "enYeniTarih": "2026-10-19",
+ "bugunIleriKapsam": -1,
+ "toplam": 169,
+ "ligler": {
+  "D1": 9,
+  "D2": 9,
+  "E0": 10,
+  "E1": 12,
+  "E2": 12,
+  "E3": 12,
+  "F1": 9,
+  "F2": 9,
+  "G1": 6,
+  "I1": 10,
+  "I2": 10,
+  "N1": 9,
+  "P1": 1,
+  "SC0": 6,
+  "SC1": 5,
+  "SC2": 5,
+  "SC3": 5,
+  "SP1": 10,
+  "SP2": 11,
+  "T1": 9
+ },
+ "maclar": [
+  {
+   "lig": "D1",
+   "tarih": "2026-10-16",
+   "saat": "19:30",
+   "ev": "Ein Frankfurt",
+   "dep": "FC Koln",
+   "oran": {
+    "ev": 1.85,
+    "beraberlik": 4.2,
+    "deplasman": 3.6,
+    "ust25": 1.33,
+    "alt25": 3.4
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "14:30",
+   "ev": "Elversberg",
+   "dep": "Augsburg",
+   "oran": {
+    "ev": 2.5,
+    "beraberlik": 3.75,
+    "deplasman": 2.6,
+    "ust25": 1.44,
+    "alt25": 2.75
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "14:30",
+   "ev": "Hamburg",
+   "dep": "Stuttgart",
+   "oran": {
+    "ev": 3.8,
+    "beraberlik": 4.2,
+    "deplasman": 1.8,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "14:30",
+   "ev": "Schalke 04",
+   "dep": "Mainz",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 3.75,
+    "deplasman": 2.25,
+    "ust25": 1.62,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "14:30",
+   "ev": "Union Berlin",
+   "dep": "Dortmund",
+   "oran": {
+    "ev": 5.5,
+    "beraberlik": 4.33,
+    "deplasman": 1.57,
+    "ust25": 1.5,
+    "alt25": 2.63
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "14:30",
+   "ev": "Werder Bremen",
+   "dep": "Paderborn",
+   "oran": {
+    "ev": 1.75,
+    "beraberlik": 4.2,
+    "deplasman": 4.1,
+    "ust25": 1.53,
+    "alt25": 2.5
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-17",
+   "saat": "17:30",
+   "ev": "Bayern Munich",
+   "dep": "RB Leipzig",
+   "oran": {
+    "ev": 1.22,
+    "beraberlik": 7.5,
+    "deplasman": 9.5,
+    "ust25": 1.14,
+    "alt25": 5.5
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-18",
+   "saat": "14:30",
+   "ev": "Leverkusen",
+   "dep": "Freiburg",
+   "oran": {
+    "ev": 1.73,
+    "beraberlik": 4.2,
+    "deplasman": 4.2,
+    "ust25": 1.5,
+    "alt25": 2.63
+   }
+  },
+  {
+   "lig": "D1",
+   "tarih": "2026-10-18",
+   "saat": "16:30",
+   "ev": "M'gladbach",
+   "dep": "Hoffenheim",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 4,
+    "deplasman": 2.05,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-16",
+   "saat": "17:30",
+   "ev": "Cottbus",
+   "dep": "Nurnberg",
+   "oran": {
+    "ev": 3.6,
+    "beraberlik": 4.1,
+    "deplasman": 1.8,
+    "ust25": 1.33,
+    "alt25": 3.4
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-16",
+   "saat": "17:30",
+   "ev": "Holstein Kiel",
+   "dep": "Hertha",
+   "oran": {
+    "ev": 2.9,
+    "beraberlik": 3.9,
+    "deplasman": 2.1,
+    "ust25": 1.4,
+    "alt25": 2.88
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-17",
+   "saat": "12:00",
+   "ev": "Greuther Furth",
+   "dep": "Braunschweig",
+   "oran": {
+    "ev": 2.15,
+    "beraberlik": 3.6,
+    "deplasman": 3,
+    "ust25": 1.53,
+    "alt25": 2.4
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-17",
+   "saat": "12:00",
+   "ev": "Kaiserslautern",
+   "dep": "Bochum",
+   "oran": {
+    "ev": 2.15,
+    "beraberlik": 3.5,
+    "deplasman": 3,
+    "ust25": 1.7,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-17",
+   "saat": "12:00",
+   "ev": "Wolfsburg",
+   "dep": "Heidenheim",
+   "oran": {
+    "ev": 1.67,
+    "beraberlik": 4.2,
+    "deplasman": 4.2,
+    "ust25": 1.36,
+    "alt25": 3.1
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-17",
+   "saat": "19:30",
+   "ev": "Hannover",
+   "dep": "St Pauli",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.6,
+    "deplasman": 2.9,
+    "ust25": 1.57,
+    "alt25": 2.35
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-18",
+   "saat": "12:30",
+   "ev": "Bielefeld",
+   "dep": "Osnabruck",
+   "oran": {
+    "ev": 1.7,
+    "beraberlik": 3.8,
+    "deplasman": 4.2,
+    "ust25": 1.57,
+    "alt25": 2.35
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-18",
+   "saat": "12:30",
+   "ev": "Dresden",
+   "dep": "Magdeburg",
+   "oran": {
+    "ev": 2.45,
+    "beraberlik": 3.6,
+    "deplasman": 2.55,
+    "ust25": 1.53,
+    "alt25": 2.4
+   }
+  },
+  {
+   "lig": "D2",
+   "tarih": "2026-10-18",
+   "saat": "12:30",
+   "ev": "Karlsruhe",
+   "dep": "Darmstadt",
+   "oran": {
+    "ev": 2.2,
+    "beraberlik": 3.75,
+    "deplasman": 2.8,
+    "ust25": 1.44,
+    "alt25": 2.7
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Everton",
+   "dep": "Chelsea",
+   "oran": {
+    "ev": 3.2,
+    "beraberlik": 3.8,
+    "deplasman": 2.1,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Brentford",
+   "dep": "Liverpool",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3.75,
+    "deplasman": 2.88,
+    "ust25": 1.57,
+    "alt25": 2.38
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Fulham",
+   "dep": "Hull",
+   "oran": {
+    "ev": 1.73,
+    "beraberlik": 3.9,
+    "deplasman": 4.5,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Man City",
+   "dep": "Ipswich",
+   "oran": {
+    "ev": 1.22,
+    "beraberlik": 7,
+    "deplasman": 11,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-17",
+   "saat": "17:30",
+   "ev": "Newcastle",
+   "dep": "Aston Villa",
+   "oran": {
+    "ev": 2.25,
+    "beraberlik": 3.6,
+    "deplasman": 3,
+    "ust25": 1.62,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Bournemouth",
+   "dep": "Sunderland",
+   "oran": {
+    "ev": 2.05,
+    "beraberlik": 3.5,
+    "deplasman": 3.6,
+    "ust25": 1.83,
+    "alt25": 2.03
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Brighton",
+   "dep": "Crystal Palace",
+   "oran": {
+    "ev": 1.53,
+    "beraberlik": 4.5,
+    "deplasman": 5.5,
+    "ust25": 1.57,
+    "alt25": 2.38
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Leeds",
+   "dep": "Man United",
+   "oran": {
+    "ev": 2.35,
+    "beraberlik": 3.6,
+    "deplasman": 2.9,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-18",
+   "saat": "16:30",
+   "ev": "Nott'm Forest",
+   "dep": "Arsenal",
+   "oran": {
+    "ev": 6,
+    "beraberlik": 3.9,
+    "deplasman": 1.6,
+    "ust25": 1.93,
+    "alt25": 1.93
+   }
+  },
+  {
+   "lig": "E0",
+   "tarih": "2026-10-19",
+   "saat": "20:00",
+   "ev": "Tottenham",
+   "dep": "Coventry",
+   "oran": {
+    "ev": 1.45,
+    "beraberlik": 4.5,
+    "deplasman": 7,
+    "ust25": 1.57,
+    "alt25": 2.38
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-16",
+   "saat": "20:00",
+   "ev": "Burnley",
+   "dep": "Wolves",
+   "oran": {
+    "ev": 3.2,
+    "beraberlik": 3.5,
+    "deplasman": 2.15,
+    "ust25": 1.83,
+    "alt25": 2.03
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Middlesbrough",
+   "dep": "Cardiff",
+   "oran": {
+    "ev": 1.49,
+    "beraberlik": 4.5,
+    "deplasman": 5.5,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Millwall",
+   "dep": "Lincoln",
+   "oran": {
+    "ev": 1.61,
+    "beraberlik": 3.8,
+    "deplasman": 5,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Watford",
+   "dep": "Charlton",
+   "oran": {
+    "ev": 2.45,
+    "beraberlik": 3.3,
+    "deplasman": 2.7,
+    "ust25": 1.91,
+    "alt25": 1.91
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Birmingham",
+   "dep": "QPR",
+   "oran": {
+    "ev": 1.96,
+    "beraberlik": 3.5,
+    "deplasman": 3.6,
+    "ust25": 1.91,
+    "alt25": 1.91
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Bristol City",
+   "dep": "Sheffield United",
+   "oran": {
+    "ev": 2.01,
+    "beraberlik": 3.5,
+    "deplasman": 3.5,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Derby",
+   "dep": "Stoke",
+   "oran": {
+    "ev": 2.85,
+    "beraberlik": 3.4,
+    "deplasman": 2.3,
+    "ust25": 1.91,
+    "alt25": 1.91
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Norwich",
+   "dep": "Portsmouth",
+   "oran": {
+    "ev": 1.71,
+    "beraberlik": 3.9,
+    "deplasman": 4.33,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Southampton",
+   "dep": "Bolton",
+   "oran": {
+    "ev": 1.45,
+    "beraberlik": 4.75,
+    "deplasman": 6,
+    "ust25": 1.44,
+    "alt25": 2.75
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Swansea",
+   "dep": "West Ham",
+   "oran": {
+    "ev": 3,
+    "beraberlik": 3.75,
+    "deplasman": 2.1,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "West Brom",
+   "dep": "Blackburn",
+   "oran": {
+    "ev": 1.86,
+    "beraberlik": 3.5,
+    "deplasman": 4,
+    "ust25": 2,
+    "alt25": 1.8
+   }
+  },
+  {
+   "lig": "E1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Wrexham",
+   "dep": "Preston",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 3.9,
+    "deplasman": 4.75,
+    "ust25": 1.88,
+    "alt25": 1.98
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-15",
+   "saat": "20:00",
+   "ev": "Mansfield",
+   "dep": "Oxford",
+   "oran": {
+    "ev": 2.25,
+    "beraberlik": 3.5,
+    "deplasman": 2.75,
+    "ust25": 1.75,
+    "alt25": 2.05
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Milton Keynes Dons",
+   "dep": "Luton",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 3.5,
+    "deplasman": 2.1,
+    "ust25": 1.7,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Peterboro",
+   "dep": "Burton",
+   "oran": {
+    "ev": 1.79,
+    "beraberlik": 3.8,
+    "deplasman": 3.8,
+    "ust25": 1.62,
+    "alt25": 2.25
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Barnsley",
+   "dep": "Cambridge",
+   "oran": {
+    "ev": 2.35,
+    "beraberlik": 3.5,
+    "deplasman": 2.65,
+    "ust25": 1.62,
+    "alt25": 2.25
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Bradford",
+   "dep": "Stevenage",
+   "oran": {
+    "ev": 1.86,
+    "beraberlik": 3.4,
+    "deplasman": 4,
+    "ust25": 2.15,
+    "alt25": 1.67
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Leicester",
+   "dep": "Doncaster",
+   "oran": {
+    "ev": 1.79,
+    "beraberlik": 3.8,
+    "deplasman": 3.75,
+    "ust25": 1.53,
+    "alt25": 2.4
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Leyton Orient",
+   "dep": "Blackpool",
+   "oran": {
+    "ev": 2.15,
+    "beraberlik": 3.5,
+    "deplasman": 3,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Plymouth",
+   "dep": "Huddersfield",
+   "oran": {
+    "ev": 2.55,
+    "beraberlik": 3.5,
+    "deplasman": 2.5,
+    "ust25": 1.65,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Sheffield Weds",
+   "dep": "AFC Wimbledon",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 3.8,
+    "deplasman": 4.75,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Stockport",
+   "dep": "Bromley",
+   "oran": {
+    "ev": 1.22,
+    "beraberlik": 6,
+    "deplasman": 10,
+    "ust25": 1.44,
+    "alt25": 2.7
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Wigan",
+   "dep": "Reading",
+   "oran": {
+    "ev": 3.5,
+    "beraberlik": 3.6,
+    "deplasman": 1.91,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "E2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Wycombe",
+   "dep": "Notts County",
+   "oran": {
+    "ev": 1.91,
+    "beraberlik": 3.4,
+    "deplasman": 3.75,
+    "ust25": 1.85,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Fleetwood Town",
+   "dep": "Rotherham",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.3,
+    "deplasman": 3.25,
+    "ust25": 1.9,
+    "alt25": 1.9
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "12:30",
+   "ev": "Shrewsbury",
+   "dep": "Bristol Rvs",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 3.3,
+    "deplasman": 2.2,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Accrington",
+   "dep": "Gillingham",
+   "oran": {
+    "ev": 2.25,
+    "beraberlik": 3.3,
+    "deplasman": 3,
+    "ust25": 1.95,
+    "alt25": 1.85
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Colchester",
+   "dep": "Exeter",
+   "oran": {
+    "ev": 2.05,
+    "beraberlik": 3.4,
+    "deplasman": 3.4,
+    "ust25": 2,
+    "alt25": 1.85
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Crewe",
+   "dep": "Rochdale",
+   "oran": {
+    "ev": 1.79,
+    "beraberlik": 3.75,
+    "deplasman": 4,
+    "ust25": 1.88,
+    "alt25": 1.98
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Grimsby",
+   "dep": "Northampton",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 3.75,
+    "deplasman": 5,
+    "ust25": 1.85,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Newport County",
+   "dep": "York",
+   "oran": {
+    "ev": 3.75,
+    "beraberlik": 3.6,
+    "deplasman": 1.86,
+    "ust25": 1.7,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Oldham",
+   "dep": "Cheltenham",
+   "oran": {
+    "ev": 1.66,
+    "beraberlik": 4,
+    "deplasman": 4.33,
+    "ust25": 1.75,
+    "alt25": 2.05
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Port Vale",
+   "dep": "Chesterfield",
+   "oran": {
+    "ev": 2.57,
+    "beraberlik": 3.4,
+    "deplasman": 2.45,
+    "ust25": 1.85,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Salford",
+   "dep": "Crawley Town",
+   "oran": {
+    "ev": 1.33,
+    "beraberlik": 5,
+    "deplasman": 7,
+    "ust25": 1.44,
+    "alt25": 2.7
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Swindon",
+   "dep": "Walsall",
+   "oran": {
+    "ev": 2.65,
+    "beraberlik": 3.5,
+    "deplasman": 2.4,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "E3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Tranmere",
+   "dep": "Barnet",
+   "oran": {
+    "ev": 3.4,
+    "beraberlik": 3.6,
+    "deplasman": 1.96,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-16",
+   "saat": "19:45",
+   "ev": "Le Mans",
+   "dep": "Toulouse",
+   "oran": {
+    "ev": 3,
+    "beraberlik": 3.5,
+    "deplasman": 2.3,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-17",
+   "saat": "16:15",
+   "ev": "Strasbourg",
+   "dep": "Paris SG",
+   "oran": {
+    "ev": 6.25,
+    "beraberlik": 5.5,
+    "deplasman": 1.4,
+    "ust25": 1.33,
+    "alt25": 3.4
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-17",
+   "saat": "19:45",
+   "ev": "Lille",
+   "dep": "Brest",
+   "oran": {
+    "ev": 1.85,
+    "beraberlik": 3.75,
+    "deplasman": 4,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-17",
+   "saat": "19:45",
+   "ev": "Troyes",
+   "dep": "Lens",
+   "oran": {
+    "ev": 3.8,
+    "beraberlik": 4,
+    "deplasman": 1.85,
+    "ust25": 1.57,
+    "alt25": 2.38
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Angers",
+   "dep": "Marseille",
+   "oran": {
+    "ev": 3.3,
+    "beraberlik": 3.8,
+    "deplasman": 2.05,
+    "ust25": 1.62,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-18",
+   "saat": "16:15",
+   "ev": "Le Havre",
+   "dep": "Auxerre",
+   "oran": {
+    "ev": 2.25,
+    "beraberlik": 3.4,
+    "deplasman": 3.2,
+    "ust25": 1.88,
+    "alt25": 1.98
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-18",
+   "saat": "16:15",
+   "ev": "Lorient",
+   "dep": "Monaco",
+   "oran": {
+    "ev": 3.6,
+    "beraberlik": 3.5,
+    "deplasman": 2.05,
+    "ust25": 1.91,
+    "alt25": 1.91
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-18",
+   "saat": "16:15",
+   "ev": "Paris FC",
+   "dep": "Rennes",
+   "oran": {
+    "ev": 2.25,
+    "beraberlik": 3.6,
+    "deplasman": 3,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "F1",
+   "tarih": "2026-10-18",
+   "saat": "19:45",
+   "ev": "Lyon",
+   "dep": "Nice",
+   "oran": {
+    "ev": 1.67,
+    "beraberlik": 4.1,
+    "deplasman": 4.75,
+    "ust25": 1.62,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Annecy",
+   "dep": "Nancy",
+   "oran": {
+    "ev": 2.9,
+    "beraberlik": 3,
+    "deplasman": 2.25,
+    "ust25": 2,
+    "alt25": 1.8
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Grenoble",
+   "dep": "Boulogne",
+   "oran": {
+    "ev": 2.7,
+    "beraberlik": 2.8,
+    "deplasman": 2.55,
+    "ust25": 2.6,
+    "alt25": 1.48
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Guingamp",
+   "dep": "Pau FC",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.1,
+    "deplasman": 3.1,
+    "ust25": 1.85,
+    "alt25": 1.95
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Laval",
+   "dep": "Clermont",
+   "oran": {
+    "ev": 2.05,
+    "beraberlik": 3,
+    "deplasman": 3.4,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Reims",
+   "dep": "Dijon",
+   "oran": {
+    "ev": 1.67,
+    "beraberlik": 3.5,
+    "deplasman": 4.5,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-17",
+   "saat": "13:00",
+   "ev": "Metz",
+   "dep": "Sochaux",
+   "oran": {
+    "ev": 1.75,
+    "beraberlik": 3.2,
+    "deplasman": 4.2,
+    "ust25": 1.95,
+    "alt25": 1.85
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-17",
+   "saat": "13:00",
+   "ev": "Nantes",
+   "dep": "Dunkerque",
+   "oran": {
+    "ev": 1.6,
+    "beraberlik": 3.5,
+    "deplasman": 5,
+    "ust25": 1.75,
+    "alt25": 2.05
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-17",
+   "saat": "19:00",
+   "ev": "Red Star",
+   "dep": "St Etienne",
+   "oran": {
+    "ev": 3,
+    "beraberlik": 3.1,
+    "deplasman": 2.2,
+    "ust25": 1.85,
+    "alt25": 1.95
+   }
+  },
+  {
+   "lig": "F2",
+   "tarih": "2026-10-19",
+   "saat": "19:45",
+   "ev": "Rodez",
+   "dep": "Montpellier",
+   "oran": {
+    "ev": 2.63,
+    "beraberlik": 3.3,
+    "deplasman": 2.25,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Levadeiakos",
+   "dep": "Volos NFC",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.3,
+    "deplasman": 3.4,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Kalamata",
+   "dep": "OFI Crete",
+   "oran": {
+    "ev": 2.7,
+    "beraberlik": 3.1,
+    "deplasman": 2.57,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-18",
+   "saat": "15:00",
+   "ev": "Panetolikos",
+   "dep": "Olympiakos",
+   "oran": {
+    "ev": 10,
+    "beraberlik": 4.75,
+    "deplasman": 1.3,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-18",
+   "saat": "15:30",
+   "ev": "Panathinaikos",
+   "dep": "Asteras Tripolis",
+   "oran": {
+    "ev": 1.22,
+    "beraberlik": 5.5,
+    "deplasman": 12,
+    "ust25": 1.65,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-18",
+   "saat": "18:00",
+   "ev": "Kifisia",
+   "dep": "Aris",
+   "oran": {
+    "ev": 3,
+    "beraberlik": 3.3,
+    "deplasman": 2.3,
+    "ust25": 2.03,
+    "alt25": 1.78
+   }
+  },
+  {
+   "lig": "G1",
+   "tarih": "2026-10-18",
+   "saat": "19:00",
+   "ev": "PAOK",
+   "dep": "Iraklis",
+   "oran": {
+    "ev": 1.22,
+    "beraberlik": 6,
+    "deplasman": 10,
+    "ust25": 1.57,
+    "alt25": 2.35
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-16",
+   "saat": "19:45",
+   "ev": "Frosinone",
+   "dep": "Sassuolo",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3.9,
+    "deplasman": 2.75,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Venezia",
+   "dep": "Napoli",
+   "oran": {
+    "ev": 5,
+    "beraberlik": 3.9,
+    "deplasman": 1.7,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-17",
+   "saat": "17:00",
+   "ev": "Bologna",
+   "dep": "Inter",
+   "oran": {
+    "ev": 5.5,
+    "beraberlik": 4,
+    "deplasman": 1.62,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-17",
+   "saat": "19:45",
+   "ev": "Roma",
+   "dep": "Genoa",
+   "oran": {
+    "ev": 1.45,
+    "beraberlik": 4.5,
+    "deplasman": 7,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-18",
+   "saat": "11:30",
+   "ev": "Udinese",
+   "dep": "Lecce",
+   "oran": {
+    "ev": 1.85,
+    "beraberlik": 3.5,
+    "deplasman": 4.33,
+    "ust25": 2.05,
+    "alt25": 1.8
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Fiorentina",
+   "dep": "Como",
+   "oran": {
+    "ev": 3.5,
+    "beraberlik": 3.6,
+    "deplasman": 2.05,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-18",
+   "saat": "17:00",
+   "ev": "Milan",
+   "dep": "Atalanta",
+   "oran": {
+    "ev": 1.8,
+    "beraberlik": 3.75,
+    "deplasman": 4.33,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-18",
+   "saat": "19:45",
+   "ev": "Juventus",
+   "dep": "Lazio",
+   "oran": {
+    "ev": 1.67,
+    "beraberlik": 3.8,
+    "deplasman": 5.25,
+    "ust25": 1.98,
+    "alt25": 1.88
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-19",
+   "saat": "17:30",
+   "ev": "Monza",
+   "dep": "Cagliari",
+   "oran": {
+    "ev": 2.38,
+    "beraberlik": 3.1,
+    "deplasman": 3.1,
+    "ust25": 2.1,
+    "alt25": 1.73
+   }
+  },
+  {
+   "lig": "I1",
+   "tarih": "2026-10-19",
+   "saat": "19:45",
+   "ev": "Parma",
+   "dep": "Torino",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 3.1,
+    "deplasman": 2.45,
+    "ust25": 2.38,
+    "alt25": 1.57
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-16",
+   "saat": "19:30",
+   "ev": "Verona",
+   "dep": "Catanzaro",
+   "oran": {
+    "ev": 1.76,
+    "beraberlik": 3.9,
+    "deplasman": 4.33,
+    "ust25": 1.73,
+    "alt25": 2.08
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Ascoli",
+   "dep": "Empoli",
+   "oran": {
+    "ev": 1.81,
+    "beraberlik": 3.3,
+    "deplasman": 4,
+    "ust25": 1.9,
+    "alt25": 1.9
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Benevento",
+   "dep": "Vicenza",
+   "oran": {
+    "ev": 1.96,
+    "beraberlik": 3.25,
+    "deplasman": 3.75,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Carrarese",
+   "dep": "Modena",
+   "oran": {
+    "ev": 4.5,
+    "beraberlik": 3.4,
+    "deplasman": 1.76,
+    "ust25": 1.85,
+    "alt25": 1.95
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Padova",
+   "dep": "Virtus Entella",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3,
+    "deplasman": 3,
+    "ust25": 2.15,
+    "alt25": 1.67
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "16:15",
+   "ev": "Mantova",
+   "dep": "Palermo",
+   "oran": {
+    "ev": 3.25,
+    "beraberlik": 3.3,
+    "deplasman": 2.1,
+    "ust25": 1.75,
+    "alt25": 2.05
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-17",
+   "saat": "18:30",
+   "ev": "Pisa",
+   "dep": "Cremonese",
+   "oran": {
+    "ev": 2.15,
+    "beraberlik": 3.1,
+    "deplasman": 3.3,
+    "ust25": 2.1,
+    "alt25": 1.7
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Juve Stabia",
+   "dep": "Sudtirol",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.1,
+    "deplasman": 3.4,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-18",
+   "saat": "16:15",
+   "ev": "Cesena",
+   "dep": "Avellino",
+   "oran": {
+    "ev": 2.2,
+    "beraberlik": 3.2,
+    "deplasman": 3.2,
+    "ust25": 1.9,
+    "alt25": 1.9
+   }
+  },
+  {
+   "lig": "I2",
+   "tarih": "2026-10-18",
+   "saat": "18:30",
+   "ev": "Sampdoria",
+   "dep": "Arezzo",
+   "oran": {
+    "ev": 1.71,
+    "beraberlik": 3.4,
+    "deplasman": 4.75,
+    "ust25": 2,
+    "alt25": 1.8
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-16",
+   "saat": "19:00",
+   "ev": "Heerenveen",
+   "dep": "Excelsior",
+   "oran": {
+    "ev": 1.53,
+    "beraberlik": 4.5,
+    "deplasman": 5.5,
+    "ust25": 1.4,
+    "alt25": 2.88
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-17",
+   "saat": "15:30",
+   "ev": "Den Haag",
+   "dep": "PSV Eindhoven",
+   "oran": {
+    "ev": 8,
+    "beraberlik": 6.25,
+    "deplasman": 1.29,
+    "ust25": 1.25,
+    "alt25": 4
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-17",
+   "saat": "19:00",
+   "ev": "Telstar",
+   "dep": "Feyenoord",
+   "oran": {
+    "ev": 7.5,
+    "beraberlik": 5.5,
+    "deplasman": 1.33,
+    "ust25": 1.33,
+    "alt25": 3.4
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-17",
+   "saat": "20:00",
+   "ev": "Sparta Rotterdam",
+   "dep": "Willem II",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 4.33,
+    "deplasman": 4.75,
+    "ust25": 1.48,
+    "alt25": 2.6
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-18",
+   "saat": "11:15",
+   "ev": "Zwolle",
+   "dep": "Go Ahead Eagles",
+   "oran": {
+    "ev": 3.5,
+    "beraberlik": 3.9,
+    "deplasman": 1.95,
+    "ust25": 1.44,
+    "alt25": 2.7
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-18",
+   "saat": "13:30",
+   "ev": "Cambuur",
+   "dep": "AZ Alkmaar",
+   "oran": {
+    "ev": 6,
+    "beraberlik": 4.75,
+    "deplasman": 1.48,
+    "ust25": 1.36,
+    "alt25": 3.1
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-18",
+   "saat": "15:45",
+   "ev": "Groningen",
+   "dep": "Ajax",
+   "oran": {
+    "ev": 3.6,
+    "beraberlik": 4,
+    "deplasman": 1.91,
+    "ust25": 1.36,
+    "alt25": 3.1
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-18",
+   "saat": "19:00",
+   "ev": "Nijmegen",
+   "dep": "For Sittard",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 4.33,
+    "deplasman": 5,
+    "ust25": 1.4,
+    "alt25": 2.88
+   }
+  },
+  {
+   "lig": "N1",
+   "tarih": "2026-10-18",
+   "saat": "19:00",
+   "ev": "Twente",
+   "dep": "Utrecht",
+   "oran": {
+    "ev": 1.33,
+    "beraberlik": 5.5,
+    "deplasman": 8.5,
+    "ust25": 1.33,
+    "alt25": 3.4
+   }
+  },
+  {
+   "lig": "P1",
+   "tarih": "2026-10-19",
+   "saat": "20:15",
+   "ev": "Sp Braga",
+   "dep": "Gil Vicente",
+   "oran": {
+    "ev": 1.56,
+    "beraberlik": 3.7,
+    "deplasman": 5.75,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Aberdeen",
+   "dep": "St Mirren",
+   "oran": {
+    "ev": 1.79,
+    "beraberlik": 3.75,
+    "deplasman": 4,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Hibernian",
+   "dep": "Falkirk",
+   "oran": {
+    "ev": 1.57,
+    "beraberlik": 4,
+    "deplasman": 5,
+    "ust25": 1.73,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Kilmarnock",
+   "dep": "Motherwell",
+   "oran": {
+    "ev": 3.25,
+    "beraberlik": 3.75,
+    "deplasman": 2.01,
+    "ust25": 1.62,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "St Johnstone",
+   "dep": "Dundee United",
+   "oran": {
+    "ev": 2.57,
+    "beraberlik": 3.5,
+    "deplasman": 2.5,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-17",
+   "saat": "20:00",
+   "ev": "Dundee",
+   "dep": "Rangers",
+   "oran": {
+    "ev": 7.5,
+    "beraberlik": 5,
+    "deplasman": 1.35,
+    "ust25": 1.53,
+    "alt25": 2.5
+   }
+  },
+  {
+   "lig": "SC0",
+   "tarih": "2026-10-18",
+   "saat": "15:00",
+   "ev": "Celtic",
+   "dep": "Hearts",
+   "oran": {
+    "ev": 1.53,
+    "beraberlik": 4.5,
+    "deplasman": 5,
+    "ust25": 1.53,
+    "alt25": 2.5
+   }
+  },
+  {
+   "lig": "SC1",
+   "tarih": "2026-10-16",
+   "saat": "19:30",
+   "ev": "Ayr",
+   "dep": "Partick",
+   "oran": {
+    "ev": 4.2,
+    "beraberlik": 3.7,
+    "deplasman": 1.65,
+    "ust25": 1.7,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "SC1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Dunfermline",
+   "dep": "Livingston",
+   "oran": {
+    "ev": 2.5,
+    "beraberlik": 3.3,
+    "deplasman": 2.4,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "SC1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Inverness C",
+   "dep": "Arbroath",
+   "oran": {
+    "ev": 1.48,
+    "beraberlik": 3.8,
+    "deplasman": 5.75,
+    "ust25": 1.9,
+    "alt25": 1.9
+   }
+  },
+  {
+   "lig": "SC1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Morton",
+   "dep": "Queens Park",
+   "oran": {
+    "ev": 2.5,
+    "beraberlik": 3.2,
+    "deplasman": 2.5,
+    "ust25": 2.08,
+    "alt25": 1.73
+   }
+  },
+  {
+   "lig": "SC1",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Stenhousemuir",
+   "dep": "Raith Rvs",
+   "oran": {
+    "ev": 3.1,
+    "beraberlik": 3.1,
+    "deplasman": 2.15,
+    "ust25": 2.2,
+    "alt25": 1.65
+   }
+  },
+  {
+   "lig": "SC2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "East Fife",
+   "dep": "Alloa",
+   "oran": {
+    "ev": 2.15,
+    "beraberlik": 3.25,
+    "deplasman": 3,
+    "ust25": 1.98,
+    "alt25": 1.83
+   }
+  },
+  {
+   "lig": "SC2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "East Kilbride",
+   "dep": "Montrose",
+   "oran": {
+    "ev": 1.62,
+    "beraberlik": 3.75,
+    "deplasman": 4.33,
+    "ust25": 1.57,
+    "alt25": 2.35
+   }
+  },
+  {
+   "lig": "SC2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Peterhead",
+   "dep": "Cove Rangers",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3.4,
+    "deplasman": 2.6,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "SC2",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Queen of Sth",
+   "dep": "Ross County",
+   "oran": {
+    "ev": 7.5,
+    "beraberlik": 5.5,
+    "deplasman": 1.25,
+    "ust25": 1.36,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "SC2",
+   "tarih": "2026-10-17",
+   "saat": "17:30",
+   "ev": "Airdrie Utd",
+   "dep": "Hamilton",
+   "oran": {
+    "ev": 3.4,
+    "beraberlik": 3.4,
+    "deplasman": 1.91,
+    "ust25": 1.75,
+    "alt25": 2.05
+   }
+  },
+  {
+   "lig": "SC3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Clyde",
+   "dep": "Annan Athletic",
+   "oran": {
+    "ev": 1.67,
+    "beraberlik": 3.7,
+    "deplasman": 3.9,
+    "ust25": 1.57,
+    "alt25": 2.35
+   }
+  },
+  {
+   "lig": "SC3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Dumbarton",
+   "dep": "Stirling",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3.6,
+    "deplasman": 2.5,
+    "ust25": 1.53,
+    "alt25": 2.38
+   }
+  },
+  {
+   "lig": "SC3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Elgin",
+   "dep": "Edinburgh City",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.5,
+    "deplasman": 2.88,
+    "ust25": 1.6,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "SC3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Kelty Hearts",
+   "dep": "Forfar",
+   "oran": {
+    "ev": 1.95,
+    "beraberlik": 3.4,
+    "deplasman": 3.1,
+    "ust25": 1.83,
+    "alt25": 1.98
+   }
+  },
+  {
+   "lig": "SC3",
+   "tarih": "2026-10-17",
+   "saat": "15:00",
+   "ev": "Spartans",
+   "dep": "Stranraer",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.5,
+    "deplasman": 2.88,
+    "ust25": 1.6,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-16",
+   "saat": "20:00",
+   "ev": "La Coruna",
+   "dep": "Levante",
+   "oran": {
+    "ev": 2.05,
+    "beraberlik": 3.5,
+    "deplasman": 3.6,
+    "ust25": 1.93,
+    "alt25": 1.93
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-17",
+   "saat": "13:00",
+   "ev": "Espanol",
+   "dep": "Ath Madrid",
+   "oran": {
+    "ev": 5,
+    "beraberlik": 4,
+    "deplasman": 1.7,
+    "ust25": 1.83,
+    "alt25": 2.03
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-17",
+   "saat": "15:15",
+   "ev": "Villarreal",
+   "dep": "Elche",
+   "oran": {
+    "ev": 1.45,
+    "beraberlik": 5,
+    "deplasman": 6,
+    "ust25": 1.44,
+    "alt25": 2.75
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-17",
+   "saat": "17:30",
+   "ev": "Betis",
+   "dep": "Barcelona",
+   "oran": {
+    "ev": 5.75,
+    "beraberlik": 5.75,
+    "deplasman": 1.42,
+    "ust25": 1.25,
+    "alt25": 4
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-17",
+   "saat": "20:00",
+   "ev": "Valencia",
+   "dep": "Ath Bilbao",
+   "oran": {
+    "ev": 3.4,
+    "beraberlik": 3.3,
+    "deplasman": 2.2,
+    "ust25": 2.1,
+    "alt25": 1.73
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-18",
+   "saat": "13:00",
+   "ev": "Osasuna",
+   "dep": "Santander",
+   "oran": {
+    "ev": 2,
+    "beraberlik": 3.6,
+    "deplasman": 3.7,
+    "ust25": 1.67,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-18",
+   "saat": "15:15",
+   "ev": "Celta",
+   "dep": "Alaves",
+   "oran": {
+    "ev": 2.1,
+    "beraberlik": 3.4,
+    "deplasman": 3.5,
+    "ust25": 2.2,
+    "alt25": 1.67
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-18",
+   "saat": "17:30",
+   "ev": "Malaga",
+   "dep": "Sociedad",
+   "oran": {
+    "ev": 3.3,
+    "beraberlik": 3.5,
+    "deplasman": 2.15,
+    "ust25": 1.8,
+    "alt25": 2
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-18",
+   "saat": "20:00",
+   "ev": "Real Madrid",
+   "dep": "Sevilla",
+   "oran": {
+    "ev": 1.25,
+    "beraberlik": 7,
+    "deplasman": 9.5,
+    "ust25": 1.4,
+    "alt25": 3
+   }
+  },
+  {
+   "lig": "SP1",
+   "tarih": "2026-10-19",
+   "saat": "20:00",
+   "ev": "Getafe",
+   "dep": "Vallecano",
+   "oran": {
+    "ev": 2.9,
+    "beraberlik": 3,
+    "deplasman": 2.7,
+    "ust25": 2.63,
+    "alt25": 1.5
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-16",
+   "saat": "19:30",
+   "ev": "Leganes",
+   "dep": "Cordoba",
+   "oran": {
+    "ev": 2.45,
+    "beraberlik": 3.5,
+    "deplasman": 2.65,
+    "ust25": 1.65,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-17",
+   "saat": "13:00",
+   "ev": "Sociedad B",
+   "dep": "Almeria",
+   "oran": {
+    "ev": 3.4,
+    "beraberlik": 3.4,
+    "deplasman": 2.05,
+    "ust25": 1.73,
+    "alt25": 2.08
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-17",
+   "saat": "15:15",
+   "ev": "Eibar",
+   "dep": "Mallorca",
+   "oran": {
+    "ev": 2.45,
+    "beraberlik": 3.3,
+    "deplasman": 2.75,
+    "ust25": 2.15,
+    "alt25": 1.67
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-17",
+   "saat": "17:30",
+   "ev": "Sp Gijon",
+   "dep": "Albacete",
+   "oran": {
+    "ev": 1.91,
+    "beraberlik": 3.5,
+    "deplasman": 3.9,
+    "ust25": 1.88,
+    "alt25": 1.93
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-17",
+   "saat": "20:00",
+   "ev": "Las Palmas",
+   "dep": "Castellon",
+   "oran": {
+    "ev": 3.6,
+    "beraberlik": 3.6,
+    "deplasman": 1.96,
+    "ust25": 1.67,
+    "alt25": 2.15
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-18",
+   "saat": "13:00",
+   "ev": "Ceuta",
+   "dep": "Oviedo",
+   "oran": {
+    "ev": 3,
+    "beraberlik": 3.2,
+    "deplasman": 2.32,
+    "ust25": 2.08,
+    "alt25": 1.73
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-18",
+   "saat": "15:15",
+   "ev": "Granada",
+   "dep": "Cadiz",
+   "oran": {
+    "ev": 1.81,
+    "beraberlik": 3.5,
+    "deplasman": 4.2,
+    "ust25": 2.08,
+    "alt25": 1.73
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-18",
+   "saat": "17:30",
+   "ev": "Girona",
+   "dep": "Andorra",
+   "oran": {
+    "ev": 1.79,
+    "beraberlik": 3.7,
+    "deplasman": 4.1,
+    "ust25": 1.7,
+    "alt25": 2.1
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-18",
+   "saat": "17:30",
+   "ev": "Valladolid",
+   "dep": "Eldense",
+   "oran": {
+    "ev": 1.86,
+    "beraberlik": 3.3,
+    "deplasman": 4.2,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-18",
+   "saat": "20:00",
+   "ev": "Burgos",
+   "dep": "Sabadell",
+   "oran": {
+    "ev": 2.65,
+    "beraberlik": 2.85,
+    "deplasman": 2.85,
+    "ust25": 2.5,
+    "alt25": 1.5
+   }
+  },
+  {
+   "lig": "SP2",
+   "tarih": "2026-10-19",
+   "saat": "19:30",
+   "ev": "Celta B",
+   "dep": "Tenerife",
+   "oran": {
+    "ev": 2.57,
+    "beraberlik": 3.1,
+    "deplasman": 2.7,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-16",
+   "saat": "18:00",
+   "ev": "Corum",
+   "dep": "Rizespor",
+   "oran": {
+    "ev": 1.96,
+    "beraberlik": 3.5,
+    "deplasman": 3.25,
+    "ust25": 1.65,
+    "alt25": 2.2
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-17",
+   "saat": "11:30",
+   "ev": "Erzurumspor",
+   "dep": "Eyupspor",
+   "oran": {
+    "ev": 1.56,
+    "beraberlik": 3.6,
+    "deplasman": 5.5,
+    "ust25": 2.05,
+    "alt25": 1.75
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Amedspor",
+   "dep": "Konyaspor",
+   "oran": {
+    "ev": 1.76,
+    "beraberlik": 3.4,
+    "deplasman": 4.1,
+    "ust25": 1.93,
+    "alt25": 1.88
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-17",
+   "saat": "14:00",
+   "ev": "Genclerbirligi",
+   "dep": "Galatasaray",
+   "oran": {
+    "ev": 7.5,
+    "beraberlik": 5.25,
+    "deplasman": 1.27,
+    "ust25": 1.48,
+    "alt25": 2.6
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-17",
+   "saat": "17:00",
+   "ev": "Fenerbahce",
+   "dep": "Alanyaspor",
+   "oran": {
+    "ev": 1.25,
+    "beraberlik": 5,
+    "deplasman": 8.5,
+    "ust25": 1.53,
+    "alt25": 2.4
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-18",
+   "saat": "11:30",
+   "ev": "Kasimpasa",
+   "dep": "Samsunspor",
+   "oran": {
+    "ev": 2.35,
+    "beraberlik": 3.3,
+    "deplasman": 2.65,
+    "ust25": 1.98,
+    "alt25": 1.83
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-18",
+   "saat": "14:00",
+   "ev": "Kocaelispor",
+   "dep": "Goztep",
+   "oran": {
+    "ev": 2.7,
+    "beraberlik": 3.3,
+    "deplasman": 2.35,
+    "ust25": 1.9,
+    "alt25": 1.9
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-18",
+   "saat": "17:00",
+   "ev": "Buyuksehyr",
+   "dep": "Gaziantep",
+   "oran": {
+    "ev": 1.61,
+    "beraberlik": 3.9,
+    "deplasman": 4.5,
+    "ust25": 1.6,
+    "alt25": 2.3
+   }
+  },
+  {
+   "lig": "T1",
+   "tarih": "2026-10-19",
+   "saat": "18:00",
+   "ev": "Trabzonspor",
+   "dep": "Besiktas",
+   "oran": {
+    "ev": 2.75,
+    "beraberlik": 3.5,
+    "deplasman": 2.15,
+    "ust25": 1.53,
+    "alt25": 2.4
+   }
+  }
+ ]
+}
