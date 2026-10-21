@@ -42,23 +42,50 @@ jobs:
           const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 " +
                             "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36";
           
-          async function al(url, saniye = 15) {
+          const bekle = (ms) => new Promise((r) => setTimeout(r, ms));
+          
+          /* TEKRAR DENEMELI CEKME.
+             20 Ekim: betexplorer bir gunde cok istek alinca HTTP 429 dondurdu ve
+             kosu bulteni bos birakti. Tek denemede pes etmek, gunluk isin tamamini
+             gecici bir tikanmaya feda etmek demek. Artik:
+               · 429 ve 5xx  -> bekle ve tekrar dene (artan sure)
+               · ag hatasi   -> tekrar dene
+               · 404 / 403   -> tekrar DENEME, kalici cevap
+             Bekleme sureleri 8 / 20 / 45 saniye: toplamda ~1,5 dakika, is akisinin
+             15 dakikalik siniri icinde rahat kaliyor. */
+          async function al(url, saniye = 15, deneme = 4) {
             const t0 = Date.now();
-            try {
-              const r = await fetch(url, {
-                headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
-                redirect: "follow", signal: AbortSignal.timeout(saniye * 1000)
-              });
-              const metin = await r.text();
-              const ms = Date.now() - t0, kb = Math.round(metin.length / 1024);
-              if (!r.ok) return { durum: `HTTP ${r.status}`, ms, kb };
-              if (/just a moment|enable javascript and cookies|attention required/i.test(metin))
-                return { durum: "ENGELLENDI", ms, kb };
-              return { ok: true, metin, ms, kb, durum: "ACILDI" };
-            } catch (e) {
-              return { durum: /abort|timeout/i.test(e.name + e.message) ? "ZAMAN ASIMI" : "AG HATASI",
-                       detay: e.message, ms: Date.now() - t0 };
+            const bekleme = [8000, 20000, 45000];
+            let sonDurum = "bilinmiyor";
+          
+            for (let i = 0; i < deneme; i++) {
+              try {
+                const r = await fetch(url, {
+                  headers: { "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en-GB,en;q=0.9" },
+                  redirect: "follow", signal: AbortSignal.timeout(saniye * 1000)
+                });
+                const metin = await r.text();
+                const ms = Date.now() - t0, kb = Math.round(metin.length / 1024);
+          
+                if (r.ok) {
+                  if (/just a moment|enable javascript and cookies|attention required/i.test(metin))
+                    return { durum: "ENGELLENDI", ms, kb };
+                  return { ok: true, metin, ms, kb, deneme: i + 1,
+                           durum: i === 0 ? "ACILDI" : `ACILDI (${i + 1}. denemede)` };
+                }
+          
+                sonDurum = `HTTP ${r.status}`;
+                /* Kalici hatalar icin tekrar denemenin anlami yok */
+                if (r.status === 404 || r.status === 403 || r.status === 410)
+                  return { durum: sonDurum, ms, kb };
+                /* 429 ve 5xx: gecici olabilir, bekle ve tekrar dene */
+                if (i < deneme - 1) await bekle(bekleme[i]);
+              } catch (e) {
+                sonDurum = /abort|timeout/i.test(e.name + e.message) ? "ZAMAN ASIMI" : "AG HATASI";
+                if (i < deneme - 1) await bekle(bekleme[i]);
+              }
             }
+            return { durum: `${sonDurum} (${deneme} denemede de alinamadi)`, ms: Date.now() - t0 };
           }
           
           const VARLIK = {
@@ -108,7 +135,7 @@ jobs:
           const ESANLAM = {
             "wolves": "wolverhampton", "man city": "manchester city", "man utd": "manchester united",
             "man united": "manchester united", "spurs": "tottenham", "psg": "paris saint germain",
-            "paris sg": "paris saint germain", "inter": "internazionale", "b munich": "bayern munich",
+            "paris sg": "paris saint germain", "b munich": "bayern munich",
             "bayern": "bayern munich", "dortmund": "borussia dortmund", "atletico": "atletico madrid",
             "ath madrid": "atletico madrid", "atl madrid": "atletico madrid", "leeds": "leeds united",
             "newcastle": "newcastle united", "forest": "nottingham forest", "nottm forest": "nottingham forest",
@@ -117,7 +144,9 @@ jobs:
             "stockport": "stockport county", "york": "york city", "accrington": "accrington stanley",
             "bodo glimt": "bodo glimt", "sociedad": "real sociedad", "betis": "real betis",
             "leverkusen": "bayer leverkusen", "gladbach": "borussia monchengladbach",
-            "eintracht": "eintracht frankfurt", "olympiacos": "olympiakos"
+            "eintracht": "eintracht frankfurt", "olympiacos": "olympiakos",
+            "athletic club": "athletic bilbao", "ath bilbao": "athletic bilbao",
+            "atletico madrid": "atletico madrid", "ath madrid": "atletico madrid"
           };
           
           function adNorm(s) {
@@ -126,7 +155,24 @@ jobs:
               .replace(/[çğışöü]/g, (c) => ({ "ç": "c", "ğ": "g", "ı": "i", "ş": "s", "ö": "o", "ü": "u" }[c]))
               .replace(/\b(fc|sk|ac|as|cf|sc|afc|bk|if|fk)\b/g, " ")
               .replace(/[^a-z0-9]+/g, " ").trim()
+              /* "Man Utd" ile "Manchester Utd" ayni takim; biri ESANLAM ile
+                 "manchester united"e cevrilip oteki "utd" kalinca eslesme kopuyordu
+                 (21 Ekim: Como - Man Utd "oran bulunamadi" diye elendi). */
+              .replace(/\butd\b/g, "united")
               .replace(/^.+$/, (x) => ESANLAM[x] || x);
+          }
+          
+          /* Genc takim / rezerv / kadin maci mi?
+             20-21 Ekim: bultende hem "Como U19 - Manchester Utd U19" hem
+             "Como - Manchester Utd" vardi. Ad eslestirmesi gevsetilince buyuk takimin
+             bahsi GENC TAKIM macinin orani ve saatiyle yazilabilirdi. Bu maclara
+             zaten bahis yazmiyoruz; eslestirmeden de bulten'den de cikarilirlar. */
+          function gencTakim(ev, dep) {
+            const t = `${ev} ${dep}`.toLocaleLowerCase("tr");
+            return /\bu\s?-?(1[5-9]|2[0-3])\b/.test(t) ||
+                   /\b(ii|b)\s*$/.test(String(ev).trim().toLowerCase()) ||
+                   /\bjong\b|\breserves?\b|\bacademy\b|\byouth\b|\bprimavera\b/.test(t) ||
+                   /\b(women|ladies|kadin|feminine|frauen)\b/.test(t);
           }
           
           /* ========================= olbg.mjs ========================= */
@@ -765,7 +811,13 @@ jobs:
             }
           
             for (const gun of gunler) {
-              const r = await al(`https://www.soccerbase.com/matches/results.sd?date=${gun}`);
+              /* Bugun ve dun KRITIK: tekrar dene (varsayilan 4 deneme).
+                 Geri dolum gunleri degil — onlar icin tek deneme yeter, basarisiz
+                 olan gun "tarandi" sayilmaz ve bir sonraki kosuda tekrar denenir.
+                 Boylece 22 gunluk dolum, kotu bir gunde 15 dakikalik siniri asmaz. */
+              const kritik = gunler.indexOf(gun) < 2;
+              const r = await al(`https://www.soccerbase.com/matches/results.sd?date=${gun}`,
+                                 15, kritik ? 4 : 1);
               if (gunler.indexOf(gun) < 2) rapor.kaynaklar[`soccerbase ${gun}`] = r.durum;
               if (!r.ok) continue;
               const { maclar } = soccerbaseAyristir(metneCevir(r.metin));
@@ -776,7 +828,7 @@ jobs:
                 yeniSkor++;
               }
               /* Bugunu "tarandi" sayma — gun bitmeden maclar oynaniyor */
-              if (gun !== tsiGun(SIMDI, 0) && !tarandi.has(gun)) { tarandi.add(gun); }
+              if (gun !== tsiGun(SIMDI, 0) && !tarandi.has(gun)) tarandi.add(gun);
             }
             sonucGecmis.taranan = [...tarandi].sort();
             rapor.taranmisGun = sonucGecmis.taranan.length;
@@ -789,8 +841,18 @@ jobs:
             /* ---------- 2) ORANLAR ---------- */
             const be = await al("https://www.betexplorer.com/next/soccer/");
             rapor.kaynaklar.betexplorer = be.durum;
-            const oranlar = be.ok ? betexplorerAyristir(be.metin) : { maclar: [], atlanan: [] };
+            const oranHam = be.ok ? betexplorerAyristir(be.metin) : { maclar: [], atlanan: [] };
+            /* GENC/REZERV/KADIN maclarini listeden cikar.
+               21 Ekim: bultende hem "Como U19 - Manchester Utd U19" hem
+               "Como - Manchester Utd" vardi. Ad eslestirmesi dogru calissa bile
+               buyuk takimin bahsi yanlislikla genc takim macinin orani ve SAATIYLE
+               yazilabilirdi — baslamis maca bahis yazma riski dahil. Bu maclara
+               zaten bahis yazmiyoruz, bultende de yer kaplamasinlar. */
+            const gencler = oranHam.maclar.filter(m => gencTakim(m.ev, m.deplasman));
+            const oranlar = { maclar: oranHam.maclar.filter(m => !gencTakim(m.ev, m.deplasman)),
+                              atlanan: oranHam.atlanan };
             rapor.oranMacSayisi = oranlar.maclar.length;
+            rapor.gencMacAyiklandi = gencler.length;
           
             /* ---------- 3) KALABALIK ---------- */
             const ol = await al("https://www.olbg.com/betting-tips/Football/1");
