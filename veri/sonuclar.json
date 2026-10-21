@@ -74969,9 +74969,27 @@
    "evGol": 3,
    "depGol": 2,
    "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Como",
+   "deplasman": "Man Utd",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Lille",
+   "deplasman": "Galatasaray",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
   }
  ],
- "guncellendi": "2026-10-21T13:16:38.543Z",
+ "guncellendi": "2026-10-21T19:07:33.623Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
