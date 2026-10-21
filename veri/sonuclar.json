@@ -74726,9 +74726,81 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "La Equidad",
+   "deplasman": "Fortaleza CEIF",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Cucuta Deportivo",
+   "deplasman": "Atletico Nacional",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Millonarios",
+   "deplasman": "Once Caldas",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Guadalajara",
+   "deplasman": "Necaxa",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Atletico San Luis",
+   "deplasman": "Queretaro",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "FC Juarez",
+   "deplasman": "Atlante",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Tigres",
+   "deplasman": "Leon",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Montedio Yamagata",
+   "deplasman": "Consadole Sapporo",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
   }
  ],
- "guncellendi": "2026-10-21T00:42:18.075Z",
+ "guncellendi": "2026-10-21T07:56:54.204Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
