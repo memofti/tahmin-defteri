@@ -74798,9 +74798,180 @@
    "evGol": 0,
    "depGol": 2,
    "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Ventforet Kofu",
+   "deplasman": "Yokohama FC",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Shonan Bellmare",
+   "deplasman": "Iwaki",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Tokushima Vortis",
+   "deplasman": "Vanraure Hachinohe",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Omiya Ardija",
+   "deplasman": "Kataller Toyama",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Albirex Niigata",
+   "deplasman": "Sagan Tosu",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Vegalta Sendai",
+   "deplasman": "Imabari",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Tegevajaro Miyazaki",
+   "deplasman": "Blaublitz Akita",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Tochigi City",
+   "deplasman": "Fujieda MYFC",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J2 League",
+   "ev": "Jubilo Iwata",
+   "deplasman": "Oita Trinita",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "V-Varen Nagasaki",
+   "deplasman": "Sanf Hiroshima",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Fagiano Okayama",
+   "deplasman": "Mito HollyHock",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Kawasaki F",
+   "deplasman": "Vissel Kobe",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Shimizu S-Pulse",
+   "deplasman": "Machida Zelvia",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Avispa Fukuoka",
+   "deplasman": "Gamba Osaka",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Nagoya Grampus",
+   "deplasman": "Cerezo Osaka",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Kyoto Sanga",
+   "deplasman": "Kashima Antlers",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Yokohama F. Marinos",
+   "deplasman": "Tokyo Verdy",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "FC Tokyo",
+   "deplasman": "Kashiwa Reysol",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Japanese J1 League",
+   "ev": "Urawa Red Diamonds",
+   "deplasman": "JEF United",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
   }
  ],
- "guncellendi": "2026-10-21T07:56:54.204Z",
+ "guncellendi": "2026-10-21T13:16:38.543Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
