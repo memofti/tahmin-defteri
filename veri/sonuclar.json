@@ -74987,9 +74987,108 @@
    "evGol": 2,
    "depGol": 4,
    "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Club Brugge",
+   "deplasman": "Lens",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Inter",
+   "deplasman": "Shakhtar",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Real Betis",
+   "deplasman": "Feyenoord",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Real Madrid",
+   "deplasman": "RB Leipzig",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Sporting",
+   "deplasman": "LASK Linz",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "Aston Villa",
+   "deplasman": "Viking",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "European Cup",
+   "ev": "B Munich",
+   "deplasman": "Arsenal",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Football League One",
+   "ev": "Reading",
+   "deplasman": "Leyton Orient",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Spanish La Liga",
+   "ev": "Levante",
+   "deplasman": "Ath Bilbao",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Ryman Premier",
+   "ev": "AFC Whyteleafe",
+   "deplasman": "Burgess Hill",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-21",
+   "lig": "Unibond Premier",
+   "ev": "Avro",
+   "deplasman": "Ashton Utd",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
   }
  ],
- "guncellendi": "2026-10-21T19:07:33.623Z",
+ "guncellendi": "2026-10-22T00:45:59.728Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -75110,6 +75209,7 @@
   "2026-10-17",
   "2026-10-18",
   "2026-10-19",
-  "2026-10-20"
+  "2026-10-20",
+  "2026-10-21"
  ]
 }
