@@ -75086,9 +75086,252 @@
    "evGol": 3,
    "depGol": 2,
    "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Sturm Graz",
+   "deplasman": "Marseille",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Ferencvaros",
+   "deplasman": "Torreense",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Ararat-Armenia",
+   "deplasman": "AZ Alkmaar",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Union St Gilloise",
+   "deplasman": "H Beer Sheva",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "OFI Crete",
+   "deplasman": "B Leverkusen",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Juventus",
+   "deplasman": "Rennes",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Dinamo Zagreb",
+   "deplasman": "NEC Nijmegen",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Lech Poznan",
+   "deplasman": "Sunderland",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Kairat Almaty",
+   "deplasman": "Panathinaikos",
+   "evGol": 1,
+   "depGol": 5,
+   "ms": "1-5"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Trabzonspor",
+   "deplasman": "Hearts",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Inter Club D'Escaldes",
+   "deplasman": "Uni Craiova",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Saburtalo",
+   "deplasman": "Mjallby",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Pafos",
+   "deplasman": "Riga FC",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Red Star",
+   "deplasman": "Copenhagen",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Kauno Zalgiris",
+   "deplasman": "Brann",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Getafe",
+   "deplasman": "Lugano",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Jablonec",
+   "deplasman": "Brighton",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Nordsjaelland",
+   "deplasman": "CSKA Sofia",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "MLS",
+   "ev": "Cincinnati",
+   "deplasman": "DC United",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Llaneros",
+   "deplasman": "Deportivo Cali",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Santa Fe",
+   "deplasman": "Jaguares de Cordoba",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Copa Libertadores",
+   "ev": "Palmeiras",
+   "deplasman": "Fluminense",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Toluca",
+   "deplasman": "Tijuana",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Puebla",
+   "deplasman": "Monterrey",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Atlas",
+   "deplasman": "Club America",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Pachuca",
+   "deplasman": "Cruz Azul",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Santos Laguna",
+   "deplasman": "Pumas UNAM",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-10-22T13:17:49.445Z",
+ "guncellendi": "2026-10-22T19:03:49.343Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
