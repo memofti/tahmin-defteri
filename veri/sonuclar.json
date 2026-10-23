@@ -75491,9 +75491,54 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Australian A-League",
+   "ev": "Brisbane Roar",
+   "deplasman": "Perth Glory",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Ukrainian League",
+   "ev": "Dynamo Kyiv",
+   "deplasman": "Kudrivka",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Ukrainian League",
+   "ev": "Polessya Zhitomir",
+   "deplasman": "Obolon Kiev",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Copa Libertadores",
+   "ev": "Flamengo",
+   "deplasman": "Estudiantes",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Deportivo Pasto",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
   }
  ],
- "guncellendi": "2026-10-23T00:45:41.553Z",
+ "guncellendi": "2026-10-23T12:54:34.214Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
