@@ -75329,9 +75329,171 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Celtic",
+   "deplasman": "Celta Vigo",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Besiktas",
+   "deplasman": "C Palace",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Lillestrom",
+   "deplasman": "Sociedad",
+   "evGol": 0,
+   "depGol": 6,
+   "ms": "0-6"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Hoffenheim",
+   "deplasman": "Lyon",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Bournemouth",
+   "deplasman": "Milan",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Olympiakos",
+   "deplasman": "Sparta Prague",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "O Nicosia",
+   "deplasman": "Benfica",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "NK Celje",
+   "deplasman": "RB Salzburg",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Jagiellonia",
+   "deplasman": "Anderlecht",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa League",
+   "ev": "Viktoria Plzen",
+   "deplasman": "Levski Sofia",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Aarhus",
+   "deplasman": "Egnatia",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Thun",
+   "deplasman": "Hajduk Split",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Ajax",
+   "deplasman": "Atalanta",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Braga",
+   "deplasman": "Gent",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Monaco",
+   "deplasman": "Freiburg",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Lincoln R I",
+   "deplasman": "FC Twente",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "B. Banja Luka",
+   "deplasman": "KPS Kuopio",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-22",
+   "lig": "Europa Conference League",
+   "ev": "Midtjylland",
+   "deplasman": "St. Truiden",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-10-22T19:03:49.343Z",
+ "guncellendi": "2026-10-23T00:45:41.553Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -75453,6 +75615,7 @@
   "2026-10-18",
   "2026-10-19",
   "2026-10-20",
-  "2026-10-21"
+  "2026-10-21",
+  "2026-10-22"
  ]
 }
