@@ -75644,9 +75644,324 @@
    "evGol": 4,
    "depGol": 0,
    "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Premier League",
+   "ev": "Ipswich",
+   "deplasman": "Nottm Forest",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Football League Championship",
+   "ev": "Bolton",
+   "deplasman": "Middlesbrough",
+   "evGol": 1,
+   "depGol": 5,
+   "ms": "1-5"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Italian Serie A",
+   "ev": "Torino",
+   "deplasman": "Monza",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "German Bundesliga",
+   "ev": "Stuttgart",
+   "deplasman": "B M'gladbach",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Spanish La Liga",
+   "ev": "Alaves",
+   "deplasman": "Malaga",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "French Ligue 1",
+   "ev": "Brest",
+   "deplasman": "Nice",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Romanian Liga 1",
+   "ev": "Corvinul Hunedoara",
+   "deplasman": "Uni Cluj",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Widzew Lodz",
+   "deplasman": "Gornik Zabrze",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Elfsborg",
+   "deplasman": "Malmo",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Vasteras",
+   "deplasman": "Halmstads",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Randers",
+   "deplasman": "Brondby",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Turkish Super Lig",
+   "ev": "Alanyaspor",
+   "deplasman": "Kocaelispor",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Austrian Bundesliga",
+   "ev": "Altach",
+   "deplasman": "Aus. Vienna",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Netherlands League",
+   "ev": "Go A Eagles",
+   "deplasman": "Telstar",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Spanish Segunda",
+   "ev": "Granada",
+   "deplasman": "Valladolid",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Portuguese Liga",
+   "ev": "V Guimaraes",
+   "deplasman": "Maritimo",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Welsh Premier",
+   "ev": "The New Saints",
+   "deplasman": "Ammanford",
+   "evGol": 9,
+   "depGol": 0,
+   "ms": "9-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Welsh Premier",
+   "ev": "Cambrian United",
+   "deplasman": "Airbus UK",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Welsh Premier",
+   "ev": "Trefelin",
+   "deplasman": "Flint Town U",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Welsh Premier",
+   "ev": "Colwyn Bay",
+   "deplasman": "Cardiff MU",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Welsh Premier",
+   "ev": "Caernarfon",
+   "deplasman": "Briton Ferry Ath",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Northern Irish Premier League",
+   "ev": "Portadown",
+   "deplasman": "Linfield",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "League of Ireland",
+   "ev": "Bohemians D.",
+   "deplasman": "Shelbourne",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "League of Ireland",
+   "ev": "Derry City",
+   "deplasman": "Dundalk",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "League of Ireland",
+   "ev": "Waterford",
+   "deplasman": "Drogheda",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "League of Ireland",
+   "ev": "Galway FC",
+   "deplasman": "St Patrick's",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "League of Ireland",
+   "ev": "Shamrock R",
+   "deplasman": "Sligo Rovers",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Swedish Superettan",
+   "ev": "IK Oddevold",
+   "deplasman": "Sundsvall",
+   "evGol": 7,
+   "depGol": 0,
+   "ms": "7-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "UTC Cajamarca",
+   "deplasman": "Melgar",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Atletico Grau",
+   "deplasman": "ADT",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Paraguay League Clausura",
+   "ev": "Rubio Nu",
+   "deplasman": "Club Guarani",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Paraguay League Clausura",
+   "ev": "Libertad",
+   "deplasman": "Sp Luqueno",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Gimnasia La Plata",
+   "deplasman": "Sarmiento",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Gimnasia de Mendoza",
+   "deplasman": "Platense",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-23",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Independiente d V",
+   "deplasman": "Universidad Catolica",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
   }
  ],
- "guncellendi": "2026-10-23T18:53:56.868Z",
+ "guncellendi": "2026-10-24T00:51:52.325Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -75769,6 +76084,7 @@
   "2026-10-19",
   "2026-10-20",
   "2026-10-21",
-  "2026-10-22"
+  "2026-10-22",
+  "2026-10-23"
  ]
 }
