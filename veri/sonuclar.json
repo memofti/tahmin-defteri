@@ -75959,9 +75959,270 @@
    "evGol": 0,
    "depGol": 0,
    "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Russian Premier",
+   "ev": "Akron",
+   "deplasman": "Din. Moscow",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Australian A-League",
+   "ev": "Newcastle Jets",
+   "deplasman": "Macarthur FC",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Australian A-League",
+   "ev": "Western Sydney",
+   "deplasman": "Auckland",
+   "evGol": 5,
+   "depGol": 2,
+   "ms": "5-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Australian A-League",
+   "ev": "Melbourne Vic",
+   "deplasman": "Melbourne C",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Ukrainian League",
+   "ev": "Epitsentr",
+   "deplasman": "Metalist 1925 Kharkiv",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Belarus League",
+   "ev": "Gomel",
+   "deplasman": "Dinamo Minsk",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Chile Primera",
+   "ev": "Audax Italiano",
+   "deplasman": "Huachipato",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Juventud de Las Piedras",
+   "deplasman": "Penarol",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Boyaca Chico",
+   "deplasman": "Atletico Bucaramanga",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Junior",
+   "deplasman": "Aguilas Doradas",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Brazilian Serie A",
+   "ev": "Cruzeiro",
+   "deplasman": "Remo",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Tigre",
+   "deplasman": "Atletico Tucuman",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Necaxa",
+   "deplasman": "FC Juarez",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Atlante",
+   "deplasman": "Atletico San Luis",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J1 League",
+   "ev": "Sanf Hiroshima",
+   "deplasman": "Shimizu S-Pulse",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J1 League",
+   "ev": "Vissel Kobe",
+   "deplasman": "Machida Zelvia",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J1 League",
+   "ev": "Kashima Antlers",
+   "deplasman": "Kashiwa Reysol",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J1 League",
+   "ev": "Tokyo Verdy",
+   "deplasman": "Avispa Fukuoka",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J1 League",
+   "ev": "Gamba Osaka",
+   "deplasman": "Kyoto Sanga",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "FC Seoul",
+   "deplasman": "Gangwon",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "Incheon United",
+   "deplasman": "Jeju United",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "Ulsan Hyundai",
+   "deplasman": "Pohang S",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "Gimcheon Sangmu",
+   "deplasman": "Daejeon Hana Citizen",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "Anyang",
+   "deplasman": "Jeonbuk H M",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 1",
+   "ev": "Bucheon",
+   "deplasman": "Gwangju",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 2",
+   "ev": "Jeonnam Dragons",
+   "deplasman": "Daegu",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Korean K-League 2",
+   "ev": "Gimpo Citizen",
+   "deplasman": "Gimhae City",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J2 League",
+   "ev": "Omiya Ardija",
+   "deplasman": "Yokohama FC",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Japanese J2 League",
+   "ev": "Fujieda MYFC",
+   "deplasman": "Tokushima Vortis",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-10-24T00:51:52.325Z",
+ "guncellendi": "2026-10-24T12:17:25.423Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",

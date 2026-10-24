@@ -1,7 +1,7 @@
 {
- "calisti": "2026-10-24T00:51:51.796Z",
- "tsi": "2026-10-24 03:51",
- "erkenOrneklem": true,
+ "calisti": "2026-10-24T12:17:24.441Z",
+ "tsi": "2026-10-24 15:17",
+ "erkenOrneklem": false,
  "kaynaklar": {
   "soccerbase 2026-10-24": "ACILDI",
   "soccerbase 2026-10-23": "ACILDI",
@@ -9,498 +9,18 @@
   "olbg": "ACILDI"
  },
  "taranmisGun": 123,
- "yeniSkor": 35,
- "toplamSkor": 8440,
- "oranMacSayisi": 122,
+ "yeniSkor": 29,
+ "toplamSkor": 8469,
+ "oranMacSayisi": 104,
  "gencMacAyiklandi": 7,
- "kalabalikSayisi": 0,
+ "kalabalikSayisi": 20,
  "modelliLig": 87,
  "modelliTakim": 1837,
- "genelTablo": "8440 mac",
- "bultenSayisi": 113,
- "tahminSayisi": 0,
- "elenenSayisi": 0,
+ "genelTablo": "8469 mac",
+ "bultenSayisi": 95,
+ "tahminSayisi": 7,
+ "elenenSayisi": 13,
  "bulten": [
-  {
-   "macId": "Eq7COWXI",
-   "saat": "04:00",
-   "lig": "Liga MX",
-   "ulke": "Mexico",
-   "ev": "Necaxa",
-   "deplasman": "Juarez",
-   "oran": {
-    "ev": 1.69,
-    "beraberlik": 3.83,
-    "deplasman": 4.58
-   },
-   "marj": 7.12,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5524102247569621,
-    "beraberlik": 0.24375281457944276,
-    "deplasman": 0.2038369606635952
-   }
-  },
-  {
-   "macId": "4CINVmun",
-   "saat": "06:00",
-   "lig": "Liga MX",
-   "ulke": "Mexico",
-   "ev": "Atlante",
-   "deplasman": "Atl. San Luis",
-   "oran": {
-    "ev": 2.18,
-    "beraberlik": 3.44,
-    "deplasman": 3.16
-   },
-   "marj": 6.59,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4303677192537928,
-    "beraberlik": 0.27273303138757804,
-    "deplasman": 0.2968992493586292
-   }
-  },
-  {
-   "macId": "rqa8GOB4",
-   "saat": "06:15",
-   "lig": "A-League Women",
-   "ulke": "Australia",
-   "ev": "WS Wanderers W",
-   "deplasman": "Brisbane Roar W",
-   "oran": {
-    "ev": 2.63,
-    "beraberlik": 3.28,
-    "deplasman": 2.37
-   },
-   "marj": 10.7,
-   "basladi": false,
-   "ima": {
-    "ev": 0.34346156735047345,
-    "beraberlik": 0.27539753723528815,
-    "deplasman": 0.3811408954142384
-   }
-  },
-  {
-   "macId": "KC037xCL",
-   "saat": "07:00",
-   "lig": "A-League",
-   "ulke": "Australia",
-   "ev": "Newcastle Jets",
-   "deplasman": "Macarthur FC",
-   "oran": {
-    "ev": 2.06,
-    "beraberlik": 3.83,
-    "deplasman": 3.1
-   },
-   "marj": 6.91,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4540552530135227,
-    "beraberlik": 0.24421770788716882,
-    "deplasman": 0.3017270390993086
-   }
-  },
-  {
-   "macId": "bXp499q9",
-   "saat": "07:00",
-   "lig": "Australian Championship",
-   "ulke": "Australia",
-   "ev": "Avondale FC",
-   "deplasman": "Broadmeadow",
-   "oran": {
-    "ev": 1.2,
-    "beraberlik": 6.4,
-    "deplasman": 10
-   },
-   "marj": 8.96,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7648183556405354,
-    "beraberlik": 0.14340344168260039,
-    "deplasman": 0.09177820267686425
-   }
-  },
-  {
-   "macId": "WpqC7mEL",
-   "saat": "07:00",
-   "lig": "Australian Championship",
-   "ulke": "Australia",
-   "ev": "Marconi Stallions",
-   "deplasman": "Oakleigh Cannons",
-   "oran": {
-    "ev": 2.9,
-    "beraberlik": 3.45,
-    "deplasman": 2.18
-   },
-   "marj": 9.34,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3153723582690373,
-    "beraberlik": 0.2650956055015096,
-    "deplasman": 0.41953203622945323
-   }
-  },
-  {
-   "macId": "GdcGE2tH",
-   "saat": "07:00",
-   "lig": "A-League Women",
-   "ulke": "Australia",
-   "ev": "Central Coast Mariners W",
-   "deplasman": "Canberra W",
-   "oran": {
-    "ev": 3.1,
-    "beraberlik": 3.5,
-    "deplasman": 2.01
-   },
-   "marj": 10.58,
-   "basladi": false,
-   "ima": {
-    "ev": 0.29171504395422126,
-    "beraberlik": 0.2583761817880245,
-    "deplasman": 0.4499087742577543
-   }
-  },
-  {
-   "macId": "jeiZ1GZr",
-   "saat": "09:00",
-   "lig": "A-League",
-   "ulke": "Australia",
-   "ev": "WS Wanderers",
-   "deplasman": "Auckland FC",
-   "oran": {
-    "ev": 2.55,
-    "beraberlik": 3.45,
-    "deplasman": 2.55
-   },
-   "marj": 7.42,
-   "basladi": false,
-   "ima": {
-    "ev": 0.36507936507936506,
-    "beraberlik": 0.26984126984126977,
-    "deplasman": 0.36507936507936506
-   }
-  },
-  {
-   "macId": "2TZs2Ryq",
-   "saat": "09:00",
-   "lig": "Australian Championship",
-   "ulke": "Australia",
-   "ev": "Canberra Croatia",
-   "deplasman": "Sutherland Sharks",
-   "oran": {
-    "ev": 3.4,
-    "beraberlik": 3.7,
-    "deplasman": 1.9
-   },
-   "marj": 9.07,
-   "basladi": false,
-   "ima": {
-    "ev": 0.2696586114307633,
-    "beraberlik": 0.24779439969313383,
-    "deplasman": 0.48254698887610276
-   }
-  },
-  {
-   "macId": "OM0OCtBT",
-   "saat": "09:00",
-   "lig": "A-League Women",
-   "ulke": "Australia",
-   "ev": "Adelaide W",
-   "deplasman": "Perth W",
-   "oran": {
-    "ev": 2.18,
-    "beraberlik": 3.45,
-    "deplasman": 2.8
-   },
-   "marj": 10.57,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4148593515138501,
-    "beraberlik": 0.2621430105217952,
-    "deplasman": 0.32299763796435477
-   }
-  },
-  {
-   "macId": "MyLWq9zS",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Chengdu Rongcheng",
-   "deplasman": "Dalian Yingbo",
-   "oran": {
-    "ev": 1.94,
-    "beraberlik": 3.73,
-    "deplasman": 3.3
-   },
-   "marj": 8.66,
-   "basladi": false,
-   "ima": {
-    "ev": 0.47438644632176113,
-    "beraberlik": 0.2467318246284763,
-    "deplasman": 0.2788817290497626
-   }
-  },
-  {
-   "macId": "EBHOoV5F",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Chongqing Tonglianglong",
-   "deplasman": "Qingdao Hainiu",
-   "oran": {
-    "ev": 1.22,
-    "beraberlik": 5.55,
-    "deplasman": 11.5
-   },
-   "marj": 8.68,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7542008366223146,
-    "beraberlik": 0.16578829201427459,
-    "deplasman": 0.08001087136341076
-   }
-  },
-  {
-   "macId": "EiuXuuId",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Henan Songshan Longmen",
-   "deplasman": "Beijing Guoan",
-   "oran": {
-    "ev": 3.08,
-    "beraberlik": 3.68,
-    "deplasman": 2.05
-   },
-   "marj": 8.42,
-   "basladi": false,
-   "ima": {
-    "ev": 0.29945539130848986,
-    "beraberlik": 0.2506311427255839,
-    "deplasman": 0.44991346596592624
-   }
-  },
-  {
-   "macId": "hKB2vmbk",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Liaoning Tieren",
-   "deplasman": "Zhejiang Professional",
-   "oran": {
-    "ev": 1.91,
-    "beraberlik": 4.05,
-    "deplasman": 3.18
-   },
-   "marj": 8.49,
-   "basladi": false,
-   "ima": {
-    "ev": 0.48257101426467774,
-    "beraberlik": 0.22758287339395916,
-    "deplasman": 0.28984611234136304
-   }
-  },
-  {
-   "macId": "AejgmNPM",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Qingdao West Coast",
-   "deplasman": "Yunnan Yukun",
-   "oran": {
-    "ev": 2.35,
-    "beraberlik": 3.65,
-    "deplasman": 2.6
-   },
-   "marj": 8.41,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3925137007548341,
-    "beraberlik": 0.25271430048598903,
-    "deplasman": 0.3547719987591769
-   }
-  },
-  {
-   "macId": "6RyPs1mp",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Shenzhen Xinpengcheng",
-   "deplasman": "Shanghai Shenhua",
-   "oran": {
-    "ev": 3.55,
-    "beraberlik": 3.83,
-    "deplasman": 1.84
-   },
-   "marj": 8.63,
-   "basladi": false,
-   "ima": {
-    "ev": 0.2593199071229076,
-    "beraberlik": 0.24036179380843914,
-    "deplasman": 0.5003182990686532
-   }
-  },
-  {
-   "macId": "tbJGmiy3",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Tianjin Jinmen Tiger",
-   "deplasman": "Shanghai Port",
-   "oran": {
-    "ev": 2.75,
-    "beraberlik": 3.45,
-    "deplasman": 2.33
-   },
-   "marj": 8.27,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3358681346230179,
-    "beraberlik": 0.2677209768734201,
-    "deplasman": 0.39641088850356193
-   }
-  },
-  {
-   "macId": "2VnokqeA",
-   "saat": "10:30",
-   "lig": "Super League",
-   "ulke": "China",
-   "ev": "Wuhan Three Towns",
-   "deplasman": "Shandong Taishan",
-   "oran": {
-    "ev": 3.43,
-    "beraberlik": 4.05,
-    "deplasman": 1.83
-   },
-   "marj": 8.49,
-   "basladi": false,
-   "ima": {
-    "ev": 0.268728313010562,
-    "beraberlik": 0.22758965768548836,
-    "deplasman": 0.5036820293039496
-   }
-  },
-  {
-   "macId": "O8ks0f4e",
-   "saat": "11:40",
-   "lig": "A-League",
-   "ulke": "Australia",
-   "ev": "Melbourne Victory",
-   "deplasman": "Melbourne City",
-   "oran": {
-    "ev": 2.48,
-    "beraberlik": 3.5,
-    "deplasman": 2.62
-   },
-   "marj": 7.06,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3766284972646175,
-    "beraberlik": 0.26686819234750037,
-    "deplasman": 0.3565033103878822
-   }
-  },
-  {
-   "macId": "0SJ8bmKF",
-   "saat": "12:30",
-   "lig": "AFC Challenge League",
-   "ulke": "Asia",
-   "ev": "Manila Digger",
-   "deplasman": "Shan Utd",
-   "oran": {
-    "ev": 1.87,
-    "beraberlik": 2.9,
-    "deplasman": 4.5
-   },
-   "marj": 10.18,
-   "basladi": false,
-   "ima": {
-    "ev": 0.48534662302886045,
-    "beraberlik": 0.31296489140136874,
-    "deplasman": 0.20168848556977093
-   }
-  },
-  {
-   "macId": "zNRAA9x1",
-   "saat": "13:00",
-   "lig": "Vysshaya Liga",
-   "ulke": "Belarus",
-   "ev": "FC Gomel",
-   "deplasman": "Din. Minsk",
-   "oran": {
-    "ev": 4.7,
-    "beraberlik": 3.43,
-    "deplasman": 1.65
-   },
-   "marj": 11.04,
-   "basladi": false,
-   "ima": {
-    "ev": 0.19161686783700968,
-    "beraberlik": 0.26256538741514446,
-    "deplasman": 0.5458177447478458
-   }
-  },
-  {
-   "macId": "v9PB7F9c",
-   "saat": "13:30",
-   "lig": "Super Lig",
-   "ulke": "Turkey",
-   "ev": "Eyupspor",
-   "deplasman": "Kasimpasa",
-   "oran": {
-    "ev": 5.32,
-    "beraberlik": 3.77,
-    "deplasman": 1.58
-   },
-   "marj": 8.61,
-   "basladi": false,
-   "ima": {
-    "ev": 0.17306340176532456,
-    "beraberlik": 0.24421678975902567,
-    "deplasman": 0.5827198084756497
-   }
-  },
-  {
-   "macId": "SdpxRKfm",
-   "saat": "14:00",
-   "lig": "efbet League",
-   "ulke": "Bulgaria",
-   "ev": "Dunav Ruse",
-   "deplasman": "Spartak Varna",
-   "oran": {
-    "ev": 2.31,
-    "beraberlik": 3.25,
-    "deplasman": 2.82
-   },
-   "marj": 9.52,
-   "basladi": false,
-   "ima": {
-    "ev": 0.39526970202745537,
-    "beraberlik": 0.2809455420564375,
-    "deplasman": 0.32378475591610706
-   }
-  },
-  {
-   "macId": "zBg58JcM",
-   "saat": "14:00",
-   "lig": "CPL",
-   "ulke": "Cambodia",
-   "ev": "Svay Rieng",
-   "deplasman": "Visakha",
-   "oran": {
-    "ev": 1.63,
-    "beraberlik": 4.2,
-    "deplasman": 4
-   },
-   "marj": 10.16,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5569183849366837,
-    "beraberlik": 0.2161373732016177,
-    "deplasman": 0.2269442418616986
-   }
-  },
   {
    "macId": "lEVTjuAd",
    "saat": "14:30",
@@ -509,16 +29,56 @@
    "ev": "Aston Villa",
    "deplasman": "Manchester City",
    "oran": {
-    "ev": 4.88,
-    "beraberlik": 4.33,
+    "ev": 4.6,
+    "beraberlik": 4.6,
     "deplasman": 1.63
    },
-   "marj": 4.94,
-   "basladi": false,
+   "marj": 4.83,
+   "basladi": true,
    "ima": {
-    "ev": 0.195278714650538,
-    "beraberlik": 0.2200831703220844,
-    "deplasman": 0.5846381150273776
+    "ev": 0.20737913486005088,
+    "beraberlik": 0.20737913486005088,
+    "deplasman": 0.5852417302798981
+   }
+  },
+  {
+   "macId": "vTcLPIFU",
+   "saat": "14:30",
+   "lig": "BFL",
+   "ulke": "Bangladesh",
+   "ev": "Bashundara Kings",
+   "deplasman": "Chattogram",
+   "oran": {
+    "ev": 1.05,
+    "beraberlik": 9.25,
+    "deplasman": 22
+   },
+   "marj": 10.59,
+   "basladi": true,
+   "ima": {
+    "ev": 0.8611478444855858,
+    "beraberlik": 0.0977519174821476,
+    "deplasman": 0.0411002380322666
+   }
+  },
+  {
+   "macId": "O6GCGDA5",
+   "saat": "14:30",
+   "lig": "Pershaya Liga",
+   "ulke": "Belarus",
+   "ev": "BumProm Gomel",
+   "deplasman": "Volna Pinsk",
+   "oran": {
+    "ev": 1.6,
+    "beraberlik": 4.3,
+    "deplasman": 3.9
+   },
+   "marj": 11.4,
+   "basladi": true,
+   "ima": {
+    "ev": 0.5610572097691536,
+    "beraberlik": 0.20876547340247575,
+    "deplasman": 0.23017731682837073
    }
   },
   {
@@ -529,16 +89,16 @@
    "ev": "Genk W",
    "deplasman": "RAAL La Louviere W",
    "oran": {
-    "ev": 2,
-    "beraberlik": 3.6,
-    "deplasman": 3.1
+    "ev": 1.96,
+    "beraberlik": 3.65,
+    "deplasman": 3.25
    },
-   "marj": 10.04,
-   "basladi": false,
+   "marj": 9.19,
+   "basladi": true,
    "ima": {
-    "ev": 0.4543973941368078,
-    "beraberlik": 0.252442996742671,
-    "deplasman": 0.29315960912052114
+    "ev": 0.4672759143639336,
+    "beraberlik": 0.25092076497350957,
+    "deplasman": 0.2818033206625569
    }
   },
   {
@@ -549,16 +109,16 @@
    "ev": "Rayo Vallecano",
    "deplasman": "Elche",
    "oran": {
-    "ev": 1.75,
-    "beraberlik": 3.79,
-    "deplasman": 4.53
+    "ev": 1.73,
+    "beraberlik": 3.9,
+    "deplasman": 4.55
    },
-   "marj": 5.6,
-   "basladi": false,
+   "marj": 5.42,
+   "basladi": true,
    "ima": {
-    "ev": 0.5411094687144447,
-    "beraberlik": 0.2498526570581209,
-    "deplasman": 0.20903787422743447
+    "ev": 0.5483028720626633,
+    "beraberlik": 0.24322153042779676,
+    "deplasman": 0.20847559750954006
    }
   },
   {
@@ -569,16 +129,16 @@
    "ev": "Taiwan Steel",
    "deplasman": "Yangon Utd",
    "oran": {
-    "ev": 3.3,
-    "beraberlik": 3.4,
-    "deplasman": 1.99
+    "ev": 3.8,
+    "beraberlik": 3.3,
+    "deplasman": 1.91
    },
-   "marj": 9.97,
-   "basladi": false,
+   "marj": 8.97,
+   "basladi": true,
    "ima": {
-    "ev": 0.27556714047163283,
-    "beraberlik": 0.2674622245754083,
-    "deplasman": 0.45697063495295887
+    "ev": 0.2414850005746906,
+    "beraberlik": 0.27807363702540133,
+    "deplasman": 0.48044136239990803
    }
   },
   {
@@ -589,16 +149,56 @@
    "ev": "Naftan",
    "deplasman": "Isloch",
    "oran": {
-    "ev": 6.2,
-    "beraberlik": 4.4,
-    "deplasman": 1.39
+    "ev": 7.08,
+    "beraberlik": 4.78,
+    "deplasman": 1.34
    },
-   "marj": 10.8,
-   "basladi": false,
+   "marj": 9.67,
+   "basladi": true,
    "ima": {
-    "ev": 0.1455705241110106,
-    "beraberlik": 0.20512210215642404,
-    "deplasman": 0.6493073737325654
+    "ev": 0.1287870867078987,
+    "beraberlik": 0.19075576859663657,
+    "deplasman": 0.6804571446954648
+   }
+  },
+  {
+   "macId": "YahxXYfn",
+   "saat": "15:00",
+   "lig": "Pershaya Liga",
+   "ulke": "Belarus",
+   "ev": "Lida",
+   "deplasman": "Molodechno",
+   "oran": {
+    "ev": 1.64,
+    "beraberlik": 4.2,
+    "deplasman": 3.73
+   },
+   "marj": 11.59,
+   "basladi": true,
+   "ima": {
+    "ev": 0.5464019643405229,
+    "beraberlik": 0.21335695750439468,
+    "deplasman": 0.2402410781550825
+   }
+  },
+  {
+   "macId": "Kzc0RUON",
+   "saat": "15:00",
+   "lig": "Pershaya Liga",
+   "ulke": "Belarus",
+   "ev": "Slutsk",
+   "deplasman": "FC Slonim",
+   "oran": {
+    "ev": 1.57,
+    "beraberlik": 4.1,
+    "deplasman": 4.2
+   },
+   "marj": 11.89,
+   "basladi": true,
+   "ima": {
+    "ev": 0.5692373805824601,
+    "beraberlik": 0.21797626524742988,
+    "deplasman": 0.21278635417011008
    }
   },
   {
@@ -609,16 +209,16 @@
    "ev": "Drina Zvornik",
    "deplasman": "Majevica",
    "oran": {
-    "ev": 1.4,
-    "beraberlik": 4.33,
-    "deplasman": 5.75
+    "ev": 1.39,
+    "beraberlik": 4.17,
+    "deplasman": 6.5
    },
-   "marj": 11.91,
-   "basladi": false,
+   "marj": 11.31,
+   "basladi": true,
    "ima": {
-    "ev": 0.6382419667004192,
-    "beraberlik": 0.20635998923339188,
-    "deplasman": 0.155398044066189
+    "ev": 0.6463374212794166,
+    "beraberlik": 0.21544580709313885,
+    "deplasman": 0.13821677162744447
    }
   },
   {
@@ -629,16 +229,16 @@
    "ev": "Kozara",
    "deplasman": "Zvijezda 09",
    "oran": {
-    "ev": 1.32,
-    "beraberlik": 4.65,
-    "deplasman": 7
+    "ev": 1.34,
+    "beraberlik": 4.45,
+    "deplasman": 7.38
    },
-   "marj": 11.55,
-   "basladi": false,
+   "marj": 10.65,
+   "basladi": true,
    "ima": {
-    "ev": 0.6791437155733601,
-    "beraberlik": 0.19278918377566348,
-    "deplasman": 0.12806710065097646
+    "ev": 0.6744473560990035,
+    "beraberlik": 0.20309201284778985,
+    "deplasman": 0.12246063105320663
    }
   },
   {
@@ -649,16 +249,16 @@
    "ev": "Slavija",
    "deplasman": "Leotar",
    "oran": {
-    "ev": 3.23,
-    "beraberlik": 3.35,
-    "deplasman": 1.95
+    "ev": 3.33,
+    "beraberlik": 3.25,
+    "deplasman": 1.97
    },
-   "marj": 12.09,
-   "basladi": false,
+   "marj": 11.56,
+   "basladi": true,
    "ima": {
-    "ev": 0.2761981269686912,
-    "beraberlik": 0.26630446271906644,
-    "deplasman": 0.45749741031224245
+    "ev": 0.26918112599904986,
+    "beraberlik": 0.2758071229467188,
+    "deplasman": 0.4550117510542315
    }
   },
   {
@@ -669,16 +269,16 @@
    "ev": "Hang Yuen",
    "deplasman": "Kasuka",
    "oran": {
-    "ev": 1.13,
-    "beraberlik": 6.8,
-    "deplasman": 14
+    "ev": 1.2,
+    "beraberlik": 6.6,
+    "deplasman": 9.6
    },
-   "marj": 10.34,
+   "marj": 8.9,
    "basladi": false,
    "ima": {
-    "ev": 0.8019948780159052,
-    "beraberlik": 0.13327267825852543,
-    "deplasman": 0.06473244372556948
+    "ev": 0.7652173913043478,
+    "beraberlik": 0.1391304347826087,
+    "deplasman": 0.09565217391304348
    }
   },
   {
@@ -689,16 +289,16 @@
    "ev": "Safa Baku",
    "deplasman": "Kapaz",
    "oran": {
-    "ev": 2.9,
-    "beraberlik": 3.2,
-    "deplasman": 2.26
+    "ev": 2.8,
+    "beraberlik": 3.15,
+    "deplasman": 2.29
    },
-   "marj": 9.98,
+   "marj": 11.13,
    "basladi": false,
    "ima": {
-    "ev": 0.31353507326801355,
-    "beraberlik": 0.28414116014913726,
-    "deplasman": 0.40232376658284924
+    "ev": 0.32137845002339,
+    "beraberlik": 0.28566973335412443,
+    "deplasman": 0.39295181662248563
    }
   },
   {
@@ -710,15 +310,15 @@
    "deplasman": "NK Vitez",
    "oran": {
     "ev": 2,
-    "beraberlik": 3.3,
-    "deplasman": 3.25
+    "beraberlik": 3.2,
+    "deplasman": 3.28
    },
-   "marj": 11.07,
+   "marj": 11.74,
    "basladi": false,
    "ima": {
-    "ev": 0.45015739769150054,
-    "beraberlik": 0.2728226652675761,
-    "deplasman": 0.2770199370409234
+    "ev": 0.44747612551159616,
+    "beraberlik": 0.2796725784447476,
+    "deplasman": 0.2728512960436562
    }
   },
   {
@@ -729,16 +329,16 @@
    "ev": "Sloboda",
    "deplasman": "Stupcanica",
    "oran": {
-    "ev": 2.3,
-    "beraberlik": 3.25,
-    "deplasman": 2.7
+    "ev": 2.4,
+    "beraberlik": 3.1,
+    "deplasman": 2.65
    },
-   "marj": 11.28,
+   "marj": 11.66,
    "basladi": false,
    "ima": {
-    "ev": 0.3906945681211042,
-    "beraberlik": 0.27649154051647373,
-    "deplasman": 0.33281389136242207
+    "ev": 0.3731546672723144,
+    "beraberlik": 0.2888939359527595,
+    "deplasman": 0.33795139677492625
    }
   },
   {
@@ -749,16 +349,16 @@
    "ev": "Cagliari",
    "deplasman": "Bologna",
    "oran": {
-    "ev": 2.91,
-    "beraberlik": 3.04,
-    "deplasman": 2.58
+    "ev": 2.88,
+    "beraberlik": 2.96,
+    "deplasman": 2.69
    },
-   "marj": 6.02,
+   "marj": 5.68,
    "basladi": false,
    "ima": {
-    "ev": 0.3241339978675395,
-    "beraberlik": 0.31027300453767764,
-    "deplasman": 0.3655929975947829
+    "ev": 0.3285577526161159,
+    "beraberlik": 0.31967781335622086,
+    "deplasman": 0.35176443402766316
    }
   },
   {
@@ -769,16 +369,16 @@
    "ev": "Como",
    "deplasman": "Sassuolo",
    "oran": {
-    "ev": 1.46,
-    "beraberlik": 4.93,
-    "deplasman": 5.94
+    "ev": 1.49,
+    "beraberlik": 4.95,
+    "deplasman": 5.39
    },
-   "marj": 5.61,
+   "marj": 5.87,
    "basladi": false,
    "ima": {
-    "ev": 0.648534805024538,
-    "beraberlik": 0.1920610173094981,
-    "deplasman": 0.15940417766596388
+    "ev": 0.6339353388567994,
+    "beraberlik": 0.19082094038315778,
+    "deplasman": 0.17524372076004288
    }
   },
   {
@@ -789,16 +389,16 @@
    "ev": "Gaziantep",
    "deplasman": "Erzurumspor",
    "oran": {
-    "ev": 2.34,
-    "beraberlik": 3.18,
-    "deplasman": 2.88
+    "ev": 2.33,
+    "beraberlik": 3.2,
+    "deplasman": 2.9
    },
-   "marj": 8.9,
+   "marj": 8.65,
    "basladi": false,
    "ima": {
-    "ev": 0.3924109208699677,
-    "beraberlik": 0.28875520592318377,
-    "deplasman": 0.3188338732068487
+    "ev": 0.3950112799557315,
+    "beraberlik": 0.287617588217767,
+    "deplasman": 0.3173711318265015
    }
   },
   {
@@ -809,16 +409,16 @@
    "ev": "Azam",
    "deplasman": "ZED",
    "oran": {
-    "ev": 2.31,
-    "beraberlik": 2.95,
-    "deplasman": 3.05
+    "ev": 2.04,
+    "beraberlik": 3.1,
+    "deplasman": 3.5
    },
-   "marj": 9.98,
+   "marj": 9.85,
    "basladi": false,
    "ima": {
-    "ev": 0.3936344744613366,
-    "beraberlik": 0.3082358088154873,
-    "deplasman": 0.29812971672317623
+    "ev": 0.4462449617504318,
+    "beraberlik": 0.29365797482931644,
+    "deplasman": 0.2600970634202517
    }
   },
   {
@@ -829,16 +429,16 @@
    "ev": "Augsburg",
    "deplasman": "Union Berlin",
    "oran": {
-    "ev": 1.79,
-    "beraberlik": 3.98,
-    "deplasman": 3.98
+    "ev": 1.7,
+    "beraberlik": 4.13,
+    "deplasman": 4.36
    },
-   "marj": 6.12,
+   "marj": 5.97,
    "basladi": false,
    "ima": {
-    "ev": 0.5264550264550264,
-    "beraberlik": 0.23677248677248675,
-    "deplasman": 0.23677248677248675
+    "ev": 0.5550835701823069,
+    "beraberlik": 0.22848476254477526,
+    "deplasman": 0.21643166727291782
    }
   },
   {
@@ -849,16 +449,16 @@
    "ev": "FC Koln",
    "deplasman": "Schalke",
    "oran": {
-    "ev": 2.08,
-    "beraberlik": 3.68,
-    "deplasman": 3.29
+    "ev": 2.07,
+    "beraberlik": 3.73,
+    "deplasman": 3.3
    },
-   "marj": 5.65,
+   "marj": 5.42,
    "basladi": false,
    "ima": {
-    "ev": 0.4550757757998557,
-    "beraberlik": 0.2572167428433967,
-    "deplasman": 0.2877074813567477
+    "ev": 0.45824631158068735,
+    "beraberlik": 0.254308274791427,
+    "deplasman": 0.28744541362788567
    }
   },
   {
@@ -869,16 +469,16 @@
    "ev": "Mainz",
    "deplasman": "Werder Bremen",
    "oran": {
-    "ev": 1.72,
-    "beraberlik": 4.08,
-    "deplasman": 4.36
+    "ev": 1.71,
+    "beraberlik": 4.05,
+    "deplasman": 4.38
    },
-   "marj": 5.59,
+   "marj": 6,
    "basladi": false,
    "ima": {
-    "ev": 0.5506413748699915,
-    "beraberlik": 0.23213312862166308,
-    "deplasman": 0.21722549650834527
+    "ev": 0.5516836006381728,
+    "beraberlik": 0.2329330758250063,
+    "deplasman": 0.2153833235368209
    }
   },
   {
@@ -889,16 +489,16 @@
    "ev": "Paderborn",
    "deplasman": "Hamburger SV",
    "oran": {
-    "ev": 2.22,
-    "beraberlik": 3.68,
-    "deplasman": 3
+    "ev": 2.35,
+    "beraberlik": 3.63,
+    "deplasman": 2.84
    },
-   "marj": 5.55,
+   "marj": 5.31,
    "basladi": false,
    "ima": {
-    "ev": 0.4267557287317933,
-    "beraberlik": 0.2574450320066797,
-    "deplasman": 0.3157992392615271
+    "ev": 0.40406526689582456,
+    "beraberlik": 0.26158495239812335,
+    "deplasman": 0.33434978070605204
    }
   },
   {
@@ -909,16 +509,16 @@
    "ev": "RB Leipzig",
    "deplasman": "Elversberg",
    "oran": {
-    "ev": 1.42,
-    "beraberlik": 5.21,
-    "deplasman": 6.06
+    "ev": 1.41,
+    "beraberlik": 5.36,
+    "deplasman": 6
    },
-   "marj": 6.12,
+   "marj": 6.25,
    "basladi": false,
    "ima": {
-    "ev": 0.663624516562973,
-    "beraberlik": 0.1808727089288717,
-    "deplasman": 0.1555027745081554
+    "ev": 0.6675301384875959,
+    "beraberlik": 0.17560027896781905,
+    "deplasman": 0.15686958254458502
    }
   },
   {
@@ -929,16 +529,16 @@
    "ev": "Admira",
    "deplasman": "Wacker Innsbruck",
    "oran": {
-    "ev": 2.19,
-    "beraberlik": 3.5,
-    "deplasman": 2.83
+    "ev": 1.96,
+    "beraberlik": 3.65,
+    "deplasman": 3.2
    },
-   "marj": 9.57,
+   "marj": 9.67,
    "basladi": false,
    "ima": {
-    "ev": 0.4167420490834199,
-    "beraberlik": 0.26076145356933983,
-    "deplasman": 0.3224964973472401
+    "ev": 0.4652274356727475,
+    "beraberlik": 0.24982075997769454,
+    "deplasman": 0.28495180434955786
    }
   },
   {
@@ -949,16 +549,16 @@
    "ev": "Liefering",
    "deplasman": "Bregenz",
    "oran": {
-    "ev": 2.35,
-    "beraberlik": 3.65,
-    "deplasman": 2.48
+    "ev": 2.4,
+    "beraberlik": 3.7,
+    "deplasman": 2.44
    },
-   "marj": 10.27,
+   "marj": 9.68,
    "basladi": false,
    "ima": {
-    "ev": 0.3858893744005116,
-    "beraberlik": 0.24844932324416497,
-    "deplasman": 0.36566130235532346
+    "ev": 0.37990237333782195,
+    "beraberlik": 0.24642316108399256,
+    "deplasman": 0.3736744655781855
    }
   },
   {
@@ -969,16 +569,16 @@
    "ev": "Lok. Sofia",
    "deplasman": "Botev Vratsa",
    "oran": {
-    "ev": 1.86,
+    "ev": 1.88,
     "beraberlik": 3.4,
-    "deplasman": 3.82
+    "deplasman": 3.78
    },
-   "marj": 9.35,
+   "marj": 9.06,
    "basladi": false,
    "ima": {
-    "ev": 0.49164937994942687,
-    "beraberlik": 0.2689611313840983,
-    "deplasman": 0.2393894886664749
+    "ev": 0.4877345315441131,
+    "beraberlik": 0.26968850567733316,
+    "deplasman": 0.24257696277855365
    }
   },
   {
@@ -989,16 +589,16 @@
    "ev": "Arsenal",
    "deplasman": "Everton",
    "oran": {
-    "ev": 1.45,
-    "beraberlik": 4.38,
-    "deplasman": 7.43
+    "ev": 1.44,
+    "beraberlik": 4.63,
+    "deplasman": 7.06
    },
-   "marj": 5.26,
+   "marj": 5.21,
    "basladi": false,
    "ima": {
-    "ev": 0.6552199710476989,
-    "beraberlik": 0.2169107210089414,
-    "deplasman": 0.12786930794335982
+    "ev": 0.660074230534678,
+    "beraberlik": 0.2052930652202886,
+    "deplasman": 0.13463270424503346
    }
   },
   {
@@ -1009,16 +609,16 @@
    "ev": "Coventry",
    "deplasman": "Fulham",
    "oran": {
-    "ev": 3.16,
+    "ev": 3.14,
     "beraberlik": 3.46,
-    "deplasman": 2.23
+    "deplasman": 2.24
    },
    "marj": 5.39,
    "basladi": false,
    "ima": {
-    "ev": 0.3002700788443427,
-    "beraberlik": 0.27423510090986214,
-    "deplasman": 0.4254948202457951
+    "ev": 0.30217869340777587,
+    "beraberlik": 0.274231531011681,
+    "deplasman": 0.42358977558054295
    }
   },
   {
@@ -1029,16 +629,16 @@
    "ev": "Khenchela",
    "deplasman": "Kabylie",
    "oran": {
-    "ev": 2.8,
-    "beraberlik": 2.85,
-    "deplasman": 2.4
+    "ev": 2.7,
+    "beraberlik": 2.87,
+    "deplasman": 2.45
    },
-   "marj": 12.47,
+   "marj": 12.7,
    "basladi": false,
    "ima": {
-    "ev": 0.31754874651810583,
-    "beraberlik": 0.3119777158774373,
-    "deplasman": 0.3704735376044568
+    "ev": 0.32864387371176185,
+    "beraberlik": 0.30917716342221496,
+    "deplasman": 0.36217896286602325
    }
   },
   {
@@ -1049,16 +649,16 @@
    "ev": "BATE",
    "deplasman": "Belshina",
    "oran": {
-    "ev": 2,
-    "beraberlik": 3.25,
-    "deplasman": 3.45
+    "ev": 1.93,
+    "beraberlik": 3.23,
+    "deplasman": 3.55
    },
-   "marj": 9.75,
+   "marj": 10.94,
    "basladi": false,
    "ima": {
-    "ev": 0.45556119857795835,
-    "beraberlik": 0.28034535297105134,
-    "deplasman": 0.26409344845099036
+    "ev": 0.4670310648055751,
+    "beraberlik": 0.2790619055959009,
+    "deplasman": 0.2539070295985239
    }
   },
   {
@@ -1069,16 +669,16 @@
    "ev": "Antwerp",
    "deplasman": "Charleroi",
    "oran": {
-    "ev": 3.95,
-    "beraberlik": 3.8,
+    "ev": 3.98,
+    "beraberlik": 3.75,
     "deplasman": 1.79
    },
-   "marj": 7.5,
+   "marj": 7.66,
    "basladi": false,
    "ima": {
-    "ev": 0.23550592919587982,
-    "beraberlik": 0.24480221587466458,
-    "deplasman": 0.5196918549294555
+    "ev": 0.23338328402006833,
+    "beraberlik": 0.2476974587732992,
+    "deplasman": 0.5189192572066325
    }
   },
   {
@@ -1089,16 +689,16 @@
    "ev": "Seraing",
    "deplasman": "Virton",
    "oran": {
-    "ev": 2.28,
-    "beraberlik": 3.4,
+    "ev": 2.3,
+    "beraberlik": 3.35,
     "deplasman": 2.63
    },
-   "marj": 11.29,
+   "marj": 11.35,
    "basladi": false,
    "ima": {
-    "ev": 0.39408736734478017,
-    "beraberlik": 0.26427035221944084,
-    "deplasman": 0.34164228043577904
+    "ev": 0.39045846351569946,
+    "beraberlik": 0.26807596002570405,
+    "deplasman": 0.3414655764585965
    }
   },
   {
@@ -1109,16 +709,36 @@
    "ev": "Club Brugge W",
    "deplasman": "Gent W",
    "oran": {
-    "ev": 1.1,
-    "beraberlik": 8,
-    "deplasman": 15
+    "ev": 1.08,
+    "beraberlik": 9,
+    "deplasman": 17
    },
-   "marj": 10.08,
+   "marj": 9.59,
    "basladi": false,
    "ima": {
-    "ev": 0.8258774948382656,
-    "beraberlik": 0.11355815554026152,
-    "deplasman": 0.06056434962147281
+    "ev": 0.8449304174950297,
+    "beraberlik": 0.10139165009940358,
+    "deplasman": 0.0536779324055666
+   }
+  },
+  {
+   "macId": "nmOBx1N8",
+   "saat": "17:00",
+   "lig": "WWIN Liga BiH",
+   "ulke": "Bosnia and Herzegovina",
+   "ev": "Siroki Brijeg",
+   "deplasman": "Celik Zenica",
+   "oran": {
+    "ev": 1.88,
+    "beraberlik": 3.15,
+    "deplasman": 3.7
+   },
+   "marj": 11.96,
+   "basladi": false,
+   "ima": {
+    "ev": 0.4750743895976848,
+    "beraberlik": 0.2835364610932214,
+    "deplasman": 0.24138914930909386
    }
   },
   {
@@ -1129,16 +749,16 @@
    "ev": "Racing Santander",
    "deplasman": "Espanyol",
    "oran": {
-    "ev": 2.35,
-    "beraberlik": 3.65,
-    "deplasman": 2.81
+    "ev": 2.26,
+    "beraberlik": 3.63,
+    "deplasman": 2.98
    },
-   "marj": 5.54,
+   "marj": 5.35,
    "basladi": false,
    "ima": {
-    "ev": 0.4032039312039312,
-    "beraberlik": 0.2595970515970516,
-    "deplasman": 0.33719901719901724
+    "ev": 0.41999534089144275,
+    "beraberlik": 0.26148470259357043,
+    "deplasman": 0.31851995651498677
    }
   },
   {
@@ -1149,16 +769,16 @@
    "ev": "Utrecht",
    "deplasman": "Zwolle",
    "oran": {
-    "ev": 1.63,
-    "beraberlik": 4.2,
-    "deplasman": 4.7
+    "ev": 1.65,
+    "beraberlik": 4.07,
+    "deplasman": 4.77
    },
-   "marj": 6.44,
+   "marj": 6.14,
    "basladi": false,
    "ima": {
-    "ev": 0.5764008526294273,
-    "beraberlik": 0.22369842613951582,
-    "deplasman": 0.1999007212310567
+    "ev": 0.570998738231583,
+    "beraberlik": 0.23148597495874984,
+    "deplasman": 0.1975152868096671
    }
   },
   {
@@ -1169,16 +789,16 @@
    "ev": "Estrela",
    "deplasman": "Casa Pia",
    "oran": {
-    "ev": 1.75,
-    "beraberlik": 3.6,
-    "deplasman": 4.48
+    "ev": 1.73,
+    "beraberlik": 3.62,
+    "deplasman": 4.58
    },
-   "marj": 7.24,
+   "marj": 7.26,
    "basladi": false,
    "ima": {
-    "ev": 0.5328399629972248,
-    "beraberlik": 0.2590194264569843,
-    "deplasman": 0.20814061054579092
+    "ev": 0.5389005902696518,
+    "beraberlik": 0.25754088982499934,
+    "deplasman": 0.20355851990534882
    }
   },
   {
@@ -1189,16 +809,16 @@
    "ev": "Shirak Gyumri",
    "deplasman": "Alashkert",
    "oran": {
-    "ev": 5.6,
-    "beraberlik": 4.1,
-    "deplasman": 1.47
+    "ev": 4.45,
+    "beraberlik": 3.65,
+    "deplasman": 1.63
    },
-   "marj": 10.27,
+   "marj": 11.22,
    "basladi": false,
    "ima": {
-    "ev": 0.16193342110212527,
-    "beraberlik": 0.2211773556516833,
-    "deplasman": 0.6168892232461916
+    "ev": 0.20205124721943932,
+    "beraberlik": 0.2463364520894534,
+    "deplasman": 0.5516123006911073
    }
   },
   {
@@ -1209,16 +829,16 @@
    "ev": "Hartberg",
    "deplasman": "Wolfsberger AC",
    "oran": {
-    "ev": 2.14,
-    "beraberlik": 3.63,
-    "deplasman": 3.02
+    "ev": 1.96,
+    "beraberlik": 3.72,
+    "deplasman": 3.38
    },
-   "marj": 7.39,
+   "marj": 7.49,
    "basladi": false,
    "ima": {
-    "ev": 0.43513431982725775,
-    "beraberlik": 0.2565254667852153,
-    "deplasman": 0.30834021338752704
+    "ev": 0.4746617540468712,
+    "beraberlik": 0.250090601594588,
+    "deplasman": 0.2752476443585407
    }
   },
   {
@@ -1229,16 +849,16 @@
    "ev": "Tirol",
    "deplasman": "Grazer AK",
    "oran": {
-    "ev": 2.44,
-    "beraberlik": 3.43,
-    "deplasman": 2.68
+    "ev": 2.15,
+    "beraberlik": 3.5,
+    "deplasman": 3.12
    },
-   "marj": 7.45,
+   "marj": 7.13,
    "basladi": false,
    "ima": {
-    "ev": 0.3814147248224126,
-    "beraberlik": 0.271327092876585,
-    "deplasman": 0.34725818230100247
+    "ev": 0.43414304456724845,
+    "beraberlik": 0.2666878702341669,
+    "deplasman": 0.29916908519858465
    }
   },
   {
@@ -1249,16 +869,16 @@
    "ev": "Neftci Baku",
    "deplasman": "Turan Tovuz",
    "oran": {
-    "ev": 1.64,
-    "beraberlik": 3.6,
-    "deplasman": 4.55
+    "ev": 1.74,
+    "beraberlik": 3.43,
+    "deplasman": 4.15
    },
-   "marj": 10.73,
+   "marj": 10.72,
    "basladi": false,
    "ima": {
-    "ev": 0.5506622739191823,
-    "beraberlik": 0.25085725811873866,
-    "deplasman": 0.1984804679620789
+    "ev": 0.5190583327559739,
+    "beraberlik": 0.263312390377666,
+    "deplasman": 0.2176292768663601
    }
   },
   {
@@ -1269,16 +889,16 @@
    "ev": "La Serena",
    "deplasman": "D. Concepcion",
    "oran": {
-    "ev": 2.25,
+    "ev": 2.28,
     "beraberlik": 3.37,
-    "deplasman": 2.89
+    "deplasman": 2.87
    },
-   "marj": 8.72,
+   "marj": 8.38,
    "basladi": false,
    "ima": {
-    "ev": 0.40879690064346064,
-    "beraberlik": 0.2729356161566132,
-    "deplasman": 0.3182674831999261
+    "ev": 0.4046972480135235,
+    "beraberlik": 0.2738011054809595,
+    "deplasman": 0.3215016465055169
    }
   },
   {
@@ -1289,16 +909,16 @@
    "ev": "Napoli",
    "deplasman": "AS Roma",
    "oran": {
-    "ev": 2.78,
-    "beraberlik": 3.29,
-    "deplasman": 2.56
+    "ev": 2.69,
+    "beraberlik": 3.26,
+    "deplasman": 2.65
    },
-   "marj": 5.43,
+   "marj": 5.59,
    "basladi": false,
    "ima": {
-    "ev": 0.3411895290333558,
-    "beraberlik": 0.2882999667819845,
-    "deplasman": 0.3705105041846598
+    "ev": 0.35208196634456673,
+    "beraberlik": 0.2905216225358541,
+    "deplasman": 0.35739641111957904
    }
   },
   {
@@ -1309,16 +929,16 @@
    "ev": "Samsunspor",
    "deplasman": "Amedspor",
    "oran": {
-    "ev": 3.37,
-    "beraberlik": 3.45,
-    "deplasman": 1.99
+    "ev": 2.91,
+    "beraberlik": 3.4,
+    "deplasman": 2.22
    },
-   "marj": 8.91,
+   "marj": 8.82,
    "basladi": false,
    "ima": {
-    "ev": 0.27245885635142053,
-    "beraberlik": 0.26614096982732965,
-    "deplasman": 0.4614001738212498
+    "ev": 0.3157868313377012,
+    "beraberlik": 0.27027637623315015,
+    "deplasman": 0.4139367924291488
    }
   },
   {
@@ -1329,16 +949,16 @@
    "ev": "Esperance Tunis",
    "deplasman": "Asswehly",
    "oran": {
-    "ev": 1.16,
+    "ev": 1.17,
     "beraberlik": 6,
-    "deplasman": 14
+    "deplasman": 13
    },
-   "marj": 10.02,
+   "marj": 9.83,
    "basladi": false,
    "ima": {
-    "ev": 0.7835820895522388,
-    "beraberlik": 0.15149253731343282,
-    "deplasman": 0.06492537313432835
+    "ev": 0.7782101167315175,
+    "beraberlik": 0.1517509727626459,
+    "deplasman": 0.07003891050583658
    }
   },
   {
@@ -1349,16 +969,16 @@
    "ev": "Real Bamako",
    "deplasman": "Zarzis",
    "oran": {
-    "ev": 1.66,
-    "beraberlik": 3.4,
-    "deplasman": 4.9
+    "ev": 1.63,
+    "beraberlik": 3.45,
+    "deplasman": 5
    },
-   "marj": 10.06,
+   "marj": 10.34,
    "basladi": false,
    "ima": {
-    "ev": 0.5473421381168276,
-    "beraberlik": 0.26723174978645114,
-    "deplasman": 0.1854261120967212
+    "ev": 0.5560301062098087,
+    "beraberlik": 0.2627040791657937,
+    "deplasman": 0.18126581462439767
    }
   },
   {
@@ -1369,16 +989,16 @@
    "ev": "ASO Chlef",
    "deplasman": "Rouisset",
    "oran": {
-    "ev": 1.98,
-    "beraberlik": 2.85,
-    "deplasman": 3.7
+    "ev": 1.93,
+    "beraberlik": 2.9,
+    "deplasman": 3.8
    },
-   "marj": 12.62,
+   "marj": 12.61,
    "basladi": false,
    "ima": {
-    "ev": 0.44845623883643787,
-    "beraberlik": 0.3115590711916305,
-    "deplasman": 0.23998468997193156
+    "ev": 0.4601060498517808,
+    "beraberlik": 0.3062085090392886,
+    "deplasman": 0.23368544110893072
    }
   },
   {
@@ -1389,16 +1009,16 @@
    "ev": "Al Hidd",
    "deplasman": "Manama Club",
    "oran": {
-    "ev": 1.94,
-    "beraberlik": 3.3,
-    "deplasman": 3.55
+    "ev": 2.09,
+    "beraberlik": 3.35,
+    "deplasman": 3.2
    },
-   "marj": 10.02,
+   "marj": 8.95,
    "basladi": false,
    "ima": {
-    "ev": 0.4685250359942409,
-    "beraberlik": 0.27543593025115976,
-    "deplasman": 0.25603903375459924
+    "ev": 0.43917327270120243,
+    "beraberlik": 0.27399168356582476,
+    "deplasman": 0.2868350437329728
    }
   },
   {
@@ -1409,16 +1029,16 @@
    "ev": "Malkia",
    "deplasman": "Al Ahli Manama",
    "oran": {
-    "ev": 4.2,
-    "beraberlik": 3.15,
-    "deplasman": 1.85
+    "ev": 3.75,
+    "beraberlik": 3.3,
+    "deplasman": 1.92
    },
-   "marj": 9.61,
+   "marj": 9.05,
    "basladi": false,
    "ima": {
-    "ev": 0.2172211350293542,
-    "beraberlik": 0.2896281800391389,
-    "deplasman": 0.49315068493150677
+    "ev": 0.2445293504689128,
+    "beraberlik": 0.27787426189649184,
+    "deplasman": 0.4775963876345954
    }
   },
   {
@@ -1429,16 +1049,16 @@
    "ev": "Leuven",
    "deplasman": "Lommel SK",
    "oran": {
-    "ev": 1.9,
+    "ev": 1.89,
     "beraberlik": 3.67,
-    "deplasman": 3.65
+    "deplasman": 3.68
    },
-   "marj": 7.28,
+   "marj": 7.33,
    "basladi": false,
    "ima": {
-    "ev": 0.4906147563499184,
-    "beraberlik": 0.2539967403446445,
-    "deplasman": 0.255388503305437
+    "ev": 0.4929572838001103,
+    "beraberlik": 0.25386628511776793,
+    "deplasman": 0.2531764310821218
    }
   },
   {
@@ -1449,16 +1069,16 @@
    "ev": "Chelsea",
    "deplasman": "Tottenham",
    "oran": {
-    "ev": 1.79,
-    "beraberlik": 4.03,
-    "deplasman": 4.05
+    "ev": 1.9,
+    "beraberlik": 3.84,
+    "deplasman": 3.74
    },
-   "marj": 5.37,
+   "marj": 5.41,
    "basladi": false,
    "ima": {
-    "ev": 0.5301822008984982,
-    "beraberlik": 0.23549035722290618,
-    "deplasman": 0.23432744187859555
+    "ev": 0.4992977235116606,
+    "beraberlik": 0.2470483527792071,
+    "deplasman": 0.25365392370913237
    }
   },
   {
@@ -1469,16 +1089,16 @@
    "ev": "Valencia",
    "deplasman": "Villarreal",
    "oran": {
-    "ev": 3.19,
-    "beraberlik": 3.53,
-    "deplasman": 2.18
+    "ev": 3.45,
+    "beraberlik": 3.56,
+    "deplasman": 2.06
    },
-   "marj": 5.55,
+   "marj": 5.62,
    "basladi": false,
    "ima": {
-    "ev": 0.2970015785228269,
-    "beraberlik": 0.2683951941891835,
-    "deplasman": 0.4346032272879897
+    "ev": 0.2744343739007432,
+    "beraberlik": 0.26595466010043933,
+    "deplasman": 0.4596109659988175
    }
   },
   {
@@ -1489,16 +1109,16 @@
    "ev": "Dortmund",
    "deplasman": "Eintracht Frankfurt",
    "oran": {
-    "ev": 1.5,
-    "beraberlik": 4.95,
-    "deplasman": 5.41
+    "ev": 1.48,
+    "beraberlik": 5.05,
+    "deplasman": 5.51
    },
-   "marj": 5.35,
+   "marj": 5.52,
    "basladi": false,
    "ima": {
-    "ev": 0.6327933931166484,
-    "beraberlik": 0.19175557367171164,
-    "deplasman": 0.17545103321164005
+    "ev": 0.6403393910384012,
+    "beraberlik": 0.18766382153204633,
+    "deplasman": 0.17199678742955243
    }
   },
   {
@@ -1509,16 +1129,16 @@
    "ev": "Vitebsk",
    "deplasman": "ML Vitebsk",
    "oran": {
-    "ev": 6.88,
-    "beraberlik": 4,
-    "deplasman": 1.41
+    "ev": 7.75,
+    "beraberlik": 4.2,
+    "deplasman": 1.36
    },
-   "marj": 10.46,
+   "marj": 10.24,
    "basladi": false,
    "ima": {
-    "ev": 0.13158877109153352,
-    "beraberlik": 0.22633268627743766,
-    "deplasman": 0.6420785426310289
+    "ev": 0.11704438342690873,
+    "beraberlik": 0.21597475513298633,
+    "deplasman": 0.6669808614401048
    }
   },
   {
@@ -1550,15 +1170,35 @@
    "deplasman": "Arouca",
    "oran": {
     "ev": 2.11,
-    "beraberlik": 3.33,
+    "beraberlik": 3.32,
     "deplasman": 3.35
    },
-   "marj": 7.27,
+   "marj": 7.36,
    "basladi": false,
    "ima": {
-    "ev": 0.44179673112794704,
-    "beraberlik": 0.27993726807206254,
-    "deplasman": 0.2782660007999905
+    "ev": 0.4414245287886425,
+    "beraberlik": 0.2805439023325409,
+    "deplasman": 0.27803156887881664
+   }
+  },
+  {
+   "macId": "Iceh3rgc",
+   "saat": "20:00",
+   "lig": "CAF Champions League",
+   "ulke": "Africa",
+   "ev": "Al Merreikh",
+   "deplasman": "Horoya",
+   "oran": {
+    "ev": 1.69,
+    "beraberlik": 3.3,
+    "deplasman": 4.8
+   },
+   "marj": 10.31,
+   "basladi": false,
+   "ima": {
+    "ev": 0.5364218226150564,
+    "beraberlik": 0.2747129940058925,
+    "deplasman": 0.18886518337905112
    }
   },
   {
@@ -1571,14 +1211,14 @@
    "oran": {
     "ev": 1.02,
     "beraberlik": 11,
-    "deplasman": 30
+    "deplasman": 35
    },
-   "marj": 10.46,
+   "marj": 9.99,
    "basladi": false,
    "ima": {
-    "ev": 0.8875262223656607,
-    "beraberlik": 0.08229788607390673,
-    "deplasman": 0.030175891560432464
+    "ev": 0.8913687719948139,
+    "beraberlik": 0.0826541952213373,
+    "deplasman": 0.02597703278384886
    }
   },
   {
@@ -1589,16 +1229,16 @@
    "ev": "Zamalek",
    "deplasman": "APR",
    "oran": {
-    "ev": 1.14,
-    "beraberlik": 6.2,
-    "deplasman": 17
+    "ev": 1.21,
+    "beraberlik": 5.4,
+    "deplasman": 12
    },
-   "marj": 9.73,
+   "marj": 9.5,
    "basladi": false,
    "ima": {
-    "ev": 0.7994053758873855,
-    "beraberlik": 0.14698744008251924,
-    "deplasman": 0.053607184030095255
+    "ev": 0.7547697253476833,
+    "beraberlik": 0.16912432734642532,
+    "deplasman": 0.07610594730589139
    }
   },
   {
@@ -1629,16 +1269,16 @@
    "ev": "CS Sfaxien",
    "deplasman": "Academie de FAD",
    "oran": {
-    "ev": 1.2,
-    "beraberlik": 4.9,
-    "deplasman": 16
+    "ev": 1.31,
+    "beraberlik": 4.2,
+    "deplasman": 10
    },
-   "marj": 9.99,
+   "marj": 10.15,
    "basladi": false,
    "ima": {
-    "ev": 0.7576343254735215,
-    "beraberlik": 0.18554310011596442,
-    "deplasman": 0.05682257441051411
+    "ev": 0.6930464341110854,
+    "beraberlik": 0.21616448302036234,
+    "deplasman": 0.0907890828685522
    }
   },
   {
@@ -1649,16 +1289,16 @@
    "ev": "Saoura",
    "deplasman": "Ben Aknoun",
    "oran": {
-    "ev": 2.05,
-    "beraberlik": 2.87,
-    "deplasman": 3.5
+    "ev": 1.95,
+    "beraberlik": 2.9,
+    "deplasman": 3.8
    },
-   "marj": 12.2,
+   "marj": 12.08,
    "basladi": false,
    "ima": {
-    "ev": 0.43478260869565216,
-    "beraberlik": 0.31055900621118004,
-    "deplasman": 0.2546583850931677
+    "ev": 0.4575461905750467,
+    "beraberlik": 0.30766036952460035,
+    "deplasman": 0.23479343990035287
    }
   },
   {
@@ -1669,16 +1309,16 @@
    "ev": "CF Montreal",
    "deplasman": "Nashville SC",
    "oran": {
-    "ev": 5.18,
-    "beraberlik": 4.2,
-    "deplasman": 1.58
+    "ev": 5.7,
+    "beraberlik": 4.38,
+    "deplasman": 1.52
    },
-   "marj": 6.41,
+   "marj": 6.16,
    "basladi": false,
    "ima": {
-    "ev": 0.1814284620684376,
-    "beraberlik": 0.22376176988440635,
-    "deplasman": 0.594809768047156
+    "ev": 0.16525183927560835,
+    "beraberlik": 0.21505376344086022,
+    "deplasman": 0.6196943972835315
    }
   },
   {
@@ -1709,16 +1349,16 @@
    "ev": "St. Liege W",
    "deplasman": "RSC Anderlecht W",
    "oran": {
-    "ev": 7,
-    "beraberlik": 4.8,
-    "deplasman": 1.33
+    "ev": 9,
+    "beraberlik": 5.6,
+    "deplasman": 1.24
    },
-   "marj": 10.31,
+   "marj": 9.61,
    "basladi": false,
    "ima": {
-    "ev": 0.12950866231184324,
-    "beraberlik": 0.18886679920477142,
-    "deplasman": 0.6816245384833854
+    "ev": 0.10136634357117831,
+    "beraberlik": 0.16291019502510803,
+    "deplasman": 0.7357234614037137
    }
   },
   {
@@ -1729,16 +1369,16 @@
    "ev": "Banfield",
    "deplasman": "Lanus",
    "oran": {
-    "ev": 3.7,
+    "ev": 3.68,
     "beraberlik": 3.15,
     "deplasman": 2.08
    },
-   "marj": 6.85,
+   "marj": 7,
    "basladi": false,
    "ima": {
-    "ev": 0.25294367447785976,
-    "beraberlik": 0.29710844303748607,
-    "deplasman": 0.44994788248465434
+    "ev": 0.25396923840238156,
+    "beraberlik": 0.29670057057802035,
+    "deplasman": 0.4493301910195981
    }
   },
   {
@@ -1749,16 +1389,16 @@
    "ev": "ES Setif",
    "deplasman": "Temouchent",
    "oran": {
-    "ev": 1.39,
-    "beraberlik": 3.75,
+    "ev": 1.38,
+    "beraberlik": 3.9,
     "deplasman": 7.75
    },
-   "marj": 11.51,
+   "marj": 11.01,
    "basladi": false,
    "ima": {
-    "ev": 0.6451523391975137,
-    "beraberlik": 0.23913646706254504,
-    "deplasman": 0.11571119373994114
+    "ev": 0.6527795775560452,
+    "beraberlik": 0.23098354282752367,
+    "deplasman": 0.11623687961643125
    }
   },
   {
@@ -1769,16 +1409,16 @@
    "ev": "Leuven W",
    "deplasman": "Waregem W",
    "oran": {
-    "ev": 1.18,
-    "beraberlik": 6,
-    "deplasman": 12
+    "ev": 1.19,
+    "beraberlik": 6.2,
+    "deplasman": 10
    },
-   "marj": 9.75,
+   "marj": 10.16,
    "basladi": false,
    "ima": {
-    "ev": 0.7722007722007723,
-    "beraberlik": 0.15186615186615185,
-    "deplasman": 0.07593307593307592
+    "ev": 0.7628140456212013,
+    "beraberlik": 0.14641108294987573,
+    "deplasman": 0.09077487142892296
    }
   },
   {
@@ -1809,16 +1449,16 @@
    "ev": "Lazio",
    "deplasman": "Parma",
    "oran": {
-    "ev": 1.4,
-    "beraberlik": 4.6,
-    "deplasman": 7.76
+    "ev": 1.46,
+    "beraberlik": 4.34,
+    "deplasman": 6.83
    },
-   "marj": 6.05,
+   "marj": 6.18,
    "basladi": false,
    "ima": {
-    "ev": 0.6735094339622641,
-    "beraberlik": 0.20498113207547172,
-    "deplasman": 0.12150943396226417
+    "ev": 0.6450912288032313,
+    "beraberlik": 0.21701225669417462,
+    "deplasman": 0.13789651450259413
    }
   },
   {
@@ -1829,16 +1469,16 @@
    "ev": "Lens",
    "deplasman": "Paris FC",
    "oran": {
-    "ev": 2.41,
-    "beraberlik": 3.6,
-    "deplasman": 2.74
+    "ev": 2.6,
+    "beraberlik": 3.56,
+    "deplasman": 2.54
    },
-   "marj": 5.77,
+   "marj": 5.92,
    "basladi": false,
    "ima": {
-    "ev": 0.39230971149486543,
-    "beraberlik": 0.2626295568618405,
-    "deplasman": 0.3450607316432941
+    "ev": 0.36311359547674116,
+    "beraberlik": 0.26519532253919303,
+    "deplasman": 0.37169108198406575
    }
   },
   {
@@ -1849,16 +1489,16 @@
    "ev": "RAAL La Louviere",
    "deplasman": "Waregem",
    "oran": {
-    "ev": 2.98,
-    "beraberlik": 3.38,
-    "deplasman": 2.27
+    "ev": 2.95,
+    "beraberlik": 3.35,
+    "deplasman": 2.28
    },
-   "marj": 7.2,
+   "marj": 7.61,
    "basladi": false,
    "ima": {
-    "ev": 0.3130446845317753,
-    "beraberlik": 0.27599797630316286,
-    "deplasman": 0.41095733916506183
+    "ev": 0.31501453818076836,
+    "beraberlik": 0.27740086198007957,
+    "deplasman": 0.4075845998391521
    }
   },
   {
@@ -1869,16 +1509,16 @@
    "ev": "Westerlo",
    "deplasman": "Beveren",
    "oran": {
-    "ev": 2.04,
-    "beraberlik": 3.77,
-    "deplasman": 3.13
+    "ev": 1.99,
+    "beraberlik": 3.75,
+    "deplasman": 3.27
    },
-   "marj": 7.49,
+   "marj": 7.5,
    "basladi": false,
    "ima": {
-    "ev": 0.4560231255869316,
-    "beraberlik": 0.24676052419027603,
-    "deplasman": 0.29721635022279247
+    "ev": 0.46745805743301194,
+    "beraberlik": 0.2480644091444517,
+    "deplasman": 0.28447753342253634
    }
   },
   {
@@ -1889,16 +1529,16 @@
    "ev": "Atl. Madrid",
    "deplasman": "Dep. A Coruna",
    "oran": {
-    "ev": 1.27,
-    "beraberlik": 5.96,
+    "ev": 1.26,
+    "beraberlik": 5.99,
     "deplasman": 10.75
    },
-   "marj": 4.82,
+   "marj": 5.36,
    "basladi": false,
    "ima": {
-    "ev": 0.7511868095019797,
-    "beraberlik": 0.16006833021267017,
-    "deplasman": 0.08874486028535016
+    "ev": 0.7532616871517659,
+    "beraberlik": 0.15844903602858515,
+    "deplasman": 0.08828927681964885
    }
   },
   {
@@ -1909,16 +1549,16 @@
    "ev": "Den Haag",
    "deplasman": "Heerenveen",
    "oran": {
-    "ev": 3.27,
-    "beraberlik": 3.8,
-    "deplasman": 2.04
+    "ev": 3.37,
+    "beraberlik": 3.87,
+    "deplasman": 1.98
    },
-   "marj": 5.92,
+   "marj": 6.02,
    "basladi": false,
    "ima": {
-    "ev": 0.28872798784303205,
-    "beraberlik": 0.2484580316438723,
-    "deplasman": 0.4628139805130955
+    "ev": 0.2798908576876294,
+    "beraberlik": 0.24372924816726385,
+    "deplasman": 0.4763798941451067
    }
   },
   {
@@ -1929,21 +1569,221 @@
    "ev": "Ferro",
    "deplasman": "Chaco For Ever",
    "oran": {
-    "ev": 1.48,
-    "beraberlik": 3.52,
-    "deplasman": 7.33
+    "ev": 1.45,
+    "beraberlik": 3.63,
+    "deplasman": 7.95
    },
-   "marj": 9.62,
+   "marj": 9.09,
    "basladi": false,
    "ima": {
-    "ev": 0.6163842941643016,
-    "beraberlik": 0.2591615782281723,
-    "deplasman": 0.12445412760752612
+    "ev": 0.6321755988565044,
+    "beraberlik": 0.2525219334275293,
+    "deplasman": 0.11530246771596621
+   }
+  },
+  {
+   "macId": "W0izU8xA",
+   "saat": "22:00",
+   "lig": "Division Profesional",
+   "ulke": "Bolivia",
+   "ev": "GV San Jose",
+   "deplasman": "Blooming",
+   "oran": {
+    "ev": 1.74,
+    "beraberlik": 3.63,
+    "deplasman": 3.88
+   },
+   "marj": 10.79,
+   "basladi": false,
+   "ima": {
+    "ev": 0.5187280401299361,
+    "beraberlik": 0.24864649857468013,
+    "deplasman": 0.23262546129538375
+   }
+  },
+  {
+   "macId": "2LqBDSWO",
+   "saat": "22:00",
+   "lig": "Serie B",
+   "ulke": "Brazil",
+   "ev": "Avai",
+   "deplasman": "Botafogo SP",
+   "oran": {
+    "ev": 2.26,
+    "beraberlik": 3.02,
+    "deplasman": 3.2
+   },
+   "marj": 8.61,
+   "basladi": false,
+   "ima": {
+    "ev": 0.4073992884002495,
+    "beraberlik": 0.30487496416707416,
+    "deplasman": 0.2877257474326762
+   }
+  },
+  {
+   "macId": "jkXEdm4e",
+   "saat": "22:30",
+   "lig": "MLS",
+   "ulke": "USA",
+   "ev": "Columbus Crew",
+   "deplasman": "Toronto FC",
+   "oran": {
+    "ev": 1.63,
+    "beraberlik": 4.28,
+    "deplasman": 4.51
+   },
+   "marj": 6.89,
+   "basladi": false,
+   "ima": {
+    "ev": 0.573967083451034,
+    "beraberlik": 0.21859026776289378,
+    "deplasman": 0.20744264878607216
+   }
+  },
+  {
+   "macId": "Cns1phNp",
+   "saat": "22:30",
+   "lig": "Liga Portugal",
+   "ulke": "Portugal",
+   "ev": "Gil Vicente",
+   "deplasman": "FC Porto",
+   "oran": {
+    "ev": 6.7,
+    "beraberlik": 4.23,
+    "deplasman": 1.46
+   },
+   "marj": 7.06,
+   "basladi": false,
+   "ima": {
+    "ev": 0.1394123542849919,
+    "beraberlik": 0.22081862262634652,
+    "deplasman": 0.6397690230886616
+   }
+  },
+  {
+   "macId": "lOeeW39d",
+   "saat": "22:30",
+   "lig": "Serie A",
+   "ulke": "Brazil",
+   "ev": "Internacional",
+   "deplasman": "Botafogo RJ",
+   "oran": {
+    "ev": 1.96,
+    "beraberlik": 3.55,
+    "deplasman": 3.7
+   },
+   "marj": 6.22,
+   "basladi": false,
+   "ima": {
+    "ev": 0.48034375571402455,
+    "beraberlik": 0.26520387639422205,
+    "deplasman": 0.2544523678917535
+   }
+  },
+  {
+   "macId": "lQzFjYfB",
+   "saat": "22:30",
+   "lig": "Serie A",
+   "ulke": "Brazil",
+   "ev": "Mirassol",
+   "deplasman": "Sao Paulo",
+   "oran": {
+    "ev": 2.3,
+    "beraberlik": 3.3,
+    "deplasman": 3.07
+   },
+   "marj": 6.35,
+   "basladi": false,
+   "ima": {
+    "ev": 0.40880477766120576,
+    "beraberlik": 0.2849245420062949,
+    "deplasman": 0.30627068033249943
+   }
+  },
+  {
+   "macId": "xpxjhoWF",
+   "saat": "22:30",
+   "lig": "Serie A",
+   "ulke": "Brazil",
+   "ev": "Vitoria",
+   "deplasman": "Athletico-PR",
+   "oran": {
+    "ev": 2.62,
+    "beraberlik": 3.32,
+    "deplasman": 2.6
+   },
+   "marj": 6.75,
+   "basladi": false,
+   "ima": {
+    "ev": 0.3575452316256876,
+    "beraberlik": 0.28215918881304264,
+    "deplasman": 0.3602955795612698
+   }
+  },
+  {
+   "macId": "U7o3Fl2C",
+   "saat": "22:30",
+   "lig": "Serie B",
+   "ulke": "Brazil",
+   "ev": "Atletico GO",
+   "deplasman": "Novorizontino",
+   "oran": {
+    "ev": 2.53,
+    "beraberlik": 3.22,
+    "deplasman": 2.6
+   },
+   "marj": 9.04,
+   "basladi": false,
+   "ima": {
+    "ev": 0.36247759410476005,
+    "beraberlik": 0.28480382393945425,
+    "deplasman": 0.35271858195578565
+   }
+  },
+  {
+   "macId": "WtBUDyR7",
+   "saat": "22:30",
+   "lig": "Serie B",
+   "ulke": "Brazil",
+   "ev": "Sao Bernardo",
+   "deplasman": "Vila Nova FC",
+   "oran": {
+    "ev": 2.95,
+    "beraberlik": 3.1,
+    "deplasman": 2.34
+   },
+   "marj": 8.89,
+   "basladi": false,
+   "ima": {
+    "ev": 0.3113037507510085,
+    "beraberlik": 0.29624066603725,
+    "deplasman": 0.3924555832117415
+   }
+  },
+  {
+   "macId": "tfCMfNNb",
+   "saat": "23:00",
+   "lig": "Liga Profesional",
+   "ulke": "Argentina",
+   "ev": "Talleres Cordoba",
+   "deplasman": "Defensa y Justicia",
+   "oran": {
+    "ev": 2.27,
+    "beraberlik": 3.17,
+    "deplasman": 3.18
+   },
+   "marj": 7.05,
+   "basladi": false,
+   "ima": {
+    "ev": 0.41153536829814946,
+    "beraberlik": 0.2946956738286433,
+    "deplasman": 0.29376895787320734
    }
   },
   {
    "macId": "jirBwss9",
-   "saat": "22:00",
+   "saat": "23:00",
    "lig": "Primera Nacional",
    "ulke": "Argentina",
    "ev": "Quilmes",
@@ -1962,206 +1802,6 @@
    }
   },
   {
-   "macId": "W0izU8xA",
-   "saat": "22:00",
-   "lig": "Division Profesional",
-   "ulke": "Bolivia",
-   "ev": "GV San Jose",
-   "deplasman": "Blooming",
-   "oran": {
-    "ev": 1.86,
-    "beraberlik": 3.63,
-    "deplasman": 3.4
-   },
-   "marj": 10.72,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4855652338125251,
-    "beraberlik": 0.24880202063121123,
-    "deplasman": 0.26563274555626376
-   }
-  },
-  {
-   "macId": "2LqBDSWO",
-   "saat": "22:00",
-   "lig": "Serie B",
-   "ulke": "Brazil",
-   "ev": "Avai",
-   "deplasman": "Botafogo SP",
-   "oran": {
-    "ev": 2.26,
-    "beraberlik": 3.05,
-    "deplasman": 3.2
-   },
-   "marj": 8.28,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4086246598283441,
-    "beraberlik": 0.3027841741678878,
-    "deplasman": 0.288591166003768
-   }
-  },
-  {
-   "macId": "jkXEdm4e",
-   "saat": "22:30",
-   "lig": "MLS",
-   "ulke": "USA",
-   "ev": "Columbus Crew",
-   "deplasman": "Toronto FC",
-   "oran": {
-    "ev": 1.62,
-    "beraberlik": 4.34,
-    "deplasman": 4.54
-   },
-   "marj": 6.8,
-   "basladi": false,
-   "ima": {
-    "ev": 0.578001243795689,
-    "beraberlik": 0.2157516163476996,
-    "deplasman": 0.2062471398566115
-   }
-  },
-  {
-   "macId": "Cns1phNp",
-   "saat": "22:30",
-   "lig": "Liga Portugal",
-   "ulke": "Portugal",
-   "ev": "Gil Vicente",
-   "deplasman": "FC Porto",
-   "oran": {
-    "ev": 6.92,
-    "beraberlik": 4.34,
-    "deplasman": 1.43
-   },
-   "marj": 7.42,
-   "basladi": false,
-   "ima": {
-    "ev": 0.1345237630758693,
-    "beraberlik": 0.21449411071083305,
-    "deplasman": 0.6509821262132975
-   }
-  },
-  {
-   "macId": "lOeeW39d",
-   "saat": "22:30",
-   "lig": "Serie A",
-   "ulke": "Brazil",
-   "ev": "Internacional",
-   "deplasman": "Botafogo RJ",
-   "oran": {
-    "ev": 1.96,
-    "beraberlik": 3.58,
-    "deplasman": 3.67
-   },
-   "marj": 6.2,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4804121600374425,
-    "beraberlik": 0.26301894795346015,
-    "deplasman": 0.2565688920090974
-   }
-  },
-  {
-   "macId": "lQzFjYfB",
-   "saat": "22:30",
-   "lig": "Serie A",
-   "ulke": "Brazil",
-   "ev": "Mirassol",
-   "deplasman": "Sao Paulo",
-   "oran": {
-    "ev": 2.33,
-    "beraberlik": 3.28,
-    "deplasman": 3.03
-   },
-   "marj": 6.41,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4033326975288851,
-    "beraberlik": 0.2865137759885068,
-    "deplasman": 0.310153526482608
-   }
-  },
-  {
-   "macId": "xpxjhoWF",
-   "saat": "22:30",
-   "lig": "Serie A",
-   "ulke": "Brazil",
-   "ev": "Vitoria",
-   "deplasman": "Athletico-PR",
-   "oran": {
-    "ev": 2.55,
-    "beraberlik": 3.32,
-    "deplasman": 2.68
-   },
-   "marj": 6.65,
-   "basladi": false,
-   "ima": {
-    "ev": 0.36770588818725825,
-    "beraberlik": 0.282424703276358,
-    "deplasman": 0.3498694085363837
-   }
-  },
-  {
-   "macId": "U7o3Fl2C",
-   "saat": "22:30",
-   "lig": "Serie B",
-   "ulke": "Brazil",
-   "ev": "Atletico GO",
-   "deplasman": "Novorizontino",
-   "oran": {
-    "ev": 2.44,
-    "beraberlik": 3.27,
-    "deplasman": 2.68
-   },
-   "marj": 8.88,
-   "basladi": false,
-   "ima": {
-    "ev": 0.37641742835543957,
-    "beraberlik": 0.2808741667239365,
-    "deplasman": 0.34270840492062404
-   }
-  },
-  {
-   "macId": "WtBUDyR7",
-   "saat": "22:30",
-   "lig": "Serie B",
-   "ulke": "Brazil",
-   "ev": "Sao Bernardo",
-   "deplasman": "Vila Nova FC",
-   "oran": {
-    "ev": 2.95,
-    "beraberlik": 3.1,
-    "deplasman": 2.33
-   },
-   "marj": 9.07,
-   "basladi": false,
-   "ima": {
-    "ev": 0.310780285265581,
-    "beraberlik": 0.2957425295269238,
-    "deplasman": 0.39347718520749525
-   }
-  },
-  {
-   "macId": "tfCMfNNb",
-   "saat": "23:00",
-   "lig": "Liga Profesional",
-   "ulke": "Argentina",
-   "ev": "Talleres Cordoba",
-   "deplasman": "Defensa y Justicia",
-   "oran": {
-    "ev": 2.22,
-    "beraberlik": 3.2,
-    "deplasman": 3.25
-   },
-   "marj": 7.06,
-   "basladi": false,
-   "ima": {
-    "ev": 0.42072899389133855,
-    "beraberlik": 0.2918807395121162,
-    "deplasman": 0.28739026659654515
-   }
-  },
-  {
    "macId": "dWdEyzJ6",
    "saat": "23:00",
    "lig": "Serie C",
@@ -2169,16 +1809,16 @@
    "ev": "Ferroviaria",
    "deplasman": "Maringa FC",
    "oran": {
-    "ev": 1.97,
-    "beraberlik": 3.1,
-    "deplasman": 3.7
+    "ev": 1.98,
+    "beraberlik": 3.2,
+    "deplasman": 3.55
    },
-   "marj": 10.05,
+   "marj": 9.92,
    "basladi": false,
    "ima": {
-    "ev": 0.4612724201721226,
-    "beraberlik": 0.2931311831416392,
-    "deplasman": 0.24559639668623826
+    "ev": 0.45945399393326597,
+    "beraberlik": 0.2842871587462083,
+    "deplasman": 0.2562588473205258
    }
   },
   {
@@ -2189,16 +1829,16 @@
    "ev": "Copiapo",
    "deplasman": "CD Santa Cruz",
    "oran": {
-    "ev": 2.28,
+    "ev": 2.29,
     "beraberlik": 3.35,
     "deplasman": 2.75
    },
-   "marj": 10.07,
+   "marj": 9.88,
    "basladi": false,
    "ima": {
-    "ev": 0.3984559157457667,
-    "beraberlik": 0.27118790683592475,
-    "deplasman": 0.3303561774183084
+    "ev": 0.39740741539589763,
+    "beraberlik": 0.2716605914198822,
+    "deplasman": 0.3309319931842202
    }
   },
   {
@@ -2209,16 +1849,16 @@
    "ev": "D. Puerto Montt",
    "deplasman": "San Felipe",
    "oran": {
-    "ev": 2.07,
+    "ev": 1.94,
     "beraberlik": 3.25,
-    "deplasman": 3.25
+    "deplasman": 3.6
    },
-   "marj": 9.85,
+   "marj": 10.09,
    "basladi": false,
    "ima": {
-    "ev": 0.43978349120433025,
-    "beraberlik": 0.28010825439783493,
-    "deplasman": 0.28010825439783493
+    "ev": 0.4682060106446837,
+    "beraberlik": 0.2794829725079035,
+    "deplasman": 0.25231101684741286
    }
   },
   {
@@ -2229,16 +1869,16 @@
    "ev": "Rangers",
    "deplasman": "Cobreloa",
    "oran": {
-    "ev": 2.37,
-    "beraberlik": 3.35,
-    "deplasman": 2.65
+    "ev": 2.02,
+    "beraberlik": 3.6,
+    "deplasman": 3.05
    },
-   "marj": 9.78,
+   "marj": 10.07,
    "basladi": false,
    "ima": {
-    "ev": 0.384348955514666,
-    "beraberlik": 0.2719125446476891,
-    "deplasman": 0.34373849983764476
+    "ev": 0.4497603735714578,
+    "beraberlik": 0.2523655429484291,
+    "deplasman": 0.29787408348011307
    }
   },
   {
@@ -2249,16 +1889,16 @@
    "ev": "San Luis",
    "deplasman": "Recoleta",
    "oran": {
-    "ev": 1.58,
-    "beraberlik": 4.1,
+    "ev": 1.59,
+    "beraberlik": 4,
     "deplasman": 4.5
    },
-   "marj": 9.9,
+   "marj": 10.12,
    "basladi": false,
    "ima": {
-    "ev": 0.5758786441101192,
-    "beraberlik": 0.22192396529121672,
-    "deplasman": 0.2021973905986641
+    "ev": 0.5711565920990005,
+    "beraberlik": 0.2270347453593527,
+    "deplasman": 0.20180866254164684
    }
   },
   {
@@ -2269,19 +1909,431 @@
    "ev": "U. Espanola",
    "deplasman": "S. Wanderers",
    "oran": {
-    "ev": 1.91,
-    "beraberlik": 3.5,
-    "deplasman": 3.45
+    "ev": 2.01,
+    "beraberlik": 3.35,
+    "deplasman": 3.25
    },
-   "marj": 9.91,
+   "marj": 10.37,
    "basladi": false,
    "ima": {
-    "ev": 0.47634075622793354,
-    "beraberlik": 0.25994595554152944,
-    "deplasman": 0.26371328823053714
+    "ev": 0.45076282940360607,
+    "beraberlik": 0.2704576976421636,
+    "deplasman": 0.2787794729542302
    }
   }
  ],
- "tahminler": [],
- "elenenler": []
+ "tahminler": [
+  {
+   "ev": "Arsenal",
+   "deplasman": "Everton",
+   "lig": "England Premier League",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 102,
+   "n": 125,
+   "yuzde": 82,
+   "oran": 1.44,
+   "macId": "G0XLh1up",
+   "basabas": 69.4,
+   "fark": 12.2,
+   "esik": 3.5,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 11,
+     "deplasman": 9
+    },
+    "yuzde": 47.9,
+    "fark": -21.6,
+    "beklenenDeger": -0.311,
+    "beklenenGol": 2.22
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Chelsea",
+   "deplasman": "Tottenham",
+   "lig": "England Premier League",
+   "tarih": "2026-10-24",
+   "saat": "19:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 96,
+   "n": 114,
+   "yuzde": 84,
+   "oran": 1.9,
+   "macId": "GKNFEr23",
+   "basabas": 52.6,
+   "fark": 31.6,
+   "esik": 3.5,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 9,
+     "deplasman": 9
+    },
+    "yuzde": 66,
+    "fark": 13.3,
+    "beklenenDeger": 0.253,
+    "beklenenGol": 4.16
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Coventry",
+   "deplasman": "Fulham",
+   "lig": "England Premier League",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 39,
+   "n": 87,
+   "yuzde": 45,
+   "oran": 3.14,
+   "macId": "OpRNCMWF",
+   "basabas": 31.8,
+   "fark": 13,
+   "esik": 5.3,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 9,
+     "deplasman": 9
+    },
+    "yuzde": 31,
+    "fark": -0.8,
+    "beklenenDeger": -0.026,
+    "beklenenGol": 3.04
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Como",
+   "deplasman": "Sassuolo",
+   "lig": "Italy Serie A",
+   "tarih": "2026-10-24",
+   "saat": "16:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 29,
+   "n": 33,
+   "yuzde": 88,
+   "oran": 1.49,
+   "macId": "d0UfRL26",
+   "basabas": 67.1,
+   "fark": 20.8,
+   "esik": 6.1,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 10,
+     "deplasman": 9
+    },
+    "yuzde": 62.2,
+    "fark": -4.9,
+    "beklenenDeger": -0.073,
+    "beklenenGol": 3.73
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Lazio",
+   "deplasman": "Parma",
+   "lig": "Italy Serie A",
+   "tarih": "2026-10-24",
+   "saat": "21:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 22,
+   "n": 22,
+   "yuzde": 100,
+   "oran": 1.46,
+   "macId": "CpQJssmm",
+   "basabas": 68.5,
+   "fark": 31.5,
+   "esik": 4.3,
+   "model": {
+    "kaynak": "genel",
+    "macSayisi": {
+     "ev": 8,
+     "deplasman": 9
+    },
+    "yuzde": 72.2,
+    "fark": 3.7,
+    "beklenenDeger": 0.055,
+    "beklenenGol": 2.57
+   },
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "RB Leipzig",
+   "deplasman": "Elversberg",
+   "lig": "Germany Bundesliga I",
+   "tarih": "2026-10-24",
+   "saat": "16:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 19,
+   "n": 21,
+   "yuzde": 90,
+   "oran": 1.41,
+   "macId": "dlCz6uop",
+   "basabas": 70.9,
+   "fark": 19.6,
+   "esik": 7.3,
+   "durum": "bekliyor"
+  },
+  {
+   "ev": "Borussia Dortmund",
+   "deplasman": "Eintracht Frankfurt",
+   "lig": "Germany Bundesliga I",
+   "tarih": "2026-10-24",
+   "saat": "19:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 18,
+   "yuzde": 94,
+   "oran": 1.48,
+   "macId": "0IQ4B1NM",
+   "basabas": 67.6,
+   "fark": 26.9,
+   "esik": 7.1,
+   "durum": "bekliyor"
+  }
+ ],
+ "elenenler": [
+  {
+   "ev": "Preston",
+   "deplasman": "West Brom",
+   "lig": "England Championship",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 21,
+   "n": 21,
+   "yuzde": 100,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Stoke",
+   "deplasman": "Bristol City",
+   "lig": "England Championship",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 20,
+   "n": 21,
+   "yuzde": 95,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Atletico Madrid",
+   "deplasman": "Deportivo A Coruna",
+   "lig": "Spain Primera Liga",
+   "tarih": "2026-10-24",
+   "saat": "22:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 19,
+   "n": 19,
+   "yuzde": 100,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Rangers",
+   "deplasman": "St Johnstone",
+   "lig": "Scotland Premiership",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 17,
+   "yuzde": 100,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Wolverhampton",
+   "deplasman": "Watford",
+   "lig": "England Championship",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 18,
+   "yuzde": 94,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Liverpool",
+   "deplasman": "Brighton",
+   "lig": "England Premier League",
+   "tarih": "2026-10-25",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 15,
+   "n": 22,
+   "yuzde": 68,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "West Ham",
+   "deplasman": "Southampton",
+   "lig": "England Championship",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 14,
+   "n": 18,
+   "yuzde": 78,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Reading",
+   "deplasman": "Barnsley",
+   "lig": "England League One",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 14,
+   "n": 15,
+   "yuzde": 93,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Boreham Wood",
+   "deplasman": "AFC Fylde",
+   "lig": "England National League",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 12,
+   "n": 13,
+   "yuzde": 92,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Bodo-Glimt",
+   "deplasman": "Valerenga",
+   "lig": "Norway Eliteserien",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 11,
+   "n": 12,
+   "yuzde": 92,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Barnet",
+   "deplasman": "Oldham",
+   "lig": "England League Two",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 11,
+   "n": 12,
+   "yuzde": 92,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Notts County",
+   "deplasman": "Stockport",
+   "lig": "England League One",
+   "tarih": "2026-10-24",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 10,
+   "n": 12,
+   "yuzde": 83,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Man Utd",
+   "deplasman": "Bournemouth",
+   "lig": "England Premier League",
+   "tarih": "2026-10-25",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 22,
+   "yuzde": 45,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  }
+ ]
 }
