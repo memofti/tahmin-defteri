@@ -78614,9 +78614,432 @@
    "evGol": 1,
    "depGol": 2,
    "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Australian A-League",
+   "ev": "Wellington",
+   "deplasman": "Central Coast M",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Australian A-League",
+   "ev": "Sydney FC",
+   "deplasman": "Adelaide Utd",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Belarus League",
+   "ev": "Arsenal Dzyarzhynsk",
+   "deplasman": "Dnepr Mogilev",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Atlanta U",
+   "deplasman": "Chicago",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Philadelphia U",
+   "deplasman": "New England",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "DC United",
+   "deplasman": "Cincinnati",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Orlando City",
+   "deplasman": "New York City",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Dallas",
+   "deplasman": "San Jose",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Colorado",
+   "deplasman": "Vancouver W",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Kansas City",
+   "deplasman": "Austin FC",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Houston",
+   "deplasman": "Minnesota U",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Real Salt Lake",
+   "deplasman": "St. Louis City SC",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "Portland Timb.",
+   "deplasman": "Charlotte FC",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "MLS",
+   "ev": "San Diego",
+   "deplasman": "Seattle",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Chile Primera",
+   "ev": "O'Higgins",
+   "deplasman": "Cobresal",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Leon",
+   "deplasman": "Toluca",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Monterrey",
+   "deplasman": "Guadalajara",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Pumas UNAM",
+   "deplasman": "Tigres",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Colegiales",
+   "deplasman": "Atletico Rafaela",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Ciudad de Bolivar",
+   "deplasman": "Colon Santa Fe",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "America de Cali",
+   "deplasman": "Cucuta Deportivo",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Once Caldas",
+   "deplasman": "Deportivo Pereira",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Brazilian Serie A",
+   "ev": "Santos",
+   "deplasman": "Bahia",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Universitario de Deportes",
+   "deplasman": "Juan Pablo II College",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Rosario",
+   "deplasman": "Huracan",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J1 League",
+   "ev": "Nagoya Grampus",
+   "deplasman": "Yokohama F. Marinos",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J1 League",
+   "ev": "Cerezo Osaka",
+   "deplasman": "JEF United",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J1 League",
+   "ev": "Urawa Red Diamonds",
+   "deplasman": "V-Varen Nagasaki",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J1 League",
+   "ev": "Kawasaki F",
+   "deplasman": "Fagiano Okayama",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J1 League",
+   "ev": "FC Tokyo",
+   "deplasman": "Mito HollyHock",
+   "evGol": 6,
+   "depGol": 0,
+   "ms": "6-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Suwon FC",
+   "deplasman": "Chungnam Asan",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Busan IPark",
+   "deplasman": "Gyeongnam",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Seongnam",
+   "deplasman": "Suwon Samsung",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Cheonan City",
+   "deplasman": "Ansan Greeners",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Cheongju",
+   "deplasman": "Yongin",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Korean K-League 2",
+   "ev": "Paju Frontier",
+   "deplasman": "Hwaseong",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Montedio Yamagata",
+   "deplasman": "Tegevajaro Miyazaki",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Blaublitz Akita",
+   "deplasman": "Imabari",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Sagan Tosu",
+   "deplasman": "Vanraure Hachinohe",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Albirex Niigata",
+   "deplasman": "Vegalta Sendai",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Oita Trinita",
+   "deplasman": "Ventforet Kofu",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Kataller Toyama",
+   "deplasman": "Consadole Sapporo",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Iwaki",
+   "deplasman": "Jubilo Iwata",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Japanese J2 League",
+   "ev": "Shonan Bellmare",
+   "deplasman": "Tochigi City",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Premier League 2 (Division 2)",
+   "ev": "Leicester U21",
+   "deplasman": "Arsenal U21",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Brazilian Serie A",
+   "ev": "Chapecoense",
+   "deplasman": "Fluminense",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-24",
+   "lig": "Paraguay League Clausura",
+   "ev": "2 de Mayo",
+   "deplasman": "Deportivo Recoleta",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-10-25T00:23:53.173Z",
+ "guncellendi": "2026-10-25T12:48:42.123Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
