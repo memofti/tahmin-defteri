@@ -80063,9 +80063,198 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "MLS",
+   "ev": "Los Angeles FC",
+   "deplasman": "LA Galaxy",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Barracas Central",
+   "deplasman": "Estudiantes de Rio Cuarto",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Central Cordoba SDE",
+   "deplasman": "Velez Sarsfield",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Queretaro",
+   "deplasman": "Cruz Azul",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Club America",
+   "deplasman": "Pachuca",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Tijuana",
+   "deplasman": "Santos Laguna",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportes Tolima",
+   "deplasman": "Deportivo Pasto",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Chile Primera",
+   "ev": "Universidad de Concepcion",
+   "deplasman": "Deportes Limache",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Atlas",
+   "deplasman": "Puebla",
+   "evGol": 4,
+   "depGol": 3,
+   "ms": "4-3"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Alianza Petrolera",
+   "deplasman": "La Equidad",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Independiente M",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Deportivo Garcilaso",
+   "deplasman": "Los Chankas",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "River Plate",
+   "deplasman": "Racing Club",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Montevideo W",
+   "deplasman": "Progreso",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Montevideo City Torque",
+   "deplasman": "Cerro",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Cerro Largo",
+   "deplasman": "Boston River",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Nacional Montevideo",
+   "deplasman": "Liverpool FC",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sp. San Lorenzo",
+   "deplasman": "Cerro Porteno",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Aucas",
+   "deplasman": "Barcelona de G",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Portuguesa FC",
+   "deplasman": "Carabobo FC",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-25",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Deportivo La Guaira",
+   "deplasman": "Metropolitanos",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-10-26T00:30:20.786Z",
+ "guncellendi": "2026-10-26T14:37:17.232Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
