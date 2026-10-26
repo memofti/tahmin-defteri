@@ -80252,9 +80252,99 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Turkish Super Lig",
+   "ev": "Besiktas",
+   "deplasman": "Basaksehir",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Turkish Super Lig",
+   "ev": "Rizespor",
+   "deplasman": "Trabzonspor",
+   "evGol": 3,
+   "depGol": 4,
+   "ms": "3-4"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Croatian HNL",
+   "ev": "NK Istra 1961",
+   "deplasman": "Hajduk Split",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Copenhagen",
+   "deplasman": "OB Odense",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Romanian Liga 1",
+   "ev": "Sepsi Sfantu G",
+   "deplasman": "Uni Craiova",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Bulgarian League",
+   "ev": "Loko. Plovdiv",
+   "deplasman": "Slavia Sofia",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Bulgarian League",
+   "ev": "CSKA Sofia",
+   "deplasman": "Ludogorets",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Israeli League",
+   "ev": "M. Haifa",
+   "deplasman": "H Beer Sheva",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Nueva Chicago",
+   "deplasman": "San Martin de San Juan",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Swedish Superettan",
+   "ev": "Orebro",
+   "deplasman": "Falkenbergs FF",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
   }
  ],
- "guncellendi": "2026-10-26T14:37:17.232Z",
+ "guncellendi": "2026-10-26T20:19:01.807Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
