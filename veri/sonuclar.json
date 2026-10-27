@@ -80342,9 +80342,108 @@
    "evGol": 1,
    "depGol": 0,
    "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Football League Two",
+   "ev": "Walsall",
+   "deplasman": "Salford",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Spanish La Liga",
+   "ev": "Sevilla",
+   "deplasman": "Osasuna",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "French Ligue 1",
+   "ev": "PSG",
+   "deplasman": "Lyon",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Turkish Super Lig",
+   "ev": "Galatasaray",
+   "deplasman": "Fenerbahce",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Portuguese Liga",
+   "ev": "Santa Clara",
+   "deplasman": "Benfica",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Spanish Segunda",
+   "ev": "FC Andorra",
+   "deplasman": "Burgos",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Union Santa Fe",
+   "deplasman": "Estudiantes",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Defensores de Belgrano",
+   "deplasman": "San Miguel",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Tecnico Universitario",
+   "deplasman": "Mushuc Runa",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Chile Primera",
+   "ev": "Univ de Chile",
+   "deplasman": "Everton de Vina del Mar",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Brazilian Serie A",
+   "ev": "Coritiba",
+   "deplasman": "Gremio",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-10-26T20:19:01.807Z",
+ "guncellendi": "2026-10-27T01:32:34.942Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -80470,6 +80569,7 @@
   "2026-10-22",
   "2026-10-23",
   "2026-10-24",
-  "2026-10-25"
+  "2026-10-25",
+  "2026-10-26"
  ]
 }
