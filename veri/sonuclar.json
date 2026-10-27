@@ -80441,9 +80441,45 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-27",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Instituto",
+   "deplasman": "Deportivo Riestra",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-27",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Santa Fe",
+   "deplasman": "Atletico Bucaramanga",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Jaguares de Cordoba",
+   "deplasman": "Llaneros",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-26",
+   "lig": "Brazilian Serie A",
+   "ev": "Flamengo",
+   "deplasman": "Atletico Mineiro",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
   }
  ],
- "guncellendi": "2026-10-27T01:32:34.942Z",
+ "guncellendi": "2026-10-27T13:41:03.731Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
