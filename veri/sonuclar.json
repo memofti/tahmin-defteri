@@ -81494,9 +81494,162 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Italian Serie A",
+   "ev": "Milan",
+   "deplasman": "Bologna",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Italian Serie A",
+   "ev": "Venezia",
+   "deplasman": "Inter",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Italian Serie A",
+   "ev": "Parma",
+   "deplasman": "Udinese",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Slovenian League",
+   "ev": "Nafta Lendava",
+   "deplasman": "NK Aluminij",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Finland League",
+   "ev": "AC Oulu",
+   "deplasman": "VPS Vaasa",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Swedish Allsvenskan",
+   "ev": "IFK Goth'burg",
+   "deplasman": "Djurgaarden",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Swedish Allsvenskan",
+   "ev": "IF BP",
+   "deplasman": "Hacken",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Halmstads",
+   "deplasman": "Malmo",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Degerfors",
+   "deplasman": "Vasteras",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Belarus League",
+   "ev": "Isloch Minsk",
+   "deplasman": "ML Vitebsk",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Serbian League",
+   "ev": "FK Rad 1923",
+   "deplasman": "Zeleznicar Pancevo",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Serbian League",
+   "ev": "Radnicki Nis",
+   "deplasman": "Partizan",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "German Cup",
+   "ev": "Freiburg",
+   "deplasman": "Wolfsburg",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "German Cup",
+   "ev": "SSV Jeddeloh II",
+   "deplasman": "Hertha Berlin",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "German Cup",
+   "ev": "Dyn Dresden",
+   "deplasman": "Schalke",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "German Cup",
+   "ev": "SC Paderborn",
+   "deplasman": "Stuttgart",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "ADT",
+   "deplasman": "Deportivo Moquegua",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-10-28T14:36:04.843Z",
+ "guncellendi": "2026-10-28T20:05:24.986Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
