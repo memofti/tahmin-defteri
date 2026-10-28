@@ -81458,9 +81458,45 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Belarus League",
+   "ev": "Belshina",
+   "deplasman": "Dinamo Minsk",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-28",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Boyaca Chico",
+   "deplasman": "Atletico Junior",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-27",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Cucuta Deportivo",
+   "deplasman": "Aguilas Doradas",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-27",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Deportivo Tachira",
+   "deplasman": "Monagas SC",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-10-28T01:29:44.446Z",
+ "guncellendi": "2026-10-28T14:36:04.843Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
