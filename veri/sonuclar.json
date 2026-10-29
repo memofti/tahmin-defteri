@@ -82007,9 +82007,135 @@
    "evGol": 0,
    "depGol": 0,
    "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Dallas",
+   "deplasman": "Columbus Crew",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Minnesota U",
+   "deplasman": "Kansas City",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "St. Louis City SC",
+   "deplasman": "Portland Timb.",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Austin FC",
+   "deplasman": "Real Salt Lake",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Chicago",
+   "deplasman": "Orlando City",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Nashville MLS",
+   "deplasman": "Philadelphia U",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "San Jose",
+   "deplasman": "Colorado",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Vancouver W",
+   "deplasman": "San Diego",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "MLS",
+   "ev": "Seattle",
+   "deplasman": "Houston",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Cienciano",
+   "deplasman": "Atletico Grau",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Brazilian Serie A",
+   "ev": "Bahia",
+   "deplasman": "Sao Paulo",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Brazilian Serie A",
+   "ev": "Remo",
+   "deplasman": "Botafogo",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "La Equidad",
+   "deplasman": "Independiente M",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Club America",
+   "deplasman": "Tijuana",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-10-29T01:53:29.922Z",
+ "guncellendi": "2026-10-29T14:42:35.467Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
