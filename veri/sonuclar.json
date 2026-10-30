@@ -82457,9 +82457,45 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Australian A-League",
+   "ev": "Brisbane Roar",
+   "deplasman": "Auckland",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Melgar",
+   "deplasman": "Comerciantes Unidos",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Brazilian Serie A",
+   "ev": "Gremio",
+   "deplasman": "Paranaense",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Santa Fe",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-10-30T02:03:02.082Z",
+ "guncellendi": "2026-10-30T14:38:47.318Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
