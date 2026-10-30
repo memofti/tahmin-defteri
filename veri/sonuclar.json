@@ -82241,9 +82241,225 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "English League Cup",
+   "ev": "Everton",
+   "deplasman": "Newcastle",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Italian Serie A",
+   "ev": "Fiorentina",
+   "deplasman": "Atalanta",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "San Sebastian",
+   "deplasman": "Coria",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Poblense",
+   "deplasman": "AD Ceuta",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Coruxo",
+   "deplasman": "Zamora",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Cieza",
+   "deplasman": "Granada",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Conquense",
+   "deplasman": "Castellon",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Covadonga",
+   "deplasman": "Valladolid",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Antequera",
+   "deplasman": "Aguilas",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Laredo",
+   "deplasman": "Burgos",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Real Avila",
+   "deplasman": "Unionistas",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Guijuelo",
+   "deplasman": "Sp. Gijon",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Varea",
+   "deplasman": "FC Andorra",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "G. Torrelavega",
+   "deplasman": "UD Ourense",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Xerez",
+   "deplasman": "Cadiz",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Auriense CA",
+   "deplasman": "Deportivo",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Ribadesella",
+   "deplasman": "Racing",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "Sporting Hortaleza",
+   "deplasman": "Sevilla",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Copa del Rey",
+   "ev": "AE Prat",
+   "deplasman": "Ath Bilbao",
+   "evGol": 1,
+   "depGol": 6,
+   "ms": "1-6"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Los Chankas",
+   "deplasman": "Cusco",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Sporting Cristal",
+   "deplasman": "Alianza Lima",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Brazilian Serie A",
+   "ev": "Atletico Mineiro",
+   "deplasman": "Cruzeiro",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Brazilian Serie A",
+   "ev": "Vasco",
+   "deplasman": "Flamengo",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-10-29",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "America de Cali",
+   "deplasman": "Fortaleza CEIF",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-10-29T20:04:45.293Z",
+ "guncellendi": "2026-10-30T02:03:02.082Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -82372,6 +82588,7 @@
   "2026-10-25",
   "2026-10-26",
   "2026-10-27",
-  "2026-10-28"
+  "2026-10-28",
+  "2026-10-29"
  ]
 }
