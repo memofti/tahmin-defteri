@@ -82493,9 +82493,90 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Turkish Super Lig",
+   "ev": "Konyaspor",
+   "deplasman": "Galatasaray",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Cracovia",
+   "deplasman": "Motor Lublin",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Croatian HNL",
+   "ev": "Slaven",
+   "deplasman": "NK Istra 1961",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "German Bundesliga 2",
+   "ev": "Arminia",
+   "deplasman": "Braunschweig",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "German Bundesliga 2",
+   "ev": "Cottbus",
+   "deplasman": "Bochum",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Belarus League",
+   "ev": "Arsenal Dzyarzhynsk",
+   "deplasman": "Bate Borisov",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Bulgarian League",
+   "ev": "CSKA 1948 Sofia",
+   "deplasman": "Spartak Varna",
+   "evGol": 6,
+   "depGol": 1,
+   "ms": "6-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Bulgarian League",
+   "ev": "Lokomotiv Sofia 1929",
+   "deplasman": "Botev Plovdiv",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Ukrainian League",
+   "ev": "Shakhtar",
+   "deplasman": "Obolon Kiev",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-10-30T14:38:47.318Z",
+ "guncellendi": "2026-10-30T19:51:16.175Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
