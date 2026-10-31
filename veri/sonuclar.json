@@ -82574,9 +82574,369 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Football League Championship",
+   "ev": "Sheff Utd",
+   "deplasman": "Wrexham",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Football League Two",
+   "ev": "Newport Co",
+   "deplasman": "Chesterfield",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "National League",
+   "ev": "Fylde",
+   "deplasman": "Hornchurch",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Scottish Championship",
+   "ev": "Stenh'semuir",
+   "deplasman": "Livingston",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "German Bundesliga",
+   "ev": "SV Elversberg",
+   "deplasman": "Mainz",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Spanish La Liga",
+   "ev": "Villarreal",
+   "deplasman": "Espanyol",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "French Ligue 1",
+   "ev": "Le Havre",
+   "deplasman": "PSG",
+   "evGol": 1,
+   "depGol": 5,
+   "ms": "1-5"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "French Ligue 1",
+   "ev": "Nice",
+   "deplasman": "Rennes",
+   "evGol": 5,
+   "depGol": 2,
+   "ms": "5-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "French Ligue 1",
+   "ev": "Lille",
+   "deplasman": "Lens",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Gornik Zabrze",
+   "deplasman": "Legia Warsaw",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Bodo Glimt",
+   "deplasman": "Viking",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Lyngby",
+   "deplasman": "Randers",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Austrian Bundesliga",
+   "ev": "GAK 1902",
+   "deplasman": "Hartberg",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Romanian Liga 1",
+   "ev": "Rapid Buch.",
+   "deplasman": "Csikszereda",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Belgium League",
+   "ev": "Waregem",
+   "deplasman": "Club Brugge",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Portuguese Liga",
+   "ev": "Casa Pia AC",
+   "deplasman": "Sporting",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Flint Town U",
+   "deplasman": "Holywell Town",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Ammanford",
+   "deplasman": "Haverfordwest",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Colwyn Bay",
+   "deplasman": "Cambrian United",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Airbus UK",
+   "deplasman": "Caernarfon",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Briton Ferry Ath",
+   "deplasman": "Llandudno",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Welsh Premier",
+   "ev": "Barry Town",
+   "deplasman": "Trefelin",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Northern Irish Premier League",
+   "ev": "Coleraine",
+   "deplasman": "Glentoran",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Northern Irish Premier League",
+   "ev": "Larne",
+   "deplasman": "Portadown",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "League of Ireland",
+   "ev": "Dundalk",
+   "deplasman": "Shamrock R",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "League of Ireland",
+   "ev": "Shelbourne",
+   "deplasman": "Waterford",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "League of Ireland",
+   "ev": "Sligo Rovers",
+   "deplasman": "Derry City",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "League of Ireland",
+   "ev": "St Patrick's",
+   "deplasman": "Bohemians D.",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "League of Ireland",
+   "ev": "Drogheda",
+   "deplasman": "Galway FC",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "FA Vase",
+   "ev": "Shepton Mallet",
+   "deplasman": "Bridgwater T",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "FA Vase",
+   "ev": "Lymore Gardens",
+   "deplasman": "Biggleswade United",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Brazilian Serie A",
+   "ev": "Corinthians",
+   "deplasman": "Mirassol",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Pereira",
+   "deplasman": "Jaguares de Cordoba",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Swedish Superettan",
+   "ev": "IK Oddevold",
+   "deplasman": "IK Brage",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Chile Primera",
+   "ev": "Colo-Colo",
+   "deplasman": "Universidad de Concepcion",
+   "evGol": 6,
+   "depGol": 1,
+   "ms": "6-1"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Chile Primera",
+   "ev": "Coquimbo Unido",
+   "deplasman": "Union La Calera",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Estudiantes de Rio Cuarto",
+   "deplasman": "Gimnasia La Plata",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Huracan",
+   "deplasman": "Tigre",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Paraguay League Clausura",
+   "ev": "Club Guarani",
+   "deplasman": "2 de Mayo",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-10-30",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sportivo Trinidense",
+   "deplasman": "Rubio Nu",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
   }
  ],
- "guncellendi": "2026-10-30T19:51:16.175Z",
+ "guncellendi": "2026-10-31T01:44:09.326Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -82706,6 +83066,7 @@
   "2026-10-26",
   "2026-10-27",
   "2026-10-28",
-  "2026-10-29"
+  "2026-10-29",
+  "2026-10-30"
  ]
 }
