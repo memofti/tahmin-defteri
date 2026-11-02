@@ -1,0 +1,347 @@
+{
+ "calisti": "2026-11-02T22:59:47.676Z",
+ "tsi": "2026-11-03 01:59",
+ "erkenOrneklem": true,
+ "kaynaklar": {
+  "soccerbase 2026-11-03": "ACILDI",
+  "soccerbase 2026-11-02": "ACILDI",
+  "betexplorer": "ACILDI",
+  "olbg": "ACILDI"
+ },
+ "taranmisGun": 132,
+ "yeniSkor": 41,
+ "toplamSkor": 9409,
+ "oranMacSayisi": 0,
+ "gencMacAyiklandi": 0,
+ "kalabalikSayisi": 20,
+ "modelliLig": 89,
+ "modelliTakim": 1895,
+ "genelTablo": "9409 mac",
+ "bultenSayisi": 0,
+ "tahminSayisi": 0,
+ "elenenSayisi": 20,
+ "bulten": [],
+ "tahminler": [],
+ "elenenler": [
+  {
+   "ev": "Barcelona",
+   "deplasman": "Aston Villa",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 20,
+   "yuzde": 85,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Sirius",
+   "deplasman": "Halmstad",
+   "lig": "Sweden Allsvenskan",
+   "tarih": "2026-11-04",
+   "saat": "21:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 10,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Arsenal",
+   "deplasman": "Hull",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 10,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Nottm Forest",
+   "deplasman": "Man City",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "20:30",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 10,
+   "n": 11,
+   "yuzde": 91,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Bragantino",
+   "deplasman": "Santos",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-04",
+   "saat": "02:00",
+   "etiket": "MS X",
+   "kural": {
+    "tip": "ms",
+    "secim": "X"
+   },
+   "k": 9,
+   "n": 17,
+   "yuzde": 53,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Independiente Rivadavia",
+   "deplasman": "Banfield",
+   "lig": "Argentina Superliga",
+   "tarih": "2026-11-04",
+   "saat": "03:15",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 8,
+   "n": 12,
+   "yuzde": 67,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "LASK Linz",
+   "deplasman": "Slovan Bratislava",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Bodo-Glimt",
+   "deplasman": "Lille",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 9,
+   "yuzde": 89,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Crystal Palace",
+   "deplasman": "Liverpool",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Everton",
+   "deplasman": "Coventry",
+   "lig": "England Premier League",
+   "tarih": "2026-11-06",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "QPR",
+   "deplasman": "Burnley",
+   "lig": "England Championship",
+   "tarih": "2026-11-04",
+   "saat": "22:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 7,
+   "yuzde": 86,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Brighton",
+   "deplasman": "Brentford",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 6,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Sunderland",
+   "deplasman": "Chelsea",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 6,
+   "n": 6,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Shakhtar Donetsk",
+   "deplasman": "Sporting",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Man Utd",
+   "deplasman": "Roma",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "23:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 8,
+   "yuzde": 63,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "AEK Athens",
+   "deplasman": "Real Madrid",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Slavia Prague",
+   "deplasman": "Arsenal",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "23:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 7,
+   "yuzde": 71,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Atletico Tucuman",
+   "deplasman": "Argentinos Jrs",
+   "lig": "Argentina Superliga",
+   "tarih": "2026-11-04",
+   "saat": "03:15",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 7,
+   "yuzde": 57,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Galatasaray",
+   "deplasman": "VfB Stuttgart",
+   "lig": "Champions League",
+   "tarih": "2026-11-04",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 7,
+   "yuzde": 57,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Preston",
+   "deplasman": "Sheff Utd",
+   "lig": "England Championship",
+   "tarih": "2026-11-04",
+   "saat": "22:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 5,
+   "yuzde": 80,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  }
+ ]
+}
