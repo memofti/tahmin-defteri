@@ -83852,9 +83852,342 @@
    "evGol": 0,
    "depGol": 0,
    "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Italian Serie A",
+   "ev": "Juventus",
+   "deplasman": "Napoli",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Spanish La Liga",
+   "ev": "Elche",
+   "deplasman": "Valencia",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Spanish La Liga",
+   "ev": "Ath Bilbao",
+   "deplasman": "Sociedad",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "French Ligue 1",
+   "ev": "Marseille",
+   "deplasman": "Toulouse",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Belgium League",
+   "ev": "Lommel",
+   "deplasman": "Gent",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Belgium League",
+   "ev": "Charleroi",
+   "deplasman": "RAAL La Louviere",
+   "evGol": 5,
+   "depGol": 2,
+   "ms": "5-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Romanian Liga 1",
+   "ev": "Din. Bucharest",
+   "deplasman": "UT Arad",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Spanish Segunda",
+   "ev": "Burgos",
+   "deplasman": "Castellon",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Valerenga",
+   "deplasman": "Tromso",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Greek Super League",
+   "ev": "Panathinaikos",
+   "deplasman": "AEK Athens",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Portuguese Liga",
+   "ev": "Academico de Viseu",
+   "deplasman": "Rio Ave",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Portuguese Liga",
+   "ev": "Maritimo",
+   "deplasman": "Santa Clara",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Portuguese Liga",
+   "ev": "Braga",
+   "deplasman": "Famalicao",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Israeli League",
+   "ev": "M. Petah Tikva",
+   "deplasman": "H Beer Sheva",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "MLS",
+   "ev": "Vancouver W",
+   "deplasman": "Seattle",
+   "evGol": 5,
+   "depGol": 1,
+   "ms": "5-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "MLS",
+   "ev": "Atlanta U",
+   "deplasman": "Toronto FC",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "MLS",
+   "ev": "Nashville MLS",
+   "deplasman": "NY Red Bulls",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Boca Juniors",
+   "deplasman": "River Plate",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Newell's OB",
+   "deplasman": "Union Santa Fe",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Belgrano",
+   "deplasman": "Barracas Central",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Santos Laguna",
+   "deplasman": "Necaxa",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Progreso",
+   "deplasman": "Defensor",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Boston River",
+   "deplasman": "Montevideo City Torque",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Danubio",
+   "deplasman": "Nacional Montevideo",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Liverpool FC",
+   "deplasman": "Juventud de Las Piedras",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Chile Primera",
+   "ev": "Cobresal",
+   "deplasman": "Everton de Vina del Mar",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Independiente d V",
+   "deplasman": "LDU Quito",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Guayaquil City",
+   "deplasman": "Libertad Ecu",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Cusco",
+   "deplasman": "Sport Boys",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Atletico Grau",
+   "deplasman": "Universitario de Deportes",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Paraguay League Clausura",
+   "ev": "Cerro Porteno",
+   "deplasman": "Olimpia",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Cali",
+   "deplasman": "Boyaca Chico",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Independiente M",
+   "deplasman": "Alianza Petrolera",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Argentina Primera Nacional",
+   "ev": "San Martin de Tucuman",
+   "deplasman": "Colegiales",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Gimnasia y Tiro",
+   "deplasman": "Quilmes",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Carabobo FC",
+   "deplasman": "Metropolitanos",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Deportivo La Guaira",
+   "deplasman": "Portuguesa FC",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-11-01T19:24:57.967Z",
+ "guncellendi": "2026-11-02T01:38:21.586Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -83985,6 +84318,7 @@
   "2026-10-27",
   "2026-10-28",
   "2026-10-29",
-  "2026-10-30"
+  "2026-10-30",
+  "2026-11-01"
  ]
 }
