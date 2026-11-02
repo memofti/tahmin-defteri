@@ -84185,9 +84185,135 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Russian Premier",
+   "ev": "Kryliya Sovetov",
+   "deplasman": "Zenit",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Ukrainian League",
+   "ev": "Zorya",
+   "deplasman": "Epitsentr",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Ukrainian League",
+   "ev": "Kryvbas",
+   "deplasman": "Dynamo Kyiv",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "MLS",
+   "ev": "New England",
+   "deplasman": "Inter Miami CF",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "MLS",
+   "ev": "Los Angeles FC",
+   "deplasman": "Minnesota U",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "MLS",
+   "ev": "Portland Timb.",
+   "deplasman": "Houston",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Cruz Azul",
+   "deplasman": "Leon",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Scottish League Cup",
+   "ev": "Hearts",
+   "deplasman": "Hibernian",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Gibraltar Premier League",
+   "ev": "Hound Dogs",
+   "deplasman": "Lincoln R I",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Latvian League",
+   "ev": "Ogre Utd",
+   "deplasman": "Riga FC",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Andorran League",
+   "ev": "Inter Club D'Escaldes",
+   "deplasman": "Penya Encarnada",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Albanian League",
+   "ev": "SK Tirana",
+   "deplasman": "Egnatia",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Armenian League",
+   "ev": "Ararat-Armenia",
+   "deplasman": "Gandzasar",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-01",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Lanus",
+   "deplasman": "Gimnasia de Mendoza",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-02T01:38:21.586Z",
+ "guncellendi": "2026-11-02T17:29:48.669Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
