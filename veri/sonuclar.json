@@ -84761,9 +84761,108 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Bucaramanga",
+   "deplasman": "Atletico Nacional",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Kataller Toyama",
+   "deplasman": "Vegalta Sendai",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Montedio Yamagata",
+   "deplasman": "Tokushima Vortis",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Ventforet Kofu",
+   "deplasman": "Albirex Niigata",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Shonan Bellmare",
+   "deplasman": "Sagan Tosu",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Omiya Ardija",
+   "deplasman": "Iwaki",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Fujieda MYFC",
+   "deplasman": "Jubilo Iwata",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Oita Trinita",
+   "deplasman": "Vanraure Hachinohe",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Tegevajaro Miyazaki",
+   "deplasman": "Tochigi City",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Yokohama FC",
+   "deplasman": "Blaublitz Akita",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Japanese J2 League",
+   "ev": "Imabari",
+   "deplasman": "Consadole Sapporo",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
   }
  ],
- "guncellendi": "2026-11-03T03:32:21.411Z",
+ "guncellendi": "2026-11-03T15:32:20.670Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
