@@ -84860,9 +84860,45 @@
    "evGol": 0,
    "depGol": 4,
    "ms": "0-4"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "European Cup",
+   "ev": "Shakhtar",
+   "deplasman": "Sporting",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "European Cup",
+   "ev": "Galatasaray",
+   "deplasman": "Stuttgart",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Swedish Allsvenskan",
+   "ev": "IK Sirius",
+   "deplasman": "Halmstads",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Spanish Segunda",
+   "ev": "Tenerife",
+   "deplasman": "FC Andorra",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-11-03T15:32:20.670Z",
+ "guncellendi": "2026-11-03T20:47:24.275Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
