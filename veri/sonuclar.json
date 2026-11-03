@@ -84680,9 +84680,90 @@
    "evGol": 1,
    "depGol": 1,
    "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Independiente Rivadavia",
+   "deplasman": "Banfield",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-03",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Atletico Tucuman",
+   "deplasman": "Argentinos Jun",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Chile Primera",
+   "ev": "Deportes Limache",
+   "deplasman": "Audax Italiano",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Chile Primera",
+   "ev": "Deportes Concepcion",
+   "deplasman": "Palestino",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Aguilas Doradas",
+   "deplasman": "Fortaleza CEIF",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Platense",
+   "deplasman": "Central Cordoba SDE",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Defensa y Justicia",
+   "deplasman": "Independiente",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Albion FC",
+   "deplasman": "Deportivo Maldonado",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-02",
+   "lig": "Brazilian Serie A",
+   "ev": "Red Bull Bragantino",
+   "deplasman": "Santos",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-11-02T23:00:03.137Z",
+ "guncellendi": "2026-11-03T03:32:21.411Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
