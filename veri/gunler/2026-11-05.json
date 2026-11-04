@@ -1,0 +1,528 @@
+{
+ "calisti": "2026-11-04T21:04:16.553Z",
+ "tsi": "2026-11-05 00:04",
+ "erkenOrneklem": true,
+ "kaynaklar": {
+  "soccerbase 2026-11-05": "ACILDI",
+  "soccerbase 2026-11-04": "ACILDI",
+  "betexplorer": "ACILDI (3. denemede)",
+  "olbg": "ACILDI"
+ },
+ "taranmisGun": 134,
+ "yeniSkor": 4,
+ "toplamSkor": 9502,
+ "oranMacSayisi": 9,
+ "gencMacAyiklandi": 0,
+ "kalabalikSayisi": 20,
+ "modelliLig": 89,
+ "modelliTakim": 1895,
+ "genelTablo": "9502 mac",
+ "bultenSayisi": 9,
+ "tahminSayisi": 0,
+ "elenenSayisi": 20,
+ "bulten": [
+  {
+   "macId": "CrL0iYE6",
+   "saat": "00:00",
+   "lig": "Liga Nacional",
+   "ulke": "Honduras",
+   "ev": "Olancho",
+   "deplasman": "UPNFM",
+   "oran": {
+    "ev": 1.68,
+    "beraberlik": 3.63,
+    "deplasman": 4.25
+   },
+   "marj": 10.6,
+   "basladi": true,
+   "ima": {
+    "ev": 0.5381829979173861,
+    "beraberlik": 0.24907642878821176,
+    "deplasman": 0.21274057329440205
+   }
+  },
+  {
+   "macId": "WOuclmFb",
+   "saat": "00:00",
+   "lig": "Liga Primera",
+   "ulke": "Nicaragua",
+   "ev": "Sport Sebaco",
+   "deplasman": "Matagalpa",
+   "oran": {
+    "ev": 1.86,
+    "beraberlik": 3.43,
+    "deplasman": 3.53
+   },
+   "marj": 11.25,
+   "basladi": true,
+   "ima": {
+    "ev": 0.4832817769972259,
+    "beraberlik": 0.2620711677011196,
+    "deplasman": 0.2546470553016545
+   }
+  },
+  {
+   "macId": "Gp9grfE6",
+   "saat": "00:30",
+   "lig": "Liga FUTVE",
+   "ulke": "Venezuela",
+   "ev": "Portuguesa",
+   "deplasman": "La Guaira",
+   "oran": {
+    "ev": 2.6,
+    "beraberlik": 3.05,
+    "deplasman": 2.75
+   },
+   "marj": 7.61,
+   "basladi": false,
+   "ima": {
+    "ev": 0.3574091829125386,
+    "beraberlik": 0.3046766805156067,
+    "deplasman": 0.3379141365718547
+   }
+  },
+  {
+   "macId": "xdqyxvW1",
+   "saat": "01:00",
+   "lig": "Copa Pacena",
+   "ulke": "Bolivia",
+   "ev": "Nacional Potosi",
+   "deplasman": "Oriente Petrolero",
+   "oran": {
+    "ev": 1.31,
+    "beraberlik": 5,
+    "deplasman": 7.2
+   },
+   "marj": 10.22,
+   "basladi": false,
+   "ima": {
+    "ev": 0.6925474202608596,
+    "beraberlik": 0.18144742410834525,
+    "deplasman": 0.1260051556307953
+   }
+  },
+  {
+   "macId": "xdRCguRk",
+   "saat": "01:00",
+   "lig": "Copa Chile",
+   "ulke": "Chile",
+   "ev": "Union La Calera",
+   "deplasman": "Coquimbo",
+   "oran": {
+    "ev": 2.2,
+    "beraberlik": 3.18,
+    "deplasman": 2.95
+   },
+   "marj": 10.8,
+   "basladi": false,
+   "ima": {
+    "ev": 0.4102418332094284,
+    "beraberlik": 0.28381510473608257,
+    "deplasman": 0.305943062054489
+   }
+  },
+  {
+   "macId": "Wb8TBy5F",
+   "saat": "01:00",
+   "lig": "Copa de Primera",
+   "ulke": "Paraguay",
+   "ev": "Ameliano",
+   "deplasman": "Guarani",
+   "oran": {
+    "ev": 2.9,
+    "beraberlik": 3.25,
+    "deplasman": 2.24
+   },
+   "marj": 9.89,
+   "basladi": false,
+   "ima": {
+    "ev": 0.31377957846644544,
+    "beraberlik": 0.2799879315546744,
+    "deplasman": 0.4062324899788802
+   }
+  },
+  {
+   "macId": "zec74gck",
+   "saat": "01:00",
+   "lig": "Copa de Primera",
+   "ulke": "Paraguay",
+   "ev": "Libertad Asuncion",
+   "deplasman": "Cerro Porteno",
+   "oran": {
+    "ev": 2.29,
+    "beraberlik": 3.25,
+    "deplasman": 2.8
+   },
+   "marj": 10.15,
+   "basladi": false,
+   "ima": {
+    "ev": 0.3964364285869873,
+    "beraberlik": 0.27933520660436956,
+    "deplasman": 0.3242283648086432
+   }
+  },
+  {
+   "macId": "0xdoC0vn",
+   "saat": "01:30",
+   "lig": "Serie A",
+   "ulke": "Brazil",
+   "ev": "Athletico-PR",
+   "deplasman": "Vasco",
+   "oran": {
+    "ev": 2.18,
+    "beraberlik": 3.43,
+    "deplasman": 3.18
+   },
+   "marj": 6.47,
+   "basladi": false,
+   "ima": {
+    "ev": 0.4308296336087719,
+    "beraberlik": 0.27382174964056055,
+    "deplasman": 0.29534861675066754
+   }
+  },
+  {
+   "macId": "I1IqfSI0",
+   "saat": "01:30",
+   "lig": "Serie A",
+   "ulke": "Brazil",
+   "ev": "Flamengo RJ",
+   "deplasman": "Gremio",
+   "oran": {
+    "ev": 1.14,
+    "beraberlik": 8.63,
+    "deplasman": 15.5
+   },
+   "marj": 5.76,
+   "basladi": false,
+   "ima": {
+    "ev": 0.829431052400523,
+    "beraberlik": 0.1095656314874387,
+    "deplasman": 0.06100331611203845
+   }
+  }
+ ],
+ "tahminler": [],
+ "elenenler": [
+  {
+   "ev": "Flamengo",
+   "deplasman": "Gremio",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-06",
+   "saat": "01:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 26,
+   "n": 28,
+   "yuzde": 93,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Everton",
+   "deplasman": "Coventry",
+   "lig": "England Premier League",
+   "tarih": "2026-11-06",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 13,
+   "n": 16,
+   "yuzde": 81,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Arsenal",
+   "deplasman": "Hull",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 12,
+   "n": 14,
+   "yuzde": 86,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Athletico Paranaense",
+   "deplasman": "Vasco da Gama",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-06",
+   "saat": "01:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 11,
+   "n": 13,
+   "yuzde": 85,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Nottm Forest",
+   "deplasman": "Man City",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "20:30",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 11,
+   "n": 12,
+   "yuzde": 92,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Crystal Palace",
+   "deplasman": "Liverpool",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 9,
+   "n": 9,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Benfica",
+   "deplasman": "Lech Poznan",
+   "lig": "Europa League",
+   "tarih": "2026-11-06",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Panathinaikos",
+   "deplasman": "CSKA Sofia",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-06",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Brighton",
+   "deplasman": "Brentford",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 9,
+   "yuzde": 89,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Botafogo",
+   "deplasman": "Atletico Mineiro",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-06",
+   "saat": "03:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Lugano",
+   "deplasman": "FK Kauno Zalgiris",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-06",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 7,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Sunderland",
+   "deplasman": "Chelsea",
+   "lig": "England Premier League",
+   "tarih": "2026-11-08",
+   "saat": "17:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 7,
+   "n": 7,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Atalanta",
+   "deplasman": "Kairat Almaty",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-06",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 6,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "AC Milan",
+   "deplasman": "Ferencvarosi TC",
+   "lig": "Europa League",
+   "tarih": "2026-11-06",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Leeds",
+   "deplasman": "Tottenham",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "15:30",
+   "etiket": "MS X",
+   "kural": {
+    "tip": "ms",
+    "secim": "X"
+   },
+   "k": 6,
+   "n": 11,
+   "yuzde": 55,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Sao Paulo",
+   "deplasman": "Corinthians",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-06",
+   "saat": "03:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 9,
+   "yuzde": 56,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Crvena Zvezda",
+   "deplasman": "Inter Club dEscaldes",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-06",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 5,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Palmeiras",
+   "deplasman": "Remo",
+   "lig": "Brazil Serie A",
+   "tarih": "2026-11-07",
+   "saat": "01:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 5,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Fulham",
+   "deplasman": "Newcastle",
+   "lig": "England Premier League",
+   "tarih": "2026-11-07",
+   "saat": "18:00",
+   "etiket": "MS X",
+   "kural": {
+    "tip": "ms",
+    "secim": "X"
+   },
+   "k": 5,
+   "n": 7,
+   "yuzde": 71,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Crystal Palace",
+   "deplasman": "TSG Hoffenheim",
+   "lig": "Europa League",
+   "tarih": "2026-11-06",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 4,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  }
+ ]
+}

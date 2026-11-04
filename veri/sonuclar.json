@@ -85481,9 +85481,45 @@
    "evGol": 1,
    "depGol": 0,
    "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "European Cup",
+   "ev": "AEK Athens",
+   "deplasman": "Real Madrid",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "European Cup",
+   "ev": "Fenerbahce",
+   "deplasman": "Liverpool",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "Europa League",
+   "ev": "Rennes",
+   "deplasman": "Olympiakos",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "Czech Liga",
+   "ev": "Artis Brno",
+   "deplasman": "B. 1905",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
   }
  ],
- "guncellendi": "2026-11-04T15:49:51.958Z",
+ "guncellendi": "2026-11-04T21:04:32.030Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -85617,6 +85653,7 @@
   "2026-10-30",
   "2026-11-01",
   "2026-11-02",
-  "2026-11-03"
+  "2026-11-03",
+  "2026-11-04"
  ]
 }
