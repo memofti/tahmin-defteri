@@ -85463,9 +85463,27 @@
    "evGol": 1,
    "depGol": 2,
    "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "Brazilian Serie A",
+   "ev": "Internacional",
+   "deplasman": "Coritiba",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Alianza Lima",
+   "deplasman": "Cienciano",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
   }
  ],
- "guncellendi": "2026-11-04T02:29:36.710Z",
+ "guncellendi": "2026-11-04T15:49:51.958Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
