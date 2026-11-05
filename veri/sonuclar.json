@@ -85697,9 +85697,45 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-05",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Cucuta Deportivo",
+   "deplasman": "Santa Fe",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-05",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Millonarios",
+   "deplasman": "America de Cali",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-05",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Universitario de Deportes",
+   "deplasman": "Sport Boys",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-04",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Metropolitanos",
+   "deplasman": "Carabobo FC",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
   }
  ],
- "guncellendi": "2026-11-05T02:37:57.447Z",
+ "guncellendi": "2026-11-05T15:51:36.336Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
