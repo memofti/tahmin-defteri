@@ -86129,9 +86129,126 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Romanian Liga 1",
+   "ev": "UT Arad",
+   "deplasman": "Petrolul 52",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Slovenian League",
+   "ev": "Nafta Lendava",
+   "deplasman": "O. Ljubljana",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Russian Premier",
+   "ev": "Lok. Moscow",
+   "deplasman": "Rubin",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Turkish Super Lig",
+   "ev": "Gazisehir",
+   "deplasman": "Kasimpasa",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Motor Lublin",
+   "deplasman": "Wisla Plock",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Croatian HNL",
+   "ev": "Loko. Zagreb",
+   "deplasman": "NK Rudes",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "German Bundesliga 2",
+   "ev": "Braunschweig",
+   "deplasman": "Cottbus",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "German Bundesliga 2",
+   "ev": "Dyn Dresden",
+   "deplasman": "Greuther Furth",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Silkeborg",
+   "deplasman": "Lyngby",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Bulgarian League",
+   "ev": "PFC Septemvri Sofia",
+   "deplasman": "Lokomotiv Sofia 1929",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Bulgarian League",
+   "ev": "Botev Plovdiv",
+   "deplasman": "Dunav Ruse",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Belarus League",
+   "ev": "Gomel",
+   "deplasman": "Arsenal Dzyarzhynsk",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Barracas Central",
+   "deplasman": "Racing Club",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-11-06T15:26:23.543Z",
+ "guncellendi": "2026-11-06T20:42:00.581Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
