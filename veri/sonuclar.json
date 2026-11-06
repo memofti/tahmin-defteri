@@ -86093,9 +86093,45 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Australian A-League",
+   "ev": "Sydney FC",
+   "deplasman": "Central Coast M",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Ukrainian League",
+   "ev": "Obolon Kiev",
+   "deplasman": "Livyi Bereh",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Ukrainian League",
+   "ev": "Polessya Zhitomir",
+   "deplasman": "NK Veres Livne",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Israeli League",
+   "ev": "M Tel Aviv",
+   "deplasman": "M. Petah Tikva",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-11-06T02:38:09.678Z",
+ "guncellendi": "2026-11-06T15:26:23.543Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
