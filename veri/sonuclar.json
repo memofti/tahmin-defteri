@@ -86246,9 +86246,297 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Premier League",
+   "ev": "Everton",
+   "deplasman": "Coventry",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Football League Championship",
+   "ev": "Derby",
+   "deplasman": "Bolton",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "English FA Cup",
+   "ev": "Bristol R",
+   "deplasman": "Cambridge U",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "English FA Cup",
+   "ev": "Oxford C",
+   "deplasman": "Leicester",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Scottish Championship",
+   "ev": "Raith",
+   "deplasman": "Dunfermline",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Italian Serie A",
+   "ev": "Venezia",
+   "deplasman": "Udinese",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "German Bundesliga",
+   "ev": "Hamburg",
+   "deplasman": "B M'gladbach",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Spanish La Liga",
+   "ev": "Sevilla",
+   "deplasman": "Alaves",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "French Ligue 1",
+   "ev": "Toulouse",
+   "deplasman": "Strasbourg",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Romanian Liga 1",
+   "ev": "Arges Pitesti",
+   "deplasman": "Din. Bucharest",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Wisla Krakow",
+   "deplasman": "Cracovia",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Hammarby",
+   "deplasman": "Elfsborg",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Austrian Bundesliga",
+   "ev": "Rapid Vienna",
+   "deplasman": "Wolfsberger",
+   "evGol": 6,
+   "depGol": 0,
+   "ms": "6-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Netherlands League",
+   "ev": "Willem II",
+   "deplasman": "PEC Zwolle",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Belgium League",
+   "ev": "St Liege",
+   "deplasman": "W Beveren",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Portuguese Liga",
+   "ev": "Famalicao",
+   "deplasman": "Arouca",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Penybont",
+   "deplasman": "Caernarfon",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Cambrian United",
+   "deplasman": "Barry Town",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Ammanford",
+   "deplasman": "Briton Ferry Ath",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Haverfordwest",
+   "deplasman": "Cardiff MU",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Holywell Town",
+   "deplasman": "Airbus UK",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Llandudno",
+   "deplasman": "The New Saints",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Trefelin",
+   "deplasman": "Colwyn Bay",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Welsh Premier",
+   "ev": "Connah's Q",
+   "deplasman": "Flint Town U",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Northern Irish Premier League",
+   "ev": "Cliftonville",
+   "deplasman": "Larne",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Unibond Premier",
+   "ev": "Quorn",
+   "deplasman": "Alfreton",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Brazilian Serie A",
+   "ev": "Vitoria",
+   "deplasman": "Fluminense",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Independiente",
+   "deplasman": "Deportivo Riestra",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "San Lorenzo",
+   "deplasman": "Platense",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Union Santa Fe",
+   "deplasman": "Velez Sarsfield",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Atletico Grau",
+   "deplasman": "Cusco",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-06",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Boyaca Chico",
+   "deplasman": "La Equidad",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-11-06T20:42:00.581Z",
+ "guncellendi": "2026-11-07T02:05:55.464Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -86384,6 +86672,7 @@
   "2026-11-02",
   "2026-11-03",
   "2026-11-04",
-  "2026-11-05"
+  "2026-11-05",
+  "2026-11-06"
  ]
 }
