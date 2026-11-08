@@ -89027,9 +89027,423 @@
    "evGol": 1,
    "depGol": 2,
    "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Italian Serie A",
+   "ev": "Napoli",
+   "deplasman": "Lazio",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Turkish Super Lig",
+   "ev": "Rizespor",
+   "deplasman": "Erzurum B",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Russian Premier",
+   "ev": "Kryliya Sovetov",
+   "deplasman": "Gazovik Orenburg",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Copenhagen",
+   "deplasman": "Brondby",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Netherlands League",
+   "ev": "Heerenveen",
+   "deplasman": "Feyenoord",
+   "evGol": 5,
+   "depGol": 3,
+   "ms": "5-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Czech Liga",
+   "ev": "Teplice",
+   "deplasman": "Pardubice",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Australian A-League",
+   "ev": "Macarthur FC",
+   "deplasman": "Brisbane Roar",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Australian A-League",
+   "ev": "Adelaide Utd",
+   "deplasman": "Melbourne Vic",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belarus League",
+   "ev": "Slavia Mozyr",
+   "deplasman": "Baranovichi",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belarus League",
+   "ev": "Neman Grodno",
+   "deplasman": "Dnepr Mogilev",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ukrainian League",
+   "ev": "Bukovyna Chernivtsi",
+   "deplasman": "Kolos Kovalivka",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ukrainian League",
+   "ev": "Zorya",
+   "deplasman": "LNZ Cherkasy",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Serbian League",
+   "ev": "Radnik Surdulica",
+   "deplasman": "OFK Belgrade",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Serbian League",
+   "ev": "Novi Pazar",
+   "deplasman": "Mladost Lucani",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Dallas",
+   "deplasman": "Colorado",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Minnesota U",
+   "deplasman": "San Jose",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Austin FC",
+   "deplasman": "Portland Timb.",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Seattle",
+   "deplasman": "Los Angeles FC",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Houston",
+   "deplasman": "St. Louis City SC",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "Real Salt Lake",
+   "deplasman": "LA Galaxy",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "MLS",
+   "ev": "San Diego",
+   "deplasman": "Kansas City",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Toluca",
+   "deplasman": "Monterrey",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Tigres",
+   "deplasman": "Cruz Azul",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Pumas UNAM",
+   "deplasman": "Club America",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Instituto",
+   "deplasman": "Newell's OB",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Cienciano",
+   "deplasman": "Sport Huancayo",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "America de Cali",
+   "deplasman": "Deportivo Cali",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J2 League",
+   "ev": "Vanraure Hachinohe",
+   "deplasman": "Consadole Sapporo",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J2 League",
+   "ev": "Tochigi City",
+   "deplasman": "Omiya Ardija",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J2 League",
+   "ev": "Jubilo Iwata",
+   "deplasman": "Shonan Bellmare",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J2 League",
+   "ev": "Vegalta Sendai",
+   "deplasman": "Ventforet Kofu",
+   "evGol": 5,
+   "depGol": 1,
+   "ms": "5-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J1 League",
+   "ev": "Machida Zelvia",
+   "deplasman": "Sanf Hiroshima",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J1 League",
+   "ev": "Vissel Kobe",
+   "deplasman": "Urawa Red Diamonds",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J1 League",
+   "ev": "Gamba Osaka",
+   "deplasman": "Cerezo Osaka",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Japanese J1 League",
+   "ev": "JEF United",
+   "deplasman": "Mito HollyHock",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 1",
+   "ev": "FC Seoul",
+   "deplasman": "Ulsan Hyundai",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 1",
+   "ev": "Daejeon Hana Citizen",
+   "deplasman": "Incheon United",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 1",
+   "ev": "Gangwon",
+   "deplasman": "Jeonbuk H M",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 1",
+   "ev": "Bucheon",
+   "deplasman": "Pohang S",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 2",
+   "ev": "Cheonan City",
+   "deplasman": "Busan IPark",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 2",
+   "ev": "Suwon Samsung",
+   "deplasman": "Yongin",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Korean K-League 2",
+   "ev": "Paju Frontier",
+   "deplasman": "Chungnam Asan",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-07",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Atlas",
+   "deplasman": "Pachuca",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-11-07",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Deportivo Pereira",
+   "evGol": 4,
+   "depGol": 3,
+   "ms": "4-3"
+  },
+  {
+   "tarih": "2026-11-07",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Melgar",
+   "deplasman": "Juan Pablo II College",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-07",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Monagas SC",
+   "deplasman": "Deportivo Tachira",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
   }
  ],
- "guncellendi": "2026-11-08T01:36:50.177Z",
+ "guncellendi": "2026-11-08T14:36:34.534Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
