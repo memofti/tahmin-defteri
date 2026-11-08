@@ -89441,9 +89441,774 @@
    "evGol": 0,
    "depGol": 2,
    "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Premier League",
+   "ev": "Ipswich",
+   "deplasman": "Bournemouth",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Premier League",
+   "ev": "Brighton",
+   "deplasman": "Brentford",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Premier League",
+   "ev": "C Palace",
+   "deplasman": "Liverpool",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Premier League",
+   "ev": "Sunderland",
+   "deplasman": "Chelsea",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Premier League",
+   "ev": "Man Utd",
+   "deplasman": "Aston Villa",
+   "evGol": 4,
+   "depGol": 4,
+   "ms": "4-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "English FA Cup",
+   "ev": "Stafford",
+   "deplasman": "Grimsby",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "English FA Cup",
+   "ev": "Cray W",
+   "deplasman": "Stockport",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "English FA Cup",
+   "ev": "Wimborne T",
+   "deplasman": "Crawley",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Scottish Premier",
+   "ev": "Hearts",
+   "deplasman": "Falkirk",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Scottish Premier",
+   "ev": "Celtic",
+   "deplasman": "Kilmarnock",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Italian Serie A",
+   "ev": "Monza",
+   "deplasman": "Atalanta",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Italian Serie A",
+   "ev": "Genoa",
+   "deplasman": "Milan",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Italian Serie A",
+   "ev": "Inter",
+   "deplasman": "Como",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga",
+   "ev": "Cologne",
+   "deplasman": "B Leverkusen",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga",
+   "ev": "Freiburg",
+   "deplasman": "Union Berlin",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish La Liga",
+   "ev": "Elche",
+   "deplasman": "Real Betis",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish La Liga",
+   "ev": "Sociedad",
+   "deplasman": "Rayo Vallecano",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Rennes",
+   "deplasman": "Lille",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Le Havre",
+   "deplasman": "Lorient",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Angers",
+   "deplasman": "Nice",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Brest",
+   "deplasman": "Lyon",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Le Mans",
+   "deplasman": "Monaco",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Turkish Super Lig",
+   "ev": "Corum",
+   "deplasman": "Fenerbahce",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Turkish Super Lig",
+   "ev": "Alanyaspor",
+   "deplasman": "Trabzonspor",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Russian Premier",
+   "ev": "Spartak Moscow",
+   "deplasman": "Akron",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Russian Premier",
+   "ev": "Zenit",
+   "deplasman": "R. Rostov",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Aarhus",
+   "deplasman": "AC Horsens",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Randers",
+   "deplasman": "Nordsjaelland",
+   "evGol": 1,
+   "depGol": 6,
+   "ms": "1-6"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Midtjylland",
+   "deplasman": "SonderjyskE",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Netherlands League",
+   "ev": "FC Twente",
+   "deplasman": "Ajax",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Netherlands League",
+   "ev": "AZ Alkmaar",
+   "deplasman": "FC Groningen",
+   "evGol": 4,
+   "depGol": 3,
+   "ms": "4-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Netherlands League",
+   "ev": "Cambuur",
+   "deplasman": "PSV Eindhoven",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Czech Liga",
+   "ev": "Slavia Prague",
+   "deplasman": "Artis Brno",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Czech Liga",
+   "ev": "Jablonec",
+   "deplasman": "Mlada Boleslav",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Czech Liga",
+   "ev": "Viktoria Plzen",
+   "deplasman": "Sparta Prague",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga 2",
+   "ev": "Heidenheim",
+   "deplasman": "Hannover",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga 2",
+   "ev": "FC Magdeburg",
+   "deplasman": "St Pauli",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga 2",
+   "ev": "Bochum",
+   "deplasman": "Karlsruhe",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belgium League",
+   "ev": "Club Brugge",
+   "deplasman": "Anderlecht",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belgium League",
+   "ev": "Gent",
+   "deplasman": "Kortrijk",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swedish Allsvenskan",
+   "ev": "IFK Goth'burg",
+   "deplasman": "Malmo",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Halmstads",
+   "deplasman": "Djurgaarden",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swedish Allsvenskan",
+   "ev": "AIK Solna",
+   "deplasman": "Hacken",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Kalmar",
+   "deplasman": "IK Sirius",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swedish Allsvenskan",
+   "ev": "IF BP",
+   "deplasman": "Mjallby",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swiss Super League",
+   "ev": "St Gallen",
+   "deplasman": "Lugano",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swiss Super League",
+   "ev": "Thun",
+   "deplasman": "Basel",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Swiss Super League",
+   "ev": "Servette",
+   "deplasman": "FC Zurich",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Mallorca",
+   "ev": "Girona",
+   "deplasman": "Almeria",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Finland League",
+   "ev": "Gnistan",
+   "deplasman": "VPS Vaasa",
+   "evGol": 5,
+   "depGol": 1,
+   "ms": "5-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Finland League",
+   "ev": "HJK Helsinki",
+   "deplasman": "AC Oulu",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Finland League",
+   "ev": "KPS Kuopio",
+   "deplasman": "FC Inter",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Tromso",
+   "deplasman": "Bodo Glimt",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Lillestrom",
+   "deplasman": "Aalesund",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Sandefjord",
+   "deplasman": "Molde",
+   "evGol": 5,
+   "depGol": 5,
+   "ms": "5-5"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "HamKam",
+   "deplasman": "Sarpsborg",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Viking",
+   "deplasman": "KFUM Oslo",
+   "evGol": 5,
+   "depGol": 1,
+   "ms": "5-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Austrian Bundesliga",
+   "ev": "Swarovski Wattens",
+   "deplasman": "Aus. Vienna",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Austrian Bundesliga",
+   "ev": "Hartberg",
+   "deplasman": "Altach",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Austrian Bundesliga",
+   "ev": "Sturm Graz",
+   "deplasman": "RB Salzburg",
+   "evGol": 3,
+   "depGol": 4,
+   "ms": "3-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Jagiellonia",
+   "deplasman": "GKS Katowice",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Legia Warsaw",
+   "deplasman": "Rakow Czestochowa",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Slovenian League",
+   "ev": "Brinje Grosuplje",
+   "deplasman": "NK Aluminij",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Slovenian League",
+   "ev": "NK Radomlje",
+   "deplasman": "NK Celje",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Romanian Liga 1",
+   "ev": "Sepsi Sfantu G",
+   "deplasman": "Voluntari",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Romanian Liga 1",
+   "ev": "CFR Cluj",
+   "deplasman": "Uni Craiova",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Croatian HNL",
+   "ev": "Osijek",
+   "deplasman": "Hajduk Split",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Croatian HNL",
+   "ev": "NK Varazdin",
+   "deplasman": "Dinamo Zagreb",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Greek Super League",
+   "ev": "AEK Athens",
+   "deplasman": "Levadiakos",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Greek Super League",
+   "ev": "Asteras T.",
+   "deplasman": "Kalamata",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Greek Super League",
+   "ev": "Iraklis 1908",
+   "deplasman": "Panathinaikos",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Greek Super League",
+   "ev": "OFI Crete",
+   "deplasman": "Atromitos",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "Santa Clara",
+   "deplasman": "Gil Vicente",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "CD Nacional",
+   "deplasman": "Academico de Viseu",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belarus League",
+   "ev": "FC Minsk",
+   "deplasman": "Dinamo Brest",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ukrainian League",
+   "ev": "Shakhtar",
+   "deplasman": "Dynamo Kyiv",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Serbian League",
+   "ev": "Partizan",
+   "deplasman": "Macva Sabac",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Bulgarian League",
+   "ev": "Spartak Varna",
+   "deplasman": "Arda",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Bulgarian League",
+   "ev": "Levski Sofia",
+   "deplasman": "CSKA Sofia",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Hungarian League",
+   "ev": "Nyiregyhaza",
+   "deplasman": "Gyori ETO",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Hungarian League",
+   "ev": "Debrecen",
+   "deplasman": "Ujpest Dozsa",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Audax Italiano",
+   "deplasman": "Coquimbo Unido",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Univ Catolica",
+   "deplasman": "Deportes Limache",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Macara",
+   "deplasman": "Universidad Catolica",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Deportivo Cuenca",
+   "deplasman": "Orense",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-11-08T14:36:34.534Z",
+ "guncellendi": "2026-11-08T19:21:35.366Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
