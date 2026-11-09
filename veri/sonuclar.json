@@ -90557,9 +90557,63 @@
    "evGol": 0,
    "depGol": 0,
    "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-09",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Queretaro",
+   "deplasman": "Puebla",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-09",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Leon",
+   "deplasman": "Guadalajara",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-09",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Alianza Petrolera",
+   "deplasman": "Llaneros",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-09",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Universitario de Deportes",
+   "deplasman": "Deportivo Moquegua",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belgium League",
+   "ev": "Sint-Truidense",
+   "deplasman": "Waregem",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "Nacional",
+   "deplasman": "Academico de Viseu",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
   }
  ],
- "guncellendi": "2026-11-09T01:48:31.930Z",
+ "guncellendi": "2026-11-09T17:53:13.661Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
