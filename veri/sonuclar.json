@@ -90206,9 +90206,360 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "English FA Cup",
+   "ev": "Oldham",
+   "deplasman": "Sheff Wed",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Italian Serie A",
+   "ev": "Fiorentina",
+   "deplasman": "Juventus",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "German Bundesliga",
+   "ev": "Hoffenheim",
+   "deplasman": "Schalke",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish La Liga",
+   "ev": "Villarreal",
+   "deplasman": "Getafe",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish La Liga",
+   "ev": "Celta Vigo",
+   "deplasman": "Levante",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish La Liga",
+   "ev": "Atl Madrid",
+   "deplasman": "Barcelona",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "French Ligue 1",
+   "ev": "Lens",
+   "deplasman": "Marseille",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Turkish Super Lig",
+   "ev": "Besiktas",
+   "deplasman": "Genclerbirligi",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Russian Premier",
+   "ev": "Baltika",
+   "deplasman": "Dynamo Makhachkala",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Netherlands League",
+   "ev": "Utrecht",
+   "deplasman": "NEC Nijmegen",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belgium League",
+   "ev": "Union St Gilloise",
+   "deplasman": "Genk",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Belgium League",
+   "ev": "St. Truiden",
+   "deplasman": "Waregem",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Fredrikstad",
+   "deplasman": "Brann",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Lech Poznan",
+   "deplasman": "Zaglebie Lubin",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Greek Super League",
+   "ev": "Olympiakos",
+   "deplasman": "PAOK Salonika",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Spanish Segunda",
+   "ev": "Sp. Gijon",
+   "deplasman": "Valladolid",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "V Guimaraes",
+   "deplasman": "Porto",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "Estrela",
+   "deplasman": "Benfica",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Portuguese Liga",
+   "ev": "Rio Ave",
+   "deplasman": "Braga",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Serbian League",
+   "ev": "Vojvodina NS",
+   "deplasman": "Red Star",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Hungarian League",
+   "ev": "Vasas",
+   "deplasman": "Ferencvaros",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Israeli League",
+   "ev": "H Beer Sheva",
+   "deplasman": "H Tel Aviv",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Central Cordoba SDE",
+   "deplasman": "Lanus",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Los Chankas",
+   "deplasman": "Alianza Lima",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Sport Boys",
+   "deplasman": "UTC Cajamarca",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Deportivo Garcilaso",
+   "deplasman": "Comerciantes Unidos",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Santa Fe",
+   "deplasman": "Deportivo Pasto",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Jaguares de Cordoba",
+   "deplasman": "Atletico Bucaramanga",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportes Tolima",
+   "deplasman": "Millonarios",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Nublense",
+   "deplasman": "Colo-Colo",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Univ de Chile",
+   "deplasman": "Cobresal",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Union La Calera",
+   "deplasman": "Huachipato",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Chile Primera",
+   "ev": "Universidad de Concepcion",
+   "deplasman": "O'Higgins",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Aucas",
+   "deplasman": "Independiente d V",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Barcelona de G",
+   "deplasman": "LDU Quito",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Paraguay League Clausura",
+   "ev": "Cerro Porteno",
+   "deplasman": "Deportivo Recoleta",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sportivo Trinidense",
+   "deplasman": "Sportivo Ameliano",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Portuguesa FC",
+   "deplasman": "Metropolitanos",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-08",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Deportivo La Guaira",
+   "deplasman": "Carabobo FC",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
   }
  ],
- "guncellendi": "2026-11-08T19:21:35.366Z",
+ "guncellendi": "2026-11-09T01:48:31.930Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -90346,6 +90697,7 @@
   "2026-11-04",
   "2026-11-05",
   "2026-11-06",
-  "2026-11-07"
+  "2026-11-07",
+  "2026-11-08"
  ]
 }
