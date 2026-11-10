@@ -90692,9 +90692,27 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Junior",
+   "deplasman": "Cucuta Deportivo",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-09",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sp Luqueno",
+   "deplasman": "2 de Mayo",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
   }
  ],
- "guncellendi": "2026-11-09T23:41:53.963Z",
+ "guncellendi": "2026-11-10T04:12:34.203Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
