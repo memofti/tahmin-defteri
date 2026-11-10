@@ -90710,9 +90710,162 @@
    "evGol": 3,
    "depGol": 0,
    "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Huddersfield",
+   "deplasman": "Liverpool U21",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Northampton",
+   "deplasman": "Gillingham",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Barnet",
+   "deplasman": "Leyton Orient",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Grimsby",
+   "deplasman": "N Forest U21",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Bristol R",
+   "deplasman": "Reading",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Crewe",
+   "deplasman": "Wigan",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Stockport",
+   "deplasman": "Tranmere",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Burton",
+   "deplasman": "Notts Co",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Oxford",
+   "deplasman": "Cheltenham",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Football League Trophy",
+   "ev": "Mansfield",
+   "deplasman": "Chesterfield",
+   "evGol": 3,
+   "depGol": 5,
+   "ms": "3-5"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Fulham U21",
+   "ev": "Plymouth",
+   "deplasman": "Swindon",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Fulham U21",
+   "ev": "Leicester",
+   "deplasman": "Walsall",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Copa del Rey",
+   "ev": "Anaitasuna",
+   "deplasman": "Alaves",
+   "evGol": 1,
+   "depGol": 6,
+   "ms": "1-6"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Copa del Rey",
+   "ev": "Pamplona",
+   "deplasman": "Eibar",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Copa del Rey",
+   "ev": "Mijas Las Lagunas",
+   "deplasman": "Jaen",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Copa del Rey",
+   "ev": "Amorebieta",
+   "deplasman": "UD Logrones",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-10",
+   "lig": "Copa del Rey",
+   "ev": "Trival Valderas",
+   "deplasman": "Leganes",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-11-10T15:52:28.663Z",
+ "guncellendi": "2026-11-10T21:12:45.537Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -90852,6 +91005,7 @@
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ]
 }
