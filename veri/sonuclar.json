@@ -91124,9 +91124,27 @@
    "evGol": 2,
    "depGol": 3,
    "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-11",
+   "lig": "Football League Trophy",
+   "ev": "Sheff Wed",
+   "deplasman": "Accrington",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-11-11",
+   "lig": "Football League Trophy",
+   "ev": "Barnsley",
+   "deplasman": "Oldham",
+   "evGol": 5,
+   "depGol": 2,
+   "ms": "5-2"
   }
  ],
- "guncellendi": "2026-11-11T15:40:10.031Z",
+ "guncellendi": "2026-11-11T21:45:06.313Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -91267,6 +91285,7 @@
   "2026-11-07",
   "2026-11-08",
   "2026-11-09",
-  "2026-11-10"
+  "2026-11-10",
+  "2026-11-11"
  ]
 }
