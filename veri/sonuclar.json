@@ -91142,9 +91142,18 @@
    "evGol": 5,
    "depGol": 2,
    "ms": "5-2"
+  },
+  {
+   "tarih": "2026-11-11",
+   "lig": "Unibond Premier",
+   "ev": "Avro",
+   "deplasman": "Whitby",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
   }
  ],
- "guncellendi": "2026-11-11T21:45:06.313Z",
+ "guncellendi": "2026-11-12T03:10:34.006Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
