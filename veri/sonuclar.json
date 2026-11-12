@@ -91151,9 +91151,117 @@
    "evGol": 3,
    "depGol": 1,
    "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "International Friendly",
+   "ev": "Uzbekistan",
+   "deplasman": "Russia",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "International Friendly",
+   "ev": "Lithuania",
+   "deplasman": "Surinam",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "International Friendly",
+   "ev": "Malta",
+   "deplasman": "Swaziland",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "Armenia",
+   "deplasman": "Cyprus",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "Turkey",
+   "deplasman": "Belgium",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "Montenegro",
+   "deplasman": "Latvia",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "Albania",
+   "deplasman": "Finland",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "San Marino",
+   "deplasman": "Belarus",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Nations League",
+   "ev": "England",
+   "deplasman": "Croatia",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Copa del Rey",
+   "ev": "Calvo Sotelo",
+   "deplasman": "Albacete",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Copa del Rey",
+   "ev": "Navalcarnero",
+   "deplasman": "Real Betis",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-12",
+   "lig": "Copa del Rey",
+   "ev": "Tarancon",
+   "deplasman": "Levante",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
   }
  ],
- "guncellendi": "2026-11-12T16:24:21.238Z",
+ "guncellendi": "2026-11-12T21:44:59.788Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -91295,6 +91403,7 @@
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
-  "2026-11-11"
+  "2026-11-11",
+  "2026-11-12"
  ]
 }
