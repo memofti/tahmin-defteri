@@ -1,0 +1,347 @@
+{
+ "calisti": "2026-11-13T21:12:21.240Z",
+ "tsi": "2026-11-14 00:12",
+ "erkenOrneklem": true,
+ "kaynaklar": {
+  "soccerbase 2026-11-14": "ACILDI",
+  "soccerbase 2026-11-13": "ACILDI",
+  "betexplorer": "ACILDI",
+  "olbg": "ACILDI"
+ },
+ "taranmisGun": 143,
+ "yeniSkor": 4,
+ "toplamSkor": 10151,
+ "oranMacSayisi": 0,
+ "gencMacAyiklandi": 0,
+ "kalabalikSayisi": 20,
+ "modelliLig": 90,
+ "modelliTakim": 1908,
+ "genelTablo": "10151 mac",
+ "bultenSayisi": 0,
+ "tahminSayisi": 0,
+ "elenenSayisi": 20,
+ "bulten": [],
+ "tahminler": [],
+ "elenenler": [
+  {
+   "ev": "Argentina",
+   "deplasman": "Uruguay",
+   "lig": "International",
+   "tarih": "2026-11-15",
+   "saat": "02:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 22,
+   "n": 24,
+   "yuzde": 92,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Salford City",
+   "deplasman": "Northampton",
+   "lig": "England League Two",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 16,
+   "n": 16,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Saint Martin",
+   "deplasman": "El Salvador",
+   "lig": "CONCACAF Nations League",
+   "tarih": "2026-11-15",
+   "saat": "02:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 8,
+   "n": 10,
+   "yuzde": 80,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Exeter",
+   "deplasman": "Cheltenham",
+   "lig": "England League Two",
+   "tarih": "2026-11-15",
+   "saat": "15:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 9,
+   "yuzde": 89,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Harrogate Town",
+   "deplasman": "Altrincham",
+   "lig": "England National League",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 7,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Carlisle",
+   "deplasman": "Boston Utd",
+   "lig": "England National League",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 7,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Stockport",
+   "deplasman": "Reading",
+   "lig": "England League One",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 8,
+   "yuzde": 88,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Ecuador",
+   "deplasman": "Costa Rica",
+   "lig": "International",
+   "tarih": "2026-11-15",
+   "saat": "03:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Colombia",
+   "deplasman": "Chile",
+   "lig": "International",
+   "tarih": "2026-11-15",
+   "saat": "03:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Southend",
+   "deplasman": "Aldershot",
+   "lig": "England National League",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "East Kilbride",
+   "deplasman": "Alloa",
+   "lig": "Scotland League One",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 5,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Gateshead",
+   "deplasman": "Barrow",
+   "lig": "England National League",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 5,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Milton Keynes Dons",
+   "deplasman": "Burton Albion",
+   "lig": "England League One",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Peru",
+   "deplasman": "Bolivia",
+   "lig": "International",
+   "tarih": "2026-11-15",
+   "saat": "04:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 5,
+   "yuzde": 80,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Chinese Taipei",
+   "deplasman": "Kyrgyzstan",
+   "lig": "International",
+   "tarih": "2026-11-15",
+   "saat": "15:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 6,
+   "yuzde": 67,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Man City",
+   "deplasman": "Fulham",
+   "lig": "England Premier League",
+   "tarih": "2026-11-21",
+   "saat": "15:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 5,
+   "yuzde": 80,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Guatemala",
+   "deplasman": "Canada",
+   "lig": "CONCACAF Nations League",
+   "tarih": "2026-11-15",
+   "saat": "05:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 3,
+   "n": 3,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Yeovil",
+   "deplasman": "Boreham Wood",
+   "lig": "England National League",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 3,
+   "n": 3,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Crewe",
+   "deplasman": "Newport County",
+   "lig": "England League Two",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS X",
+   "kural": {
+    "tip": "ms",
+    "secim": "X"
+   },
+   "k": 3,
+   "n": 4,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Colchester",
+   "deplasman": "Gillingham",
+   "lig": "England League Two",
+   "tarih": "2026-11-15",
+   "saat": "18:00",
+   "etiket": "MS X",
+   "kural": {
+    "tip": "ms",
+    "secim": "X"
+   },
+   "k": 3,
+   "n": 4,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  }
+ ]
+}

@@ -91322,9 +91322,45 @@
    "evGol": 1,
    "depGol": 4,
    "ms": "1-4"
+  },
+  {
+   "tarih": "2026-11-13",
+   "lig": "Indonesia",
+   "ev": "UAE",
+   "deplasman": "Honduras",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-13",
+   "lig": "Indonesia",
+   "ev": "Saudi Arabia",
+   "deplasman": "South Korea",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-13",
+   "lig": "Indonesia",
+   "ev": "Qatar",
+   "deplasman": "Australia",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-13",
+   "lig": "Nations League",
+   "ev": "Moldova",
+   "deplasman": "Kazakhstan",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-11-13T15:44:40.977Z",
+ "guncellendi": "2026-11-13T21:12:36.993Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -91467,6 +91503,7 @@
   "2026-11-09",
   "2026-11-10",
   "2026-11-11",
-  "2026-11-12"
+  "2026-11-12",
+  "2026-11-13"
  ]
 }
