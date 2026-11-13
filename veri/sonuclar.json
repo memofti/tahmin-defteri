@@ -91313,9 +91313,18 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-13",
+   "lig": "Indonesia",
+   "ev": "Singapore",
+   "deplasman": "Paraguay",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
   }
  ],
- "guncellendi": "2026-11-13T02:44:00.767Z",
+ "guncellendi": "2026-11-13T15:44:40.977Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
