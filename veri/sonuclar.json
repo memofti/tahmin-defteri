@@ -91565,9 +91565,108 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "International Friendly",
+   "ev": "Peru",
+   "deplasman": "Bolivia",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "International Friendly",
+   "ev": "Japan",
+   "deplasman": "Brazil",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "International Friendly",
+   "ev": "China",
+   "deplasman": "Malaysia",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Football League Two",
+   "ev": "Exeter",
+   "deplasman": "Cheltenham",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Ukrainian League",
+   "ev": "Livyi Bereh",
+   "deplasman": "Bukovyna Chernivtsi",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "La Equidad",
+   "deplasman": "Santa Fe",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Japanese J2 League",
+   "ev": "Shonan Bellmare",
+   "deplasman": "Yokohama FC",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Japanese J2 League",
+   "ev": "Omiya Ardija",
+   "deplasman": "Montedio Yamagata",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Japanese J2 League",
+   "ev": "Albirex Niigata",
+   "deplasman": "Tegevajaro Miyazaki",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Japanese J2 League",
+   "ev": "Fujieda MYFC",
+   "deplasman": "Ventforet Kofu",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Japanese J2 League",
+   "ev": "Oita Trinita",
+   "deplasman": "Tochigi City",
+   "evGol": 1,
+   "depGol": 6,
+   "ms": "1-6"
   }
  ],
- "guncellendi": "2026-11-14T02:32:18.435Z",
+ "guncellendi": "2026-11-14T14:35:31.838Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
