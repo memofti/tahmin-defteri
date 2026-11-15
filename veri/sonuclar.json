@@ -92645,9 +92645,261 @@
    "evGol": 6,
    "depGol": 2,
    "ms": "6-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Georgia",
+   "deplasman": "Hungary",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Norway",
+   "deplasman": "Wales",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Romania",
+   "deplasman": "Poland",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Sweden",
+   "deplasman": "Bosnia-HZ.",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Austria",
+   "deplasman": "Ireland",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "N Ireland",
+   "deplasman": "Ukraine",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Nations League",
+   "ev": "Portugal",
+   "deplasman": "Denmark",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Football League Two",
+   "ev": "Fleetwood",
+   "deplasman": "Tranmere",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Scottish League One",
+   "ev": "Hamilton",
+   "deplasman": "Ross County",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Spanish Segunda",
+   "ev": "Mallorca",
+   "deplasman": "Cordoba",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Spanish Segunda",
+   "ev": "Almeria",
+   "deplasman": "FC Andorra",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Spanish Segunda",
+   "ev": "Real Oviedo",
+   "deplasman": "Girona",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Tristan Suarez",
+   "ev": "Atlanta",
+   "deplasman": "Estudiantes Caseros",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Tristan Suarez",
+   "ev": "Temperley",
+   "deplasman": "Ciudad de Bolivar",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Tristan Suarez",
+   "ev": "Colon Santa Fe",
+   "deplasman": "Ferrocarril Midland",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Deportivo Maipu",
+   "ev": "Gimnasia de Jujuy",
+   "deplasman": "Almirante Brown",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Once Caldas",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Cali",
+   "deplasman": "Deportes Tolima",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Bucaramanga",
+   "deplasman": "Fortaleza CEIF",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Pereira",
+   "deplasman": "America de Cali",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Aguilas Doradas",
+   "deplasman": "Independiente M",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Cucuta Deportivo",
+   "deplasman": "Jaguares de Cordoba",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Millonarios",
+   "deplasman": "Alianza Petrolera",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Central Espanol",
+   "deplasman": "Boston River",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Deportivo Maldonado",
+   "deplasman": "Cerro",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Nacional Montevideo",
+   "deplasman": "Albion FC",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Brazilian Serie A",
+   "ev": "Mirassol",
+   "deplasman": "Atletico Mineiro",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Queretaro",
+   "deplasman": "Monterrey",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-11-14T19:44:03.293Z",
+ "guncellendi": "2026-11-15T02:00:19.914Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -92791,6 +93043,7 @@
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
-  "2026-11-13"
+  "2026-11-13",
+  "2026-11-14"
  ]
 }
