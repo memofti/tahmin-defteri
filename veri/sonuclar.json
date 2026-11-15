@@ -92951,9 +92951,72 @@
    "evGol": 0,
    "depGol": 2,
    "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Nations League",
+   "ev": "Latvia",
+   "deplasman": "Armenia",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Nations League",
+   "ev": "Cyprus",
+   "deplasman": "Montenegro",
+   "evGol": 1,
+   "depGol": 4,
+   "ms": "1-4"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Nations League",
+   "ev": "Belarus",
+   "deplasman": "Albania",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Nations League",
+   "ev": "Finland",
+   "deplasman": "San Marino",
+   "evGol": 7,
+   "depGol": 2,
+   "ms": "7-2"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Spanish Segunda",
+   "ev": "Tenerife",
+   "deplasman": "AD Ceuta",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Spanish Segunda",
+   "ev": "Granada",
+   "deplasman": "Las Palmas",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Spanish Segunda",
+   "ev": "Eibar",
+   "deplasman": "Cadiz",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-15T15:03:09.063Z",
+ "guncellendi": "2026-11-15T20:10:15.165Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
