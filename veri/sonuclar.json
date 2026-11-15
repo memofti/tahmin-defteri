@@ -92897,9 +92897,63 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Japanese J2 League",
+   "ev": "Consadole Sapporo",
+   "deplasman": "Sagan Tosu",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Japanese J2 League",
+   "ev": "Vanraure Hachinohe",
+   "deplasman": "Iwaki",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Japanese J2 League",
+   "ev": "Vegalta Sendai",
+   "deplasman": "Blaublitz Akita",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Japanese J2 League",
+   "ev": "Kataller Toyama",
+   "deplasman": "Tokushima Vortis",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-15",
+   "lig": "Japanese J2 League",
+   "ev": "Imabari",
+   "deplasman": "Jubilo Iwata",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-14",
+   "lig": "Brazilian Serie A",
+   "ev": "Chapecoense",
+   "deplasman": "Vasco",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
   }
  ],
- "guncellendi": "2026-11-15T02:00:19.914Z",
+ "guncellendi": "2026-11-15T15:03:09.063Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
