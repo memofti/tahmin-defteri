@@ -96506,9 +96506,27 @@
    "evGol": 2,
    "depGol": 3,
    "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-16",
+   "lig": "Nations League",
+   "ev": "Faroe Islands",
+   "deplasman": "Moldova",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-16",
+   "lig": "Nations League",
+   "ev": "Kazakhstan",
+   "deplasman": "Slovakia",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-11-16T02:16:37.474Z",
+ "guncellendi": "2026-11-16T17:34:33.292Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
