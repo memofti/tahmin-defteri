@@ -96686,9 +96686,333 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Syria",
+   "ev": "Saudi Arabia",
+   "deplasman": "Uzbekistan",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Syria",
+   "ev": "Jordan",
+   "deplasman": "Australia",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Syria",
+   "ev": "Russia",
+   "deplasman": "Venezuela",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Syria",
+   "ev": "Iraq",
+   "deplasman": "Iran",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Syria",
+   "ev": "Kuwait",
+   "deplasman": "Honduras",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Bosnia-HZ.",
+   "deplasman": "Romania",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Poland",
+   "deplasman": "Sweden",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Ireland",
+   "deplasman": "Kosovo",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Israel",
+   "deplasman": "Austria",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Ukraine",
+   "deplasman": "Georgia",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Hungary",
+   "deplasman": "N Ireland",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Denmark",
+   "deplasman": "Norway",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Nations League",
+   "ev": "Wales",
+   "deplasman": "Portugal",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Football League Trophy",
+   "ev": "Luton",
+   "deplasman": "Peterborough",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Bonnyrigg Rose",
+   "deplasman": "Gala Fairydean",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Newton S",
+   "deplasman": "Celtic II",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Cumbernauld C",
+   "deplasman": "Pollok",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Musselburgh Ath",
+   "deplasman": "HOB Hawthorn",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Brechin",
+   "deplasman": "Stirling Univ",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Civil Serv Strol",
+   "ev": "Clydebank",
+   "deplasman": "Albion",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Football Conference North",
+   "ev": "Spalding Utd",
+   "deplasman": "Hebburn Town",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Harborough T",
+   "ev": "Oxford C",
+   "deplasman": "Macclesfield",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Harborough T",
+   "ev": "Spennymoor",
+   "deplasman": "Chester",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Harborough T",
+   "ev": "Bedford",
+   "deplasman": "Chorley",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Football Conference South",
+   "ev": "Tonbridge",
+   "deplasman": "Chesham",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Football Conference South",
+   "ev": "Truro City",
+   "deplasman": "Billericay",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Ryman Premier",
+   "ev": "Burgess Hill",
+   "deplasman": "Brentwood T",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Ryman Premier",
+   "ev": "Ramsgate",
+   "deplasman": "Cray W",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Ryman Premier",
+   "ev": "Dartford",
+   "deplasman": "Three Bridges",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Ryman Premier",
+   "ev": "Leatherhead",
+   "deplasman": "Wingate & F",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Southern League Premier",
+   "ev": "Poole Town",
+   "deplasman": "Wimborne T",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Southern League Premier",
+   "ev": "Chippenham",
+   "deplasman": "Sholing",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Unibond Premier",
+   "ev": "Hyde",
+   "deplasman": "Rylands",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Unibond Premier",
+   "ev": "Cleethorpes T",
+   "deplasman": "FC Utd",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Unibond Premier",
+   "ev": "Guiseley",
+   "deplasman": "Ashton Utd",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Unibond Premier",
+   "ev": "Quorn",
+   "deplasman": "Bury",
+   "evGol": 5,
+   "depGol": 4,
+   "ms": "5-4"
   }
  ],
- "guncellendi": "2026-11-17T17:08:31.283Z",
+ "guncellendi": "2026-11-17T22:46:53.237Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -96836,6 +97160,7 @@
   "2026-11-13",
   "2026-11-14",
   "2026-11-15",
-  "2026-11-16"
+  "2026-11-16",
+  "2026-11-17"
  ]
 }
