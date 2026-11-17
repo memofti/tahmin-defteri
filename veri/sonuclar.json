@@ -96659,9 +96659,36 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "International Friendly",
+   "ev": "Singapore",
+   "deplasman": "Brazil",
+   "evGol": 0,
+   "depGol": 7,
+   "ms": "0-7"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "International Friendly",
+   "ev": "China",
+   "deplasman": "Bahrain",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Paraguay",
+   "ev": "Qatar",
+   "deplasman": "South Korea",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-11-17T04:39:14.010Z",
+ "guncellendi": "2026-11-17T17:08:31.283Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
