@@ -97046,9 +97046,126 @@
    "evGol": 2,
    "depGol": 0,
    "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Scottish Lowland League",
+   "ev": "Dunipace",
+   "deplasman": "Linlithgow Rose",
+   "evGol": 0,
+   "depGol": 5,
+   "ms": "0-5"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Scottish Lowland League",
+   "ev": "Beith Juniors",
+   "deplasman": "Johnstone Burgh",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Boness Utd",
+   "ev": "Renfrew",
+   "deplasman": "Largs Thistle",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Boness Utd",
+   "ev": "E Stirling",
+   "deplasman": "Cowdenbeath",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Boness Utd",
+   "ev": "Auchinleck",
+   "deplasman": "Troon",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Copa del Rey",
+   "ev": "Utebo",
+   "deplasman": "Sabadell",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Copa del Rey",
+   "ev": "Portugalete",
+   "deplasman": "Real Union",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Copa del Rey",
+   "ev": "Badajoz",
+   "deplasman": "Tenerife",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Copa del Rey",
+   "ev": "Alcoyano",
+   "deplasman": "Mallorca",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Barakaldo",
+   "ev": "Deportiva Minera",
+   "deplasman": "Cartagena",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Southern League Premier",
+   "ev": "Frome",
+   "deplasman": "Gloucester",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Southern League Premier",
+   "ev": "Gosport Bor",
+   "deplasman": "Chertsey Town",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Alianza Atletico",
+   "deplasman": "Melgar",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-18T16:45:50.692Z",
+ "guncellendi": "2026-11-18T22:28:35.697Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -97197,6 +97314,7 @@
   "2026-11-14",
   "2026-11-15",
   "2026-11-16",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ]
 }
