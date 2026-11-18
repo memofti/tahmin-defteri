@@ -97010,9 +97010,45 @@
    "evGol": 5,
    "depGol": 4,
    "ms": "5-4"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Australia",
+   "ev": "Chile",
+   "deplasman": "Colombia",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Australia",
+   "ev": "Argentina",
+   "deplasman": "Costa Rica",
+   "evGol": 7,
+   "depGol": 0,
+   "ms": "7-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Australia",
+   "ev": "Uruguay",
+   "deplasman": "Dominican Rep",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-11-17",
+   "lig": "Australia",
+   "ev": "Ecuador",
+   "deplasman": "Bolivia",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
   }
  ],
- "guncellendi": "2026-11-17T22:46:53.237Z",
+ "guncellendi": "2026-11-18T03:45:38.270Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
