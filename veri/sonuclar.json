@@ -97163,9 +97163,72 @@
    "evGol": 1,
    "depGol": 1,
    "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-19",
+   "lig": "Brazilian Serie A",
+   "ev": "Gremio",
+   "deplasman": "Bahia",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-19",
+   "lig": "Brazilian Serie A",
+   "ev": "Corinthians",
+   "deplasman": "Botafogo",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Copa del Rey",
+   "ev": "Reddis",
+   "deplasman": "Barakaldo",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Brazilian Serie A",
+   "ev": "Coritiba",
+   "deplasman": "Santos",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Brazilian Serie A",
+   "ev": "Remo",
+   "deplasman": "Chapecoense",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Brazilian Serie A",
+   "ev": "Cruzeiro",
+   "deplasman": "Palmeiras",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-18",
+   "lig": "Brazilian Serie A",
+   "ev": "Flamengo",
+   "deplasman": "Paranaense",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-11-18T22:28:35.697Z",
+ "guncellendi": "2026-11-19T03:42:54.078Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
