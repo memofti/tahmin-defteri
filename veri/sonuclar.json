@@ -97226,9 +97226,36 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-19",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Penarol",
+   "deplasman": "Cerro Largo",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-19",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Progreso",
+   "deplasman": "Montevideo City Torque",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-19",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Boston River",
+   "deplasman": "Deportivo Maldonado",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
   }
  ],
- "guncellendi": "2026-11-19T16:52:41.273Z",
+ "guncellendi": "2026-11-19T22:34:35.202Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -97378,6 +97405,7 @@
   "2026-11-15",
   "2026-11-16",
   "2026-11-17",
-  "2026-11-18"
+  "2026-11-18",
+  "2026-11-19"
  ]
 }
