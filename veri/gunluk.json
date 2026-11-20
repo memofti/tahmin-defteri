@@ -1,127 +1,26 @@
 {
- "calisti": "2026-11-19T22:34:34.857Z",
- "tsi": "2026-11-20 01:34",
+ "calisti": "2026-11-20T03:35:58.669Z",
+ "tsi": "2026-11-20 06:35",
  "erkenOrneklem": true,
  "kaynaklar": {
   "soccerbase 2026-11-20": "ACILDI",
   "soccerbase 2026-11-19": "ACILDI",
-  "betexplorer": "ACILDI (2. denemede)",
+  "betexplorer": "HTTP 429 (4 denemede de alinamadi)",
   "olbg": "ACILDI"
  },
  "taranmisGun": 150,
- "yeniSkor": 3,
- "toplamSkor": 10806,
- "oranMacSayisi": 5,
+ "yeniSkor": 4,
+ "toplamSkor": 10810,
+ "oranMacSayisi": 0,
  "gencMacAyiklandi": 0,
  "kalabalikSayisi": 20,
  "modelliLig": 91,
  "modelliTakim": 1948,
- "genelTablo": "10806 mac",
- "bultenSayisi": 5,
+ "genelTablo": "10810 mac",
+ "bultenSayisi": 0,
  "tahminSayisi": 0,
  "elenenSayisi": 20,
- "bulten": [
-  {
-   "macId": "pjkZ0zWp",
-   "saat": "01:30",
-   "lig": "Serie A",
-   "ulke": "Brazil",
-   "ev": "Vasco",
-   "deplasman": "Internacional",
-   "oran": {
-    "ev": 1.49,
-    "beraberlik": 4.47,
-    "deplasman": 6
-   },
-   "marj": 6.15,
-   "basladi": true,
-   "ima": {
-    "ev": 0.6322444678609063,
-    "beraberlik": 0.2107481559536354,
-    "deplasman": 0.15700737618545837
-   }
-  },
-  {
-   "macId": "Kt9AZfxA",
-   "saat": "01:30",
-   "lig": "Serie A",
-   "ulke": "Brazil",
-   "ev": "Vitoria",
-   "deplasman": "Bragantino",
-   "oran": {
-    "ev": 2.62,
-    "beraberlik": 3.38,
-    "deplasman": 2.58
-   },
-   "marj": 6.51,
-   "basladi": true,
-   "ima": {
-    "ev": 0.35833922319564754,
-    "beraberlik": 0.2777659067374546,
-    "deplasman": 0.36389487006689786
-   }
-  },
-  {
-   "macId": "pzUhoOop",
-   "saat": "01:30",
-   "lig": "Primera B",
-   "ulke": "Colombia",
-   "ev": "Ind. Valle del Cauca",
-   "deplasman": "Envigado",
-   "oran": {
-    "ev": 3.2,
-    "beraberlik": 3,
-    "deplasman": 2.27
-   },
-   "marj": 8.64,
-   "basladi": true,
-   "ima": {
-    "ev": 0.28765734561121903,
-    "beraberlik": 0.3068345019853003,
-    "deplasman": 0.4055081524034806
-   }
-  },
-  {
-   "macId": "Em7L3W1B",
-   "saat": "01:30",
-   "lig": "Primera B",
-   "ulke": "Colombia",
-   "ev": "U. Magdalena",
-   "deplasman": "Boca Juniors",
-   "oran": {
-    "ev": 1.3,
-    "beraberlik": 4.9,
-    "deplasman": 8.4
-   },
-   "marj": 9.24,
-   "basladi": true,
-   "ima": {
-    "ev": 0.704191616766467,
-    "beraberlik": 0.18682634730538922,
-    "deplasman": 0.1089820359281437
-   }
-  },
-  {
-   "macId": "QsuQiFFt",
-   "saat": "01:30",
-   "lig": "Copa Venezuela",
-   "ulke": "Venezuela",
-   "ev": "La Guaira",
-   "deplasman": "Anzoategui FC",
-   "oran": {
-    "ev": 1.4,
-    "beraberlik": 4.5,
-    "deplasman": 6.4
-   },
-   "marj": 9.28,
-   "basladi": true,
-   "ima": {
-    "ev": 0.6536541080344984,
-    "beraberlik": 0.20335905583295505,
-    "deplasman": 0.14298683613254654
-   }
-  }
- ],
+ "bulten": [],
  "tahminler": [],
  "elenenler": [
   {
@@ -151,9 +50,9 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 24,
-   "n": 31,
-   "yuzde": 77,
+   "k": 25,
+   "n": 32,
+   "yuzde": 78,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
@@ -183,10 +82,58 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 20,
-   "n": 26,
-   "yuzde": 77,
+   "k": 21,
+   "n": 27,
+   "yuzde": 78,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Newcastle",
+   "deplasman": "Arsenal",
+   "lig": "England Premier League",
+   "tarih": "2026-11-21",
+   "saat": "20:30",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 18,
+   "n": 23,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Western Sydney Wanderers",
+   "deplasman": "Adelaide United",
+   "lig": "Australia A League",
+   "tarih": "2026-11-20",
+   "saat": "11:40",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 21,
+   "yuzde": 81,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Bayern Munich",
+   "deplasman": "Cologne",
+   "lig": "Germany Bundesliga I",
+   "tarih": "2026-11-20",
+   "saat": "22:30",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 17,
+   "n": 19,
+   "yuzde": 89,
+   "neden": "oran bulunamadi"
   },
   {
    "ev": "Bournemouth",
@@ -205,36 +152,36 @@
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Newcastle",
-   "deplasman": "Arsenal",
-   "lig": "England Premier League",
-   "tarih": "2026-11-21",
-   "saat": "20:30",
-   "etiket": "MS 2",
-   "kural": {
-    "tip": "ms",
-    "secim": "2"
-   },
-   "k": 17,
-   "n": 22,
-   "yuzde": 77,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "Bayern Munich",
-   "deplasman": "Cologne",
-   "lig": "Germany Bundesliga I",
-   "tarih": "2026-11-21",
-   "saat": "22:30",
+   "ev": "Kashiwa Reysol",
+   "deplasman": "JEF Utd Chiba",
+   "lig": "Japan J1 League",
+   "tarih": "2026-11-20",
+   "saat": "13:00",
    "etiket": "MS 1",
    "kural": {
     "tip": "ms",
     "secim": "1"
    },
    "k": 15,
-   "n": 17,
-   "yuzde": 88,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+   "n": 16,
+   "yuzde": 94,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Vissel Kobe",
+   "deplasman": "Mito Hollyhock",
+   "lig": "Japan J1 League",
+   "tarih": "2026-11-20",
+   "saat": "13:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 15,
+   "n": 16,
+   "yuzde": 94,
+   "neden": "oran bulunamadi"
   },
   {
    "ev": "Lazio",
@@ -256,7 +203,7 @@
    "ev": "Athletic Club",
    "deplasman": "Espanyol",
    "lig": "Spain Primera Liga",
-   "tarih": "2026-11-21",
+   "tarih": "2026-11-20",
    "saat": "23:00",
    "etiket": "MS 1",
    "kural": {
@@ -264,9 +211,25 @@
     "secim": "1"
    },
    "k": 13,
+   "n": 16,
+   "yuzde": 81,
+   "neden": "oran bulunamadi"
+  },
+  {
+   "ev": "Kashima Antlers",
+   "deplasman": "Shimizu S Pulse",
+   "lig": "Japan J1 League",
+   "tarih": "2026-11-20",
+   "saat": "13:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 12,
    "n": 15,
-   "yuzde": 87,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+   "yuzde": 80,
+   "neden": "oran bulunamadi"
   },
   {
    "ev": "Como",
@@ -296,73 +259,25 @@
     "secim": "1"
    },
    "k": 12,
-   "n": 22,
-   "yuzde": 55,
+   "n": 23,
+   "yuzde": 52,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Kashiwa Reysol",
-   "deplasman": "JEF Utd Chiba",
-   "lig": "Japan J1 League",
-   "tarih": "2026-11-21",
-   "saat": "13:00",
-   "etiket": "MS 1",
+   "ev": "Barnsley",
+   "deplasman": "Sheff Wed",
+   "lig": "England League One",
+   "tarih": "2026-11-20",
+   "saat": "23:00",
+   "etiket": "MS 2",
    "kural": {
     "tip": "ms",
-    "secim": "1"
+    "secim": "2"
    },
    "k": 11,
-   "n": 12,
-   "yuzde": 92,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "Vissel Kobe",
-   "deplasman": "Mito Hollyhock",
-   "lig": "Japan J1 League",
-   "tarih": "2026-11-21",
-   "saat": "13:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 10,
-   "n": 11,
-   "yuzde": 91,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "Western Sydney Wanderers",
-   "deplasman": "Adelaide United",
-   "lig": "Australia A League",
-   "tarih": "2026-11-21",
-   "saat": "11:40",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 9,
-   "n": 12,
-   "yuzde": 75,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "Kashima Antlers",
-   "deplasman": "Shimizu S Pulse",
-   "lig": "Japan J1 League",
-   "tarih": "2026-11-21",
-   "saat": "13:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 9,
-   "n": 11,
-   "yuzde": 82,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+   "n": 19,
+   "yuzde": 58,
+   "neden": "oran bulunamadi"
   },
   {
    "ev": "Norwich",
@@ -375,9 +290,9 @@
     "tip": "ms",
     "secim": "1"
    },
-   "k": 9,
-   "n": 11,
-   "yuzde": 82,
+   "k": 10,
+   "n": 12,
+   "yuzde": 83,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
@@ -408,40 +323,24 @@
     "secim": "X"
    },
    "k": 9,
-   "n": 20,
-   "yuzde": 45,
+   "n": 21,
+   "yuzde": 43,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Sao Paulo",
-   "deplasman": "Fluminense",
-   "lig": "Brazil Serie A",
-   "tarih": "2026-11-21",
-   "saat": "03:30",
-   "etiket": "MS 1",
+   "ev": "Hull",
+   "deplasman": "Brighton",
+   "lig": "England Premier League",
+   "tarih": "2026-11-22",
+   "saat": "17:00",
+   "etiket": "MS 2",
    "kural": {
     "tip": "ms",
-    "secim": "1"
+    "secim": "2"
    },
-   "k": 8,
-   "n": 19,
-   "yuzde": 42,
-   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
-  },
-  {
-   "ev": "Orlando City",
-   "deplasman": "FC Cincinnati",
-   "lig": "MLS",
-   "tarih": "2026-11-21",
-   "saat": "03:30",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 8,
-   "n": 11,
-   "yuzde": 73,
+   "k": 9,
+   "n": 16,
+   "yuzde": 56,
    "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   }
  ]
