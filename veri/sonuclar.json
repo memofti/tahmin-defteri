@@ -97289,9 +97289,54 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Australian A-League",
+   "ev": "Western Sydney",
+   "deplasman": "Adelaide Utd",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "MLS",
+   "ev": "Seattle",
+   "deplasman": "Real Salt Lake",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Japanese J1 League",
+   "ev": "Vissel Kobe",
+   "deplasman": "Mito HollyHock",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Japanese J1 League",
+   "ev": "Kashiwa Reysol",
+   "deplasman": "JEF United",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Japanese J1 League",
+   "ev": "Kashima Antlers",
+   "deplasman": "Shimizu S-Pulse",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-20T03:35:59.343Z",
+ "guncellendi": "2026-11-20T16:27:23.473Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
