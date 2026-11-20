@@ -97334,9 +97334,225 @@
    "evGol": 1,
    "depGol": 1,
    "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "National League",
+   "ev": "Southend",
+   "deplasman": "Boreham W",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Scottish Championship",
+   "ev": "Inverness CT",
+   "deplasman": "Ayr",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "German Bundesliga",
+   "ev": "B Munich",
+   "deplasman": "Cologne",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "French Ligue 1",
+   "ev": "Troyes",
+   "deplasman": "Le Havre",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Romanian Liga 1",
+   "ev": "Botosani",
+   "deplasman": "Voluntari",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Romanian Liga 1",
+   "ev": "Farul Constanta",
+   "deplasman": "Uni Cluj",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Russian Premier",
+   "ev": "R. Rostov",
+   "deplasman": "Kryliya Sovetov",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Piast Gliwice",
+   "deplasman": "Korona Kielce",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Pogon Szczecin",
+   "deplasman": "Slask Wroclaw",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "German Bundesliga 2",
+   "ev": "Arminia",
+   "deplasman": "FC Magdeburg",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "German Bundesliga 2",
+   "ev": "Darmstadt",
+   "deplasman": "Heidenheim",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Molde",
+   "deplasman": "Bodo Glimt",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Aarhus",
+   "deplasman": "Lyngby",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Spanish Segunda",
+   "ev": "FC Andorra",
+   "deplasman": "Leganes",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Belgium League",
+   "ev": "Cercle Bruges",
+   "deplasman": "Westerlo",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Ukrainian League",
+   "ev": "Shakhtar",
+   "deplasman": "Livyi Bereh",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Bulgarian League",
+   "ev": "PFC Septemvri Sofia",
+   "deplasman": "Loko. Plovdiv",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "The New Saints",
+   "deplasman": "Trefelin",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "Flint Town U",
+   "deplasman": "Cambrian United",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "Penybont",
+   "deplasman": "Haverfordwest",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Ammanford",
+   "ev": "Llandudno",
+   "deplasman": "Barry Town",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Ammanford",
+   "ev": "Airbus UK",
+   "deplasman": "Colwyn Bay",
+   "evGol": 3,
+   "depGol": 4,
+   "ms": "3-4"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Northern Irish Premier League",
+   "ev": "Cliftonville",
+   "deplasman": "Glentoran",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Independiente d V",
+   "deplasman": "Macara",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
   }
  ],
- "guncellendi": "2026-11-20T16:27:23.473Z",
+ "guncellendi": "2026-11-20T22:07:44.620Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -97487,6 +97703,7 @@
   "2026-11-16",
   "2026-11-17",
   "2026-11-18",
-  "2026-11-19"
+  "2026-11-19",
+  "2026-11-20"
  ]
 }
