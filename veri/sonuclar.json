@@ -97694,9 +97694,567 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Premier League",
+   "ev": "Man City",
+   "deplasman": "Fulham",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League Championship",
+   "ev": "Norwich",
+   "deplasman": "Cardiff",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League Championship",
+   "ev": "Millwall",
+   "deplasman": "QPR",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League Championship",
+   "ev": "Southampton",
+   "deplasman": "Derby",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League One",
+   "ev": "Blackpool",
+   "deplasman": "Wigan",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League One",
+   "ev": "Reading",
+   "deplasman": "Bromley",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League Two",
+   "ev": "Newport Co",
+   "deplasman": "Swindon",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Football League Two",
+   "ev": "Gillingham",
+   "deplasman": "Crewe",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "National League",
+   "ev": "Solihull M",
+   "deplasman": "Altrincham",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "National League",
+   "ev": "Tamworth",
+   "deplasman": "Eastleigh",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Spanish La Liga",
+   "ev": "Alaves",
+   "deplasman": "Deportivo",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Russian Premier",
+   "ev": "Gazovik Orenburg",
+   "deplasman": "Baltika",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Russian Premier",
+   "ev": "Akron",
+   "deplasman": "Fakel Voronezh",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Turkish Super Lig",
+   "ev": "Genclerbirligi",
+   "deplasman": "Gazisehir",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Turkish Super Lig",
+   "ev": "Amedspor",
+   "deplasman": "Rizespor",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Turkish Super Lig",
+   "ev": "Galatasaray",
+   "deplasman": "Samsunspor",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "German Bundesliga 2",
+   "ev": "Hannover",
+   "deplasman": "Greuther Furth",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "German Bundesliga 2",
+   "ev": "Nuremberg",
+   "deplasman": "Braunschweig",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "German Bundesliga 2",
+   "ev": "Wolfsburg",
+   "deplasman": "Holstein Kiel",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Norwegian Tippeligaen",
+   "ev": "Tromso",
+   "deplasman": "Viking",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Romanian Liga 1",
+   "ev": "Csikszereda",
+   "deplasman": "Corvinul Hunedoara",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Spanish Segunda",
+   "ev": "Sabadell",
+   "deplasman": "Granada",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Australian A-League",
+   "ev": "Auckland",
+   "deplasman": "Melbourne Vic",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Australian A-League",
+   "ev": "Central Coast M",
+   "deplasman": "Perth Glory",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Australian A-League",
+   "ev": "Brisbane Roar",
+   "deplasman": "Sydney FC",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Belarus League",
+   "ev": "Gomel",
+   "deplasman": "Bate Borisov",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Belarus League",
+   "ev": "Dnepr Mogilev",
+   "deplasman": "Vitebsk",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Belarus League",
+   "ev": "Baranovichi",
+   "deplasman": "Belshina",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Ukrainian League",
+   "ev": "Kolos Kovalivka",
+   "deplasman": "Metalist 1925 Kharkiv",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Serbian League",
+   "ev": "Radnicki Nis",
+   "deplasman": "Zemun",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Serbian League",
+   "ev": "Red Star",
+   "deplasman": "Radnik Surdulica",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Hungarian League",
+   "ev": "Puskas FA FC",
+   "deplasman": "MTK",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Bulgarian League",
+   "ev": "Slavia Sofia",
+   "deplasman": "Arda",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "FC Juarez",
+   "deplasman": "Atlas",
+   "evGol": 3,
+   "depGol": 3,
+   "ms": "3-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Tijuana",
+   "deplasman": "Atlante",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Cali",
+   "deplasman": "Millonarios",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Machida Zelvia",
+   "deplasman": "V-Varen Nagasaki",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Sanf Hiroshima",
+   "deplasman": "Yokohama F. Marinos",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Kyoto Sanga",
+   "deplasman": "Urawa Red Diamonds",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Tokyo Verdy",
+   "deplasman": "Nagoya Grampus",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Kawasaki F",
+   "deplasman": "Avispa Fukuoka",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Cerezo Osaka",
+   "deplasman": "FC Tokyo",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J1 League",
+   "ev": "Gamba Osaka",
+   "deplasman": "Fagiano Okayama",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 1",
+   "ev": "Jeonbuk H M",
+   "deplasman": "FC Seoul",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 1",
+   "ev": "Pohang S",
+   "deplasman": "Anyang",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 1",
+   "ev": "Incheon United",
+   "deplasman": "Ulsan Hyundai",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 1",
+   "ev": "Gangwon",
+   "deplasman": "Daejeon Hana Citizen",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 2",
+   "ev": "Suwon Samsung",
+   "deplasman": "Gyeongnam",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 2",
+   "ev": "Busan IPark",
+   "deplasman": "Cheongju",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 2",
+   "ev": "Gimpo Citizen",
+   "deplasman": "Suwon FC",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Korean K-League 2",
+   "ev": "Seongnam",
+   "deplasman": "Yongin",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Ventforet Kofu",
+   "deplasman": "Vanraure Hachinohe",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Blaublitz Akita",
+   "deplasman": "Montedio Yamagata",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Sagan Tosu",
+   "deplasman": "Vegalta Sendai",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Fujieda MYFC",
+   "deplasman": "Imabari",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Tegevajaro Miyazaki",
+   "deplasman": "Iwaki",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Kataller Toyama",
+   "deplasman": "Oita Trinita",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Tochigi City",
+   "deplasman": "Albirex Niigata",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Yokohama FC",
+   "deplasman": "Consadole Sapporo",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Japanese J2 League",
+   "ev": "Jubilo Iwata",
+   "deplasman": "Omiya Ardija",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Swedish Superettan",
+   "ev": "Ostersunds FK",
+   "deplasman": "Varbergs Bois",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Swedish Play-offs 1/2",
+   "ev": "Enkopings SK",
+   "deplasman": "Orebro",
+   "evGol": 2,
+   "depGol": 4,
+   "ms": "2-4"
   }
  ],
- "guncellendi": "2026-11-21T03:18:50.802Z",
+ "guncellendi": "2026-11-21T15:41:37.744Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
