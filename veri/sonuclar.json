@@ -97550,9 +97550,153 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Puebla",
+   "deplasman": "Atletico San Luis",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Football League One",
+   "ev": "Barnsley",
+   "deplasman": "Sheff Wed",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Spanish La Liga",
+   "ev": "Ath Bilbao",
+   "deplasman": "Espanyol",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "Caernarfon",
+   "deplasman": "Connah's Q",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "Cardiff MU",
+   "deplasman": "Ammanford",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Welsh Premier",
+   "ev": "Briton Ferry Ath",
+   "deplasman": "Holywell Town",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Cerro",
+   "deplasman": "Nacional Montevideo",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Racing Club M",
+   "deplasman": "Central Espanol",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Liverpool FC",
+   "deplasman": "Montevideo W",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sportivo Ameliano",
+   "deplasman": "Sp Luqueno",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Paraguay League Clausura",
+   "ev": "Deportivo Recoleta",
+   "deplasman": "Club Guarani",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Chile Primera",
+   "ev": "Cobresal",
+   "deplasman": "Audax Italiano",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Chile Primera",
+   "ev": "Palestino",
+   "deplasman": "Union La Calera",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Independiente M",
+   "deplasman": "Santa Fe",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Bucaramanga",
+   "deplasman": "America de Cali",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-20",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Velez Sarsfield",
+   "deplasman": "Belgrano",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
   }
  ],
- "guncellendi": "2026-11-20T22:07:44.620Z",
+ "guncellendi": "2026-11-21T03:18:50.802Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
