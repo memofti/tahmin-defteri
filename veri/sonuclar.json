@@ -99863,9 +99863,315 @@
    "evGol": 0,
    "depGol": 1,
    "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Brazilian Serie A",
+   "ev": "Chapecoense",
+   "deplasman": "Cruzeiro",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Scottish Premier",
+   "ev": "Motherwell",
+   "deplasman": "Rangers",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Italian Serie A",
+   "ev": "Napoli",
+   "deplasman": "Torino",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Spanish La Liga",
+   "ev": "Real Madrid",
+   "deplasman": "Celta Vigo",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "French Ligue 1",
+   "ev": "Lille",
+   "deplasman": "Lyon",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "French Ligue 1",
+   "ev": "Lens",
+   "deplasman": "Toulouse",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "French Ligue 1",
+   "ev": "Monaco",
+   "deplasman": "Auxerre",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "French Ligue 1",
+   "ev": "Strasbourg",
+   "deplasman": "Brest",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "German Bundesliga 2",
+   "ev": "St Pauli",
+   "deplasman": "Bochum",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Romanian Liga 1",
+   "ev": "Din. Bucharest",
+   "deplasman": "Petrolul 52",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Spanish Segunda",
+   "ev": "Tenerife",
+   "deplasman": "Mallorca",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Radomiak Radom",
+   "deplasman": "Wisla Krakow",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Belgium League",
+   "ev": "Mechelen",
+   "deplasman": "Club Brugge",
+   "evGol": 1,
+   "depGol": 5,
+   "ms": "1-5"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Belgium League",
+   "ev": "Waregem",
+   "deplasman": "Royal Antwerp",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Netherlands League",
+   "ev": "Telstar",
+   "deplasman": "PEC Zwolle",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Netherlands League",
+   "ev": "FC Groningen",
+   "deplasman": "Heerenveen",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Swiss Super League",
+   "ev": "FC Sion",
+   "deplasman": "Servette",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "MLS",
+   "ev": "New England",
+   "deplasman": "Philadelphia U",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "MLS",
+   "ev": "Dallas",
+   "deplasman": "Portland Timb.",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "MLS",
+   "ev": "Inter Miami CF",
+   "deplasman": "Columbus Crew",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Pachuca",
+   "deplasman": "Toluca",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Santos Laguna",
+   "deplasman": "Leon",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Chile Primera",
+   "ev": "O'Higgins",
+   "deplasman": "Univ de Chile",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Chile Primera",
+   "ev": "Universidad de Concepcion",
+   "deplasman": "Nublense",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Argentinos Jun",
+   "deplasman": "Independiente",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Tecnico Universitario",
+   "deplasman": "Deportivo Cuenca",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Universidad Catolica",
+   "deplasman": "Barcelona de G",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Brazilian Serie A",
+   "ev": "Palmeiras",
+   "deplasman": "Flamengo",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Brazilian Serie A",
+   "ev": "Bahia",
+   "deplasman": "Coritiba",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Ciudad de Bolivar",
+   "deplasman": "Atlanta",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Colon Santa Fe",
+   "deplasman": "Deportivo Moron",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Alianza Lima",
+   "deplasman": "Cajamarca",
+   "evGol": 5,
+   "depGol": 0,
+   "ms": "5-0"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Carabobo FC",
+   "deplasman": "Portuguesa FC",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-21",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Deportivo Tachira",
+   "deplasman": "Caracas",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
   }
  ],
- "guncellendi": "2026-11-21T20:46:58.182Z",
+ "guncellendi": "2026-11-22T02:24:29.485Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -100017,6 +100323,7 @@
   "2026-11-17",
   "2026-11-18",
   "2026-11-19",
-  "2026-11-20"
+  "2026-11-20",
+  "2026-11-21"
  ]
 }
