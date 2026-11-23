@@ -101123,9 +101123,216 @@
    "evGol": 2,
    "depGol": 2,
    "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Gimnasia y Tiro",
+   "deplasman": "Tristan Suarez",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Italian Serie A",
+   "ev": "Atalanta",
+   "deplasman": "Inter",
+   "evGol": 4,
+   "depGol": 4,
+   "ms": "4-4"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Spanish La Liga",
+   "ev": "Getafe",
+   "deplasman": "Atl Madrid",
+   "evGol": 0,
+   "depGol": 3,
+   "ms": "0-3"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "French Ligue 1",
+   "ev": "Marseille",
+   "deplasman": "Le Mans",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Spanish Segunda",
+   "ev": "Burgos",
+   "deplasman": "Albacete",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Romanian Liga 1",
+   "ev": "Arges Pitesti",
+   "deplasman": "FCSB",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "MLS",
+   "ev": "Nashville MLS",
+   "deplasman": "Cincinnati",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "MLS",
+   "ev": "Chicago",
+   "deplasman": "Charlotte FC",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Brazilian Serie A",
+   "ev": "Paranaense",
+   "deplasman": "Remo",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Brazilian Serie A",
+   "ev": "Fluminense",
+   "deplasman": "Mirassol",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Brazilian Serie A",
+   "ev": "Red Bull Bragantino",
+   "deplasman": "Vasco",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Guadalajara",
+   "deplasman": "Cruz Azul",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Chile Primera",
+   "ev": "Colo-Colo",
+   "deplasman": "Univ Catolica",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Chile Primera",
+   "ev": "Deportes Limache",
+   "deplasman": "La Serena",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Orense",
+   "deplasman": "Mushuc Runa",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Ecuador Liga Pro",
+   "ev": "LDU Quito",
+   "deplasman": "Aucas",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Rosario",
+   "deplasman": "Gimnasia de Mendoza",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "River Plate",
+   "deplasman": "Lanus",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Sport Huancayo",
+   "deplasman": "Universitario de Deportes",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Peru Liga 1 Clausura",
+   "ev": "Sporting Cristal",
+   "deplasman": "Cienciano",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Paraguay League Clausura",
+   "ev": "Olimpia",
+   "deplasman": "Sportivo Trinidense",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Paraguay League Clausura",
+   "ev": "Rubio Nu",
+   "deplasman": "Libertad",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-22",
+   "lig": "Venezuela Primera Clausura",
+   "ev": "Metropolitanos",
+   "deplasman": "Deportivo La Guaira",
+   "evGol": 1,
+   "depGol": 5,
+   "ms": "1-5"
   }
  ],
- "guncellendi": "2026-11-22T20:56:11.387Z",
+ "guncellendi": "2026-11-23T02:55:17.386Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -101278,6 +101485,7 @@
   "2026-11-18",
   "2026-11-19",
   "2026-11-20",
-  "2026-11-21"
+  "2026-11-21",
+  "2026-11-22"
  ]
 }
