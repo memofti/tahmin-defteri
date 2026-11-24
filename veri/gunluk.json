@@ -1,1862 +1,347 @@
 {
- "calisti": "2026-11-24T19:09:10.564Z",
- "tsi": "2026-11-24 22:09",
- "erkenOrneklem": false,
+ "calisti": "2026-11-24T23:46:12.731Z",
+ "tsi": "2026-11-25 02:46",
+ "erkenOrneklem": true,
  "kaynaklar": {
+  "soccerbase 2026-11-25": "ACILDI",
   "soccerbase 2026-11-24": "ACILDI",
-  "soccerbase 2026-11-23": "ACILDI",
-  "betexplorer": "ACILDI (3. denemede)",
+  "betexplorer": "ACILDI",
   "olbg": "ACILDI"
  },
- "taranmisGun": 154,
- "yeniSkor": 0,
- "toplamSkor": 11289,
- "oranMacSayisi": 66,
- "gencMacAyiklandi": 7,
+ "taranmisGun": 155,
+ "yeniSkor": 77,
+ "toplamSkor": 11366,
+ "oranMacSayisi": 0,
+ "gencMacAyiklandi": 0,
  "kalabalikSayisi": 20,
  "modelliLig": 93,
  "modelliTakim": 1964,
- "genelTablo": "11289 mac",
- "bultenSayisi": 64,
- "tahminSayisi": 14,
- "elenenSayisi": 6,
- "bulten": [
-  {
-   "macId": "6PQlybXh",
-   "saat": "21:15",
-   "lig": "AFC Champions League",
-   "ulke": "Asia",
-   "ev": "Al Nassr",
-   "deplasman": "Al Sadd",
-   "oran": {
-    "ev": 1.19,
-    "beraberlik": 7,
-    "deplasman": 10
-   },
-   "marj": 8.32,
-   "basladi": true,
-   "ima": {
-    "ev": 0.7757951900698214,
-    "beraberlik": 0.13188518231186963,
-    "deplasman": 0.09231962761830875
-   }
-  },
-  {
-   "macId": "hvQs781c",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Bristol City",
-   "deplasman": "Wrexham",
-   "oran": {
-    "ev": 2.36,
-    "beraberlik": 3.22,
-    "deplasman": 3
-   },
-   "marj": 6.76,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3968906126742046,
-    "beraberlik": 0.2908887720220878,
-    "deplasman": 0.3122206153037076
-   }
-  },
-  {
-   "macId": "04Tk5nW9",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Cardiff",
-   "deplasman": "Preston",
-   "oran": {
-    "ev": 1.47,
-    "beraberlik": 4.74,
-    "deplasman": 5.62
-   },
-   "marj": 6.92,
-   "basladi": false,
-   "ima": {
-    "ev": 0.6362568071080539,
-    "beraberlik": 0.19732014903983947,
-    "deplasman": 0.16642304385210663
-   }
-  },
-  {
-   "macId": "bL0NFRhT",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Charlton",
-   "deplasman": "Lincoln",
-   "oran": {
-    "ev": 2.88,
-    "beraberlik": 3.2,
-    "deplasman": 2.43
-   },
-   "marj": 7.12,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3241296518607443,
-    "beraberlik": 0.2917166866746699,
-    "deplasman": 0.3841536614645858
-   }
-  },
-  {
-   "macId": "61Wc3Q0M",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Middlesbrough",
-   "deplasman": "Swansea",
-   "oran": {
-    "ev": 1.4,
-    "beraberlik": 4.9,
-    "deplasman": 6.78
-   },
-   "marj": 6.59,
-   "basladi": false,
-   "ima": {
-    "ev": 0.6701496752329851,
-    "beraberlik": 0.19147133578085285,
-    "deplasman": 0.1383789889861621
-   }
-  },
-  {
-   "macId": "U3igA5Gj",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Norwich",
-   "deplasman": "QPR",
-   "oran": {
-    "ev": 2.04,
-    "beraberlik": 3.67,
-    "deplasman": 3.3
-   },
-   "marj": 6.57,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4599731103160677,
-    "beraberlik": 0.2556798760339995,
-    "deplasman": 0.28434701364993276
-   }
-  },
-  {
-   "macId": "dAquY88c",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Portsmouth",
-   "deplasman": "West Ham",
-   "oran": {
-    "ev": 4,
-    "beraberlik": 3.58,
-    "deplasman": 1.84
-   },
-   "marj": 7.28,
-   "basladi": false,
-   "ima": {
-    "ev": 0.2330333389936039,
-    "beraberlik": 0.26037244580290936,
-    "deplasman": 0.5065942152034867
-   }
-  },
-  {
-   "macId": "UNsmWnwA",
-   "saat": "22:45",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Sheffield Utd",
-   "deplasman": "Southampton",
-   "oran": {
-    "ev": 2.49,
-    "beraberlik": 3.48,
-    "deplasman": 2.62
-   },
-   "marj": 7.06,
-   "basladi": false,
-   "ima": {
-    "ev": 0.37510799535928513,
-    "beraberlik": 0.26839623805879886,
-    "deplasman": 0.35649576658191606
-   }
-  },
-  {
-   "macId": "YwR6YnI7",
-   "saat": "22:45",
-   "lig": "League One",
-   "ulke": "England",
-   "ev": "Blackpool",
-   "deplasman": "Leicester",
-   "oran": {
-    "ev": 4.37,
-    "beraberlik": 4.27,
-    "deplasman": 1.63
-   },
-   "marj": 7.65,
-   "basladi": false,
-   "ima": {
-    "ev": 0.21256692249664813,
-    "beraberlik": 0.21754507056448535,
-    "deplasman": 0.5698880069388665
-   }
-  },
-  {
-   "macId": "f9JjXryn",
-   "saat": "22:45",
-   "lig": "League One",
-   "ulke": "England",
-   "ev": "Bradford City",
-   "deplasman": "Barnsley",
-   "oran": {
-    "ev": 1.7,
-    "beraberlik": 3.97,
-    "deplasman": 4.24
-   },
-   "marj": 7.6,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5467005306952302,
-    "beraberlik": 0.23410350180904063,
-    "deplasman": 0.21919596749572906
-   }
-  },
-  {
-   "macId": "0pJhdjAE",
-   "saat": "22:45",
-   "lig": "League One",
-   "ulke": "England",
-   "ev": "Bromley",
-   "deplasman": "Wycombe",
-   "oran": {
-    "ev": 4.58,
-    "beraberlik": 3.87,
-    "deplasman": 1.68
-   },
-   "marj": 7.2,
-   "basladi": false,
-   "ima": {
-    "ev": 0.20368038194770774,
-    "beraberlik": 0.24104810059961276,
-    "deplasman": 0.5552715174526794
-   }
-  },
-  {
-   "macId": "OQrRL9Y1",
-   "saat": "22:45",
-   "lig": "League One",
-   "ulke": "England",
-   "ev": "Stevenage",
-   "deplasman": "Sheffield Wed",
-   "oran": {
-    "ev": 2.97,
-    "beraberlik": 3.32,
-    "deplasman": 2.27
-   },
-   "marj": 7.84,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3122123395211838,
-    "beraberlik": 0.2792983880656374,
-    "deplasman": 0.4084892724131789
-   }
-  },
-  {
-   "macId": "jysDl2u9",
-   "saat": "22:45",
-   "lig": "League Two",
-   "ulke": "England",
-   "ev": "Crawley",
-   "deplasman": "Barnet",
-   "oran": {
-    "ev": 3.6,
-    "beraberlik": 3.5,
-    "deplasman": 1.87
-   },
-   "marj": 9.83,
-   "basladi": false,
-   "ima": {
-    "ev": 0.25292730996637947,
-    "beraberlik": 0.2601538045368474,
-    "deplasman": 0.48691888549677315
-   }
-  },
-  {
-   "macId": "zoA0SBO6",
-   "saat": "22:45",
-   "lig": "League Two",
-   "ulke": "England",
-   "ev": "Port Vale",
-   "deplasman": "Northampton",
-   "oran": {
-    "ev": 2.21,
-    "beraberlik": 2.98,
-    "deplasman": 3.2
-   },
-   "marj": 10.06,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4111443575438264,
-    "beraberlik": 0.3049090705274686,
-    "deplasman": 0.2839465719287051
-   }
-  },
-  {
-   "macId": "jFot5zRO",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "AFC Fylde",
-   "deplasman": "FC Halifax",
-   "oran": {
-    "ev": 1.83,
-    "beraberlik": 3.9,
-    "deplasman": 3.45
-   },
-   "marj": 9.27,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5000836260244188,
-    "beraberlik": 0.23465462451915042,
-    "deplasman": 0.2652617494564309
-   }
-  },
-  {
-   "macId": "6RLkPwCt",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Altrincham",
-   "deplasman": "Wealdstone",
-   "oran": {
-    "ev": 1.87,
-    "beraberlik": 3.8,
-    "deplasman": 3.45
-   },
-   "marj": 8.78,
-   "basladi": false,
-   "ima": {
-    "ev": 0.49160963719883755,
-    "beraberlik": 0.24192368988469112,
-    "deplasman": 0.2664666729164714
-   }
-  },
-  {
-   "macId": "hrKcNHtg",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Boston Utd",
-   "deplasman": "Barrow",
-   "oran": {
-    "ev": 2.8,
-    "beraberlik": 3.5,
-    "deplasman": 2.25
-   },
-   "marj": 8.73,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3284671532846716,
-    "beraberlik": 0.26277372262773724,
-    "deplasman": 0.40875912408759124
-   }
-  },
-  {
-   "macId": "08N5LeB5",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Carlisle",
-   "deplasman": "Tamworth",
-   "oran": {
-    "ev": 1.41,
-    "beraberlik": 4.8,
-    "deplasman": 5.8
-   },
-   "marj": 9,
-   "basladi": false,
-   "ima": {
-    "ev": 0.6506801290141636,
-    "beraberlik": 0.19113728789791054,
-    "deplasman": 0.15818258308792596
-   }
-  },
-  {
-   "macId": "YLLDJZuI",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Eastleigh",
-   "deplasman": "Yeovil",
-   "oran": {
-    "ev": 2.85,
-    "beraberlik": 3.55,
-    "deplasman": 2.17
-   },
-   "marj": 9.34,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3209056257940888,
-    "beraberlik": 0.2576284601445502,
-    "deplasman": 0.4214659140613609
-   }
-  },
-  {
-   "macId": "tnPLHDAU",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Forest Green",
-   "deplasman": "Southend",
-   "oran": {
-    "ev": 2.22,
-    "beraberlik": 3.75,
-    "deplasman": 2.7
-   },
-   "marj": 8.75,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4142120765832105,
-    "beraberlik": 0.24521354933726067,
-    "deplasman": 0.3405743740795287
-   }
-  },
-  {
-   "macId": "GhJUyHen",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Hornchurch",
-   "deplasman": "Sutton",
-   "oran": {
-    "ev": 2.6,
-    "beraberlik": 3.1,
-    "deplasman": 2.6
-   },
-   "marj": 9.18,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3522727272727273,
-    "beraberlik": 0.29545454545454547,
-    "deplasman": 0.3522727272727273
-   }
-  },
-  {
-   "macId": "l6HxzeQb",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Scunthorpe",
-   "deplasman": "Gateshead",
-   "oran": {
-    "ev": 1.44,
-    "beraberlik": 4.6,
-    "deplasman": 5.6
-   },
-   "marj": 9.04,
-   "basladi": false,
-   "ima": {
-    "ev": 0.6368670886075949,
-    "beraberlik": 0.19936708860759494,
-    "deplasman": 0.1637658227848101
-   }
-  },
-  {
-   "macId": "dWKpYYfB",
-   "saat": "22:45",
-   "lig": "National League",
-   "ulke": "England",
-   "ev": "Woking",
-   "deplasman": "Worthing",
-   "oran": {
-    "ev": 2.33,
-    "beraberlik": 3.6,
-    "deplasman": 2.6
-   },
-   "marj": 9.16,
-   "basladi": false,
-   "ima": {
-    "ev": 0.39317819037217505,
-    "beraberlik": 0.25447366210199107,
-    "deplasman": 0.35234814752583377
-   }
-  },
-  {
-   "macId": "61IVYfYa",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "AFC Telford",
-   "deplasman": "Buxton",
-   "oran": {
-    "ev": 2.1,
-    "beraberlik": 3.35,
-    "deplasman": 2.9
-   },
-   "marj": 11.95,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4253502626970228,
-    "beraberlik": 0.26663747810858146,
-    "deplasman": 0.30801225919439584
-   }
-  },
-  {
-   "macId": "ERLwXY2C",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Brackley Town",
-   "deplasman": "Hereford",
-   "oran": {
-    "ev": 2.85,
-    "beraberlik": 3.2,
-    "deplasman": 2.19
-   },
-   "marj": 12,
-   "basladi": false,
-   "ima": {
-    "ev": 0.31328371219741163,
-    "beraberlik": 0.27901830617581974,
-    "deplasman": 0.4076979816267686
-   }
-  },
-  {
-   "macId": "CKzcxUvh",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Chorley",
-   "deplasman": "Hebburn Town",
-   "oran": {
-    "ev": 1.86,
-    "beraberlik": 3.4,
-    "deplasman": 3.45
-   },
-   "marj": 12.16,
-   "basladi": false,
-   "ima": {
-    "ev": 0.47934289567242855,
-    "beraberlik": 0.26222876057374034,
-    "deplasman": 0.25842834375383106
-   }
-  },
-  {
-   "macId": "IHw5z894",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Darlington",
-   "deplasman": "Southport",
-   "oran": {
-    "ev": 1.65,
-    "beraberlik": 3.6,
-    "deplasman": 4.3
-   },
-   "marj": 11.64,
-   "basladi": false,
-   "ima": {
-    "ev": 0.542872172540768,
-    "beraberlik": 0.24881641241451868,
-    "deplasman": 0.20831141504471332
-   }
-  },
-  {
-   "macId": "jVyDYovH",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Harborough",
-   "deplasman": "Chester",
-   "oran": {
-    "ev": 2.8,
-    "beraberlik": 3.35,
-    "deplasman": 2.16
-   },
-   "marj": 11.86,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3192728556300742,
-    "beraberlik": 0.2668549241087187,
-    "deplasman": 0.4138722202612072
-   }
-  },
-  {
-   "macId": "beuLWP8T",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Hednesford",
-   "deplasman": "Oxford City",
-   "oran": {
-    "ev": 2.2,
-    "beraberlik": 3.3,
-    "deplasman": 2.75
-   },
-   "marj": 12.12,
-   "basladi": false,
-   "ima": {
-    "ev": 0.40540540540540543,
-    "beraberlik": 0.2702702702702703,
-    "deplasman": 0.32432432432432434
-   }
-  },
-  {
-   "macId": "UwWjR3Wj",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "King’s Lynn",
-   "deplasman": "Radcliffe",
-   "oran": {
-    "ev": 1.66,
-    "beraberlik": 3.7,
-    "deplasman": 4
-   },
-   "marj": 12.27,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5365818287288812,
-    "beraberlik": 0.24073671234863311,
-    "deplasman": 0.22268145892248567
-   }
-  },
-  {
-   "macId": "MXIxk7Oc",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Macclesfield",
-   "deplasman": "Morecambe",
-   "oran": {
-    "ev": 1.99,
-    "beraberlik": 3.6,
-    "deplasman": 2.95
-   },
-   "marj": 11.93,
-   "basladi": false,
-   "ima": {
-    "ev": 0.44896319939123636,
-    "beraberlik": 0.24817687966348903,
-    "deplasman": 0.3028599209452747
-   }
-  },
-  {
-   "macId": "faWqmogA",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Marine",
-   "deplasman": "Spennymoor",
-   "oran": {
-    "ev": 1.59,
-    "beraberlik": 3.85,
-    "deplasman": 4.3
-   },
-   "marj": 12.12,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5609297440154506,
-    "beraberlik": 0.23165669947651074,
-    "deplasman": 0.2074135565080387
-   }
-  },
-  {
-   "macId": "KSn0wlgd",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Merthyr Town",
-   "deplasman": "Bedford",
-   "oran": {
-    "ev": 1.67,
-    "beraberlik": 3.8,
-    "deplasman": 3.85
-   },
-   "marj": 12.17,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5338344492893763,
-    "beraberlik": 0.23460619218769957,
-    "deplasman": 0.23155935852292425
-   }
-  },
-  {
-   "macId": "2PZioPNM",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "Scarborough",
-   "deplasman": "Spalding United",
-   "oran": {
-    "ev": 2.07,
-    "beraberlik": 3.15,
-    "deplasman": 3.1
-   },
-   "marj": 12.31,
-   "basladi": false,
-   "ima": {
-    "ev": 0.43012884043607535,
-    "beraberlik": 0.2826560951437066,
-    "deplasman": 0.287215064420218
-   }
-  },
-  {
-   "macId": "beLNu3op",
-   "saat": "22:45",
-   "lig": "National League North",
-   "ulke": "England",
-   "ev": "South Shields",
-   "deplasman": "Worksop",
-   "oran": {
-    "ev": 1.65,
-    "beraberlik": 3.9,
-    "deplasman": 3.9
-   },
-   "marj": 11.89,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5416666666666666,
-    "beraberlik": 0.22916666666666669,
-    "deplasman": 0.22916666666666669
-   }
-  },
-  {
-   "macId": "zcdMS34U",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Dag & Red",
-   "deplasman": "Tonbridge",
-   "oran": {
-    "ev": 1.97,
-    "beraberlik": 3.3,
-    "deplasman": 3.2
-   },
-   "marj": 12.31,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4519580569227477,
-    "beraberlik": 0.2698052642841858,
-    "deplasman": 0.27823667879306657
-   }
-  },
-  {
-   "macId": "QLyWn7kn",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Ebbsfleet",
-   "deplasman": "Billericay",
-   "oran": {
-    "ev": 1.5,
-    "beraberlik": 4.1,
-    "deplasman": 4.8
-   },
-   "marj": 11.89,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5958219800181652,
-    "beraberlik": 0.21798365122615806,
-    "deplasman": 0.18619436875567666
-   }
-  },
-  {
-   "macId": "bZZwooKb",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Farnham",
-   "deplasman": "Maidenhead",
-   "oran": {
-    "ev": 1.86,
-    "beraberlik": 3.55,
-    "deplasman": 3.35
-   },
-   "marj": 11.78,
-   "basladi": false,
-   "ima": {
-    "ev": 0.480961721230259,
-    "beraberlik": 0.25199684548965684,
-    "deplasman": 0.2670414332800841
-   }
-  },
-  {
-   "macId": "hGyfs3JN",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Hampton & Richmond",
-   "deplasman": "Dover",
-   "oran": {
-    "ev": 2.1,
-    "beraberlik": 3.45,
-    "deplasman": 2.85
-   },
-   "marj": 11.69,
-   "basladi": false,
-   "ima": {
-    "ev": 0.42634146341463414,
-    "beraberlik": 0.25951219512195123,
-    "deplasman": 0.31414634146341464
-   }
-  },
-  {
-   "macId": "GhFBapZi",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Horsham FC",
-   "deplasman": "Truro",
-   "oran": {
-    "ev": 2.95,
-    "beraberlik": 3.1,
-    "deplasman": 2.19
-   },
-   "marj": 11.82,
-   "basladi": false,
-   "ima": {
-    "ev": 0.30315479247136573,
-    "beraberlik": 0.28848601219049325,
-    "deplasman": 0.40835919533814113
-   }
-  },
-  {
-   "macId": "80XIcO34",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Salisbury",
-   "deplasman": "AFC Totton",
-   "oran": {
-    "ev": 1.55,
-    "beraberlik": 4,
-    "deplasman": 4.4
-   },
-   "marj": 12.24,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5747877204441542,
-    "beraberlik": 0.22273024167210975,
-    "deplasman": 0.20248203788373614
-   }
-  },
-  {
-   "macId": "tEVQe2YG",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Slough",
-   "deplasman": "Farnborough",
-   "oran": {
-    "ev": 2.21,
-    "beraberlik": 3.55,
-    "deplasman": 2.6
-   },
-   "marj": 11.88,
-   "basladi": false,
-   "ima": {
-    "ev": 0.40444317858160067,
-    "beraberlik": 0.25178011962403873,
-    "deplasman": 0.34377670179436054
-   }
-  },
-  {
-   "macId": "lvZYgt3T",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Torquay",
-   "deplasman": "Chesham",
-   "oran": {
-    "ev": 1.61,
-    "beraberlik": 3.9,
-    "deplasman": 4.1
-   },
-   "marj": 12.14,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5538621406304122,
-    "beraberlik": 0.22864565292691377,
-    "deplasman": 0.21749220644267406
-   }
-  },
-  {
-   "macId": "KMP4lKQj",
-   "saat": "22:45",
-   "lig": "National League South",
-   "ulke": "England",
-   "ev": "Weston-super-Mare",
-   "deplasman": "Walton & Hersham",
-   "oran": {
-    "ev": 1.53,
-    "beraberlik": 3.9,
-    "deplasman": 4.8
-   },
-   "marj": 11.83,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5844338297274515,
-    "beraberlik": 0.2292778870469233,
-    "deplasman": 0.18628828322562518
-   }
-  },
-  {
-   "macId": "OpmfKDFF",
-   "saat": "22:45",
-   "lig": "NPL Premier Division",
-   "ulke": "England",
-   "ev": "Leek",
-   "deplasman": "Gainsborough",
-   "oran": {
-    "ev": 2.8,
-    "beraberlik": 3.45,
-    "deplasman": 2.11
-   },
-   "marj": 12.09,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3186125396651712,
-    "beraberlik": 0.2585840901630375,
-    "deplasman": 0.4228033701717912
-   }
-  },
-  {
-   "macId": "WACft6DT",
-   "saat": "22:45",
-   "lig": "Southern League Premier Central",
-   "ulke": "England",
-   "ev": "Anstey Nomads",
-   "deplasman": "Redditch",
-   "oran": {
-    "ev": 1.68,
-    "beraberlik": 3.7,
-    "deplasman": 3.9
-   },
-   "marj": 12.19,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5305537171850871,
-    "beraberlik": 0.24090006618133683,
-    "deplasman": 0.22854621663357602
-   }
-  },
-  {
-   "macId": "dbkX40Ec",
-   "saat": "22:45",
-   "lig": "Southern League Premier Central",
-   "ulke": "England",
-   "ev": "Halesowen",
-   "deplasman": "Stourbridge",
-   "oran": {
-    "ev": 1.94,
-    "beraberlik": 3.65,
-    "deplasman": 3
-   },
-   "marj": 12.28,
-   "basladi": false,
-   "ima": {
-    "ev": 0.45910024736908306,
-    "beraberlik": 0.24401492599890987,
-    "deplasman": 0.296884826632007
-   }
-  },
-  {
-   "macId": "QPsFcM0f",
-   "saat": "22:45",
-   "lig": "Southern League Premier Central",
-   "ulke": "England",
-   "ev": "Hitchin",
-   "deplasman": "Worcester",
-   "oran": {
-    "ev": 2.55,
-    "beraberlik": 3.3,
-    "deplasman": 2.34
-   },
-   "marj": 12.25,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3493485342019544,
-    "beraberlik": 0.26995114006514653,
-    "deplasman": 0.380700325732899
-   }
-  },
-  {
-   "macId": "E7wcgD8F",
-   "saat": "22:45",
-   "lig": "Southern League Premier Central",
-   "ulke": "England",
-   "ev": "Peterborough Sports",
-   "deplasman": "Alvechurch",
-   "oran": {
-    "ev": 2.6,
-    "beraberlik": 3.45,
-    "deplasman": 2.26
-   },
-   "marj": 11.69,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3443448306319834,
-    "beraberlik": 0.25950624917192955,
-    "deplasman": 0.3961489201960871
-   }
-  },
-  {
-   "macId": "Wts3icct",
-   "saat": "22:45",
-   "lig": "Southern League Premier South",
-   "ulke": "England",
-   "ev": "Bracknell",
-   "deplasman": "Berkhamsted",
-   "oran": {
-    "ev": 3,
-    "beraberlik": 3.4,
-    "deplasman": 2.03
-   },
-   "marj": 12.01,
-   "basladi": false,
-   "ima": {
-    "ev": 0.29760262159365297,
-    "beraberlik": 0.2625905484649879,
-    "deplasman": 0.4398068299413591
-   }
-  },
-  {
-   "macId": "0SPPsIRE",
-   "saat": "22:45",
-   "lig": "Southern League Premier South",
-   "ulke": "England",
-   "ev": "Chippenham",
-   "deplasman": "Havant & W",
-   "oran": {
-    "ev": 2.49,
-    "beraberlik": 3.35,
-    "deplasman": 2.37
-   },
-   "marj": 12.21,
-   "basladi": false,
-   "ima": {
-    "ev": 0.35792050418576976,
-    "beraberlik": 0.26603643445449754,
-    "deplasman": 0.37604306135973276
-   }
-  },
-  {
-   "macId": "6RicP9Bm",
-   "saat": "22:45",
-   "lig": "Southern League Premier South",
-   "ulke": "England",
-   "ev": "Malvern Town",
-   "deplasman": "Hanworth",
-   "oran": {
-    "ev": 3.95,
-    "beraberlik": 3.95,
-    "deplasman": 1.63
-   },
-   "marj": 11.98,
-   "basladi": false,
-   "ima": {
-    "ev": 0.22607489597780855,
-    "beraberlik": 0.22607489597780855,
-    "deplasman": 0.5478502080443828
-   }
-  },
-  {
-   "macId": "SvT7msaT",
-   "saat": "22:45",
-   "lig": "Southern League Premier South",
-   "ulke": "England",
-   "ev": "Yate Town",
-   "deplasman": "Evesham",
-   "oran": {
-    "ev": 1.81,
-    "beraberlik": 3.55,
-    "deplasman": 3.5
-   },
-   "marj": 11.99,
-   "basladi": false,
-   "ima": {
-    "ev": 0.4933394214925256,
-    "beraberlik": 0.2515336205356257,
-    "deplasman": 0.2551269579718489
-   }
-  },
-  {
-   "macId": "OAS4nBfc",
-   "saat": "22:45",
-   "lig": "Isthmian League Premier Division",
-   "ulke": "England",
-   "ev": "Cray Wanderers",
-   "deplasman": "Wingate & Finchley",
-   "oran": {
-    "ev": 1.53,
-    "beraberlik": 3.95,
-    "deplasman": 4.7
-   },
-   "marj": 11.95,
-   "basladi": false,
-   "ima": {
-    "ev": 0.583814210915266,
-    "beraberlik": 0.22613563106338147,
-    "deplasman": 0.19005015802135253
-   }
-  },
-  {
-   "macId": "4lUKrTgM",
-   "saat": "22:45",
-   "lig": "Isthmian League Premier Division",
-   "ulke": "England",
-   "ev": "Eastbourne Boro",
-   "deplasman": "Aveley",
-   "oran": {
-    "ev": 1.66,
-    "beraberlik": 4,
-    "deplasman": 3.7
-   },
-   "marj": 12.27,
-   "basladi": false,
-   "ima": {
-    "ev": 0.5365818287288812,
-    "beraberlik": 0.22268145892248567,
-    "deplasman": 0.24073671234863311
-   }
-  },
-  {
-   "macId": "YNApalv3",
-   "saat": "22:45",
-   "lig": "Isthmian League Premier Division",
-   "ulke": "England",
-   "ev": "Leatherhead",
-   "deplasman": "Ramsgate",
-   "oran": {
-    "ev": 2.65,
-    "beraberlik": 3.8,
-    "deplasman": 2.1
-   },
-   "marj": 11.67,
-   "basladi": false,
-   "ima": {
-    "ev": 0.3379208130425577,
-    "beraberlik": 0.23565530383230998,
-    "deplasman": 0.42642388312513235
-   }
-  },
-  {
-   "macId": "vPVzwlTF",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Arsenal",
-   "deplasman": "Dortmund",
-   "oran": {
-    "ev": 1.45,
-    "beraberlik": 4.64,
-    "deplasman": 6.46
-   },
-   "marj": 6,
-   "basladi": false,
-   "ima": {
-    "ev": 0.6506357799320155,
-    "beraberlik": 0.20332368122875485,
-    "deplasman": 0.1460405388392295
-   }
-  },
-  {
-   "macId": "jiHA3xET",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Como",
-   "deplasman": "AEK Athens",
-   "oran": {
-    "ev": 1.26,
-    "beraberlik": 6.29,
-    "deplasman": 9.01
-   },
-   "marj": 6.36,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7461781229715514,
-    "beraberlik": 0.14947288313897533,
-    "deplasman": 0.10434899388947334
-   }
-  },
-  {
-   "macId": "6grtKluR",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Feyenoord",
-   "deplasman": "FC Porto",
-   "oran": {
-    "ev": 3.26,
-    "beraberlik": 3.56,
-    "deplasman": 2.1
-   },
-   "marj": 6.38,
-   "basladi": false,
-   "ima": {
-    "ev": 0.2883413813850877,
-    "beraberlik": 0.26404295036949044,
-    "deplasman": 0.4476156682454218
-   }
-  },
-  {
-   "macId": "OxXVS94F",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Manchester City",
-   "deplasman": "Napoli",
-   "oran": {
-    "ev": 1.26,
-    "beraberlik": 6.53,
-    "deplasman": 8.95
-   },
-   "marj": 5.85,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7497726056886422,
-    "beraberlik": 0.14467281518647615,
-    "deplasman": 0.10555457912488149
-   }
-  },
-  {
-   "macId": "pxXsydY8",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "RB Leipzig",
-   "deplasman": "Lens",
-   "oran": {
-    "ev": 1.33,
-    "beraberlik": 5.81,
-    "deplasman": 7.3
-   },
-   "marj": 6.1,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7086632592194061,
-    "beraberlik": 0.162224119580346,
-    "deplasman": 0.12911262120024797
-   }
-  },
-  {
-   "macId": "6PURSlmI",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Real Madrid",
-   "deplasman": "PSV",
-   "oran": {
-    "ev": 1.13,
-    "beraberlik": 9.89,
-    "deplasman": 13.5
-   },
-   "marj": 6.01,
-   "basladi": false,
-   "ima": {
-    "ev": 0.834752043974924,
-    "beraberlik": 0.09537611827013792,
-    "deplasman": 0.06987183775493808
-   }
-  },
-  {
-   "macId": "I9qIUvgn",
-   "saat": "23:00",
-   "lig": "Champions League",
-   "ulke": "Europe",
-   "ev": "Slovan Bratislava",
-   "deplasman": "Betis",
-   "oran": {
-    "ev": 9.95,
-    "beraberlik": 6.46,
-    "deplasman": 1.24
-   },
-   "marj": 6.18,
-   "basladi": false,
-   "ima": {
-    "ev": 0.09465715967073714,
-    "beraberlik": 0.14579547039068647,
-    "deplasman": 0.7595473699385763
-   }
-  },
-  {
-   "macId": "GvteUQ7M",
-   "saat": "23:00",
-   "lig": "Championship",
-   "ulke": "England",
-   "ev": "Wolves",
-   "deplasman": "Derby",
-   "oran": {
-    "ev": 1.25,
-    "beraberlik": 5.6,
-    "deplasman": 10.83
-   },
-   "marj": 7.09,
-   "basladi": false,
-   "ima": {
-    "ev": 0.7470299499294825,
-    "beraberlik": 0.16674775668068806,
-    "deplasman": 0.08622229338982945
-   }
-  }
- ],
- "tahminler": [
-  {
-   "ev": "Middlesbrough",
-   "deplasman": "Swansea",
-   "lig": "England Championship",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 46,
-   "n": 57,
-   "yuzde": 81,
-   "oran": 1.4,
-   "macId": "61Wc3Q0M",
-   "basabas": 71.4,
-   "fark": 9.3,
-   "esik": 5.3,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 17
-    },
-    "yuzde": 53.4,
-    "fark": -18,
-    "beklenenDeger": -0.252,
-    "beklenenGol": 2.84
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Wolverhampton",
-   "deplasman": "Derby",
-   "lig": "England Championship",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 46,
-   "n": 53,
-   "yuzde": 87,
-   "oran": 1.25,
-   "macId": "GvteUQ7M",
-   "basabas": 80,
-   "fark": 6.8,
-   "esik": 4.8,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 17
-    },
-    "yuzde": 76.1,
-    "fark": -3.9,
-    "beklenenDeger": -0.049,
-    "beklenenGol": 3.1
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Como",
-   "deplasman": "AEK Athens",
-   "lig": "Champions League",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 46,
-   "n": 54,
-   "yuzde": 85,
-   "oran": 1.26,
-   "macId": "jiHA3xET",
-   "basabas": 79.4,
-   "fark": 5.8,
-   "esik": 5,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 16,
-     "deplasman": 18
-    },
-    "yuzde": 46.6,
-    "fark": -32.8,
-    "beklenenDeger": -0.413,
-    "beklenenGol": 3.31
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "RB Leipzig",
-   "deplasman": "Lens",
-   "lig": "Champions League",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 42,
-   "n": 46,
-   "yuzde": 91,
-   "oran": 1.33,
-   "macId": "pxXsydY8",
-   "basabas": 75.2,
-   "fark": 16.1,
-   "esik": 4.5,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 16,
-     "deplasman": 15
-    },
-    "yuzde": 80.3,
-    "fark": 5.1,
-    "beklenenDeger": 0.068,
-    "beklenenGol": 5.25
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Cardiff",
-   "deplasman": "Preston",
-   "lig": "England Championship",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 39,
-   "n": 50,
-   "yuzde": 78,
-   "oran": 1.47,
-   "macId": "04Tk5nW9",
-   "basabas": 68,
-   "fark": 10,
-   "esik": 6,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 18,
-     "deplasman": 18
-    },
-    "yuzde": 69.4,
-    "fark": 1.4,
-    "beklenenDeger": 0.02,
-    "beklenenGol": 3.49
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Arsenal",
-   "deplasman": "Borussia Dortmund",
-   "lig": "Champions League",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 37,
-   "n": 49,
-   "yuzde": 76,
-   "oran": 1.45,
-   "macId": "vPVzwlTF",
-   "basabas": 69,
-   "fark": 6.5,
-   "esik": 6.2,
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Bradford",
-   "deplasman": "Barnsley",
-   "lig": "England League One",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 28,
-   "n": 32,
-   "yuzde": 88,
-   "oran": 1.7,
-   "macId": "f9JjXryn",
-   "basabas": 58.8,
-   "fark": 28.7,
-   "esik": 6.3,
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Blackpool",
-   "deplasman": "Leicester",
-   "lig": "England League One",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 2",
-   "kural": {
-    "tip": "ms",
-    "secim": "2"
-   },
-   "k": 25,
-   "n": 29,
-   "yuzde": 86,
-   "oran": 1.63,
-   "macId": "YwR6YnI7",
-   "basabas": 61.3,
-   "fark": 24.9,
-   "esik": 6.8,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 20,
-     "deplasman": 20
-    },
-    "yuzde": 45.8,
-    "fark": -15.6,
-    "beklenenDeger": -0.254,
-    "beklenenGol": 3.61
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Norwich",
-   "deplasman": "QPR",
-   "lig": "England Championship",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 24,
-   "n": 36,
-   "yuzde": 67,
-   "oran": 2.04,
-   "macId": "U3igA5Gj",
-   "basabas": 49,
-   "fark": 17.6,
-   "esik": 7.9,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 17
-    },
-    "yuzde": 44.5,
-    "fark": -4.5,
-    "beklenenDeger": -0.092,
-    "beklenenGol": 3.3
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Carlisle",
-   "deplasman": "Tamworth",
-   "lig": "England National League",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 24,
-   "n": 27,
-   "yuzde": 89,
-   "oran": 1.41,
-   "macId": "08N5LeB5",
-   "basabas": 70.9,
-   "fark": 18,
-   "esik": 6.6,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 20
-    },
-    "yuzde": 70.6,
-    "fark": -0.3,
-    "beklenenDeger": -0.004,
-    "beklenenGol": 4.13
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Feyenoord",
-   "deplasman": "FC Porto",
-   "lig": "Champions League",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 2",
-   "kural": {
-    "tip": "ms",
-    "secim": "2"
-   },
-   "k": 18,
-   "n": 31,
-   "yuzde": 58,
-   "oran": 2.1,
-   "macId": "6grtKluR",
-   "basabas": 47.6,
-   "fark": 10.4,
-   "esik": 8.9,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 17,
-     "deplasman": 16
-    },
-    "yuzde": 50.8,
-    "fark": 3.2,
-    "beklenenDeger": 0.067,
-    "beklenenGol": 3.66
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "South Shields",
-   "deplasman": "Worksop Town",
-   "lig": "England National League North",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 16,
-   "n": 17,
-   "yuzde": 94,
-   "oran": 1.65,
-   "macId": "beLNu3op",
-   "basabas": 60.6,
-   "fark": 33.5,
-   "esik": 7.4,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 17,
-     "deplasman": 17
-    },
-    "yuzde": 59.6,
-    "fark": -1,
-    "beklenenDeger": -0.016,
-    "beklenenGol": 3.09
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Crawley Town",
-   "deplasman": "Barnet",
-   "lig": "England League Two",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 2",
-   "kural": {
-    "tip": "ms",
-    "secim": "2"
-   },
-   "k": 15,
-   "n": 18,
-   "yuzde": 83,
-   "oran": 1.87,
-   "macId": "jysDl2u9",
-   "basabas": 53.5,
-   "fark": 29.9,
-   "esik": 9.4,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 19,
-     "deplasman": 19
-    },
-    "yuzde": 56.3,
-    "fark": 2.8,
-    "beklenenDeger": 0.052,
-    "beklenenGol": 3.29
-   },
-   "durum": "bekliyor"
-  },
-  {
-   "ev": "Bristol City",
-   "deplasman": "Wrexham",
-   "lig": "England Championship",
-   "tarih": "2026-11-24",
-   "saat": "22:45",
-   "etiket": "MS 2",
-   "kural": {
-    "tip": "ms",
-    "secim": "2"
-   },
-   "k": 14,
-   "n": 30,
-   "yuzde": 47,
-   "oran": 3,
-   "macId": "hvQs781c",
-   "basabas": 33.3,
-   "fark": 13.3,
-   "esik": 9.1,
-   "durum": "bekliyor"
-  }
- ],
+ "genelTablo": "11366 mac",
+ "bultenSayisi": 0,
+ "tahminSayisi": 0,
+ "elenenSayisi": 20,
+ "bulten": [],
+ "tahminler": [],
  "elenenler": [
   {
-   "ev": "Real Madrid",
-   "deplasman": "PSV",
+   "ev": "PSG",
+   "deplasman": "Roma",
    "lig": "Champions League",
-   "tarih": "2026-11-24",
+   "tarih": "2026-11-26",
    "saat": "23:00",
    "etiket": "MS 1",
    "kural": {
     "tip": "ms",
     "secim": "1"
    },
-   "k": 42,
-   "n": 48,
+   "k": 11,
+   "n": 15,
+   "yuzde": 73,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Fleetwood Town",
+   "deplasman": "Leeds U21",
+   "lig": "England EFL Trophy",
+   "tarih": "2026-11-26",
+   "saat": "22:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 13,
+   "yuzde": 77,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Inter Milan",
+   "deplasman": "VfB Stuttgart",
+   "lig": "Champions League",
+   "tarih": "2026-11-26",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Lille",
+   "deplasman": "Bayern Munich",
+   "lig": "Champions League",
+   "tarih": "2026-11-26",
+   "saat": "23:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Leeds",
+   "deplasman": "Coventry",
+   "lig": "England Premier League",
+   "tarih": "2026-11-28",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 8,
    "yuzde": 88,
-   "oran": 1.13,
-   "macId": "6PURSlmI",
-   "basabas": 88.5,
-   "fark": -1,
-   "esik": 5,
-   "neden": "gurultu esigini gecemedi"
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Man City",
-   "deplasman": "Napoli",
+   "ev": "Sabah",
+   "deplasman": "Barcelona",
    "lig": "Champions League",
-   "tarih": "2026-11-24",
+   "tarih": "2026-11-26",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Atletico Madrid",
+   "deplasman": "Viking FK",
+   "lig": "Champions League",
+   "tarih": "2026-11-26",
    "saat": "23:00",
    "etiket": "MS 1",
    "kural": {
     "tip": "ms",
     "secim": "1"
    },
-   "k": 27,
-   "n": 40,
-   "yuzde": 68,
-   "oran": 1.26,
-   "macId": "OxXVS94F",
-   "basabas": 79.4,
-   "fark": -11.9,
-   "esik": 7.5,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 17,
-     "deplasman": 16
-    },
-    "yuzde": 65.9,
-    "fark": -13.5,
-    "beklenenDeger": -0.17,
-    "beklenenGol": 3.89
-   },
-   "neden": "gurultu esigini gecemedi"
+   "k": 6,
+   "n": 7,
+   "yuzde": 86,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Slovan Bratislava",
-   "deplasman": "Real Betis",
+   "ev": "Sporting",
+   "deplasman": "Man Utd",
    "lig": "Champions League",
-   "tarih": "2026-11-24",
+   "tarih": "2026-11-26",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 10,
+   "yuzde": 60,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Club Brugge",
+   "deplasman": "Liverpool",
+   "lig": "Champions League",
+   "tarih": "2026-11-26",
    "saat": "23:00",
    "etiket": "MS 2",
    "kural": {
     "tip": "ms",
     "secim": "2"
    },
-   "k": 21,
-   "n": 26,
-   "yuzde": 81,
-   "oran": 1.24,
-   "macId": "I9qIUvgn",
-   "basabas": 80.6,
-   "fark": 0.1,
-   "esik": 8,
-   "neden": "gurultu esigini gecemedi"
+   "k": 6,
+   "n": 10,
+   "yuzde": 60,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Portsmouth",
-   "deplasman": "West Ham",
+   "ev": "Bolton",
+   "deplasman": "West Brom",
    "lig": "England Championship",
-   "tarih": "2026-11-24",
+   "tarih": "2026-11-26",
    "saat": "22:45",
    "etiket": "MS 2",
    "kural": {
     "tip": "ms",
     "secim": "2"
    },
-   "k": 18,
-   "n": 37,
-   "yuzde": 49,
-   "oran": 1.84,
-   "macId": "dAquY88c",
-   "basabas": 54.3,
-   "fark": -5.7,
-   "esik": 8.2,
-   "model": {
-    "kaynak": "genel",
-    "macSayisi": {
-     "ev": 17,
-     "deplasman": 19
-    },
-    "yuzde": 45.3,
-    "fark": -9,
-    "beklenenDeger": -0.166,
-    "beklenenGol": 3.37
-   },
-   "neden": "gurultu esigini gecemedi"
-  },
-  {
-   "ev": "Rangers",
-   "deplasman": "Aberdeen",
-   "lig": "Scotland Premiership",
-   "tarih": "2026-11-24",
-   "saat": "23:00",
-   "etiket": "MS 1",
-   "kural": {
-    "tip": "ms",
-    "secim": "1"
-   },
-   "k": 18,
-   "n": 18,
+   "k": 5,
+   "n": 5,
    "yuzde": 100,
-   "neden": "oran bulunamadi"
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   },
   {
-   "ev": "Sheff Utd",
-   "deplasman": "Southampton",
+   "ev": "Stoke",
+   "deplasman": "Millwall",
    "lig": "England Championship",
-   "tarih": "2026-11-24",
+   "tarih": "2026-11-26",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Man Utd",
+   "deplasman": "Brentford",
+   "lig": "England Premier League",
+   "tarih": "2026-11-28",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 5,
+   "n": 6,
+   "yuzde": 83,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "San Jose",
+   "deplasman": "Houston Dynamo",
+   "lig": "MLS",
+   "tarih": "2026-11-26",
+   "saat": "06:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 6,
+   "yuzde": 67,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Burnley",
+   "deplasman": "Birmingham",
+   "lig": "England Championship",
+   "tarih": "2026-11-26",
    "saat": "22:45",
    "etiket": "MS 2",
    "kural": {
     "tip": "ms",
     "secim": "2"
    },
-   "k": 15,
-   "n": 36,
-   "yuzde": 42,
-   "neden": "oran bulunamadi"
+   "k": 4,
+   "n": 5,
+   "yuzde": 80,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Shakhtar Donetsk",
+   "deplasman": "Fenerbahce",
+   "lig": "Champions League",
+   "tarih": "2026-11-26",
+   "saat": "23:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 6,
+   "yuzde": 67,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "FC Salzburg",
+   "deplasman": "Ararat Armenia",
+   "lig": "Europa League",
+   "tarih": "2026-11-26",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 4,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Harrogate Town",
+   "deplasman": "Kidderminster",
+   "lig": "England National League",
+   "tarih": "2026-11-26",
+   "saat": "22:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 3,
+   "n": 3,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Marseille",
+   "deplasman": "Levski Sofia",
+   "lig": "Europa League",
+   "tarih": "2026-11-26",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 3,
+   "n": 4,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Besiktas",
+   "deplasman": "Hapoel Beer Sheva",
+   "lig": "Europa League",
+   "tarih": "2026-11-26",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 3,
+   "n": 4,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Brighton",
+   "deplasman": "CS U Craiova",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-26",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 3,
+   "n": 3,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
   }
  ]
 }
