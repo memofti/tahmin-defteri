@@ -101429,9 +101429,162 @@
    "evGol": 1,
    "depGol": 3,
    "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Premier League",
+   "ev": "Brentford",
+   "deplasman": "Everton",
+   "evGol": 4,
+   "depGol": 0,
+   "ms": "4-0"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Italian Serie A",
+   "ev": "Monza",
+   "deplasman": "Fiorentina",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Spanish La Liga",
+   "ev": "Levante",
+   "deplasman": "Elche",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Orgryte IS",
+   "deplasman": "Kalmar",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Swedish Allsvenskan",
+   "ev": "Hammarby",
+   "deplasman": "IFK Goth'burg",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Danish SAS Ligaen",
+   "ev": "Brondby",
+   "deplasman": "Midtjylland",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Romanian Liga 1",
+   "ev": "Sepsi Sfantu G",
+   "deplasman": "Rapid Buch.",
+   "evGol": 1,
+   "depGol": 3,
+   "ms": "1-3"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Polish Ekstraklasa",
+   "ev": "Wieczysta Krakow",
+   "deplasman": "Motor Lublin",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Spanish Segunda",
+   "ev": "AD Ceuta",
+   "deplasman": "Almeria",
+   "evGol": 2,
+   "depGol": 3,
+   "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Football Conference South",
+   "ev": "Chelmsford",
+   "deplasman": "Maidstone",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Gimnasia La Plata",
+   "deplasman": "Newell's OB",
+   "evGol": 4,
+   "depGol": 2,
+   "ms": "4-2"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Juventud de Las Piedras",
+   "deplasman": "Defensor",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Uruguay Primera Clausura",
+   "ev": "Albion FC",
+   "deplasman": "Danubio",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Paraguay League Clausura",
+   "ev": "2 de Mayo",
+   "deplasman": "Sp. San Lorenzo",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Paraguay League Clausura",
+   "ev": "Nacional As",
+   "deplasman": "Cerro Porteno",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Brazilian Serie A",
+   "ev": "Internacional",
+   "deplasman": "Vitoria",
+   "evGol": 2,
+   "depGol": 5,
+   "ms": "2-5"
+  },
+  {
+   "tarih": "2026-11-23",
+   "lig": "Brazilian Serie A",
+   "ev": "Botafogo",
+   "deplasman": "Sao Paulo",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-23T19:34:04.932Z",
+ "guncellendi": "2026-11-24T01:59:57.493Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
@@ -101585,6 +101738,7 @@
   "2026-11-19",
   "2026-11-20",
   "2026-11-21",
-  "2026-11-22"
+  "2026-11-22",
+  "2026-11-23"
  ]
 }
