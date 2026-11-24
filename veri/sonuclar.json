@@ -101582,9 +101582,27 @@
    "evGol": 1,
    "depGol": 1,
    "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-24",
+   "lig": "MLS",
+   "ev": "St. Louis City SC",
+   "deplasman": "Los Angeles FC",
+   "evGol": 3,
+   "depGol": 2,
+   "ms": "3-2"
+  },
+  {
+   "tarih": "2026-11-24",
+   "lig": "Brazilian Serie A",
+   "ev": "Santos",
+   "deplasman": "Gremio",
+   "evGol": 0,
+   "depGol": 2,
+   "ms": "0-2"
   }
  ],
- "guncellendi": "2026-11-24T01:59:57.493Z",
+ "guncellendi": "2026-11-24T06:11:02.451Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
