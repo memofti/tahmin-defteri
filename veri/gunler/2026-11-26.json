@@ -1,0 +1,347 @@
+{
+ "calisti": "2026-11-25T23:28:10.920Z",
+ "tsi": "2026-11-26 02:28",
+ "erkenOrneklem": true,
+ "kaynaklar": {
+  "soccerbase 2026-11-26": "ACILDI",
+  "soccerbase 2026-11-25": "ACILDI",
+  "betexplorer": "HTTP 429 (4 denemede de alinamadi)",
+  "olbg": "ACILDI"
+ },
+ "taranmisGun": 156,
+ "yeniSkor": 18,
+ "toplamSkor": 11406,
+ "oranMacSayisi": 0,
+ "gencMacAyiklandi": 0,
+ "kalabalikSayisi": 20,
+ "modelliLig": 93,
+ "modelliTakim": 1964,
+ "genelTablo": "11406 mac",
+ "bultenSayisi": 0,
+ "tahminSayisi": 0,
+ "elenenSayisi": 20,
+ "bulten": [],
+ "tahminler": [],
+ "elenenler": [
+  {
+   "ev": "Boca Juniors",
+   "deplasman": "Independiente Rivadavia",
+   "lig": "Argentina Superliga",
+   "tarih": "2026-11-27",
+   "saat": "03:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 13,
+   "n": 14,
+   "yuzde": 93,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Leeds",
+   "deplasman": "Coventry",
+   "lig": "England Premier League",
+   "tarih": "2026-11-28",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 11,
+   "n": 12,
+   "yuzde": 92,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "FC Salzburg",
+   "deplasman": "Ararat Armenia",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 10,
+   "n": 10,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Marseille",
+   "deplasman": "Levski Sofia",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Besiktas",
+   "deplasman": "Hapoel Beer Sheva",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 8,
+   "n": 8,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Brighton",
+   "deplasman": "CS U Craiova",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 10,
+   "yuzde": 70,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Union Saint Gilloise",
+   "deplasman": "Lech Poznan",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Ajax",
+   "deplasman": "FC Thun",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 7,
+   "n": 9,
+   "yuzde": 78,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "FC Iberia 1999",
+   "deplasman": "Getafe",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 7,
+   "n": 7,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Dinamo Zagreb",
+   "deplasman": "Bayer Leverkusen",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 6,
+   "n": 6,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Viktoria Plzen",
+   "deplasman": "Benfica",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 6,
+   "n": 7,
+   "yuzde": 86,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "KF Egnatia",
+   "deplasman": "Lincoln Red Imps FC",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 7,
+   "yuzde": 86,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Juventus",
+   "deplasman": "Omonia Nicosia",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "SC Freiburg",
+   "deplasman": "FC Twente",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 6,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Lyon",
+   "deplasman": "Lillestrom",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Man Utd",
+   "deplasman": "Brentford",
+   "lig": "England Premier League",
+   "tarih": "2026-11-28",
+   "saat": "18:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 6,
+   "n": 8,
+   "yuzde": 75,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Borac Banja Luka",
+   "deplasman": "Atalanta",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "23:00",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 5,
+   "n": 5,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Celta Vigo",
+   "deplasman": "Bournemouth",
+   "lig": "Europa League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 6,
+   "yuzde": 67,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Hearts",
+   "deplasman": "Monaco",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "20:45",
+   "etiket": "MS 2",
+   "kural": {
+    "tip": "ms",
+    "secim": "2"
+   },
+   "k": 4,
+   "n": 7,
+   "yuzde": 57,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  },
+  {
+   "ev": "Braga",
+   "deplasman": "KuPS Kuopio",
+   "lig": "UEFA Europa Conference League",
+   "tarih": "2026-11-27",
+   "saat": "23:00",
+   "etiket": "MS 1",
+   "kural": {
+    "tip": "ms",
+    "secim": "1"
+   },
+   "k": 4,
+   "n": 4,
+   "yuzde": 100,
+   "neden": "ileri tarihli (oran sayfasinda henuz yok)"
+  }
+ ]
+}
