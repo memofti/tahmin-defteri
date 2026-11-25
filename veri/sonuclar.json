@@ -102293,9 +102293,27 @@
    "evGol": 3,
    "depGol": 0,
    "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "America de Cali",
+   "deplasman": "Deportivo Cali",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-24",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Millonarios",
+   "deplasman": "Atletico Bucaramanga",
+   "evGol": 4,
+   "depGol": 1,
+   "ms": "4-1"
   }
  ],
- "guncellendi": "2026-11-24T23:46:13.379Z",
+ "guncellendi": "2026-11-25T04:57:03.926Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
