@@ -102707,9 +102707,27 @@
    "evGol": 1,
    "depGol": 1,
    "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Europa Conference League",
+   "ev": "Kairat Almaty",
+   "deplasman": "Mjallby",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Monterrey",
+   "deplasman": "Club America",
+   "evGol": 0,
+   "depGol": 0,
+   "ms": "0-0"
   }
  ],
- "guncellendi": "2026-11-26T04:14:04.260Z",
+ "guncellendi": "2026-11-26T17:55:44.007Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
