@@ -102653,9 +102653,63 @@
    "evGol": 2,
    "depGol": 1,
    "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Liga Prof Argentina Torneo",
+   "ev": "Boca Juniors",
+   "deplasman": "Independiente Rivadavia",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Barcelona de G",
+   "deplasman": "Independiente d V",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Toluca",
+   "deplasman": "Atlas",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Atletico Nacional",
+   "deplasman": "Independiente M",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-25",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Santa Fe",
+   "deplasman": "Once Caldas",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-25",
+   "lig": "Brazilian Serie A",
+   "ev": "Atletico Mineiro",
+   "deplasman": "Corinthians",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-25T23:28:11.448Z",
+ "guncellendi": "2026-11-26T04:14:04.260Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
