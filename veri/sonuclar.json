@@ -103049,9 +103049,27 @@
    "evGol": 2,
    "depGol": 3,
    "ms": "2-3"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Pachuca",
+   "deplasman": "Guadalajara",
+   "evGol": 2,
+   "depGol": 1,
+   "ms": "2-1"
+  },
+  {
+   "tarih": "2026-11-26",
+   "lig": "Brazilian Serie A",
+   "ev": "Sao Paulo",
+   "deplasman": "Remo",
+   "evGol": 3,
+   "depGol": 1,
+   "ms": "3-1"
   }
  ],
- "guncellendi": "2026-11-26T23:29:18.047Z",
+ "guncellendi": "2026-11-27T04:21:32.029Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
