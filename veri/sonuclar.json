@@ -103067,9 +103067,54 @@
    "evGol": 3,
    "depGol": 1,
    "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Romanian Liga 1",
+   "ev": "Uni Cluj",
+   "deplasman": "Sepsi Sfantu G",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Australian A-League",
+   "ev": "Macarthur FC",
+   "deplasman": "Melbourne C",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Ukrainian League",
+   "ev": "Livyi Bereh",
+   "deplasman": "Kolos Kovalivka",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Israeli League",
+   "ev": "M. Petah Tikva",
+   "deplasman": "H Tel Aviv",
+   "evGol": 2,
+   "depGol": 0,
+   "ms": "2-0"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Mexican Primera Apertura",
+   "ev": "Leon",
+   "deplasman": "Cruz Azul",
+   "evGol": 0,
+   "depGol": 4,
+   "ms": "0-4"
   }
  ],
- "guncellendi": "2026-11-27T04:21:32.029Z",
+ "guncellendi": "2026-11-27T17:41:30.620Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
