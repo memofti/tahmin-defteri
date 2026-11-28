@@ -103454,9 +103454,90 @@
    "evGol": 3,
    "depGol": 1,
    "ms": "3-1"
+  },
+  {
+   "tarih": "2026-11-28",
+   "lig": "MLS",
+   "ev": "Columbus Crew",
+   "deplasman": "Inter Miami CF",
+   "evGol": 1,
+   "depGol": 0,
+   "ms": "1-0"
+  },
+  {
+   "tarih": "2026-11-28",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Deportivo Moron",
+   "deplasman": "Colon Santa Fe",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-28",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Tristan Suarez",
+   "deplasman": "Gimnasia y Tiro",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Ecuador Liga Pro",
+   "ev": "Deportivo Cuenca",
+   "deplasman": "Manta",
+   "evGol": 3,
+   "depGol": 0,
+   "ms": "3-0"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Paraguay League Clausura",
+   "ev": "Sp Luqueno",
+   "deplasman": "Olimpia",
+   "evGol": 1,
+   "depGol": 2,
+   "ms": "1-2"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Argentina Primera Nacional",
+   "ev": "Atlanta",
+   "deplasman": "Ciudad de Bolivar",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Brazilian Serie A",
+   "ev": "Fluminense",
+   "deplasman": "Cruzeiro",
+   "evGol": 0,
+   "depGol": 1,
+   "ms": "0-1"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Uruguay Primera Play-Off",
+   "ev": "Liverpool FC",
+   "deplasman": "Racing Club M",
+   "evGol": 2,
+   "depGol": 2,
+   "ms": "2-2"
+  },
+  {
+   "tarih": "2026-11-27",
+   "lig": "Colombia Prim A Finalizacion",
+   "ev": "Deportivo Cali",
+   "deplasman": "Atletico Bucaramanga",
+   "evGol": 1,
+   "depGol": 1,
+   "ms": "1-1"
   }
  ],
- "guncellendi": "2026-11-27T23:14:29.016Z",
+ "guncellendi": "2026-11-28T04:01:42.562Z",
  "taranan": [
   "2026-06-23",
   "2026-06-24",
